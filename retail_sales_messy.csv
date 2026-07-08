@@ -1,0 +1,931 @@
+OrderID,OrderDate,CustomerID,CustomerSegment,Region,ProductCategory,ProductName,Channel,UnitPrice,Quantity,Discount,ShippingCost,Revenue,Returned
+ORD50864,2025-01-19,C1015,New,west,apparel,Chino Pants,Mobile App,113.59,1,0.15,8.38,96.55,TRUE
+ORD50503,2025-03-18,C1030,,South,Home,Wall Art,Online,72.95,1,0.1,5.41,65.66,No
+ORD50227,05/17/2025,C1090,New,West,Apparel,Chino Pants,Online,78.75,1,,11.74,63.0,No
+ORD50662,06/02/2025,C1178,VIP,East,Footwear,Sandals,In-Store,262.84,4,0.2,0.0,841.09,No
+ORD50440,2025-02-22,C1003,Returning,East,Footwear,Leather Boots,In-Store,168.04,3,0.05,0.0,478.91,No
+ORD50534,2025-08-16,C1058,New,West,Footwear,Sandals,Online,47.42,2,0.15,5.38,,Yes
+ORD50889,06/04/2025,C1030,Returning,South,Footwear,Sandals,Online,150.66,2,0.0,11.55,301.32,Yes
+ORD50755,2025-07-09,C1096,New,East,Apparel,Classic Tee,Mobile App,44.27,1,15%,7.99,37.63,No
+ORD50909,2025-01-12,C1084,,Midwest,Footwear,Running Shoes,Mobile App,84.4,2,0.0,3.85,168.8,no
+ORD50259,2025-08-19,C1158,Returning,West,footwear,Canvas Sneakers,In-Store,137.62,1,0.1,0.0,123.86,No
+ORD50715,2025-02-18,C1109,VIP,West,beauty,Bath Set,In-Store,20.68,3,0%,0.0,62.04,No
+ORD50118,10/03/2025,C1018,Returning,West,Apparel,Chino Pants,Mobile App,114.82,3,0.1,3.83,310.01,Yes
+ORD50168,2025-01-26,C1177,VIP,South,Apparel,Wool Sweater,In-Store,148.25,3,0.05,0.0,422.51,N
+ORD50664,03/02/2025,C1151,VIP,West,Footwear,Loafers,Online,99.63,5,0.0,10.04,498.15,No
+ORD50078,12/27/2025,C1025,New,West,Home,Cotton Throw,Mobile App,43.88,2,0.05,10.25,83.37,No
+ORD50512,2025-11-17,C1088,New,West,Accessories,Wool Scarf,Mobile App,16.52,1,0.2,,13.22,No
+ORD50357,2025-09-03,C1026,Returning,W,Home,Ceramic Mug,Online,12.88,2,0.0,10.4,999999.0,no
+ORD50013,2025-12-12,C1097,New,E,Accessories,Sunglasses,Mobile App,67.48,1,0.1,7.53,60.73,No
+ORD50132,06/09/2025,C1126,New,East,Accessories,Wool Scarf,Online,43.98,1,0.05,4.16,41.78,No
+ORD50612,2025-06-05,C1157,Returning,South,Footwear ,Loafers,Mobile App,46.96,3,0.3,11.63,98.62,No
+ORD50251,11/20/2025,C1148,Returning,South,Footwear,Canvas Sneakers,Online,113.0,1,0.0,4.77,113.0,N
+ORD50443,2025-10-04,C1126,New,East,Accessories,Leather Belt,Mobile App,65.14,1,,10.47,52.11,No
+ORD50194,2025-11-06,C1068,New,East,Beauty,Face Serum,Online,59.12,1,0.4,5.22,35.47,Yes
+ORD50767,2025-10-12,C1032,New,West,Home,Ceramic Mug,In-Store,$43.92,1,0.1,0.0,39.53,0
+ORD50240,02/26/2025,C1154,New,West,Home ,Table Lamp,Online,24.79,1,0.15,4.3,21.07,0
+ORD50135,02/24/2025,C1035,New,South,Accessories,Sunglasses,In-Store,55.29,2,0.0,0.0,,No
+ORD50769,2025-04-09,C1004,New,South,Accessories,Sunglasses,Mobile App,35.56,1,0.15,7.31,30.23,yes
+ORD50280,2025-12-08,C1169,,West,Beauty,Hand Cream,In-Store,68.85,4,0.0,0.0,275.4,No
+ORD50304,06/15/2025,C1069,Returning,east,Beauty,Bath Set,Mobile App,50.69,1,0.2,8.83,40.55,0
+ORD50173,2025-03-26,C1066,Returning,south,Accessories,Baseball Cap,In-Store,50.71,1,,,50.71,No
+ORD50623,08/29/2025,C1112,New,Midwest,beauty ,Bath Set,Online,61.06,3,0.05,,174.02,No
+ORD50021,12/30/2025,C1080,Returning,W,Footwear,Sandals,Online,136.27,1,0.1,7.96,122.64,N
+ORD50046,2025-04-18,C1007,Returning,West,Footwear,Canvas Sneakers,In-Store,103.72,1,0.0,0.0,103.72,Y
+ORD50042,11/22/2025,C1163,New,South,Accessories,Tote Bag,In-Store,59.31,2,0.0,0.0,118.62,FALSE
+ORD50774,2025-02-13,C1137,Returning,South,Accessories,Wool Scarf,In-Store,82.38,1,,0.0,74.14,No
+ORD50876,12/16/2025,C1076,,Midwest,Footwear,Canvas Sneakers,Mobile App,89.88,2,0.0,8.17,,No
+ORD50874,2025-08-28,C1064,Returning,South,Apparel,Summer Dress,In-Store,33.69,3,0.3,0.0,70.75,No
+ORD50912,08/21/2025,C1092,,West,Beauty ,Lip Balm,Online,61.44,1,0.05,11.69,58.37,No
+ORD50759,11/02/2025,C1091,Returning,West,Home,Table Lamp,Online,$63.72,1,0.05,9.85,60.53,No
+ORD50602,2025-01-02,C1099,VIP,Midwest,Apparel,Denim Jacket,Online,109.72,2,0.1,8.37,197.5,No
+ORD50763,2025-02-05,C1083,New,West,Beauty,Bath Set,Mobile App,63.57,2,0.0,3.67,127.14,No
+ORD50646,2025-09-29,C1000,Returning,Midwest,Beauty,Bath Set,In-Store,42.91,2,0.1,,77.24,FALSE
+ORD50019,01/21/2025,C1012,Returning,West,Beauty,Perfume,Online,25.43,1,0.0,9.81,25.43,no
+ORD50801,07/31/2025,C1111,New,West,Apparel,Wool Sweater,In-Store,72.97,2,0.15,0.0,124.05,no
+ORD50342,2025-05-23,C1173,VIP,East,Accessories,Tote Bag,Online,30.5,2,0.0,5.16,61.0,FALSE
+ORD50454,12/28/2025,C1158,Returning,West,Footwear,Loafers,Online,51.3,3,0.0,6.39,153.9,0
+ORD50031,09/21/2025,C1091,Returning,west,Accessories,Baseball Cap,Mobile App,56.48,3,0.4,9.74,101.66,Yes
+ORD50515,01/28/2025,C1007,,West,Accessories,Leather Belt,Online,55.22,2,0.2,7.4,88.35,0
+ORD50580,08/22/2025,C1029,Returning,East,Apparel,Chino Pants,In-Store,98.53,2,0.15,0.0,167.5,No
+ORD50835,2025-02-26,C1068,,East,Footwear,Canvas Sneakers,Mobile App,80.84,2,0.0,7.15,161.68,N
+ORD50916,04/26/2025,C1007,Returning,west,Accessories,Wool Scarf,In-Store,63.17,1,0.0,0.0,63.17,No
+ORD50502,2025-10-12,C1105,Returning,East,Apparel,Chino Pants,Online,51.98,2,5%,8.52,98.76,No
+ORD50121,05/17/2025,C1078,,West,Accessories,Baseball Cap,Mobile App,55.24,1,0.2,8.55,44.19,Y
+ORD50211,2025-08-08,C1090,New,west,Beauty,Bath Set,Online,63.96,2,0.1,6.36,115.13,No
+ORD50865,11/12/2025,C1033,New,Midwest,Footwear,Leather Boots,Online,156.05,1,0.25,4.17,117.04,no
+ORD50671,03/03/2025,C1068,,East,Home,Throw Pillow,Mobile App,65.57,2,0.15,5.06,111.47,Y
+ORD50783,04/30/2025,C1142,VIP,East,Footwear,Sandals,Online,204.58,2,0.1,4.11,368.24,Y
+ORD50915,2025-05-17,C1171,Returning,West,Footwear ,Leather Boots,Mobile App,121.78,1,0.0,4.86,121.78,No
+ORD50332,2025-06-28,C1137,Returning,South,Home,Table Lamp,Mobile App,60.21,1,0.0,5.49,,No
+ORD50401,07/03/2025,C1141,Returning,east,accessories,Tote Bag,In-Store,77.79,1,0.0,0.0,77.79,0
+ORD50115,2025-02-07,C1079,Returning,South,Home ,Table Lamp,Online,75.02,3,0.0,8.33,225.06,no
+ORD50116,12/07/2025,C1069,Returning,East,Home,Table Lamp,Online,49.7,2,0.05,9.65,94.43,No
+ORD50060,10/02/2025,C1121,Returning,west,Home ,Wall Art,Mobile App,63.57,2,,3.61,120.78,No
+ORD50029,2025-03-11,C1025,New,West,Apparel ,Wool Sweater,In-Store,51.41,1,0.4,0.0,30.85,No
+ORD50326,2025-02-06,C1060,Returning,MW,Footwear,Leather Boots,In-Store,120.34,3,0.1,0.0,,1
+ORD50036,2025-01-18,C1171,Returning,west,Home,Table Lamp,Mobile App,14.01,3,,10.75,37.83,no
+ORD50450,2025-12-28,C1120,Returning,S,Footwear,Running Shoes,In-Store,$84.18,2,0.0,0.0,168.36,Y
+ORD50587,12/24/2025,C1108,New,East,Apparel,Wool Sweater,Online,40.31,1,,8.8,34.26,No
+ORD50106,2025-08-15,C1046,New,West,Footwear,Leather Boots,In-Store,155.73,2,0.05,0.0,295.89,No
+ORD50806,2025-01-10,C1174,New,east,Home,Cotton Throw,Online,45.31,2,0.1,3.63,,No
+ORD50302,03/22/2025,C1135,New,East,Footwear ,Sandals,Online,111.97,2,0.0,4.38,223.94,TRUE
+ORD50648,2025-11-14,C1054,Returning,Midwest,Footwear,Leather Boots,Mobile App,60.9,3,0.05,11.43,173.56,Y
+ORD50895,2025-03-26,C1162,New,midwest,Apparel,Classic Tee,Online,33.28,1,,,33.28,No
+ORD50045,2025-04-27,C1018,Returning,West,Home,Ceramic Mug,Online,46.87,3,0%,4.38,140.61,No
+ORD50084,2025-02-24,C1129,Returning,West,Accessories,Baseball Cap,In-Store,46.45,3,0.05,0.0,132.38,No
+ORD50800,01/20/2025,C1092,Returning,West,Footwear,Loafers,Online,116.71,2,0.15,6.77,198.41,0
+ORD50754,2025-08-21,C1173,VIP,East,Apparel,Wool Sweater,In-Store,54.63,4,0.05,0.0,207.59,No
+ORD50616,08/11/2025,C1169,VIP,West,Accessories,Baseball Cap,Online,120.16,3,0.1,9.67,324.43,No
+ORD50781,2025-11-07,C1044,Returning,West,Footwear,Running Shoes,In-Store,41.75,1,0.1,0.0,37.58,No
+ORD50004,2025-12-14,C1086,Returning,West,Home,Table Lamp,Mobile App,12.84,1,0.1,6.07,11.56,No
+ORD50914,09/02/2025,C1125,Returning,east,Accessories,Tote Bag,Online,65.49,2,0.0,6.97,130.98,No
+ORD50499,10/24/2025,C1096,New,East,Beauty,Bath Set,In-Store,52.13,2,0.2,,83.41,No
+ORD50362,02/02/2025,C1018,,West,Footwear,Leather Boots,Online,46.02,2,15%,7.56,78.23,Yes
+ORD50900,01/14/2025,C1020,Returning,South,beauty,Bath Set,Online,14.16,1,0.4,3.74,8.5,No
+ORD50369,2025-01-23,C1145,New,South,Accessories,Tote Bag,Online,61.25,1,0.15,4.23,52.06,no
+ORD50824,04/16/2025,C1052,Returning,MW,Apparel,Denim Jacket,Online,79.76,2,0.1,4.97,143.57,No
+ORD50235,2025-02-04,C1153,Returning,Midwest,footwear,Leather Boots,Online,115.2,2,0.05,6.78,218.88,No
+ORD50627,04/10/2025,C1042,Returning,South,Home,Wall Art,In-Store,24.97,1,0.3,0.0,17.48,No
+ORD50397,2025-01-18,C1053,Returning,South,apparel,Chino Pants,Online,81.26,3,0.2,11.03,195.02,0
+ORD50688,06/24/2025,C1176,Returning,South,Footwear,Leather Boots,Mobile App,$71.29,2,0.05,5.71,135.45,Yes
+ORD50487,2025-06-23,C1082,Returning,East,Apparel,Summer Dress,Online,43.6,2,0.0,8.01,87.2,FALSE
+ORD50146,06/24/2025,C1127,New,South,Home,Table Lamp,In-Store,16.76,1,0.15,,,No
+ORD50772,01/13/2025,C1064,,South,Beauty,Lip Balm,Online,14.32,3,0.2,10.94,34.37,N
+ORD50220,2025-08-09,C1047,New,East,Apparel,Summer Dress,Online,47.82,1,0.0,5.14,47.82,No
+ORD50640,2025-11-19,C1090,New,W,Home,Ceramic Mug,Mobile App,28.13,2,0.15,3.7,,no
+ORD50832,08/06/2025,C1018,Returning,West,Accessories,Sunglasses,In-Store,33.83,2,0.2,0.0,54.13,Yes
+ORD50892,2025-09-25,C1121,Returning,West,Home,Cotton Throw,In-Store,51.69,1,0.0,0.0,51.69,No
+ORD50529,01/13/2025,C1036,New,West,Apparel,Classic Tee,Online,66.29,2,0.0,8.8,,No
+ORD50150,2025-08-23,C1149,New,W,Home,Cotton Throw,Online,43.34,2,0.05,6.96,,No
+ORD50309,2025-10-31,C1146,New,Midwest,Home,Throw Pillow,In-Store,42.68,1,0.2,0.0,34.14,FALSE
+ORD50620,2025-10-08,C1078,Returning,West,Footwear,Canvas Sneakers,Online,143.96,3,0.0,10.09,431.88,No
+ORD50391,2025-11-02,C1039,Returning,East,Home,Wall Art,In-Store,26.19,2,0.15,0.0,44.52,No
+ORD50398,02/26/2025,C1080,Returning,West,Footwear,,Mobile App,105.93,2,0%,10.84,211.86,FALSE
+ORD50788,02/21/2025,C1159,Returning,Midwest,Accessories,Leather Belt,Online,31.7,3,0.3,8.24,66.57,0
+ORD50162,08/19/2025,C1071,New,Midwest,Apparel,Classic Tee,In-Store,85.73,1,0.0,0.0,85.73,No
+ORD50128,2025-07-10,C1162,New,Midwest,Apparel,Denim Jacket,Online,104.56,2,0.0,4.82,209.12,0
+ORD50049,2025-06-28,C1095,,East,footwear,Leather Boots,In-Store,73.95,3,0.0,,221.85,No
+ORD50105,2025-01-03,C1101,,W,Accessories,Sunglasses,Online,68.29,3,0.0,7.63,204.87,No
+ORD50846,10/21/2025,C1028,New,West,Footwear,Leather Boots,Online,147.17,2,0.2,,235.47,N
+ORD50313,2025-01-03,C1082,Returning,East,Footwear,Sandals,Online,84.48,2,,6.99,160.51,Yes
+ORD50437,2025-04-14,C1079,Returning,South,Apparel,Chino Pants,In-Store,101.41,1,0.0,0.0,101.41,No
+ORD50856,2025-11-29,C1124,New,MW,Home,Cotton Throw,Online,25.3,1,0.1,9.1,22.77,N
+ORD50471,2025-06-26,C1076,New,Midwest,Apparel,Summer Dress,In-Store,74.28,2,0.3,0.0,103.99,No
+ORD50425,04/06/2025,C1085,,west,Apparel,Denim Jacket,In-Store,48.63,2,0.05,0.0,92.4,No
+ORD50261,2025-05-28,C1153,Returning,midwest,Accessories,Wool Scarf,In-Store,64.3,2,0.15,0.0,109.31,N
+ORD50242,08/10/2025,C1053,Returning,S,Apparel ,Classic Tee,Online,29.1,3,0.15,7.51,74.21,FALSE
+ORD50140,2025-06-03,C1110,,midwest,Beauty,Face Serum,In-Store,35.8,2,0.0,0.0,,N
+ORD50265,2025-03-12,C1165,New,south,Accessories,Tote Bag,Online,32.61,2,,10.07,52.18,FALSE
+ORD50180,04/18/2025,C1051,New,east,Accessories,Baseball Cap,In-Store,61.77,2,0.1,0.0,111.19,No
+ORD50808,2025-05-27,C1164,,South,Apparel,Classic Tee,Mobile App,85.44,2,0.15,9.64,,No
+ORD50161,2025-08-21,C1047,New,E,Footwear ,Running Shoes,Mobile App,58.91,1,,10.7,55.96,Yes
+ORD50361,2025-08-12,C1158,Returning,West,Accessories,Leather Belt,Online,56.48,3,0.05,10.33,160.97,Y
+ORD50600,2025-02-15,C1053,Returning,South,Apparel ,Chino Pants,In-Store,56.52,2,0.2,0.0,90.43,Yes
+ORD50268,2025-10-27,C1089,Returning,west,Footwear,Loafers,Mobile App,47.47,2,0.1,7.43,85.45,FALSE
+ORD50637,2025-04-18,C1009,Returning,West,Beauty,Face Serum,In-Store,17.78,3,0.0,0.0,53.34,No
+ORD50563,2025-12-08,C1139,New,Midwest,Home,Cotton Throw,Online,31.95,1,,5.58,27.16,No
+ORD50250,06/28/2025,C1102,New,West,Apparel,Summer Dress,In-Store,70.38,1,0.15,0.0,59.82,No
+ORD50252,10/22/2025,C1156,New,West,Accessories,Wool Scarf,Mobile App,67.04,1,0.0,3.57,67.04,Y
+ORD50296,2025-05-10,C1055,,Midwest,Footwear,Running Shoes,Online,165.01,3,10%,5.81,445.53,FALSE
+ORD50378,2025-02-20,C1155,Returning,South,beauty,Bath Set,In-Store,$21.15,2,0.1,0.0,38.07,No
+ORD50324,2025-04-29,C1016,Returning,South,Apparel,Chino Pants,Online,111.77,3,0.0,5.61,335.31,Yes
+ORD50629,02/05/2025,C1007,Returning,West,Home,Ceramic Mug,Online,38.13,1,0.1,,34.32,No
+ORD50446,04/01/2025,C1096,,East,Beauty,Face Serum,In-Store,60.05,1,0.1,,54.05,no
+ORD50863,2025-11-25,C1043,,Midwest,Home,Ceramic Mug,In-Store,38.68,2,0.2,0.0,61.89,No
+ORD50747,2025-08-21,C1164,Returning,South,beauty,Bath Set,Online,51.98,2,0.05,,98.76,no
+ORD50299,2025-10-13,C1170,New,S,home ,Ceramic Mug,Mobile App,68.94,1,0.15,9.44,58.6,No
+ORD50468,08/04/2025,C1079,Returning,S,Home,Ceramic Mug,Mobile App,50.06,2,0.0,9.69,100.12,No
+ORD50528,07/17/2025,C1138,Returning,West,Accessories,Wool Scarf,Mobile App,63.28,3,0.0,,189.84,N
+ORD50589,2025-08-12,C1040,Returning,E,Accessories,Wool Scarf,In-Store,41.25,1,,0.0,,No
+ORD50578,2025-04-24,C1099,VIP,Midwest,Beauty,Face Serum,In-Store,18.87,3,0.05,0.0,,No
+ORD50918,2025-06-05,C1040,Returning,East,Home,Cotton Throw,Mobile App,41.77,2,0.0,10.78,83.54,No
+ORD50237,05/22/2025,C1052,Returning,MW,Beauty,Hand Cream,In-Store,38.71,1,0.0,,38.71,No
+ORD50633,01/09/2025,C1064,Returning,South,accessories ,Tote Bag,In-Store,47.02,2,0%,0.0,94.04,No
+ORD50586,2025-10-22,C1040,Returning,East,Footwear,Canvas Sneakers,Mobile App,56.84,2,0.0,8.17,113.68,No
+ORD50156,2025-10-11,C1139,New,Midwest,home,Table Lamp,Online,$68.79,1,0.0,,68.79,FALSE
+ORD50899,2025-04-28,C1022,VIP,East,footwear,Running Shoes,In-Store,140.87,5,0.3,0.0,493.04,0
+ORD50868,05/22/2025,C1105,Returning,east,Beauty,Face Serum,Online,63.4,1,0.0,6.84,63.4,Yes
+ORD50811,2025-03-27,C1149,New,West,Apparel,Summer Dress,Online,$55.85,1,0.05,9.01,53.06,1
+ORD50099,12/01/2025,C1017,New,Midwest,Apparel,Denim Jacket,Online,31.41,2,10%,,,no
+ORD50075,01/14/2025,C1169,VIP,West,beauty,Face Serum,In-Store,57.49,5,0.1,0.0,258.7,No
+ORD50064,10/12/2025,C1162,New,midwest,Beauty,Perfume,Online,15.49,2,15%,6.71,26.33,Yes
+ORD50773,2025-02-28,C1119,Returning,South,Accessories,Sunglasses,Mobile App,41.46,1,0.05,,39.39,No
+ORD50395,2025-11-06,C1030,Returning,South,Accessories,Tote Bag,Mobile App,54.06,4,0.0,4.42,216.24,No
+ORD50642,08/17/2025,C1156,New,West,Accessories,Baseball Cap,In-Store,$22.59,2,0.0,0.0,45.18,No
+ORD50371,2025-10-20,C1016,Returning,S,Accessories,Tote Bag,Online,31.73,2,0.0,6.62,63.46,No
+ORD50399,2025-06-25,C1116,Returning,Midwest,Footwear,Canvas Sneakers,In-Store,112.69,1,0.05,0.0,107.06,No
+ORD50493,2025-01-28,C1031,,south,Accessories ,Wool Scarf,Mobile App,98.77,3,0.05,4.57,281.49,TRUE
+ORD50525,05/25/2025,C1004,New,South,home,Wall Art,Online,28.5,2,0.2,,,No
+ORD50532,08/01/2025,C1024,Returning,W,Accessories,Wool Scarf,Online,53.41,2,0.3,11.15,74.77,0
+ORD50885,2025-03-29,C1048,Returning,S,Accessories,Wool Scarf,In-Store,86.69,1,0.2,0.0,69.35,No
+ORD50412,2025-10-06,C1057,Returning,South,Apparel,Wool Sweater,Mobile App,64.62,2,0.0,11.07,129.24,FALSE
+ORD50071,2025-09-29,C1111,New,West,Accessories,Wool Scarf,Online,33.99,1,0.2,9.75,27.19,no
+ORD50626,2025-04-19,C1046,,West,Home,Throw Pillow,Online,68.37,1,0.15,5.11,58.11,No
+ORD50676,2025-09-16,C1068,New,East,Beauty,,Online,35.57,2,0.15,10.42,60.47,No
+ORD50820,2025-04-06,C1074,New,west,Accessories,Baseball Cap,In-Store,67.27,2,0.3,,94.18,No
+ORD50262,09/20/2025,C1170,,South,Accessories,,In-Store,22.59,1,0.2,,18.07,no
+ORD50175,2025-02-21,C1149,New,West,Apparel,Classic Tee,Online,33.55,1,0.4,4.63,20.13,Yes
+ORD50269,12/10/2025,C1122,New,east,Apparel,Wool Sweater,Mobile App,34.19,2,0.0,5.33,68.38,No
+ORD50459,12/12/2025,C1116,Returning,Midwest,Accessories,Tote Bag,In-Store,41.63,3,0%,0.0,124.89,no
+ORD50271,2025-08-17,C1170,New,South,Home,Cotton Throw,In-Store,$54.17,3,0.0,0.0,162.51,No
+ORD50761,2025-09-18,C1007,Returning,west,Beauty,Hand Cream,Mobile App,23.72,4,0.2,8.66,75.9,No
+ORD50418,2025-11-19,C1014,Returning,West,Footwear ,Running Shoes,In-Store,133.81,3,0.35,0.0,260.93,0
+ORD50866,2025-08-14,C1163,New,South,home ,Ceramic Mug,Mobile App,56.86,2,0.05,4.12,108.03,No
+ORD50667,10/28/2025,C1016,Returning,South,Beauty,Hand Cream,In-Store,$56.16,3,15%,0.0,,No
+ORD50204,2025-02-15,C1046,New,West,Home,Wall Art,Online,$22.24,2,0.1,4.11,40.03,No
+ORD50799,05/12/2025,C1085,New,West,Beauty,Lip Balm,In-Store,29.17,1,0.05,0.0,,N
+ORD50206,2025-10-20,C1171,Returning,West,home,Throw Pillow,In-Store,72.19,1,0.0,0.0,,No
+ORD50088,2025-08-01,C1109,VIP,West,Footwear,Leather Boots,Online,151.55,4,0.15,6.9,515.27,Yes
+ORD50510,2025-10-21,C1162,New,Midwest,Beauty,Face Serum,In-Store,41.67,1,0.2,0.0,33.34,No
+ORD50107,02/18/2025,C1093,New,S,Footwear,Canvas Sneakers,Online,134.73,2,0.0,,269.46,No
+ORD50123,2025-06-25,C1168,New,South,Footwear,Leather Boots,Mobile App,56.58,2,0.0,10.93,113.16,Yes
+ORD50085,06/19/2025,C1079,Returning,South,Apparel,Summer Dress,In-Store,88.41,1,0.1,0.0,79.57,Yes
+ORD50479,02/16/2025,C1174,New,East,Apparel,Summer Dress,In-Store,37.72,1,0.0,0.0,37.72,no
+ORD50813,2025-06-09,C1161,VIP,midwest,home ,Ceramic Mug,Online,24.0,5,0.2,11.63,96.0,no
+ORD50167,2025-05-03,C1143,Returning,East,Beauty,Face Serum,Mobile App,60.48,3,,7.53,172.37,No
+ORD50385,04/01/2025,C1079,Returning,S,Accessories ,,Online,34.8,3,0.05,6.36,99.18,No
+ORD50641,2025-04-29,C1099,VIP,Midwest,Apparel,Denim Jacket,Mobile App,$92.73,3,0.05,6.9,264.28,Yes
+ORD50483,2025-09-13,C1015,New,West,home,Throw Pillow,In-Store,16.84,1,0.0,0.0,16.84,1
+ORD50870,2025-12-20,C1014,Returning,West,Footwear,Loafers,Mobile App,132.12,2,0.2,11.17,211.39,yes
+ORD50691,01/10/2025,C1126,New,E,home,Throw Pillow,In-Store,43.61,1,0.1,0.0,39.25,No
+ORD50260,12/16/2025,C1120,Returning,South,Beauty ,Bath Set,In-Store,18.82,1,0.15,0.0,16.0,Yes
+ORD50716,2025-09-30,C1035,New,South,Beauty ,Lip Balm,Mobile App,33.63,2,0.4,,40.36,Yes
+ORD50752,2025-07-20,C1112,,midwest,Footwear,Running Shoes,In-Store,124.16,1,0.15,,105.54,FALSE
+ORD50028,05/26/2025,C1113,Returning,West,Apparel,Chino Pants,Online,57.19,1,0.3,6.11,40.03,No
+ORD50740,2025-11-25,C1167,Returning,West,Beauty ,Perfume,In-Store,17.24,3,0.3,0.0,36.2,No
+ORD50102,2025-09-18,C1083,New,West,Footwear ,Canvas Sneakers,In-Store,69.17,1,0.0,0.0,69.17,Yes
+ORD50051,09/17/2025,C1016,Returning,S,Apparel ,Classic Tee,In-Store,27.97,1,,0.0,27.97,No
+ORD50613,04/30/2025,C1118,Returning,South,Beauty,Perfume,In-Store,57.28,2,0.1,0.0,103.1,no
+ORD50706,2025-06-19,C1176,Returning,South,Beauty,Bath Set,Mobile App,58.31,1,0.2,4.49,46.65,Yes
+ORD50007,2025-10-23,C1035,New,South,Beauty,Lip Balm,Online,11.99,4,0.0,,47.96,No
+ORD50104,03/09/2025,C1157,Returning,South,Beauty,Perfume,Online,20.58,3,0.1,9.75,55.57,No
+ORD50230,05/03/2025,C1107,New,East,Beauty,Face Serum,Online,38.17,1,10%,11.46,34.35,No
+ORD50376,2025-08-03,C1124,,Midwest,Home,Ceramic Mug,Mobile App,41.99,1,0.0,4.89,41.99,0
+ORD50111,2025-08-11,C1144,Returning,midwest,Beauty,Perfume,Online,15.49,3,0.1,,,No
+ORD50091,2025-12-04,C1041,Returning,East,Accessories ,Baseball Cap,In-Store,49.23,3,0.0,0.0,147.69,0
+ORD50372,03/10/2025,C1063,Returning,East,Accessories,Wool Scarf,In-Store,36.93,3,0.05,0.0,105.25,FALSE
+ORD50160,2025-06-01,C1084,New,Midwest,Apparel,Classic Tee,Online,69.06,1,0.15,10.32,58.7,N
+ORD50256,2025-11-15,C1059,New,West,Beauty,Hand Cream,Online,63.6,2,,7.98,101.76,FALSE
+ORD50784,2025-04-20,C1004,New,South,Beauty,Face Serum,Mobile App,46.34,1,,,41.71,N
+ORD50417,07/18/2025,C1106,Returning,West,Apparel,Classic Tee,Online,65.85,3,0.1,4.02,177.79,No
+ORD50884,2025-09-25,C1027,New,South,Apparel,Chino Pants,Online,86.01,3,0.05,6.17,245.13,0
+ORD50312,2025-04-12,C1077,Returning,West,Beauty,Hand Cream,Mobile App,51.69,1,0.1,9.86,46.52,0
+ORD50828,2025-10-06,C1163,New,South,Accessories,,In-Store,77.87,3,0.05,0.0,,FALSE
+ORD50827,2025-09-15,C1179,Returning,South,Home,Ceramic Mug,Online,52.65,3,0.0,,157.95,No
+ORD50117,2025-04-28,C1174,New,East,Apparel ,Denim Jacket,Online,78.45,2,0.2,8.58,125.52,No
+ORD50188,2025-08-22,C1104,Returning,east,Beauty ,Face Serum,In-Store,38.97,3,0.2,0.0,93.53,N
+ORD50110,07/10/2025,C1031,VIP,South,Apparel,Chino Pants,Online,78.53,6,0.05,5.25,447.62,no
+ORD50833,08/08/2025,C1041,Returning,east,Apparel,Wool Sweater,In-Store,40.78,1,0.0,0.0,40.78,no
+ORD50079,2025-02-25,C1118,Returning,South,Home,,Mobile App,65.97,3,0.05,3.52,188.01,No
+ORD50527,2025-11-04,C1034,Returning,South,Beauty ,Perfume,Online,36.91,3,,,83.05,no
+ORD50281,03/26/2025,C1141,Returning,East,Footwear,Sandals,In-Store,164.13,3,0.15,0.0,,No
+ORD50732,2025-02-26,C1056,Returning,East,Accessories,Wool Scarf,In-Store,83.09,2,0.2,0.0,132.94,0
+ORD50125,2025-03-01,C1024,Returning,W,Accessories,Leather Belt,Online,54.17,3,0.0,4.32,162.51,No
+ORD50750,2025-05-13,C1053,Returning,South,Beauty ,Lip Balm,In-Store,35.46,1,0.2,0.0,28.37,No
+ORD50016,04/26/2025,C1017,New,Midwest,Accessories,,In-Store,67.65,2,0.0,0.0,135.3,No
+ORD50883,2025-11-18,C1001,Returning,midwest,Footwear,Loafers,Online,90.09,1,45%,9.57,49.55,N
+ORD50882,2025-09-10,C1178,VIP,East,Apparel,Denim Jacket,In-Store,192.47,4,0.15,0.0,654.4,No
+ORD50278,04/15/2025,C1150,Returning,South,Apparel,Chino Pants,Online,25.37,1,0.0,7.33,25.37,No
+ORD50497,2025-09-28,C1041,Returning,East,Apparel,Summer Dress,In-Store,114.27,1,0.2,0.0,91.42,0
+ORD50709,10/27/2025,C1179,Returning,S,Accessories,Wool Scarf,Online,44.46,3,0.0,8.13,133.38,FALSE
+ORD50905,2025-05-20,C1074,New,W,Footwear,,In-Store,81.13,2,15%,0.0,137.92,0
+ORD50873,02/27/2025,C1148,Returning,South,Apparel,Chino Pants,In-Store,51.23,1,0.15,0.0,43.55,0
+ORD50877,2025-05-19,C1139,New,Midwest,Apparel,Classic Tee,Online,46.3,2,0.0,10.77,92.6,0
+ORD50516,2025-11-19,C1114,New,Midwest,Home,Wall Art,Online,70.78,1,0.15,,,No
+ORD50066,07/30/2025,C1168,New,South,Accessories,Leather Belt,Online,43.29,1,0.0,6.39,43.29,No
+ORD50346,2025-09-07,C1034,Returning,South,Accessories,Sunglasses,Mobile App,66.67,2,0.05,3.87,126.67,no
+ORD50653,11/30/2025,C1102,New,West,Home,,In-Store,40.13,2,0.15,0.0,68.22,No
+ORD50169,06/25/2025,C1159,Returning,Midwest,Footwear,Leather Boots,In-Store,87.16,3,0.1,0.0,235.33,No
+ORD50601,2025-09-19,C1133,New,East,Apparel,Classic Tee,In-Store,43.25,2,0.1,0.0,77.85,No
+ORD50469,2025-08-04,C1164,Returning,South,Accessories,Sunglasses,In-Store,77.08,1,,0.0,73.23,No
+ORD50358,2025-01-13,C1136,VIP,East,Home,Throw Pillow,Online,$107.51,2,0.1,7.23,193.52,No
+ORD50845,2025-12-22,C1081,New,Midwest,Home,Cotton Throw,Online,40.72,1,0.1,,36.65,No
+ORD50076,05/12/2025,C1023,VIP,West,Apparel,Classic Tee,Online,125.43,5,0.1,5.65,564.44,FALSE
+ORD50605,2025-03-04,C1177,VIP,South,Beauty,Face Serum,Online,17.43,5,,6.94,52.29,No
+ORD50300,07/11/2025,C1121,Returning,West,Accessories,Wool Scarf,Online,83.93,2,0.0,11.53,167.86,Y
+ORD50320,07/14/2025,C1148,Returning,South,Beauty,Lip Balm,Mobile App,11.9,2,,9.23,23.8,Yes
+ORD50574,2025-09-28,C1077,Returning,west,footwear,Loafers,Online,90.53,3,0.0,5.57,271.59,0
+ORD50906,07/20/2025,C1057,Returning,South,Home,Table Lamp,Online,21.39,2,0.0,3.92,42.78,No
+ORD50133,2025-07-27,C1140,Returning,Midwest,Accessories,Leather Belt,Online,60.92,3,0%,11.79,182.76,No
+ORD50858,08/24/2025,C1067,New,East,Accessories,Wool Scarf,In-Store,42.34,2,0.05,,80.45,No
+ORD50193,2025-04-26,C1001,Returning,MW,Accessories,Leather Belt,Online,16.63,1,0.1,7.26,14.97,No
+ORD50505,2025-02-14,C1136,VIP,East,Accessories,Sunglasses,Online,61.39,4,0.15,10.12,,No
+ORD50350,2025-08-07,C1008,New,South,Apparel,Classic Tee,Mobile App,112.02,1,0.4,9.58,67.21,Yes
+ORD50621,05/02/2025,C1125,Returning,east,Home,Ceramic Mug,Online,30.84,3,0.0,8.45,92.52,No
+ORD50760,2025-04-18,C1132,Returning,West,Home,Table Lamp,Online,46.71,1,0.15,5.77,39.7,No
+ORD50536,2025-10-02,C1055,Returning,Midwest,Accessories,Sunglasses,Online,$75.2,3,0.0,10.9,225.6,No
+ORD50176,02/13/2025,C1095,Returning,East,Accessories,Tote Bag,Mobile App,73.08,1,0.1,,65.77,0
+ORD50696,2025-08-17,C1106,Returning,West,Apparel,Denim Jacket,Online,28.54,3,0.0,6.63,,no
+ORD50327,03/08/2025,C1047,New,East,Accessories,Tote Bag,In-Store,76.46,1,0.15,0.0,64.99,0
+ORD50388,10/16/2025,C1069,Returning,East,Home,Ceramic Mug,Online,65.93,1,0%,7.23,65.93,No
+ORD50624,01/12/2025,C1013,Returning,Midwest,Apparel ,Chino Pants,Mobile App,109.03,3,0.05,10.54,310.74,No
+ORD50139,2025-07-01,C1049,New,W,Accessories,Tote Bag,Online,50.85,2,0.1,8.92,,No
+ORD50294,03/25/2025,C1054,Returning,Midwest,Apparel,Denim Jacket,In-Store,106.75,3,0.4,,192.15,Yes
+ORD50033,2025-01-15,C1154,New,West,Beauty,Hand Cream,Online,32.64,1,0.1,11.36,29.38,No
+ORD50826,2025-05-12,C1126,New,East,Apparel,Summer Dress,Mobile App,99.67,1,0.4,10.01,59.8,Yes
+ORD50564,2025-07-10,C1125,Returning,East,Accessories,Baseball Cap,Online,56.58,2,0.15,6.59,96.19,FALSE
+ORD50723,07/06/2025,C1007,Returning,west,Apparel,Denim Jacket,In-Store,90.49,3,0.05,0.0,257.9,No
+ORD50199,08/11/2025,C1167,Returning,West,Apparel,Denim Jacket,Online,115.43,3,,11.2,294.35,No
+ORD50375,2025-12-08,C1086,Returning,West,Home,Throw Pillow,Online,33.63,3,0.2,6.31,80.71,N
+ORD50789,06/17/2025,C1085,New,West,Accessories,Baseball Cap,Mobile App,81.93,1,0.05,6.41,77.83,No
+ORD50407,2025-01-06,C1160,New,West,Accessories,Wool Scarf,Online,42.41,2,,8.79,84.82,No
+ORD50213,2025-01-07,C1023,VIP,West,Apparel,Chino Pants,Online,75.5,5,0.05,7.77,358.62,No
+ORD50347,2025-02-05,C1049,New,West,home,Wall Art,In-Store,69.33,2,0.05,0.0,131.73,No
+ORD50112,2025-12-18,C1135,,east,Beauty,Bath Set,Online,64.82,2,0.05,10.35,123.16,No
+ORD50181,2025-02-19,C1109,VIP,West,accessories,Leather Belt,Online,57.19,5,0.15,,,No
+ORD50501,2025-08-17,C1133,New,East,Footwear,Sandals,Mobile App,132.33,2,0.15,7.54,224.96,Yes
+ORD50610,2025-04-06,C1075,New,S,Apparel,Denim Jacket,Online,103.08,1,0.0,9.89,103.08,N
+ORD50603,11/13/2025,C1134,Returning,E,Home,Wall Art,Mobile App,20.32,1,0.5,9.9,10.16,1
+ORD50770,07/05/2025,C1030,Returning,South,Apparel,Summer Dress,In-Store,73.04,2,0.2,0.0,116.86,FALSE
+ORD50215,11/29/2025,C1175,New,East,Apparel,Chino Pants,Online,27.95,1,0.1,9.24,25.16,No
+ORD50348,2025-01-21,C1107,New,East,Beauty,Face Serum,In-Store,13.5,1,0.15,0.0,11.47,No
+ORD50010,2025-06-13,C1027,New,South,Home,Throw Pillow,In-Store,30.41,1,0.4,0.0,18.25,No
+ORD50635,06/23/2025,C1048,Returning,South,Beauty,Hand Cream,Online,39.56,2,0%,9.85,79.12,No
+ORD50496,2025-08-04,C1148,Returning,S,Accessories,Leather Belt,Online,$19.42,2,10%,10.64,34.96,Yes
+ORD50630,2025-02-28,C1029,Returning,E,Apparel,Wool Sweater,In-Store,50.43,3,0.0,0.0,151.29,No
+ORD50702,2025-05-28,C1068,New,East,Beauty ,Perfume,In-Store,15.95,1,0.4,0.0,9.57,No
+ORD50492,11/24/2025,C1162,,Midwest,Apparel,Chino Pants,In-Store,31.2,1,0.3,0.0,21.84,No
+ORD50841,08/14/2025,C1086,Returning,west,Footwear,Running Shoes,Online,$41.43,1,0.0,4.03,41.43,N
+ORD50081,02/17/2025,C1116,Returning,MW,Home,Ceramic Mug,In-Store,43.35,1,0.05,0.0,,FALSE
+ORD50730,06/28/2025,C1134,,East,Footwear,Sandals,Online,$74.67,2,0.1,5.16,134.41,0
+ORD50594,2025-10-02,C1146,New,Midwest,Apparel,Chino Pants,Online,73.08,2,0.05,8.2,138.85,No
+ORD50682,05/06/2025,C1094,New,South,Home,Ceramic Mug,Online,32.29,2,0.1,4.32,58.12,No
+ORD50122,12/19/2025,C1173,VIP,E,Footwear,Loafers,In-Store,91.33,4,0.5,0.0,182.66,No
+ORD50785,2025-12-02,C1067,New,East,accessories,Baseball Cap,Online,74.1,2,0.15,10.72,125.97,no
+ORD50120,2025-09-29,C1102,New,West,Footwear,Sandals,In-Store,163.03,2,0.0,0.0,,No
+ORD50821,08/24/2025,C1116,Returning,Midwest,Footwear,Running Shoes,In-Store,139.15,3,,0.0,375.71,No
+ORD50201,2025-08-21,C1102,,West,Apparel,Chino Pants,In-Store,32.13,2,0.2,,51.41,no
+ORD50695,2025-08-07,C1044,Returning,West,Footwear,Leather Boots,Online,73.57,2,0.1,9.39,132.43,No
+ORD50521,07/23/2025,C1174,New,East,Apparel,Chino Pants,Online,77.32,2,,7.78,,No
+ORD50394,2025-06-19,C1050,New,West,Beauty,Bath Set,Mobile App,64.34,2,0.3,8.68,90.08,0
+ORD50453,2025-08-06,C1079,Returning,S,Accessories,Sunglasses,Online,42.91,1,0%,11.97,42.91,no
+ORD50606,2025-06-14,C1103,VIP,West,Footwear,Canvas Sneakers,Online,62.32,2,0.1,4.37,112.18,Yes
+ORD50712,05/27/2025,C1004,New,S,apparel,Denim Jacket,Online,112.27,1,0.0,7.95,,No
+ORD50663,2025-10-31,C1113,Returning,West,Accessories,Wool Scarf,In-Store,$82.78,2,0.15,0.0,140.73,No
+ORD50145,2025-03-14,C1030,Returning,South,Apparel,Chino Pants,Online,58.98,3,,4.58,176.94,No
+ORD50746,2025-05-03,C1016,Returning,South,Accessories,Tote Bag,Mobile App,36.3,3,0.15,9.35,92.56,No
+ORD50509,2025-03-29,C1041,Returning,East,Accessories,Sunglasses,Online,29.01,2,0.0,,58.02,Yes
+ORD50588,01/16/2025,C1064,Returning,South,Footwear,Leather Boots,Online,81.21,2,0.05,,154.3,No
+ORD50329,03/17/2025,C1109,VIP,W,Home,Cotton Throw,In-Store,50.55,5,0.05,,240.11,No
+ORD50792,2025-01-15,C1112,,Midwest,Beauty,Bath Set,In-Store,56.23,2,0.05,0.0,106.84,FALSE
+ORD50814,2025-08-27,C1159,Returning,Midwest,Footwear,Canvas Sneakers,In-Store,$125.21,2,0.0,0.0,250.42,Yes
+ORD50886,2025-07-16,C1063,Returning,East,Accessories,Baseball Cap,Mobile App,57.93,3,30%,5.31,121.65,TRUE
+ORD50368,2025-06-24,C1156,New,West,Home,Cotton Throw,Online,15.22,2,0.1,11.43,27.4,Yes
+ORD50183,2025-07-02,C1172,New,East,Accessories,Wool Scarf,In-Store,70.31,1,,0.0,66.79,FALSE
+ORD50231,2025-04-06,C1161,VIP,midwest,Apparel,Denim Jacket,Online,131.82,3,0.0,12.0,395.46,0
+ORD50174,2025-06-14,C1150,Returning,South,Footwear,Loafers,Mobile App,121.01,1,0.3,6.32,84.71,No
+ORD50675,2025-05-09,C1151,VIP,west,Accessories ,Sunglasses,In-Store,38.83,4,,0.0,132.02,No
+ORD50571,2025-06-27,C1155,Returning,South,Home,Wall Art,Online,29.06,2,0.05,8.87,55.21,No
+ORD50179,09/08/2025,C1135,New,East,Home,Ceramic Mug,In-Store,73.87,1,0.0,0.0,73.87,No
+ORD50351,01/29/2025,C1108,New,East,Home,Ceramic Mug,Online,24.82,1,0.1,9.21,22.34,No
+ORD50432,07/25/2025,C1014,Returning,West,Home,Ceramic Mug,In-Store,69.18,2,0.1,0.0,124.52,Yes
+ORD50198,2025-03-07,C1007,Returning,W,Apparel,Wool Sweater,Online,64.32,2,0.2,,102.91,No
+ORD50844,04/17/2025,C1171,Returning,West,Beauty,Lip Balm,Online,64.88,1,0.05,6.09,61.64,No
+ORD50419,2025-06-10,C1104,Returning,East,Beauty,Bath Set,Mobile App,55.78,2,,8.93,78.09,No
+ORD50825,2025-05-25,C1094,New,South,Accessories,Wool Scarf,Online,73.02,2,30%,3.73,102.23,No
+ORD50044,10/17/2025,C1170,,South,home,Cotton Throw,In-Store,67.4,3,,0.0,202.2,FALSE
+ORD50721,2025-03-11,C1140,Returning,Midwest,Home,Throw Pillow,In-Store,$53.62,3,0.0,0.0,160.86,No
+ORD50298,2025-09-15,C1096,New,east,Home,Throw Pillow,Online,36.52,1,0.0,3.78,36.52,No
+ORD50396,06/07/2025,C1167,Returning,West,Beauty,Face Serum,Online,36.64,2,0.05,9.49,69.62,No
+ORD50279,02/01/2025,C1072,VIP,East,Home,Wall Art,Online,71.85,5,0.3,6.96,251.47,No
+ORD50319,05/19/2025,C1070,New,South,Home,Table Lamp,In-Store,22.14,2,0.05,0.0,42.07,No
+ORD50070,02/08/2025,C1177,VIP,South,Beauty,Lip Balm,Online,17.89,5,0.1,10.69,80.51,No
+ORD50822,06/30/2025,C1139,New,Midwest,Home,Wall Art,Mobile App,60.57,2,10%,4.51,109.03,No
+ORD50847,2025-05-08,C1137,Returning,South,Home,Ceramic Mug,In-Store,$49.98,2,0.4,0.0,59.98,No
+ORD50673,2025-08-11,C1134,Returning,E,Apparel,Wool Sweater,Mobile App,30.05,3,,7.49,76.63,0
+ORD50267,2025-12-17,C1116,Returning,Midwest,accessories,Wool Scarf,In-Store,30.88,3,0.1,0.0,83.38,No
+ORD50582,06/28/2025,C1108,New,East,footwear,Canvas Sneakers,Mobile App,157.59,2,0.1,8.68,283.66,FALSE
+ORD50794,2025-01-27,C1104,Returning,east,beauty,Hand Cream,In-Store,56.97,2,0.0,0.0,113.94,N
+ORD50477,2025-07-15,C1159,Returning,Midwest,Home,Cotton Throw,In-Store,79.71,1,0.1,0.0,71.74,No
+ORD50595,2025-08-16,C1104,Returning,East,Footwear,Running Shoes,Mobile App,69.93,3,0.0,5.37,209.79,Yes
+ORD50542,05/20/2025,C1120,Returning,S,Footwear,Running Shoes,In-Store,113.49,2,0.4,,136.19,FALSE
+ORD50807,2025-08-24,C1155,Returning,S,Accessories,Leather Belt,In-Store,$52.04,3,0.0,0.0,156.12,No
+ORD50722,2025-08-26,C1147,Returning,E,Beauty,Bath Set,Online,49.65,1,0.05,7.34,47.17,No
+ORD50356,2025-02-01,C1000,Returning,Midwest,Apparel,Denim Jacket,Online,34.06,1,15%,8.52,28.95,No
+ORD50491,05/28/2025,C1175,New,E,Accessories,Sunglasses,Online,24.73,1,0.3,11.95,17.31,No
+ORD50880,04/18/2025,C1132,Returning,West,Apparel,Classic Tee,Mobile App,87.53,2,0.0,7.42,175.06,no
+ORD50149,02/17/2025,C1097,New,East,Beauty,Bath Set,Mobile App,37.39,2,40%,11.06,44.87,No
+ORD50333,2025-05-26,C1070,New,South,Home,Table Lamp,Online,50.81,1,0.0,10.81,50.81,No
+ORD50423,2025-06-11,C1020,Returning,South,Footwear,Sandals,Online,162.7,3,0.0,7.33,488.1,0
+ORD50572,2025-08-19,C1094,New,South,Beauty,Face Serum,Mobile App,12.93,2,,10.16,,No
+ORD50745,2025-04-02,C1152,New,South,Footwear,Sandals,Online,99.84,2,0.15,11.2,169.73,No
+ORD50196,2025-05-12,C1133,New,East,Apparel,Denim Jacket,Online,58.46,1,0.05,8.69,55.54,No
+ORD50325,2025-07-09,C1122,New,East,Home,Cotton Throw,In-Store,77.95,2,0.0,0.0,155.9,No
+ORD50126,03/20/2025,C1092,Returning,West,Footwear,Loafers,Online,153.26,2,0.1,8.89,275.87,No
+ORD50901,2025-05-12,C1128,New,West,Footwear,Running Shoes,Online,76.2,2,,6.71,129.54,No
+ORD50728,2025-06-22,C1141,Returning,East,Apparel,Summer Dress,In-Store,119.03,2,0.05,0.0,226.16,No
+ORD50725,2025-07-25,C1070,New,south,Footwear,Sandals,In-Store,178.69,2,0.05,0.0,339.51,No
+ORD50037,05/27/2025,C1094,New,South,Beauty ,Lip Balm,Online,26.44,2,0.0,5.09,,No
+ORD50862,02/26/2025,C1009,Returning,West,Footwear,Leather Boots,Online,$167.81,2,0.2,3.68,,No
+ORD50364,09/09/2025,C1127,New,south,Home,Table Lamp,In-Store,44.88,3,0.0,0.0,134.64,No
+ORD50420,09/24/2025,C1101,Returning,West,Beauty ,Hand Cream,In-Store,33.72,4,0.4,0.0,80.93,no
+ORD50205,2025-06-01,C1085,New,West,Home,Throw Pillow,Mobile App,34.78,1,,7.29,31.3,No
+ORD50006,2025-12-30,C1119,Returning,South,Home,Cotton Throw,Mobile App,56.21,2,0.0,,112.42,Yes
+ORD50287,12/29/2025,C1163,New,South,Footwear,Loafers,Online,119.17,2,,5.59,190.67,No
+ORD50590,2025-06-08,C1075,New,South,Apparel,Summer Dress,In-Store,64.29,2,0.05,0.0,122.15,FALSE
+ORD50550,2025-06-26,C1072,VIP,East,Beauty,Face Serum,In-Store,56.47,3,0.05,0.0,160.94,No
+ORD50851,05/11/2025,C1105,Returning,East,Footwear,Leather Boots,Online,101.1,2,0.0,5.72,202.2,N
+ORD50431,2025-01-08,C1046,New,West,Accessories,Baseball Cap,Online,25.32,2,,7.14,48.11,FALSE
+ORD50452,2025-07-31,C1013,Returning,Midwest,Apparel,Summer Dress,In-Store,38.24,1,0.1,0.0,34.42,N
+ORD50233,2025-12-12,C1058,New,W,Accessories,Sunglasses,Mobile App,46.21,1,0.1,3.83,41.59,1
+ORD50025,2025-03-26,C1002,VIP,East,Footwear,Running Shoes,In-Store,250.2,4,0.15,0.0,850.68,Yes
+ORD50073,02/14/2025,C1041,Returning,East,Apparel,Summer Dress,Online,50.13,1,0.05,5.58,47.62,No
+ORD50009,06/12/2025,C1007,Returning,West,Apparel,Classic Tee,In-Store,72.93,1,0.1,0.0,65.64,No
+ORD50679,2025-05-04,C1130,New,East,Home,Wall Art,In-Store,16.25,2,0.05,,,no
+ORD50069,09/03/2025,C1089,Returning,W,Apparel,Denim Jacket,In-Store,53.0,1,20%,0.0,42.4,No
+ORD50274,2025-03-30,C1089,Returning,West,Home,Wall Art,In-Store,31.4,3,0.0,0.0,94.2,No
+ORD50178,03/03/2025,C1135,New,east,Beauty,Lip Balm,Mobile App,28.16,2,0.0,6.12,,0
+ORD50919,2025-03-13,C1171,Returning,W,Apparel,Denim Jacket,Online,50.27,3,0.1,6.34,135.73,No
+ORD50829,09/28/2025,C1071,New,Midwest,Beauty,Bath Set,Mobile App,42.93,2,0.05,3.96,81.57,no
+ORD50144,2025-03-14,C1131,VIP,east,Apparel,Denim Jacket,Online,149.72,3,,9.96,,No
+ORD50485,2025-11-15,C1134,,East,Apparel ,Summer Dress,Online,94.57,2,0.0,8.06,189.14,No
+ORD50291,2025-05-12,C1042,Returning,South,Home,Throw Pillow,Mobile App,46.76,1,0.05,,44.42,no
+ORD50815,2025-08-18,C1136,VIP,East,Apparel,Denim Jacket,In-Store,64.56,4,30%,0.0,180.77,FALSE
+ORD50737,2025-02-27,C1144,Returning,MW,Apparel,Classic Tee,Online,68.82,1,0.1,3.8,61.94,Yes
+ORD50335,2025-09-19,C1111,New,West,Apparel,Denim Jacket,Online,85.38,1,0.3,7.3,59.77,No
+ORD50369,2025-01-23,C1145,New,South,Accessories,Tote Bag,Online,61.25,1,0.15,4.23,52.06,no
+ORD50619,06/30/2025,C1015,New,West,Home,Cotton Throw,Online,14.8,2,0.0,11.33,29.6,No
+ORD50187,08/23/2025,C1170,New,S,home,Table Lamp,Online,69.78,2,0.0,5.73,,No
+ORD50067,2025-09-07,C1004,New,south,Footwear,Loafers,Mobile App,53.85,2,0.0,5.08,107.7,Yes
+ORD50254,2025-05-06,C1136,VIP,East,Footwear,Canvas Sneakers,Online,221.35,2,0.0,8.22,442.7,Yes
+ORD50270,2025-03-26,C1063,Returning,East,Accessories,Leather Belt,Mobile App,42.61,3,0.0,11.17,127.83,No
+ORD50476,08/21/2025,C1050,New,West,Beauty,Lip Balm,Online,45.13,1,0%,7.41,45.13,FALSE
+ORD50165,02/28/2025,C1134,Returning,East,Footwear ,Canvas Sneakers,In-Store,73.37,1,0.05,0.0,69.7,No
+ORD50608,01/02/2025,C1036,New,West,Footwear,Canvas Sneakers,Online,139.75,2,0.0,8.3,279.5,No
+ORD50896,2025-05-23,C1060,Returning,Midwest,apparel,Summer Dress,Online,50.47,2,10%,8.18,90.85,No
+ORD50334,2025-01-02,C1108,New,East,Footwear,Canvas Sneakers,Online,49.02,2,0.0,9.5,98.04,No
+ORD50651,06/20/2025,C1125,Returning,East,footwear,Canvas Sneakers,In-Store,140.37,1,0.3,0.0,98.26,No
+ORD50439,12/13/2025,C1120,Returning,South,Footwear,Canvas Sneakers,Online,68.52,1,0.5,11.6,34.26,Yes
+ORD50584,04/23/2025,C1110,Returning,Midwest,Apparel,Denim Jacket,Mobile App,43.06,3,0.15,4.78,109.8,No
+ORD50381,11/01/2025,C1074,New,West,Footwear ,Canvas Sneakers,In-Store,110.84,2,0.1,0.0,199.51,TRUE
+ORD50441,03/24/2025,C1007,,West,Beauty,Face Serum,Online,61.09,3,0.0,7.88,183.27,No
+ORD50434,2025-04-30,C1141,Returning,East,Accessories,Wool Scarf,In-Store,36.77,1,0.0,0.0,36.77,No
+ORD50731,07/17/2025,C1078,Returning,West,Accessories,Tote Bag,Online,57.38,1,0.05,7.63,54.51,No
+ORD50119,2025-05-24,C1168,New,South,Accessories,Baseball Cap,Mobile App,16.99,1,0.05,3.55,16.14,No
+ORD50445,05/22/2025,C1118,Returning,South,Footwear,Canvas Sneakers,Online,$161.36,1,0.3,,112.95,No
+ORD50202,09/21/2025,C1091,Returning,West,Footwear,Loafers,Online,142.64,3,0.0,7.44,427.92,No
+ORD50428,2025-10-04,C1064,Returning,South,Beauty,Hand Cream,Online,62.81,3,0.15,3.7,160.17,No
+ORD50153,2025-05-27,C1179,Returning,South,Footwear,Canvas Sneakers,Online,63.77,1,0.3,10.59,44.64,N
+ORD50843,08/02/2025,C1011,VIP,West,Beauty,Hand Cream,Online,84.78,4,0.1,3.56,305.21,No
+ORD50321,2025-08-09,C1010,New,Midwest,accessories,Sunglasses,Online,59.11,2,0.15,5.26,100.49,No
+ORD50537,05/29/2025,C1158,,West,Apparel,Summer Dress,In-Store,39.79,2,0.3,0.0,55.71,no
+ORD50617,04/06/2025,C1095,Returning,East,Apparel,Denim Jacket,Online,85.06,1,0.0,7.12,,FALSE
+ORD50878,2025-04-06,C1172,New,East,Footwear,Loafers,In-Store,84.72,2,0.1,,,No
+ORD50748,2025-12-11,C1150,Returning,South,Footwear,Canvas Sneakers,Online,-30.0,4,0.2,5.25,414.46,N
+ORD50207,2025-03-10,C1123,,East,Apparel,Wool Sweater,Online,38.28,1,0.05,5.88,,No
+ORD50236,2025-04-19,C1033,New,Midwest,Footwear,,Online,127.77,1,0.1,6.72,114.99,No
+ORD50727,2025-08-30,C1127,New,south,Accessories,Baseball Cap,Online,77.98,1,0.05,7.03,74.08,Yes
+ORD50285,07/10/2025,C1067,New,East,Home,Throw Pillow,Mobile App,63.68,2,0.0,9.7,127.36,No
+ORD50875,2025-07-01,C1053,Returning,South,beauty,Perfume,In-Store,55.25,3,0.0,0.0,165.75,N
+ORD50414,2025-03-19,C1133,New,East,Footwear,Leather Boots,Online,150.69,2,10%,,271.24,FALSE
+ORD50264,2025-09-23,C1080,Returning,W,Beauty,Face Serum,Online,38.59,3,0.0,6.67,115.77,No
+ORD50607,02/14/2025,C1077,Returning,West,Accessories,Wool Scarf,Online,25.32,1,0.0,11.28,25.32,No
+ORD50447,2025-09-14,C1006,Returning,East,Accessories ,Leather Belt,In-Store,40.7,1,0.05,0.0,38.66,FALSE
+ORD50052,2025-03-26,C1106,Returning,West,Beauty,Hand Cream,In-Store,56.94,1,0.0,0.0,56.94,No
+ORD50888,2025-03-06,C1080,Returning,West,accessories,Wool Scarf,Mobile App,35.59,2,0.05,8.18,67.62,No
+ORD50893,08/09/2025,C1086,Returning,West,Accessories,Baseball Cap,Online,80.28,2,0.0,6.49,160.56,Yes
+ORD50460,2025-08-22,C1147,Returning,East,Footwear,Loafers,In-Store,155.02,3,0.0,0.0,465.06,No
+ORD50040,2025-02-07,C1065,Returning,midwest,Apparel,Denim Jacket,In-Store,26.68,1,,0.0,24.01,N
+ORD50475,09/19/2025,C1104,Returning,East,Apparel,Wool Sweater,In-Store,31.75,3,0.0,,95.25,no
+ORD50917,2025-06-06,C1103,VIP,west,Home,Ceramic Mug,Online,69.32,4,0.0,8.09,277.28,Yes
+ORD50089,2025-09-13,C1157,Returning,South,Accessories,Sunglasses,Mobile App,85.2,3,0.0,,255.6,FALSE
+ORD50246,2025-03-18,C1023,VIP,West,Accessories,Wool Scarf,Online,83.47,3,,10.88,237.89,no
+ORD50838,08/12/2025,C1054,Returning,Midwest,Accessories,Sunglasses,Online,49.64,3,0.4,,89.35,yes
+ORD50687,03/13/2025,C1100,VIP,West,Apparel,Denim Jacket,In-Store,51.61,2,0.0,0.0,,No
+ORD50341,07/16/2025,C1056,Returning,East,Apparel,Wool Sweater,Mobile App,76.95,2,0.2,10.73,123.12,N
+ORD50164,2025-10-05,C1021,New,Midwest,Beauty,Bath Set,Mobile App,50.06,2,0.1,10.47,90.11,No
+ORD50548,2025-01-19,C1081,New,MW,footwear,Sandals,Online,50.02,1,0.1,4.44,45.02,No
+ORD50224,2025-01-14,C1016,Returning,South,Home,Throw Pillow,In-Store,64.37,1,0.1,0.0,,No
+ORD50490,06/04/2025,C1022,VIP,E,Beauty,Perfume,Mobile App,26.51,4,0.0,3.56,106.04,no
+ORD50500,2025-12-31,C1012,Returning,West,Home,Table Lamp,In-Store,72.69,1,,0.0,50.88,FALSE
+ORD50243,10/04/2025,C1043,New,Midwest,Footwear,,Online,85.45,2,0.1,11.96,153.81,No
+ORD50569,2025-11-15,C1058,New,West,beauty,Lip Balm,Mobile App,46.74,3,0.05,10.98,133.21,Yes
+ORD50481,07/09/2025,C1122,New,East,Beauty,Lip Balm,In-Store,15.82,1,0.15,0.0,13.45,no
+ORD50410,2025-04-06,C1144,Returning,Midwest,Accessories,Baseball Cap,Mobile App,17.27,1,0.0,9.92,17.27,Y
+ORD50643,07/16/2025,C1036,New,West,Apparel,Summer Dress,In-Store,43.31,1,0.05,0.0,41.14,No
+ORD50272,2025-11-28,C1105,Returning,East,home,Throw Pillow,In-Store,12.84,2,0.15,0.0,21.83,No
+ORD50554,06/29/2025,C1135,New,East,Beauty,Lip Balm,Online,27.37,1,0.05,9.94,26.0,No
+ORD50380,2025-12-05,C1131,VIP,East,Home,Throw Pillow,In-Store,69.59,4,0.45,0.0,,No
+ORD50758,08/07/2025,C1044,Returning,West,Accessories,Wool Scarf,Mobile App,83.32,2,0.0,9.37,166.64,Yes
+ORD50524,2025-06-23,C1122,,E,Apparel,Wool Sweater,In-Store,48.79,2,0.15,0.0,82.94,No
+ORD50257,2025-03-28,C1024,Returning,West,Beauty,Face Serum,In-Store,16.81,1,0.0,0.0,16.81,No
+ORD50015,2025-06-06,C1027,New,S,Apparel,Wool Sweater,Online,80.89,2,0.05,5.42,153.69,No
+ORD50714,2025-11-09,C1169,VIP,West,Beauty,Face Serum,In-Store,49.82,5,,0.0,249.1,N
+ORD50232,10/06/2025,C1081,New,midwest,Beauty,Lip Balm,Online,60.73,2,0.0,6.18,121.46,No
+ORD50138,2025-09-03,C1128,New,West,Apparel,,In-Store,35.19,2,0.05,0.0,66.86,N
+ORD50086,11/20/2025,C1058,,West,Apparel,Classic Tee,Online,106.76,2,0.1,4.68,192.17,No
+ORD50197,2025-09-17,C1113,Returning,west,Beauty,Bath Set,In-Store,49.14,1,,0.0,44.23,N
+ORD50244,2025-07-10,C1148,,South,Footwear,Running Shoes,Online,65.3,3,0%,,195.9,0
+ORD50713,01/19/2025,C1126,New,E,Footwear,Sandals,Online,49.61,1,,4.21,49.61,FALSE
+ORD50090,06/28/2025,C1146,New,MW,Footwear,Leather Boots,Mobile App,167.77,2,0.4,10.0,201.32,No
+ORD50293,2025-07-14,C1131,VIP,East,Home ,Cotton Throw,Online,76.1,3,,5.6,205.47,no
+ORD50869,06/17/2025,C1174,,east,Home,Cotton Throw,Online,35.75,1,,5.3,35.75,N
+ORD50779,08/11/2025,C1155,Returning,South,Apparel,Wool Sweater,In-Store,25.96,1,0.0,0.0,25.96,No
+ORD50762,2025-10-07,C1178,VIP,East,Accessories,Wool Scarf,Online,30.82,2,0.0,9.94,61.64,no
+ORD50275,04/04/2025,C1083,New,West,apparel,Summer Dress,In-Store,89.44,2,0.05,0.0,169.94,N
+ORD50163,08/13/2025,C1153,Returning,Midwest,Beauty,Face Serum,Mobile App,12.78,2,0.0,4.59,25.56,No
+ORD50228,01/03/2025,C1141,Returning,East,Beauty,Hand Cream,In-Store,17.82,3,0.0,0.0,53.46,No
+ORD50654,04/16/2025,C1161,VIP,Midwest,beauty,Hand Cream,In-Store,50.13,4,0.05,0.0,190.49,No
+ORD50292,2025-07-01,C1157,Returning,S,Apparel,Summer Dress,Online,$28.05,4,0.2,,89.76,No
+ORD50809,2025-12-25,C1025,New,W,Accessories,Sunglasses,Online,20.98,2,0.15,6.65,35.67,no
+ORD50540,2025-10-15,C1157,Returning,South,Beauty,Perfume,In-Store,51.8,1,0.4,0.0,31.08,No
+ORD50365,08/31/2025,C1085,New,West,Footwear,Running Shoes,In-Store,53.19,1,0.1,0.0,47.87,No
+ORD50023,12/28/2025,C1117,Returning,midwest,Accessories,Leather Belt,In-Store,44.44,1,,0.0,37.77,No
+ORD50544,2025-05-07,C1083,New,West,Accessories,Sunglasses,Online,82.59,1,5%,7.81,78.46,No
+ORD50757,2025-02-19,C1106,Returning,west,Apparel,Wool Sweater,Online,112.08,2,0.05,10.76,212.95,N
+ORD50232,10/06/2025,C1081,New,midwest,Beauty,Lip Balm,Online,60.73,2,0.0,6.18,121.46,No
+ORD50322,2025-11-30,C1101,Returning,West,Beauty,Perfume,Online,35.95,3,0%,5.39,,Yes
+ORD50798,2025-11-24,C1043,New,Midwest,Apparel,Denim Jacket,In-Store,111.44,2,0.1,0.0,200.59,N
+ORD50093,2025-11-11,C1024,Returning,West,Apparel,Summer Dress,Online,98.56,2,0.4,7.09,118.27,TRUE
+ORD50103,05/04/2025,C1031,VIP,South,apparel,Classic Tee,Online,112.79,5,10%,,507.56,No
+ORD50409,2025-11-30,C1115,VIP,Midwest,Apparel,Denim Jacket,Online,181.96,2,0.1,5.34,327.53,FALSE
+ORD50027,11/05/2025,C1066,Returning,S,Beauty,Hand Cream,Online,42.29,2,0.15,11.3,71.89,No
+ORD50458,2025-02-02,C1074,New,West,Beauty,Lip Balm,In-Store,53.81,1,0.1,0.0,48.43,No
+ORD50234,2025-03-11,C1020,Returning,South,Footwear,Sandals,Mobile App,131.76,2,0.15,4.66,223.99,No
+ORD50282,2025-10-27,C1024,Returning,West,Apparel,Wool Sweater,Mobile App,106.78,2,0.2,5.44,,No
+ORD50217,01/21/2025,C1102,New,West,Apparel,Classic Tee,Online,57.55,2,0.05,5.53,109.34,No
+ORD50255,2025-08-12,C1107,New,E,Home,Wall Art,Mobile App,72.69,2,0.0,6.03,145.38,No
+ORD50465,2025-06-03,C1078,Returning,West,Apparel,Wool Sweater,Online,67.82,1,0.15,8.09,57.65,no
+ORD50389,08/15/2025,C1090,New,West,Accessories,Wool Scarf,Online,45.71,1,,11.42,36.57,no
+ORD50543,10/06/2025,C1061,Returning,S,Footwear,Leather Boots,Online,81.57,1,0.05,,77.49,1
+ORD50650,2025-05-07,C1155,Returning,S,Footwear,Running Shoes,In-Store,177.51,1,0.2,,142.01,no
+ORD50768,2025-05-05,C1054,Returning,Midwest,Beauty,Lip Balm,Online,12.45,2,0.05,6.07,,no
+ORD50907,2025-11-26,C1068,New,East,Accessories,Tote Bag,In-Store,$67.65,2,0.0,0.0,135.3,No
+ORD50705,12/21/2025,C1126,New,East,Apparel,Classic Tee,Online,36.45,2,0.15,,61.97,No
+ORD50834,04/06/2025,C1159,Returning,Midwest,Beauty,Face Serum,Online,20.86,2,0.0,11.68,,No
+ORD50092,03/29/2025,C1065,Returning,MW,Apparel,Wool Sweater,Online,102.53,1,0.0,10.28,,No
+ORD50390,2025-07-21,C1052,Returning,Midwest,Accessories,Wool Scarf,In-Store,67.89,1,0.15,0.0,57.71,No
+ORD50367,2025-09-20,C1001,Returning,Midwest,Home,Cotton Throw,Online,45.79,3,0.3,5.68,96.16,0
+ORD50442,2025-09-17,C1094,New,South,Beauty,Perfume,Online,27.11,2,0.0,10.39,54.22,0
+ORD50776,2025-08-11,C1134,Returning,East,Apparel,Denim Jacket,Online,49.44,2,0.4,7.87,59.33,No
+ORD50665,06/03/2025,C1018,Returning,west,Accessories,Tote Bag,Mobile App,22.92,1,0.15,4.55,19.48,N
+ORD50780,2025-02-10,C1032,New,West,Apparel,Summer Dress,Online,64.13,1,0.0,5.82,64.13,No
+ORD50618,12/31/2025,C1179,Returning,South,Footwear,Leather Boots,Online,129.35,3,0.15,6.29,329.84,No
+ORD50002,12/17/2025,C1026,,West,Beauty,Hand Cream,In-Store,31.08,3,25%,0.0,69.93,No
+ORD50751,2025-06-07,C1135,New,East,Apparel,Classic Tee,Online,51.19,2,0.4,4.66,61.43,Yes
+ORD50189,2025-03-16,C1068,New,East,Beauty,Hand Cream,Mobile App,26.68,2,0.4,10.29,32.02,FALSE
+ORD50403,10/27/2025,C1112,New,midwest,Footwear,Sandals,Mobile App,141.15,1,5%,10.12,,N
+ORD50012,2025-10-09,C1033,New,Midwest,Beauty,Hand Cream,In-Store,53.12,1,0.1,0.0,47.81,No
+ORD50316,03/01/2025,C1059,New,West,Apparel,Denim Jacket,Online,114.43,999,0.0,8.75,114.43,No
+ORD50557,2025-09-06,C1005,VIP,S,Apparel,Classic Tee,In-Store,$110.61,6,,0.0,663.66,No
+ORD50681,07/04/2025,C1125,Returning,East,Beauty,Hand Cream,Online,19.57,3,0.0,5.61,,0
+ORD50337,2025-10-29,C1116,Returning,Midwest,Home,Wall Art,In-Store,45.7,2,0.0,,91.4,FALSE
+ORD50083,2025-04-12,C1178,VIP,East,Accessories ,Baseball Cap,Online,66.66,4,,8.28,,No
+ORD50466,2025-05-15,C1158,Returning,West,Accessories,Tote Bag,Online,61.28,1,0.0,10.61,61.28,No
+ORD50717,2025-08-14,C1015,New,West,Footwear,Canvas Sneakers,Online,173.29,1,0.15,,147.3,No
+ORD50699,03/23/2025,C1043,New,Midwest,Home,,In-Store,54.22,1,0.05,0.0,51.51,Yes
+ORD50152,2025-02-09,C1120,Returning,S,Beauty,Perfume,Online,27.29,1,0.1,6.43,,No
+ORD50277,2025-06-23,C1148,Returning,South,Accessories,Leather Belt,Mobile App,67.25,2,,3.72,134.5,FALSE
+ORD50065,2025-12-24,C1144,Returning,midwest,Beauty,Bath Set,In-Store,31.7,2,0.2,0.0,50.72,No
+ORD50424,04/23/2025,C1028,New,West,Accessories,Baseball Cap,Online,40.79,1,0.3,11.9,28.55,No
+ORD50190,06/10/2025,C1172,New,East,Footwear,Leather Boots,In-Store,116.62,1,10%,0.0,104.96,No
+ORD50552,2025-09-16,C1170,New,South,Apparel,Classic Tee,Online,65.91,1,0.1,,59.32,No
+ORD50782,11/29/2025,C1119,Returning,S,apparel,Chino Pants,In-Store,108.68,3,0.0,0.0,326.04,N
+ORD50448,05/12/2025,C1013,,midwest,Apparel,Summer Dress,Online,82.79,1,,4.27,66.23,N
+ORD50463,11/07/2025,C1087,Returning,West,Home,Cotton Throw,Online,22.99,2,,11.24,39.08,No
+ORD50239,08/07/2025,C1113,Returning,West,Accessories,Wool Scarf,Mobile App,78.18,3,0.0,5.34,234.54,No
+ORD50683,2025-11-28,C1157,,south,accessories,Tote Bag,Online,29.88,2,0.0,11.06,59.76,N
+ORD50718,07/14/2025,C1155,Returning,South,Apparel,Denim Jacket,In-Store,59.62,1,0.05,0.0,,No
+ORD50823,2025-09-19,C1159,Returning,Midwest,Home,Wall Art,In-Store,44.45,1,0.05,0.0,42.23,FALSE
+ORD50520,11/12/2025,C1053,Returning,S,Home,Cotton Throw,Online,17.76,1,0.3,9.66,,No
+ORD50317,02/09/2025,C1116,Returning,Midwest,Beauty,,Online,14.86,2,0.1,6.76,26.75,N
+ORD50854,09/15/2025,C1158,Returning,W,Beauty,Face Serum,In-Store,43.36,3,0.0,0.0,130.08,No
+ORD50513,11/04/2025,C1122,New,East,Accessories,Leather Belt,Online,18.37,2,0.05,4.99,,No
+ORD50636,2025-11-23,C1031,VIP,South,Beauty,Bath Set,Online,$31.43,4,0.1,,113.15,No
+ORD50229,2025-04-21,C1105,Returning,East,Footwear,Running Shoes,In-Store,$56.13,3,0.15,0.0,143.13,Y
+ORD50402,2025-04-22,C1160,New,West,Footwear,Canvas Sneakers,Online,94.18,1,15%,10.01,,Yes
+ORD50062,2025-05-12,C1173,VIP,East,Apparel,Chino Pants,Online,186.29,2,,10.97,353.95,N
+ORD50830,04/03/2025,C1000,Returning,MW,Accessories,Wool Scarf,Online,88.24,1,0.15,11.72,75.0,N
+ORD50816,2025-01-06,C1140,Returning,MW,Home ,Table Lamp,Mobile App,33.57,1,0.15,11.89,28.53,No
+ORD50382,2025-02-06,C1085,New,West,Apparel,Denim Jacket,Online,83.9,1,0.2,6.41,,No
+ORD50819,08/06/2025,C1083,New,west,Footwear,Canvas Sneakers,Mobile App,63.67,1,0.0,5.55,63.67,No
+ORD50891,2025-11-25,C1097,New,East,Apparel,Chino Pants,Online,72.65,2,0.15,11.7,123.51,0
+ORD50736,12/13/2025,C1086,Returning,West,Footwear,Running Shoes,Online,59.38,3,0.25,4.13,,No
+ORD50094,02/12/2025,C1072,VIP,East,Beauty,Bath Set,In-Store,79.41,5,0.0,0.0,397.05,no
+ORD50373,2025-05-17,C1028,New,West,Apparel,Chino Pants,In-Store,88.83,2,0.1,0.0,159.89,No
+ORD50095,02/20/2025,C1040,Returning,East,Apparel,Chino Pants,Online,104.09,2,0.1,9.33,187.36,No
+ORD50248,2025-03-04,C1000,Returning,Midwest,Beauty,Face Serum,Online,55.95,1,0%,5.49,55.95,No
+ORD50360,09/19/2025,C1057,Returning,South,Beauty,Perfume,Online,60.55,2,0.0,10.32,121.1,FALSE
+ORD50903,08/13/2025,C1119,Returning,South,Home,Ceramic Mug,Mobile App,39.5,3,0.4,8.38,71.1,FALSE
+ORD50026,2025-08-25,C1130,New,East,Accessories,Sunglasses,In-Store,40.38,2,0.15,,,N
+ORD50729,2025-06-29,C1033,New,Midwest,Apparel,Summer Dress,Online,62.6,2,0.0,3.77,125.2,no
+ORD50276,04/28/2025,C1071,New,MW,Apparel,Chino Pants,Mobile App,87.22,1,0.0,9.88,87.22,No
+ORD50034,2025-10-17,C1080,Returning,West,Apparel,Summer Dress,Online,60.41,3,0.1,10.08,163.11,No
+ORD50494,2025-09-18,C1070,New,S,footwear,Canvas Sneakers,In-Store,171.6,2,0.15,0.0,291.72,No
+ORD50555,03/08/2025,C1102,New,West,Apparel,Wool Sweater,Mobile App,29.38,1,0.15,8.55,24.97,no
+ORD50575,2025-09-18,C1038,New,Midwest,Apparel,Denim Jacket,Online,60.19,1,0.1,4.1,54.17,FALSE
+ORD50130,04/24/2025,C1092,Returning,W,Beauty,Lip Balm,In-Store,15.19,3,0.2,0.0,36.46,No
+ORD50861,2025-05-24,C1163,New,South,Home,Ceramic Mug,Mobile App,72.11,1,0.1,8.28,64.9,Yes
+ORD50100,2025-05-04,C1117,Returning,Midwest,Beauty ,Lip Balm,Mobile App,18.08,1,0.2,10.46,14.46,No
+ORD50666,07/15/2025,C1105,Returning,East,Beauty,Perfume,Online,12.95,2,,8.06,25.9,No
+ORD50850,2025-03-13,C1046,New,west,Home,Table Lamp,Online,56.16,2,0.0,11.34,112.32,FALSE
+ORD50674,01/30/2025,C1123,New,East,Footwear,Canvas Sneakers,In-Store,126.28,2,0.2,0.0,202.05,No
+ORD50404,12/01/2025,C1069,Returning,East,Beauty,Lip Balm,Online,28.04,2,0.15,11.0,47.67,No
+ORD50415,2025-11-17,C1011,,west,Apparel,Chino Pants,Online,97.65,2,0.2,6.74,156.24,No
+ORD50017,2025-08-25,C1061,Returning,South,Footwear,Canvas Sneakers,In-Store,127.64,2,0.15,0.0,216.99,no
+ORD50672,2025-12-08,C1171,Returning,West,Beauty,Face Serum,Online,12.02,3,0.3,4.71,25.24,0
+ORD50480,2025-01-26,C1179,Returning,South,Beauty,Hand Cream,Online,25.39,3,0.2,4.37,60.94,No
+ORD50136,11/12/2025,C1111,New,west,Beauty,Bath Set,Online,29.13,3,0.1,10.05,78.65,No
+ORD50053,12/30/2025,C1153,Returning,Midwest,Footwear,Leather Boots,In-Store,103.62,3,0.4,0.0,186.52,no
+ORD50400,04/17/2025,C1092,Returning,West,Accessories,Baseball Cap,Mobile App,68.33,2,0.0,10.4,136.66,No
+ORD50072,09/28/2025,C1053,Returning,South,Footwear,Loafers,In-Store,146.4,2,0.0,,292.8,FALSE
+ORD50433,2025-10-08,C1098,New,Midwest,Accessories,Baseball Cap,Mobile App,35.31,1,0.1,8.78,31.78,0
+ORD50339,2025-05-30,C1025,New,West,Accessories,Baseball Cap,Mobile App,16.22,2,0.15,11.21,27.57,No
+ORD50680,08/24/2025,C1122,New,East,Home,Table Lamp,Online,65.98,2,0.0,,131.96,0
+ORD50692,2025-11-18,C1138,Returning,west,beauty,Face Serum,Online,15.76,3,0.1,10.11,42.55,No
+ORD50910,2025-09-13,C1085,New,West,Home,Ceramic Mug,Online,65.95,2,0.1,11.93,118.71,0
+ORD50538,03/01/2025,C1014,Returning,West,Accessories,Leather Belt,Online,75.82,2,0.2,4.84,121.31,No
+ORD50306,2025-04-12,C1044,Returning,West,Footwear,Canvas Sneakers,Online,65.73,3,0.0,9.39,197.19,No
+ORD50522,2025-10-09,C1020,Returning,South,Home,Throw Pillow,Online,70.87,3,,11.91,212.61,Y
+ORD50902,2025-11-06,C1004,New,South,Beauty,Face Serum,Online,43.99,1,0.45,11.05,24.19,N
+ORD50200,03/26/2025,C1174,New,East,Accessories,Baseball Cap,In-Store,78.73,1,0.1,0.0,70.86,No
+ORD50507,2025-06-23,C1067,,East,Beauty,Bath Set,Online,30.42,1,0.15,,25.86,0
+ORD50579,11/09/2025,C1057,Returning,South,apparel,Denim Jacket,In-Store,69.76,3,0.1,0.0,188.35,No
+ORD50826,2025-05-12,C1126,New,East,Apparel,Summer Dress,Mobile App,99.67,1,0.4,10.01,59.8,Yes
+ORD50649,10/03/2025,C1044,Returning,West,Home,Cotton Throw,Mobile App,25.2,1,0.0,7.76,25.2,1
+ORD50615,2025-04-21,C1032,New,W,Accessories,Baseball Cap,Online,38.03,2,0.05,9.18,72.26,No
+ORD50697,2025-10-09,C1117,Returning,Midwest,Footwear,Leather Boots,Online,104.11,2,0.05,8.14,197.81,No
+ORD50839,10/05/2025,C1145,New,South,Beauty,Lip Balm,In-Store,21.45,2,0.15,0.0,36.46,No
+ORD50142,2025-08-21,C1167,Returning,West,footwear,Loafers,In-Store,99.51,2,0.15,0.0,,No
+ORD50553,12/03/2025,C1164,Returning,South,Accessories,Sunglasses,Online,80.1,3,15%,3.64,204.25,No
+ORD50472,2025-06-24,C1140,Returning,Midwest,Footwear,Sandals,Online,111.45,1,5%,,105.88,No
+ORD50020,2025-11-26,C1002,,E,Beauty,Bath Set,In-Store,39.37,5,0.0,0.0,196.85,FALSE
+ORD50701,09/01/2025,C1163,New,South,Accessories ,Wool Scarf,In-Store,77.05,2,0.05,,146.39,1
+ORD50191,07/24/2025,C1122,New,East,Footwear,Sandals,Online,86.29,2,0.2,5.44,,no
+ORD50374,2025-05-01,C1070,New,South,Apparel,Wool Sweater,Online,28.68,1,0.05,8.27,,no
+ORD50831,07/05/2025,C1068,New,East,Apparel,Wool Sweater,Mobile App,77.57,1,0.4,,46.54,TRUE
+ORD50857,2025-09-15,C1018,Returning,West,Apparel,Denim Jacket,Mobile App,43.23,1,0%,5.17,43.23,FALSE
+ORD50039,2025-10-22,C1021,New,Midwest,Beauty,Hand Cream,Online,48.55,3,30%,4.64,101.95,No
+ORD50797,2025-01-11,C1139,New,Midwest,Beauty,Hand Cream,In-Store,14.48,1,0.2,0.0,11.58,No
+ORD50310,05/09/2025,C1115,VIP,Midwest,Home,Table Lamp,In-Store,45.76,3,0.05,0.0,130.42,No
+ORD50008,2025-04-16,C1152,New,South,Apparel,Chino Pants,In-Store,113.14,2,,0.0,192.34,0
+ORD50283,2025-10-28,C1105,Returning,East,Accessories ,Tote Bag,Online,$46.69,3,,4.2,,N
+ORD50628,06/09/2025,C1069,Returning,East,Beauty,Face Serum,Online,33.86,2,0.0,9.35,67.72,No
+ORD50726,2025-06-07,C1004,New,South,Accessories,Leather Belt,Online,75.85,2,0.15,5.73,128.94,No
+ORD50517,2025-12-31,C1094,New,south,Beauty,Lip Balm,Online,15.9,3,0.15,10.05,40.55,No
+ORD50599,2025-01-23,C1014,,west,Beauty,Lip Balm,Online,61.67,2,0.1,6.61,111.01,No
+ORD50131,11/13/2025,C1111,New,West,beauty,Perfume,In-Store,16.98,3,,0.0,38.2,FALSE
+ORD50593,2025-03-02,C1103,VIP,West,Beauty,Hand Cream,Mobile App,30.48,5,0.0,8.61,152.4,No
+ORD50032,08/27/2025,C1174,New,East,footwear,Sandals,In-Store,57.34,1,,0.0,54.47,FALSE
+ORD50124,2025-10-18,C1011,VIP,West,Accessories,Leather Belt,In-Store,80.35,4,0.05,0.0,305.33,no
+ORD50020,2025-11-26,C1002,,E,Beauty,Bath Set,In-Store,39.37,5,0.0,0.0,196.85,FALSE
+ORD50056,02/15/2025,C1160,New,West,Accessories,Sunglasses,In-Store,$25.78,1,0.0,0.0,25.78,FALSE
+ORD50290,2025-09-11,C1134,Returning,E,Footwear ,Sandals,Online,159.51,3,0.1,9.78,430.68,No
+ORD50061,01/13/2025,C1143,Returning,East,Accessories,Wool Scarf,Mobile App,22.06,2,0.05,4.77,41.91,FALSE
+ORD50849,2025-07-28,C1003,Returning,East,Footwear ,Loafers,In-Store,140.51,2,0.0,0.0,281.02,no
+ORD50127,2025-12-22,C1064,Returning,South,Footwear,Canvas Sneakers,Mobile App,45.03,2,0.3,6.07,63.04,No
+ORD50559,02/06/2025,C1053,Returning,South,Home,Wall Art,Mobile App,34.59,3,,4.55,,Yes
+ORD50387,10/27/2025,C1005,VIP,South,Beauty,Face Serum,Online,93.47,3,0.15,3.56,,no
+ORD50363,2025-11-03,C1060,,Midwest,Apparel,Wool Sweater,Mobile App,97.52,1,0.15,8.95,82.89,No
+ORD50638,2025-08-24,C1011,VIP,West,Beauty,Bath Set,Online,60.73,3,,3.72,173.08,0
+ORD50547,2025-05-30,C1159,Returning,Midwest,Home,Cotton Throw,Online,58.36,1,0.1,,52.52,No
+ORD50212,02/03/2025,C1177,VIP,South,Apparel,Classic Tee,In-Store,146.48,3,0.4,0.0,263.66,No
+ORD50210,2025-06-03,C1017,New,Midwest,Beauty,Bath Set,In-Store,11.22,2,0.0,0.0,22.44,0
+ORD50438,06/09/2025,C1145,New,South,Home,Throw Pillow,Online,$35.37,1,,8.77,,No
+ORD50719,04/27/2025,C1091,Returning,W,Apparel,Denim Jacket,Online,75.81,1,0.1,5.74,68.23,No
+ORD50192,2025-02-16,C1018,Returning,West,accessories,Baseball Cap,Online,16.59,3,0.1,4.05,44.79,N
+ORD50328,08/27/2025,C1031,VIP,south,Footwear,Sandals,Online,84.33,2,0.0,4.86,168.66,N
+ORD50345,2025-10-06,C1121,Returning,West,Footwear ,Loafers,Online,62.71,1,0.0,5.12,62.71,0
+ORD50764,2025-04-09,C1178,VIP,East,Footwear,Sandals,Mobile App,205.95,4,0%,7.51,823.8,No
+ORD50742,2025-03-01,C1012,Returning,West,Home,Ceramic Mug,Mobile App,22.66,1,,7.8,22.66,No
+ORD50644,02/23/2025,C1038,New,Midwest,home,Table Lamp,Online,31.16,2,0.0,10.39,62.32,N
+ORD50247,2025-10-29,C1149,New,West,Accessories ,Sunglasses,Online,20.19,1,0.15,9.65,17.16,No
+ORD50314,2025-08-26,C1100,VIP,west,Beauty,Lip Balm,Online,65.15,3,0.0,5.83,195.45,No
+ORD50741,2025-12-19,C1147,,East,Accessories,Sunglasses,In-Store,54.11,2,0.1,0.0,97.4,No
+ORD50098,2025-12-08,C1074,New,West,Footwear,Leather Boots,In-Store,152.19,2,0.2,0.0,243.5,No
+ORD50011,2025-07-05,C1009,Returning,West,Accessories,Leather Belt,In-Store,81.31,1,0.0,0.0,81.31,No
+ORD50908,2025-11-20,C1141,Returning,East,Accessories,Tote Bag,Mobile App,42.97,1,0.1,5.66,38.67,No
+ORD50531,02/08/2025,C1175,,East,Beauty,Hand Cream,In-Store,47.13,1,0%,0.0,,No
+ORD50660,03/25/2025,C1050,New,West,Beauty,Face Serum,Online,34.47,2,0.0,11.25,68.94,No
+ORD50647,12/21/2025,C1127,New,South,Home,Wall Art,Online,42.93,2,0.05,10.97,81.57,no
+ORD50386,2025-03-10,C1003,Returning,East,Home,Wall Art,In-Store,34.31,3,0.1,0.0,92.64,Yes
+ORD50592,2025-11-25,C1115,VIP,Midwest,Beauty,Perfume,Online,56.42,6,0.25,5.95,253.89,No
+ORD50331,01/26/2025,C1015,New,West,Home,Wall Art,Online,19.53,2,15%,11.06,33.2,No
+ORD50904,06/08/2025,C1161,VIP,Midwest,Beauty,Bath Set,Mobile App,18.94,5,0.15,,80.5,No
+ORD50890,2025-04-07,C1080,Returning,West,Home,Cotton Throw,In-Store,19.35,1,0.0,0.0,19.35,No
+ORD50177,08/19/2025,C1074,,West,Footwear,,In-Store,105.47,1,0%,0.0,105.47,No
+ORD50558,2025-05-18,C1126,New,East,Footwear,Leather Boots,Online,65.05,1,0.15,,55.29,No
+ORD50720,2025-02-12,C1049,New,West,Footwear ,Leather Boots,Online,173.96,2,0.05,4.83,330.52,FALSE
+ORD50670,2025-02-19,C1122,New,east,Beauty,Bath Set,In-Store,62.38,1,0.1,0.0,56.14,N
+ORD50182,2025-03-23,C1083,New,West,Home,Table Lamp,In-Store,44.13,2,0.3,0.0,61.78,FALSE
+ORD50449,2025-11-13,C1157,Returning,South,Footwear,Running Shoes,Mobile App,174.26,2,0.15,11.55,296.24,No
+ORD50392,2025-07-01,C1066,Returning,South,Beauty,Face Serum,Online,49.44,4,,,,0
+ORD50222,2025-05-09,C1167,Returning,west,Accessories,Baseball Cap,In-Store,38.59,2,0.15,0.0,65.6,0
+ORD50080,03/19/2025,C1099,VIP,Midwest,Footwear,Loafers,Online,71.82,5,0.1,11.34,323.19,No
+ORD50694,2025-06-24,C1030,Returning,South,Beauty,Bath Set,Online,58.26,3,0.4,,104.87,No
+ORD50596,2025-12-01,C1059,New,West,Beauty,Hand Cream,Online,37.5,2,0.15,8.29,,No
+ORD50050,2025-06-25,C1044,Returning,West,Apparel,Summer Dress,Online,68.77,3,0.0,11.31,206.31,No
+ORD50421,07/25/2025,C1127,New,south,Home,Table Lamp,In-Store,73.67,3,0.1,0.0,198.91,No
+ORD50486,2025-10-10,C1112,New,Midwest,Home,Wall Art,In-Store,$68.31,1,0.15,0.0,58.06,No
+ORD50203,2025-08-05,C1169,VIP,West,Home,Throw Pillow,Mobile App,100.53,2,0.0,11.38,,No
+ORD50383,10/15/2025,C1049,New,West,Footwear,Sandals,Online,61.59,1,0.2,10.48,,No
+ORD50060,10/02/2025,C1121,Returning,west,Home ,Wall Art,Mobile App,63.57,2,,3.61,120.78,No
+ORD50323,2025-12-27,C1023,VIP,West,Apparel,Summer Dress,In-Store,75.36,2,,0.0,82.9,TRUE
+ORD50324,2025-04-29,C1016,Returning,South,Apparel,Chino Pants,Online,111.77,3,0.0,5.61,335.31,Yes
+ORD50077,2025-11-16,C1005,VIP,South,Apparel,Classic Tee,In-Store,86.93,6,15%,0.0,443.34,FALSE
+ORD50912,08/21/2025,C1092,,West,Beauty ,Lip Balm,Online,61.44,1,0.05,11.69,58.37,No
+ORD50157,11/19/2025,C1006,Returning,East,Apparel,Summer Dress,Online,101.94,2,0.15,5.11,173.3,No
+ORD50208,2025-06-05,C1005,VIP,South,Accessories,Sunglasses,Online,80.78,3,0.0,6.85,242.34,0
+ORD50867,06/15/2025,C1146,New,Midwest,apparel ,Chino Pants,Online,62.48,1,0.05,6.15,59.36,N
+ORD50305,2025-11-07,C1063,Returning,East,Home,Wall Art,In-Store,79.88,3,10%,0.0,215.68,No
+ORD50565,2025-08-07,C1026,Returning,West,Accessories,Baseball Cap,Mobile App,40.52,2,0.2,9.41,64.83,Yes
+ORD50284,2025-07-24,C1105,Returning,East,Beauty,Hand Cream,Online,44.66,3,0.05,10.49,127.28,No
+ORD50489,2025-12-16,C1091,Returning,West,Home ,Cotton Throw,Mobile App,46.8,1,0.3,7.57,32.76,N
+ORD50753,2025-01-08,C1100,VIP,West,Beauty ,Perfume,In-Store,25.73,2,0.0,0.0,51.46,FALSE
+ORD50598,04/12/2025,C1026,Returning,W,Accessories,Leather Belt,Online,$31.3,1,0.0,7.37,31.3,N
+ORD50457,04/07/2025,C1045,Returning,Midwest,Footwear ,Canvas Sneakers,In-Store,103.39,3,0.0,0.0,310.17,No
+ORD50000,2025-02-20,C1167,Returning,W,Apparel,Chino Pants,In-Store,33.33,1,0.05,0.0,31.66,No
+ORD50405,04/24/2025,C1171,Returning,West,Footwear,Sandals,In-Store,58.2,1,0.0,0.0,58.2,no
+ORD50573,2025-08-06,C1144,Returning,Midwest,Home,Wall Art,Online,27.49,1,0.4,,16.49,No
+ORD50315,2025-03-21,C1025,New,W,accessories,Wool Scarf,Online,15.07,1,,8.16,13.56,0
+ORD50216,2025-05-17,C1047,New,East,Footwear,,In-Store,140.35,1,0.05,0.0,133.33,No
+ORD50661,2025-08-04,C1143,Returning,East,Apparel,Chino Pants,Online,95.94,3,0.1,5.28,259.04,No
+ORD50724,2025-04-12,C1160,New,West,Home,Wall Art,Online,43.29,2,0.15,7.11,,No
+ORD50506,2025-09-06,C1143,Returning,E,Home,Table Lamp,In-Store,30.57,1,,0.0,27.51,No
+ORD50488,2025-10-20,C1002,VIP,East,Apparel,Summer Dress,Online,41.27,4,30%,5.91,115.56,0
+ORD50733,2025-06-10,C1063,Returning,East,Apparel ,Chino Pants,Mobile App,88.53,2,0.1,,159.35,no
+ORD50533,2025-07-04,C1019,Returning,East,Home,Ceramic Mug,Online,34.5,3,,7.3,103.5,0
+ORD50708,06/18/2025,C1164,Returning,S,Footwear,Sandals,In-Store,99.62,1,,0.0,99.62,No
+ORD50632,10/06/2025,C1141,,East,Apparel,Summer Dress,Mobile App,86.37,3,0.2,8.61,207.29,No
+ORD50566,11/04/2025,C1070,New,South,Beauty,Lip Balm,Online,25.43,1,0.1,7.8,22.89,No
+ORD50576,2025-04-27,C1030,Returning,South,Beauty,Lip Balm,In-Store,42.02,2,0%,0.0,84.04,No
+ORD50625,2025-01-09,C1056,Returning,East,Apparel,Wool Sweater,In-Store,27.87,3,10%,0.0,75.25,No
+ORD50735,2025-03-05,C1149,New,West,Apparel,Wool Sweater,Mobile App,58.92,1,0.3,4.44,41.24,No
+ORD50470,2025-04-08,C1156,New,W,Beauty,Hand Cream,Mobile App,27.49,2,0.15,6.77,46.73,No
+ORD50805,01/29/2025,C1060,Returning,midwest,Apparel,Chino Pants,In-Store,43.26,2,0.0,0.0,86.52,No
+ORD50413,2025-11-28,C1044,Returning,West,Footwear ,Sandals,Online,98.77,2,0.15,8.69,167.91,FALSE
+ORD50871,05/23/2025,C1023,VIP,West,Footwear,Canvas Sneakers,In-Store,200.81,3,,0.0,602.43,No
+ORD50508,12/10/2025,C1139,New,Midwest,Accessories,Tote Bag,In-Store,15.17,1,0.0,0.0,15.17,N
+ORD50678,2025-08-30,C1093,New,South,Beauty,Hand Cream,Online,31.79,4,0.1,7.82,114.44,No
+ORD50384,2025-07-12,C1130,New,east,Accessories,Wool Scarf,Online,88.85,1,0.1,6.24,,N
+ORD50241,06/30/2025,C1159,Returning,Midwest,Home,Throw Pillow,Mobile App,31.88,1,0.15,6.11,27.1,no
+ORD50859,2025-12-14,C1102,New,West,Footwear,Canvas Sneakers,In-Store,154.81,2,0.5,0.0,154.81,Yes
+ORD50482,2025-08-13,C1122,New,east,Accessories,Leather Belt,Online,30.19,2,0.05,8.32,57.36,No
+ORD50704,2025-07-22,C1028,New,West,Apparel,Classic Tee,Mobile App,87.26,1,0.15,9.96,74.17,No
+ORD50047,11/07/2025,C1020,Returning,S,footwear,Sandals,Online,137.75,1,0.0,4.45,137.75,No
+ORD50289,2025-07-26,C1080,Returning,West,Footwear,Canvas Sneakers,In-Store,121.48,2,,0.0,230.81,FALSE
+ORD50791,06/09/2025,C1030,Returning,S,Accessories,Wool Scarf,Online,26.8,2,0.2,,42.88,No
+ORD50022,2025-09-15,C1084,New,Midwest,Apparel,Classic Tee,In-Store,104.45,2,0.2,0.0,167.12,No
+ORD50860,11/06/2025,C1141,Returning,East,Accessories,Baseball Cap,Mobile App,53.55,2,0.2,7.31,85.68,yes
+ORD50684,2025-06-18,C1126,New,east,Apparel,Summer Dress,Mobile App,34.51,2,0.2,5.64,55.22,Yes
+ORD50556,06/18/2025,C1082,Returning,east,Accessories,Wool Scarf,In-Store,53.81,1,30%,0.0,37.67,No
+ORD50301,2025-07-04,C1080,Returning,West,Home,Throw Pillow,Online,79.39,3,0.15,3.92,202.44,No
+ORD50159,03/02/2025,C1074,New,West,Footwear,Leather Boots,In-Store,74.42,2,,0.0,126.51,Yes
+ORD50796,2025-05-11,C1017,New,Midwest,Accessories,Leather Belt,In-Store,49.16,2,0.0,0.0,98.32,No
+ORD50541,2025-04-13,C1081,New,Midwest,Beauty,Bath Set,Online,35.94,2,0.15,6.9,61.1,No
+ORD50530,2025-05-04,C1166,Returning,Midwest,beauty,Lip Balm,Online,48.5,2,0.2,4.4,77.6,No
+ORD50406,2025-10-09,C1000,Returning,Midwest,Apparel ,Denim Jacket,Online,43.9,1,0.1,,39.51,No
+ORD50263,2025-05-01,C1016,Returning,South,Accessories,Leather Belt,Mobile App,70.05,1,,,63.05,No
+ORD50435,06/10/2025,C1078,Returning,West,Home,Ceramic Mug,In-Store,55.71,2,0.3,0.0,77.99,No
+ORD50043,02/26/2025,C1062,Returning,West,Footwear,Loafers,In-Store,118.61,1,0.05,0.0,112.68,No
+ORD50549,2025-01-14,C1165,New,South,Accessories,Leather Belt,Mobile App,42.31,1,0.1,11.91,,No
+ORD50147,2025-06-25,C1037,Returning,West,Beauty,Hand Cream,Online,23.24,2,0.05,5.55,44.16,No
+ORD50096,03/06/2025,C1143,,E,Beauty,Bath Set,Online,64.97,1,0.15,6.21,55.22,No
+ORD50377,05/13/2025,C1091,Returning,West,Footwear,Sandals,In-Store,168.16,1,0.3,0.0,117.71,0
+ORD50872,2025-04-25,C1101,Returning,West,Apparel,Denim Jacket,Mobile App,28.5,2,,6.77,51.3,No
+ORD50570,2025-04-11,C1118,Returning,South,Footwear,Canvas Sneakers,In-Store,70.26,2,0.0,0.0,140.52,0
+ORD50771,2025-12-03,C1129,Returning,W,Footwear ,Canvas Sneakers,In-Store,158.41,3,0.15,0.0,403.95,No
+ORD50245,08/13/2025,C1165,New,S,Apparel,Summer Dress,Online,63.31,1,0.0,5.18,63.31,N
+ORD50273,10/31/2025,C1044,Returning,West,Accessories,Tote Bag,Online,87.74,2,0.0,8.12,175.48,FALSE
+ORD50645,2025-12-01,C1131,VIP,East,Beauty ,Lip Balm,In-Store,54.25,4,,0.0,195.3,N
+ORD50297,2025-01-01,C1106,Returning,W,Apparel,Wool Sweater,In-Store,75.31,1,0.0,0.0,75.31,No
+ORD50744,03/26/2025,C1152,New,South,Accessories,Tote Bag,Online,$45.23,1,0.3,7.49,31.66,No
+ORD50082,2025-08-29,C1094,New,South,Apparel,Denim Jacket,Online,89.42,3,0.05,9.87,254.85,No
+ORD50221,11/30/2025,C1068,New,East,Footwear,Loafers,Online,85.91,1,0.0,11.92,85.91,N
+ORD50349,10/29/2025,C1026,Returning,West,Apparel,Summer Dress,Online,25.08,1,0.0,6.32,25.08,no
+ORD50656,2025-11-02,C1174,New,East,Apparel,Chino Pants,In-Store,67.08,1,0.1,0.0,60.37,No
+ORD50370,2025-04-17,C1142,VIP,East,Apparel,Denim Jacket,In-Store,107.6,2,0.2,0.0,172.16,N
+ORD50511,2025-04-19,C1062,Returning,West,Apparel,Denim Jacket,Mobile App,54.9,1,0.0,6.74,,No
+ORD50698,2025-02-01,C1013,Returning,Midwest,Home,Ceramic Mug,Online,12.98,1,0.05,9.4,12.33,0
+ORD50894,2025-09-03,C1006,Returning,east,Apparel,Wool Sweater,In-Store,42.99,1,,0.0,36.54,No
+ORD50634,2025-06-24,C1036,New,West,Beauty,Bath Set,Mobile App,17.1,1,20%,11.66,13.68,N
+ORD50514,2025-10-28,C1155,Returning,South,Apparel,Classic Tee,Online,87.56,4,0.3,9.01,245.17,No
+ORD50840,2025-02-12,C1032,New,West,Footwear,Leather Boots,Mobile App,120.33,1,0.15,5.74,102.28,No
+ORD50074,2025-11-05,C1158,Returning,West,Beauty,Bath Set,In-Store,58.1,3,0%,,,no
+ORD50171,2025-01-12,C1151,VIP,West,Beauty,Lip Balm,Mobile App,21.12,4,0.15,5.34,71.81,FALSE
+ORD50308,2025-10-02,C1051,New,E,home,Wall Art,Mobile App,77.0,1,0.15,5.37,65.45,no
+ORD50461,06/11/2025,C1135,New,East,Footwear ,Canvas Sneakers,Online,73.81,1,0.15,9.19,,No
+ORD50535,07/19/2025,C1036,New,West,Apparel,Classic Tee,Online,28.7,1,0.4,5.33,17.22,No
+ORD50058,03/02/2025,C1111,New,West,Footwear,Sandals,Online,123.24,1,0.1,3.65,110.92,No
+ORD50523,2025-09-07,C1088,New,West,Footwear,Canvas Sneakers,Online,177.2,1,,4.1,150.62,No
+ORD50749,05/21/2025,C1099,VIP,MW,Home ,Table Lamp,In-Store,27.67,5,0.0,0.0,138.35,no
+ORD50427,2025-12-17,C1063,Returning,East,Home,Table Lamp,Mobile App,17.32,3,0.15,5.42,44.17,No
+ORD50426,2025-01-22,C1040,,East,Home,Wall Art,In-Store,75.91,2,0.2,0.0,121.46,no
+ORD50810,2025-03-22,C1103,VIP,West,Footwear,Sandals,Online,83.47,5,0.0,,417.35,Yes
+ORD50561,2025-02-20,C1077,Returning,West,Home,Throw Pillow,Mobile App,25.71,2,0%,11.57,51.42,Yes
+ORD50295,03/24/2025,C1076,New,Midwest,Accessories,Wool Scarf,Online,75.56,1,0.0,10.17,75.56,0
+ORD50024,01/30/2025,C1055,Returning,Midwest,Beauty,Face Serum,Online,12.46,2,0.05,7.69,23.67,No
+ORD50408,03/31/2025,C1049,New,W,Accessories,Leather Belt,In-Store,65.13,2,0.2,0.0,104.21,no
+ORD50837,2025-02-22,C1011,VIP,W,Footwear,Running Shoes,Online,248.92,5,0.15,5.34,1057.91,No
+ORD50756,2025-09-11,C1120,Returning,S,Home,Ceramic Mug,Online,$13.53,2,0.05,6.99,25.71,No
+ORD50444,02/27/2025,C1092,Returning,West,Accessories,Tote Bag,Online,43.98,3,0.0,8.13,131.94,0
+ORD50518,2025-06-12,C1003,Returning,East,Accessories,Baseball Cap,Online,49.53,2,0.05,5.1,,No
+ORD50456,2025-03-29,C1143,Returning,East,Apparel,Classic Tee,Online,83.16,1,0.3,8.3,58.21,Y
+ORD50038,08/04/2025,C1122,New,East,Footwear,Running Shoes,Mobile App,140.47,1,0.0,4.66,140.47,No
+ORD50585,2025-03-05,C1056,Returning,East,Footwear,Canvas Sneakers,Online,179.84,1,0.2,11.83,,TRUE
+ORD50898,02/11/2025,C1114,New,Midwest,beauty,Bath Set,Mobile App,26.45,2,0.2,5.99,42.32,No
+ORD50344,2025-04-13,C1054,Returning,Midwest,Footwear,Leather Boots,In-Store,131.9,3,0.1,0.0,356.13,No
+ORD50703,2025-12-24,C1102,New,west,Footwear,Sandals,Mobile App,154.23,2,0.3,8.34,215.92,Yes
+ORD50218,2025-09-05,C1134,Returning,east,Apparel,Denim Jacket,In-Store,114.01,3,,0.0,290.73,No
+ORD50495,2025-10-13,C1147,Returning,East,Apparel,Wool Sweater,In-Store,113.8,2,0.2,0.0,182.08,N
+ORD50035,01/18/2025,C1001,Returning,midwest,Home,Cotton Throw,Online,66.46,2,0.1,3.54,119.63,N
+ORD50054,2025-02-24,C1057,Returning,South,Home,Throw Pillow,Online,26.71,2,0.0,3.75,53.42,Yes
+ORD50879,2025-12-31,C1030,Returning,South,Accessories ,Sunglasses,Mobile App,55.66,3,0.2,10.0,133.58,N
+ORD50881,2025-03-18,C1017,New,Midwest,Apparel,Wool Sweater,In-Store,51.86,1,0.15,0.0,44.08,No
+ORD50170,12/13/2025,C1004,New,S,Apparel,Summer Dress,In-Store,78.53,3,,0.0,235.59,No
+ORD50353,08/17/2025,C1168,New,south,footwear,Loafers,Online,64.33,1,0.0,4.72,64.33,0
+ORD50710,2025-06-07,C1009,Returning,West,Apparel,Summer Dress,Online,$27.63,2,0.1,11.04,,No
+ORD50195,2025-10-23,C1118,Returning,S,Home,Throw Pillow,In-Store,76.81,3,,0.0,,No
+ORD50101,01/16/2025,C1016,Returning,South,Footwear ,Canvas Sneakers,In-Store,76.04,3,0.05,0.0,216.71,no
+ORD50546,2025-04-08,C1127,New,south,Footwear,Loafers,Online,124.72,2,0.3,5.51,174.61,N
+ORD50519,2025-05-21,C1136,VIP,east,Footwear,Sandals,Online,193.71,4,0%,7.17,774.84,No
+ORD50430,08/25/2025,C1023,VIP,West,Apparel,Classic Tee,Online,$71.46,3,0.1,11.45,192.94,No
+ORD50219,09/08/2025,C1178,VIP,East,Footwear ,Canvas Sneakers,Online,171.27,2,0.1,11.39,308.29,Yes
+ORD50686,07/28/2025,C1005,VIP,South,Home,Wall Art,Mobile App,80.84,4,0.15,8.92,274.86,Yes
+ORD50812,2025-07-12,C1121,Returning,West,Home,Table Lamp,Online,50.57,1,0.0,3.72,50.57,No
+ORD50352,03/05/2025,C1127,New,South,Beauty,Hand Cream,Mobile App,12.21,2,0.05,7.81,23.2,Yes
+ORD50734,2025-06-05,C1006,Returning,East,Home,Throw Pillow,Mobile App,18.2,1,,6.72,10.92,No
+ORD50113,2025-07-30,C1166,Returning,Midwest,Beauty,Face Serum,Mobile App,37.43,2,0.05,,71.12,No
+ORD50700,2025-09-27,C1096,New,East,Beauty,Face Serum,In-Store,22.16,2,0.05,0.0,42.1,N
+ORD50913,04/07/2025,C1037,Returning,W,Beauty,Perfume,In-Store,64.83,2,0.2,0.0,103.73,TRUE
+ORD50804,2025-01-08,C1159,,Midwest,Home,Wall Art,Online,76.6,2,0.15,5.93,130.22,No
+ORD50355,2025-09-13,C1101,Returning,West,Beauty,Face Serum,Mobile App,$51.88,2,0.1,7.04,93.38,No
+ORD50114,2025-06-30,C1084,New,Midwest,Footwear,Running Shoes,Mobile App,67.05,2,0.1,6.97,120.69,No
+ORD50318,2025-12-22,C1078,Returning,West,Apparel,Summer Dress,In-Store,119.72,2,,0.0,143.66,No
+ORD50668,12/25/2025,C1173,VIP,East,Apparel,Chino Pants,Online,74.34,2,0.15,4.08,126.38,Yes
+ORD50109,2025-05-05,C1038,New,Midwest,Accessories,Wool Scarf,Online,65.96,1,0.0,7.09,65.96,no
+ORD50336,05/23/2025,C1134,Returning,East,Beauty,Face Serum,Mobile App,45.34,2,0.0,,90.68,No
+ORD50609,2025-08-17,C1049,New,West,Footwear,Running Shoes,In-Store,82.83,2,0.1,0.0,149.09,FALSE
+ORD50225,2025-05-08,C1017,New,midwest,Footwear,Loafers,Online,45.94,1,0.0,7.11,45.94,No
+ORD50848,2025-11-28,C1145,New,South,Home,Ceramic Mug,Online,76.91,2,0.1,10.28,138.44,No
+ORD50876,12/16/2025,C1076,,Midwest,Footwear,Canvas Sneakers,Mobile App,89.88,2,0.0,8.17,,No
+ORD50659,2025-09-17,C1113,Returning,West,Footwear,Sandals,In-Store,127.18,3,0.0,0.0,381.54,No
+ORD50655,08/09/2025,C1008,New,South,Home,Wall Art,In-Store,56.32,1,0.0,0.0,56.32,No
+ORD50393,2025-05-21,C1000,Returning,Midwest,home,Cotton Throw,In-Store,50.56,3,0.2,0.0,121.34,no
+ORD50836,01/15/2025,C1022,VIP,East,Footwear,Leather Boots,Online,92.48,5,0.0,5.82,462.4,Y
+ORD50148,2025-05-12,C1163,New,South,Footwear,Sandals,Online,78.19,1,0.0,5.51,,No
+ORD50129,2025-09-21,C1096,New,east,Beauty ,Perfume,Online,31.85,2,0.0,5.11,63.7,0
+ORD50778,2025-05-28,C1016,Returning,south,Footwear,Canvas Sneakers,Online,56.02,1,0.0,4.4,56.02,FALSE
+ORD50766,03/14/2025,C1007,Returning,West,Beauty,Lip Balm,In-Store,42.38,1,0.15,0.0,36.02,0
+ORD50041,2025-06-14,C1075,New,South,Beauty,Perfume,Online,39.75,2,0.2,6.27,63.6,N
+ORD50855,2025-05-10,C1112,,Midwest,Accessories,Tote Bag,In-Store,64.41,2,0.2,0.0,103.06,No
+ORD50581,2025-03-16,C1042,Returning,South,Accessories,Leather Belt,Online,69.47,1,0.0,7.64,69.47,N
+ORD50657,2025-04-24,C1061,Returning,south,Home,Wall Art,Online,16.01,2,0.0,4.1,32.02,No
+ORD50451,2025-06-04,C1089,Returning,W,Apparel,Classic Tee,Mobile App,38.62,2,0.0,5.17,77.24,No
+ORD50340,2025-12-18,C1118,Returning,South,Accessories,Sunglasses,Online,60.66,3,0.1,9.97,163.78,No
+ORD50288,2025-03-08,C1088,New,West,Beauty,Lip Balm,In-Store,13.86,2,0.05,0.0,26.33,0
+ORD50319,05/19/2025,C1070,New,South,Home,Table Lamp,In-Store,22.14,2,0.05,0.0,42.07,No
+ORD50455,04/29/2025,C1023,VIP,West,home,Throw Pillow,In-Store,62.08,3,0.0,0.0,186.24,No
+ORD50286,2025-07-29,C1166,,Midwest,Home,Wall Art,Online,69.55,1,0.2,7.35,55.64,0
+ORD50172,2025-04-05,C1098,New,Midwest,Home ,Table Lamp,Online,28.71,2,0.3,8.9,40.19,No
+ORD50055,09/26/2025,C1062,Returning,West,Apparel,Chino Pants,In-Store,93.89,1,0.15,0.0,79.81,No
+ORD50226,2025-01-18,C1158,,W,Footwear,Loafers,Online,99.64,3,0.05,5.69,283.97,no
+ORD50693,10/18/2025,C1156,New,West,Footwear ,Canvas Sneakers,In-Store,41.31,1,0.0,,41.31,0
+ORD50551,2025-12-03,C1096,New,east,Accessories,Baseball Cap,In-Store,31.08,2,0.05,0.0,59.05,No
+ORD50567,08/16/2025,C1159,Returning,Midwest,Home,Wall Art,Online,31.62,2,0.2,8.36,50.59,No
+ORD50464,2025-08-02,C1158,Returning,West,Footwear,,Online,130.6,2,0.0,,261.2,No
+ORD50003,06/24/2025,C1025,New,West,Beauty,Lip Balm,Online,49.48,2,,4.54,79.17,No
+ORD50611,06/24/2025,C1105,,East,Accessories,Tote Bag,Online,46.72,3,0.1,4.82,126.14,FALSE
+ORD50137,05/19/2025,C1022,,East,apparel,Wool Sweater,Online,88.3,2,,4.94,176.6,no
+ORD50059,01/19/2025,C1107,New,East,Apparel,Summer Dress,In-Store,49.1,2,0.1,0.0,88.38,No
+ORD50422,12/22/2025,C1039,Returning,East,Home,Ceramic Mug,Online,66.11,3,0.15,4.27,,No
+ORD50018,02/16/2025,C1165,New,S,accessories,Baseball Cap,Online,74.99,2,0.2,4.48,119.98,No
+ORD50063,2025-08-24,C1068,New,east,Accessories,Leather Belt,In-Store,69.84,2,0.1,0.0,125.71,N
+ORD50775,09/13/2025,C1064,Returning,South,Home,Table Lamp,Mobile App,42.16,4,0.3,8.61,118.05,No
+ORD50711,01/14/2025,C1133,New,East,Footwear ,Sandals,Online,61.63,2,0.2,5.42,98.61,FALSE
+ORD50154,2025-03-13,C1000,Returning,Midwest,Apparel,Chino Pants,Online,41.67,1,0.3,9.26,29.17,No
+ORD50014,2025-08-25,C1023,,W,Apparel,Classic Tee,In-Store,71.1,4,0.1,0.0,255.96,No
+ORD50539,2025-06-13,C1055,Returning,Midwest,Apparel,Summer Dress,Online,87.71,1,0.0,4.16,87.71,No
+ORD50818,2025-09-01,C1166,,Midwest,Home,Ceramic Mug,In-Store,31.06,3,0.15,0.0,,N
+ORD50484,2025-12-23,C1134,Returning,East,Apparel,Denim Jacket,In-Store,45.75,2,10%,0.0,82.35,No
+ORD50057,2025-02-14,C1178,VIP,East,Apparel,Summer Dress,Online,185.07,2,0.2,8.06,296.11,N
+ORD50184,2025-01-27,C1060,Returning,Midwest,Accessories ,Wool Scarf,Online,87.16,2,0.0,3.5,174.32,No
+ORD50631,2025-09-13,C1130,New,East,Accessories,Sunglasses,Online,87.0,1,0.05,7.66,82.65,0
+ORD50474,2025-02-06,C1124,New,Midwest,footwear,Running Shoes,In-Store,75.0,1,0.05,0.0,,No
+ORD50803,2025-07-05,C1139,New,MW,Apparel,Classic Tee,Online,40.02,2,0.1,6.73,72.04,No
+ORD50568,2025-05-05,C1158,Returning,W,Apparel,Denim Jacket,Online,45.59,3,,11.5,129.93,no
+ORD50223,06/24/2025,C1161,VIP,Midwest,Footwear,Running Shoes,Mobile App,211.78,5,0.0,10.05,1058.9,No
+ORD50577,05/31/2025,C1054,Returning,Midwest,Beauty,Perfume,Online,22.32,2,0.0,8.88,44.64,N
+ORD50185,2025-06-14,C1116,Returning,Midwest,Home,Table Lamp,In-Store,61.88,3,0.0,0.0,185.64,No
+ORD50379,2025-07-10,C1079,Returning,south,Footwear,Loafers,Mobile App,137.81,2,0.0,4.14,,FALSE
+ORD50897,2025-12-12,C1162,New,midwest,Accessories,Sunglasses,Online,19.1,1,,5.38,13.37,FALSE
+ORD50685,2025-10-14,C1076,New,Midwest,Beauty ,Face Serum,In-Store,41.98,3,0.0,0.0,125.94,No
+ORD50597,2025-07-24,C1057,Returning,S,Beauty,Lip Balm,Mobile App,55.92,2,0.05,9.1,106.25,No
+ORD50068,2025-06-24,C1093,New,South,Accessories,Wool Scarf,In-Store,18.39,1,0.3,0.0,12.87,No
+ORD50030,2025-09-14,C1158,Returning,West,Home,Table Lamp,Mobile App,73.43,2,0.15,4.47,124.83,No
+ORD50048,01/01/2025,C1074,New,west,Apparel,Summer Dress,Online,73.28,1,,10.65,69.62,FALSE
+ORD50591,2025-10-31,C1052,,Midwest,Footwear,Running Shoes,Online,88.11,3,40%,9.36,158.6,FALSE
+ORD50526,12/25/2025,C1135,New,East,Apparel,Chino Pants,Online,79.71,2,,10.71,127.54,N
+ORD50436,08/27/2025,C1067,New,East,Home,Wall Art,Online,28.07,1,0.0,6.82,28.07,No
+ORD50787,2025-06-25,C1078,Returning,West,home,Throw Pillow,Mobile App,41.63,1,0.0,9.11,41.63,No
+ORD50473,2025-07-05,C1030,Returning,South,Footwear,Sandals,Online,114.06,3,0.05,3.77,325.07,no
+ORD50266,2025-02-08,C1144,Returning,Midwest,Apparel,Summer Dress,Online,82.82,3,0.0,11.01,248.46,no
+ORD50338,2025-07-04,C1048,Returning,S,Accessories,Tote Bag,Mobile App,33.34,3,0.05,5.05,95.02,No
+ORD50790,2025-06-25,C1022,VIP,East,home,Table Lamp,Mobile App,43.94,4,0.0,7.7,175.76,N
+ORD50303,02/03/2025,C1114,New,Midwest,Footwear,Leather Boots,In-Store,136.86,1,0.1,0.0,123.17,No
+ORD50478,2025-04-18,C1100,VIP,West,Home,Cotton Throw,In-Store,119.58,5,0.05,0.0,568.0,No
+ORD50795,02/21/2025,C1002,,East,Accessories,Sunglasses,Online,62.19,5,0.0,,310.95,Y
+ORD50429,2025-04-29,C1148,Returning,S,Accessories,Leather Belt,In-Store,63.98,2,0.05,0.0,,No
+ORD50253,2025-02-11,C1008,New,South,Home,Throw Pillow,In-Store,15.05,2,0.0,0.0,30.1,No
+ORD50911,10/11/2025,C1162,New,Midwest,Beauty,Bath Set,In-Store,17.99,2,0.05,0.0,34.18,No
+ORD50793,2025-01-08,C1068,New,east,footwear,Running Shoes,Online,99.35,1,0.0,9.89,99.35,No
+ORD50330,02/18/2025,C1037,Returning,West,Beauty,Bath Set,In-Store,55.61,1,0.0,0.0,55.61,No
+ORD50238,11/29/2025,C1178,VIP,east,Beauty,Bath Set,Online,44.21,4,0.25,10.89,,No
+ORD50739,2025-06-17,C1015,New,West,Beauty,Face Serum,Mobile App,37.76,2,,9.62,75.52,No
+ORD50087,2025-04-13,C1051,New,East,Home,Cotton Throw,In-Store,25.77,2,0.15,0.0,,No
+ORD50108,2025-10-10,C1116,Returning,Midwest,Apparel ,Summer Dress,In-Store,69.65,3,0.3,0.0,,N
+ORD50134,2025-10-26,C1039,Returning,East,Accessories,Baseball Cap,Online,88.29,3,0.0,4.04,264.87,FALSE
+ORD50614,2025-05-20,C1133,New,East,home,Throw Pillow,Mobile App,77.12,1,,4.45,73.26,Yes
+ORD50214,12/27/2025,C1174,New,East,Footwear,Loafers,Online,160.33,2,0.15,8.01,272.56,no
+ORD50560,2025-10-28,C1028,New,West,beauty,Hand Cream,Online,25.12,2,0.05,9.08,47.73,No
+ORD50562,2025-09-24,C1093,New,South,Home,Table Lamp,In-Store,13.58,2,0.2,0.0,21.73,N
+ORD50743,2025-11-05,C1011,VIP,West,Home ,Table Lamp,Online,$70.57,5,0.2,5.07,282.28,No
+ORD50707,2025-07-27,C1166,Returning,Midwest,Apparel,Wool Sweater,Online,68.32,2,0.0,10.95,136.64,No
+ORD50786,2025-12-08,C1045,Returning,Midwest,home,Wall Art,Online,44.44,3,0.2,7.84,106.66,No
+ORD50765,2025-03-09,C1067,New,East,Accessories,Baseball Cap,In-Store,39.52,2,0.2,0.0,63.23,no
+ORD50462,2025-04-07,C1032,New,West,Accessories,Wool Scarf,Online,77.11,1,0.3,10.3,53.98,No
+ORD50658,2025-04-21,C1154,New,West,Home ,Throw Pillow,Online,29.85,1,0.1,10.27,26.87,No
+ORD50158,03/05/2025,C1035,New,South,Footwear,Canvas Sneakers,In-Store,160.65,1,0.15,,136.55,No
+ORD50249,2025-02-02,C1084,New,Midwest,Footwear,Canvas Sneakers,In-Store,151.37,2,0.4,0.0,,Yes
+ORD50545,2025-07-26,C1062,Returning,West,Accessories,Leather Belt,In-Store,55.73,3,0.0,0.0,167.19,No
+ORD50467,2025-01-27,C1078,Returning,W,apparel,Classic Tee,In-Store,55.7,1,0.15,0.0,47.34,N
+ORD50155,2025-10-24,C1179,Returning,South,Apparel,Summer Dress,Online,51.24,3,0.05,5.65,146.03,no
+ORD50097,07/08/2025,C1053,Returning,South,Footwear,Canvas Sneakers,Online,47.2,3,0.15,10.48,120.36,No
+ORD50689,10/14/2025,C1086,Returning,West,Beauty,Face Serum,In-Store,14.67,2,0.05,0.0,27.87,0
+ORD50842,2025-10-19,C1048,Returning,South,Apparel,Summer Dress,Online,78.98,3,,9.27,236.94,No
+ORD50677,10/15/2025,C1146,New,Midwest,Accessories,Baseball Cap,Online,66.8,2,0.0,8.82,133.6,N
+ORD50141,11/24/2025,C1129,Returning,West,Home,,Mobile App,$41.12,2,10%,9.21,74.02,FALSE
+ORD50622,2025-11-06,C1053,Returning,South,Apparel,Chino Pants,In-Store,96.13,4,0.15,0.0,326.84,No
+ORD50343,2025-01-20,C1172,New,East,Home,Ceramic Mug,Online,57.97,2,0.1,11.47,104.35,No
+ORD50143,2025-10-24,C1095,Returning,East,Home ,Ceramic Mug,In-Store,20.92,2,,0.0,35.56,No
+ORD50271,2025-08-17,C1170,New,South,Home,Cotton Throw,In-Store,$54.17,3,0.0,0.0,162.51,No
+ORD50354,11/12/2025,C1103,VIP,West,Apparel,Denim Jacket,In-Store,42.21,3,0.15,0.0,107.64,No
+ORD50669,12/30/2025,C1121,Returning,West,Beauty,Perfume,Online,58.49,4,0.3,11.03,163.77,No
+ORD50690,2025-07-13,C1004,New,South,Home,Ceramic Mug,In-Store,69.17,2,0.0,0.0,138.34,No
+ORD50186,2025-01-12,C1174,New,East,Home,Throw Pillow,Online,34.18,1,15%,11.2,29.05,No
+ORD50005,06/15/2025,C1092,Returning,West,Home,Cotton Throw,Mobile App,19.52,2,0.0,4.4,39.04,No
+ORD50852,09/09/2025,C1115,VIP,Midwest,Apparel,Denim Jacket,In-Store,132.78,3,,0.0,378.42,No
+ORD50001,03/18/2025,C1120,Returning,South,Footwear,Sandals,Online,146.75,3,0.05,4.84,418.24,N
+ORD50604,2025-09-04,C1037,Returning,West,Footwear,Canvas Sneakers,In-Store,64.1,3,0.0,0.0,192.3,Yes
+ORD50359,03/28/2025,C1020,Returning,South,Accessories,Sunglasses,Online,27.32,1,0.3,6.52,19.12,N
+ORD50853,2025-04-09,C1055,,MW,Apparel,Summer Dress,In-Store,108.97,1,5%,0.0,103.52,No
+ORD50738,05/24/2025,C1130,New,East,apparel,Chino Pants,Online,96.24,2,0.15,6.81,163.61,No
+ORD50652,01/26/2025,C1053,Returning,South,accessories,Tote Bag,In-Store,47.0,2,0.1,0.0,,Yes
+ORD50802,2025-03-30,C1152,New,south,Footwear,Sandals,In-Store,140.01,1,0.1,0.0,126.01,No
+ORD50366,03/11/2025,C1006,,East,Footwear,Running Shoes,In-Store,89.38,2,0.05,0.0,169.82,No
+ORD50817,2025-06-24,C1119,Returning,South,Home,Ceramic Mug,In-Store,52.99,999,,0.0,,No
+ORD50498,2025-01-25,C1046,New,west,Apparel,Classic Tee,Online,73.57,2,0.0,5.49,147.14,No
+ORD50166,11/10/2025,C1071,New,Midwest,Home,Cotton Throw,In-Store,28.78,2,0.2,0.0,46.05,FALSE
+ORD50411,2025-04-12,C1063,Returning,East,Footwear,Leather Boots,Online,160.28,1,0.0,,160.28,No
+ORD50639,2025-12-31,C1015,New,West,Footwear,Running Shoes,Mobile App,91.26,1,0.2,9.84,73.01,no
+ORD50307,06/02/2025,C1007,Returning,West,Apparel,Wool Sweater,In-Store,51.84,2,0.05,,98.5,no
+ORD50504,03/21/2025,C1084,New,Midwest,beauty,Hand Cream,Online,26.68,2,0.15,5.21,45.36,0
+ORD50151,2025-01-30,C1081,New,Midwest,Accessories,Wool Scarf,Online,77.75,2,,11.96,132.17,No
+ORD50209,10/07/2025,C1145,New,South,Footwear ,Loafers,Online,123.09,3,0.05,4.35,,No
+ORD50583,2025-10-15,C1078,Returning,West,Footwear,Sandals,Online,43.57,2,0.2,7.96,69.71,Yes
+ORD50311,2025-10-04,C1044,Returning,West,Apparel,Denim Jacket,Online,47.09,2,15%,6.73,80.05,No
+ORD50416,2025-03-09,C1123,New,East,Accessories,Leather Belt,In-Store,21.92,2,0.05,0.0,41.65,no
+ORD50258,2025-03-14,C1167,Returning,W,Apparel ,Chino Pants,In-Store,90.73,3,0.2,0.0,,No
+ORD50887,2025-01-15,C1001,Returning,midwest,Home,Throw Pillow,Mobile App,52.67,2,0.05,6.79,100.07,No
+ORD50777,2025-09-04,C1045,Returning,Midwest,Home,Table Lamp,Mobile App,66.63,2,5%,5.77,126.6,N

@@ -1,0 +1,100 @@
+ReturnID,OrderID,ProductCategory,Channel,ReturnReason,RefundAmount,RestockedFlag
+RET7000,ORD50864,Apparel,Mobile App,Changed mind,91.12,N
+RET7001,ORD50889,Footwear,Online,Wrong size / poor fit,277.97,N
+RET7002,ORD50118,Apparel,Mobile App,Not as described,263.75,N
+RET7003,ORD50194,Beauty,Online,Damaged in transit,32.64,Y
+RET7004,ORD50769,Accessories,Mobile App,Wrong size / poor fit,26.85,N
+RET7005,ORD50046,Footwear,In-Store,Defective,99.09,N
+RET7006,ORD50031,Accessories,Mobile App,Defective,95.9,Y
+RET7007,ORD50121,Accessories,Mobile App,Wrong size / poor fit,38.62,Y
+RET7008,ORD50671,Home,Mobile App,Wrong size / poor fit,95.35,Y
+RET7009,ORD50783,Footwear,Online,Not as described,365.19,N
+RET7010,ORD50450,Footwear,In-Store,Wrong size / poor fit,159.89,Y
+RET7011,ORD50302,Footwear,Online,Changed mind,205.85,Y
+RET7012,ORD50648,Footwear,Mobile App,Wrong size / poor fit,162.62,N
+RET7013,ORD50362,Footwear,Online,Wrong size / poor fit,71.62,N
+RET7014,ORD50688,Footwear,Mobile App,Changed mind,128.81,N
+RET7015,ORD50832,Accessories,In-Store,Wrong size / poor fit,52.03,N
+RET7016,ORD50313,Footwear,Online,Late delivery,152.61,Y
+RET7017,ORD50161,Footwear,Mobile App,Wrong size / poor fit,53.71,Y
+RET7018,ORD50361,Accessories,Online,Damaged in transit,144.62,N
+RET7019,ORD50600,Apparel,In-Store,Defective,82.01,N
+RET7020,ORD50252,Accessories,Mobile App,Wrong size / poor fit,63.07,N
+RET7021,ORD50324,Apparel,Online,Damaged in transit,292.6,Y
+RET7022,ORD50868,Beauty,Online,Wrong size / poor fit,57.72,N
+RET7023,ORD50811,Apparel,Online,Not as described,46.81,Y
+RET7024,ORD50064,Beauty,Online,Changed mind,25.83,Y
+RET7025,ORD50493,Accessories,Mobile App,Defective,274.95,N
+RET7026,ORD50175,Apparel,Online,Wrong size / poor fit,18.83,Y
+RET7027,ORD50088,Footwear,Online,Not as described,511.56,Y
+RET7028,ORD50123,Footwear,Mobile App,Wrong size / poor fit,111.85,N
+RET7029,ORD50085,Apparel,In-Store,Wrong size / poor fit,72.13,Y
+RET7030,ORD50641,Apparel,Mobile App,Changed mind,226.15,Y
+RET7031,ORD50483,Home,In-Store,Damaged in transit,15.7,N
+RET7032,ORD50870,Footwear,Mobile App,Wrong size / poor fit,190.78,Y
+RET7033,ORD50260,Beauty,In-Store,Defective,13.89,N
+RET7034,ORD50716,Beauty,Mobile App,Wrong size / poor fit,36.9,N
+RET7035,ORD50102,Footwear,In-Store,Not as described,64.63,N
+RET7036,ORD50706,Beauty,Mobile App,Wrong size / poor fit,42.14,N
+RET7037,ORD50300,Accessories,Online,Damaged in transit,165.57,N
+RET7038,ORD50320,Beauty,Mobile App,Damaged in transit,20.25,N
+RET7039,ORD50350,Apparel,Mobile App,Wrong size / poor fit,58.51,N
+RET7040,ORD50294,Apparel,In-Store,Not as described,163.74,N
+RET7041,ORD50826,Apparel,Mobile App,Damaged in transit,55.43,Y
+RET7042,ORD50501,Footwear,Mobile App,Wrong size / poor fit,206.93,Y
+RET7043,ORD50603,Home,Mobile App,Defective,9.16,N
+RET7044,ORD50496,Accessories,Online,Damaged in transit,31.5,N
+RET7045,ORD50606,Footwear,Online,Defective,105.95,N
+RET7046,ORD50509,Accessories,Online,Defective,53.85,N
+RET7047,ORD50814,Footwear,In-Store,Damaged in transit,239.92,N
+RET7048,ORD50886,Accessories,Mobile App,Late delivery,110.91,Y
+RET7049,ORD50368,Home,Online,Not as described,25.06,N
+RET7050,ORD50432,Home,In-Store,Late delivery,110.53,N
+RET7051,ORD50595,Footwear,Mobile App,Wrong size / poor fit,203.85,N
+RET7052,ORD50006,Home,Mobile App,Wrong size / poor fit,101.17,Y
+RET7053,ORD50233,Accessories,Mobile App,Wrong size / poor fit,35.67,N
+RET7054,ORD50025,Footwear,In-Store,Wrong size / poor fit,837.08,N
+RET7055,ORD50737,Apparel,Online,Not as described,57.1,N
+RET7056,ORD50067,Footwear,Mobile App,Defective,100.23,Y
+RET7057,ORD50254,Footwear,Online,Not as described,426.24,Y
+RET7058,ORD50439,Footwear,Online,Wrong size / poor fit,31.05,N
+RET7059,ORD50381,Footwear,In-Store,Changed mind,195.82,Y
+RET7060,ORD50727,Accessories,Online,Late delivery,73.12,N
+RET7061,ORD50893,Accessories,Online,Defective,149.08,Y
+RET7062,ORD50917,Home,Online,Wrong size / poor fit,236.95,Y
+RET7063,ORD50838,Accessories,Online,Damaged in transit,79.28,N
+RET7064,ORD50569,Beauty,Mobile App,Wrong size / poor fit,114.01,Y
+RET7065,ORD50410,Accessories,Mobile App,Wrong size / poor fit,16.44,Y
+RET7066,ORD50758,Accessories,Mobile App,Wrong size / poor fit,165.1,N
+RET7067,ORD50093,Apparel,Online,Not as described,112.2,Y
+RET7068,ORD50543,Footwear,Online,Wrong size / poor fit,74.19,N
+RET7069,ORD50751,Apparel,Online,Late delivery,61.06,Y
+RET7070,ORD50699,Home,In-Store,Damaged in transit,46.4,Y
+RET7071,ORD50229,Footwear,In-Store,Changed mind,137.79,Y
+RET7072,ORD50861,Home,Mobile App,Not as described,63.56,Y
+RET7073,ORD50522,Home,Online,Defective,205.17,Y
+RET7074,ORD50649,Home,Mobile App,Wrong size / poor fit,23.59,N
+RET7075,ORD50701,Accessories,In-Store,Changed mind,126.54,N
+RET7076,ORD50831,Apparel,Mobile App,Not as described,45.31,Y
+RET7077,ORD50386,Home,In-Store,Late delivery,88.78,N
+RET7078,ORD50323,Apparel,In-Store,Wrong size / poor fit,72.47,N
+RET7079,ORD50565,Accessories,Mobile App,Wrong size / poor fit,57.19,N
+RET7080,ORD50859,Footwear,In-Store,Wrong size / poor fit,145.2,Y
+RET7081,ORD50860,Accessories,Mobile App,Wrong size / poor fit,81.27,Y
+RET7082,ORD50684,Apparel,Mobile App,Wrong size / poor fit,48.04,N
+RET7083,ORD50159,Footwear,In-Store,Wrong size / poor fit,118.63,N
+RET7084,ORD50810,Footwear,Online,Wrong size / poor fit,384.59,Y
+RET7085,ORD50561,Home,Mobile App,Wrong size / poor fit,47.24,N
+RET7086,ORD50456,Apparel,Online,Wrong size / poor fit,54.53,Y
+RET7087,ORD50703,Footwear,Mobile App,Wrong size / poor fit,210.81,Y
+RET7088,ORD50054,Home,Online,Wrong size / poor fit,46.45,N
+RET7089,ORD50219,Footwear,Online,Wrong size / poor fit,285.76,N
+RET7090,ORD50686,Home,Mobile App,Wrong size / poor fit,259.19,Y
+RET7091,ORD50352,Beauty,Mobile App,Wrong size / poor fit,22.8,N
+RET7092,ORD50913,Beauty,In-Store,Changed mind,89.68,N
+RET7093,ORD50668,Apparel,Online,Not as described,123.08,Y
+RET7094,ORD50836,Footwear,Online,Damaged in transit,419.13,N
+RET7095,ORD50795,Accessories,Online,Damaged in transit,273.21,N
+RET7096,ORD50614,Home,Mobile App,Changed mind,70.49,Y
+RET7097,ORD50604,Footwear,In-Store,Changed mind,176.61,N
+RET7098,ORD50583,Footwear,Online,Defective,67.76,N

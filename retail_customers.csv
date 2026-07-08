@@ -1,0 +1,180 @@
+CustomerID,CustomerSegment,AcquisitionChannel,SignupYear,LoyaltyTier
+C1000,Returning,Paid Social,2025,Gold
+C1001,Returning,Email,2024,Bronze
+C1002,VIP,Referral,2023,Bronze
+C1003,Returning,Organic,2023,Bronze
+C1004,New,Email,2024,Bronze
+C1005,VIP,Referral,2024,Silver
+C1006,Returning,Organic,2023,Bronze
+C1007,Returning,Organic,2024,Bronze
+C1008,New,Email,2025,Bronze
+C1009,Returning,Email,2023,Gold
+C1010,New,Referral,2023,Gold
+C1011,VIP,Email,2023,Gold
+C1012,Returning,Organic,2025,Bronze
+C1013,Returning,Email,2024,Bronze
+C1014,Returning,Email,2024,Silver
+C1015,New,Email,2025,Silver
+C1016,Returning,Referral,2025,Silver
+C1017,New,Organic,2024,Bronze
+C1018,Returning,Referral,2023,Gold
+C1019,Returning,Organic,2024,Gold
+C1020,Returning,Email,2024,Bronze
+C1021,New,Referral,2024,Silver
+C1022,VIP,Email,2023,Gold
+C1023,VIP,Organic,2024,Gold
+C1024,Returning,Paid Social,2024,Bronze
+C1025,New,Organic,2025,Bronze
+C1026,Returning,Referral,2023,Bronze
+C1027,New,Email,2023,Silver
+C1028,New,Paid Social,2025,Bronze
+C1029,Returning,Organic,2024,Bronze
+C1030,Returning,Referral,2023,Bronze
+C1031,VIP,Referral,2024,Gold
+C1032,New,Paid Social,2024,Silver
+C1033,New,Organic,2023,Bronze
+C1034,Returning,Email,2023,Silver
+C1035,New,Paid Social,2024,Silver
+C1036,New,Organic,2024,Silver
+C1037,Returning,Organic,2024,Silver
+C1038,New,Organic,2024,Bronze
+C1039,Returning,Organic,2024,Silver
+C1040,Returning,Organic,2024,Silver
+C1041,Returning,Organic,2024,Silver
+C1042,Returning,Organic,2025,Silver
+C1043,New,Paid Social,2024,Bronze
+C1044,Returning,Organic,2025,Bronze
+C1045,Returning,Organic,2024,Silver
+C1046,New,Organic,2024,Bronze
+C1047,New,Paid Social,2023,Bronze
+C1048,Returning,Paid Social,2024,Bronze
+C1049,New,Paid Social,2024,Gold
+C1050,New,Email,2024,Bronze
+C1051,New,Email,2024,Silver
+C1052,Returning,Email,2025,Bronze
+C1053,Returning,Organic,2023,Bronze
+C1054,Returning,Referral,2025,Bronze
+C1055,Returning,Referral,2024,Bronze
+C1056,Returning,Organic,2023,Bronze
+C1057,Returning,Referral,2025,Bronze
+C1058,New,Organic,2025,Bronze
+C1059,New,Paid Social,2024,Bronze
+C1060,Returning,Referral,2024,Silver
+C1061,Returning,Email,2024,Bronze
+C1062,Returning,Organic,2023,Gold
+C1063,Returning,Email,2024,Bronze
+C1064,Returning,Email,2024,Silver
+C1065,Returning,Referral,2023,Bronze
+C1066,Returning,Email,2025,Bronze
+C1067,New,Referral,2024,Silver
+C1068,New,Email,2025,Bronze
+C1069,Returning,Email,2024,Bronze
+C1070,New,Paid Social,2024,Silver
+C1071,New,Paid Social,2023,Bronze
+C1072,VIP,Referral,2023,Gold
+C1074,New,Paid Social,2023,Bronze
+C1075,New,Paid Social,2023,Bronze
+C1076,New,Paid Social,2023,Silver
+C1077,Returning,Email,2024,Bronze
+C1078,Returning,Organic,2025,Bronze
+C1079,Returning,Paid Social,2025,Silver
+C1080,Returning,Email,2024,Silver
+C1081,New,Email,2023,Gold
+C1082,Returning,Paid Social,2023,Bronze
+C1083,New,Paid Social,2025,Gold
+C1084,New,Referral,2024,Silver
+C1085,New,Organic,2024,Gold
+C1086,Returning,Organic,2024,Bronze
+C1087,Returning,Email,2024,Silver
+C1088,New,Paid Social,2025,Silver
+C1089,Returning,Email,2023,Bronze
+C1090,New,Paid Social,2024,Bronze
+C1091,Returning,Paid Social,2023,Silver
+C1092,Returning,Referral,2025,Bronze
+C1093,New,Paid Social,2025,Bronze
+C1094,New,Paid Social,2025,Silver
+C1095,Returning,Email,2023,Gold
+C1096,New,Paid Social,2024,Bronze
+C1097,New,Email,2023,Bronze
+C1098,New,Paid Social,2024,Silver
+C1099,VIP,Email,2023,Silver
+C1100,VIP,Paid Social,2025,Gold
+C1101,Returning,Email,2024,Bronze
+C1102,New,Email,2023,Silver
+C1103,VIP,Organic,2024,Gold
+C1104,Returning,Organic,2024,Silver
+C1105,Returning,Organic,2023,Gold
+C1106,Returning,Referral,2023,Silver
+C1107,New,Paid Social,2024,Silver
+C1108,New,Paid Social,2023,Bronze
+C1109,VIP,Referral,2023,Silver
+C1110,Returning,Email,2023,Bronze
+C1111,New,Paid Social,2023,Silver
+C1112,New,Referral,2023,Bronze
+C1113,Returning,Organic,2023,Bronze
+C1114,New,Email,2024,Silver
+C1115,VIP,Referral,2023,Gold
+C1116,Returning,Paid Social,2025,Bronze
+C1117,Returning,Organic,2024,Silver
+C1118,Returning,Email,2023,Silver
+C1119,Returning,Organic,2024,Gold
+C1120,Returning,Email,2023,Bronze
+C1121,Returning,Email,2023,Bronze
+C1122,New,Referral,2024,Silver
+C1123,New,Paid Social,2024,Silver
+C1124,New,Organic,2025,Bronze
+C1125,Returning,Email,2024,Bronze
+C1126,New,Paid Social,2024,Silver
+C1127,New,Paid Social,2024,Silver
+C1128,New,Paid Social,2023,Bronze
+C1129,Returning,Organic,2024,Bronze
+C1130,New,Paid Social,2025,Gold
+C1131,VIP,Referral,2023,Silver
+C1132,Returning,Email,2025,Gold
+C1133,New,Paid Social,2024,Bronze
+C1134,Returning,Organic,2025,Bronze
+C1135,New,Paid Social,2024,Bronze
+C1136,VIP,Referral,2024,Silver
+C1137,Returning,Email,2024,Gold
+C1138,Returning,Referral,2023,Silver
+C1139,New,Paid Social,2025,Bronze
+C1140,Returning,Paid Social,2023,Bronze
+C1141,Returning,Referral,2024,Bronze
+C1142,VIP,Email,2023,Silver
+C1143,Returning,Email,2023,Bronze
+C1144,Returning,Organic,2024,Bronze
+C1145,New,Paid Social,2023,Bronze
+C1146,New,Email,2023,Bronze
+C1147,Returning,Referral,2024,Silver
+C1148,Returning,Paid Social,2024,Silver
+C1149,New,Paid Social,2023,Bronze
+C1150,Returning,Organic,2025,Bronze
+C1151,VIP,Email,2024,Silver
+C1152,New,Paid Social,2025,Silver
+C1153,Returning,Email,2025,Bronze
+C1154,New,Paid Social,2024,Gold
+C1155,Returning,Email,2025,Silver
+C1156,New,Paid Social,2024,Bronze
+C1157,Returning,Organic,2024,Silver
+C1158,Returning,Paid Social,2023,Silver
+C1159,Returning,Organic,2025,Silver
+C1160,New,Referral,2023,Bronze
+C1161,VIP,Referral,2025,Gold
+C1162,New,Paid Social,2025,Bronze
+C1163,New,Paid Social,2025,Bronze
+C1164,Returning,Organic,2024,Bronze
+C1165,New,Paid Social,2023,Silver
+C1166,Returning,Organic,2024,Silver
+C1167,Returning,Email,2023,Bronze
+C1168,New,Paid Social,2025,Bronze
+C1169,VIP,Referral,2024,Gold
+C1170,New,Paid Social,2023,Silver
+C1171,Returning,Referral,2023,Silver
+C1172,New,Paid Social,2024,Bronze
+C1173,VIP,Email,2023,Silver
+C1174,New,Organic,2024,Bronze
+C1175,New,Organic,2023,Gold
+C1176,Returning,Email,2023,Bronze
+C1177,VIP,Organic,2025,Silver
+C1178,VIP,Referral,2024,Gold
+C1179,Returning,Paid Social,2023,Bronze
