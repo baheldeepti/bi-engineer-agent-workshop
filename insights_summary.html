@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clean Data Insights — Retail Sales FY2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#17242E;
+    --paper:#F5F6F3;
+    --card:#FFFFFF;
+    --line:#DCE2DF;
+    --line-strong:#C3CBC7;
+    --muted:#6B7A82;
+    --rev:#0F766E;        /* revenue / money */
+    --rev-soft:#E4EEEC;
+    --ret:#B4472E;        /* returns / risk */
+    --ret-soft:#F4E5DF;
+    --neutral:#4C5A62;
+    --neutral-soft:#E7EAE8;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px 72px;}
+
+  /* ---------- header ---------- */
+  header{border-top:3px solid var(--rev);padding:40px 0 28px;}
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);margin:0 0 16px;
+  }
+  h1{
+    font-family:"Instrument Serif",serif;font-weight:400;
+    font-size:clamp(38px,6vw,64px);line-height:1.02;letter-spacing:-.01em;
+    margin:0 0 18px;max-width:16ch;
+  }
+  h1 em{font-style:italic;color:var(--rev);}
+  .meta{
+    display:flex;flex-wrap:wrap;gap:10px 26px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--neutral);
+    padding-top:6px;border-top:1px solid var(--line);margin-top:8px;
+  }
+  .meta b{color:var(--ink);font-weight:600;}
+
+  /* ---------- hero correction ---------- */
+  .hero{
+    margin-top:32px;background:var(--ink);color:#EEF2F0;border-radius:6px;
+    padding:34px 36px;display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center;
+  }
+  .hero .tag{
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.16em;
+    text-transform:uppercase;color:#8FB9B2;margin:0 0 14px;
+  }
+  .hero h2{font-family:"Instrument Serif",serif;font-weight:400;font-size:30px;line-height:1.12;margin:0 0 14px;}
+  .hero p{margin:0;color:#B9C4C1;font-size:14.5px;max-width:42ch;}
+  .swap{display:flex;flex-direction:column;gap:6px;}
+  .swap .lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#8492A0;}
+  .swap .fake{
+    font-family:"IBM Plex Mono",monospace;font-size:22px;color:#93A0A8;
+    text-decoration:line-through;text-decoration-color:var(--ret);text-decoration-thickness:2px;
+  }
+  .swap .arrow{color:#6E7E86;font-size:15px;margin:2px 0;}
+  .swap .real{font-family:"Instrument Serif",serif;font-size:52px;line-height:1;color:#5FD0BF;}
+  .swap .real small{font-family:"IBM Plex Mono",monospace;font-size:12px;color:#8FB9B2;display:block;letter-spacing:.04em;margin-top:8px;}
+
+  /* ---------- section ---------- */
+  .sec-label{
+    display:flex;align-items:baseline;gap:14px;margin:56px 0 22px;
+  }
+  .sec-label .n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--rev);letter-spacing:.1em;}
+  .sec-label h3{font-family:"Instrument Serif",serif;font-weight:400;font-size:26px;margin:0;letter-spacing:-.01em;}
+  .sec-label .rule{flex:1;height:1px;background:var(--line);}
+
+  /* ---------- card grid ---------- */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:6px;
+    padding:22px 24px 20px;display:flex;flex-direction:column;
+  }
+  .card .kicker{
+    display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4px;
+  }
+  .card .kicker span{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+  .card h4{font-family:"IBM Plex Sans";font-weight:600;font-size:16.5px;margin:2px 0 18px;letter-spacing:-.01em;}
+
+  table{width:100%;border-collapse:collapse;font-size:14px;}
+  table td{padding:7px 0;vertical-align:middle;}
+  .rk{width:1%;white-space:nowrap;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);padding-right:12px;}
+  .nm{white-space:nowrap;padding-right:14px;font-weight:500;}
+  .barcell{width:99%;}
+  .bar-track{background:var(--neutral-soft);border-radius:3px;height:9px;position:relative;overflow:hidden;}
+  .bar{height:100%;border-radius:3px;width:0;transition:width 1s cubic-bezier(.22,.61,.36,1);}
+  .bar.rev{background:var(--rev);}
+  .bar.ret{background:var(--ret);}
+  .bar.neu{background:var(--neutral);}
+  .loaded .bar{width:var(--w);}
+  .val{width:1%;white-space:nowrap;text-align:right;font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:500;padding-left:16px;}
+  .sub{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted);text-align:right;display:block;font-weight:400;}
+
+  .takeaway{
+    margin-top:18px;padding-top:14px;border-top:1px solid var(--line);
+    font-size:13.5px;color:var(--neutral);line-height:1.5;
+  }
+  .takeaway b{color:var(--ink);font-weight:600;}
+  .takeaway .flag{color:var(--ret);font-weight:600;}
+
+  /* two-row compare card */
+  .compare td{padding:10px 0;}
+  .compare .big{font-family:"Instrument Serif",serif;font-size:34px;}
+
+  footer{
+    margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);line-height:1.7;
+  }
+  footer b{color:var(--neutral);font-weight:600;}
+
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr;gap:24px;padding:26px 22px;}
+    .grid{grid-template-columns:1fr;}
+    .swap .real{font-size:44px;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .bar{transition:none;}
+  }
+  @media print{
+    body{background:#fff;}
+    .hero{background:#17242E !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .bar,.hero,.card{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Women in Data™ · From Analyst to Agent · Session 2 companion</p>
+    <h1>What the <em>clean</em> data actually says</h1>
+    <div class="meta">
+      <span><b>927</b> orders analyzed</span>
+      <span><b>3</b> quarantined</span>
+      <span><b>10</b> revenue unknown</span>
+      <span>Period · <b>FY 2025</b></span>
+      <span>Return rate overall · <b>11.7%</b></span>
+    </div>
+  </header>
+
+  <!-- HERO: the correction -->
+  <div class="hero">
+    <div>
+      <p class="tag">The reason we cleaned first</p>
+      <h2>A single bad row and three spellings of “West” invented a $1M leader.</h2>
+      <p>On the raw file, revenue-by-region crowned <b style="color:#EEF2F0">“W”</b> at over a million dollars — a sentinel value hiding inside one of three fragments of West. Consolidate the spellings, quarantine the sentinel, and the real number appears.</p>
+    </div>
+    <div class="swap">
+      <span class="lbl">Raw file said</span>
+      <span class="fake">$1,004,385.72</span>
+      <span class="arrow">↓ clean</span>
+      <span class="real">$37,027<small>West · actual FY2025 revenue</small></span>
+    </div>
+  </div>
+
+  <!-- SECTION 1: REVENUE -->
+  <div class="sec-label">
+    <span class="n">01</span><h3>Where the money is</h3><div class="rule"></div>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="kicker"><span>Revenue · by region</span></div>
+      <h4>West leads — by a nose, not a landslide</h4>
+      <table>
+        <tr><td class="rk">1</td><td class="nm">West</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:100%"></div></div></td><td class="val">$37,027</td></tr>
+        <tr><td class="rk">2</td><td class="nm">East</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:82.1%"></div></div></td><td class="val">$30,389</td></tr>
+        <tr><td class="rk">3</td><td class="nm">South</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:75.3%"></div></div></td><td class="val">$27,869</td></tr>
+        <tr><td class="rk">4</td><td class="nm">Midwest</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:52.9%"></div></div></td><td class="val">$19,597</td></tr>
+      </table>
+      <p class="takeaway">West is the real leader, but only <b>~$6.6K ahead of East</b> — a close top three, not the fake $978K gap the messy data implied.</p>
+    </div>
+
+    <div class="card">
+      <div class="kicker"><span>Revenue · by category</span></div>
+      <h4>Footwear carries the top line</h4>
+      <table>
+        <tr><td class="rk">1</td><td class="nm">Footwear</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:100%"></div></div></td><td class="val">$41,287</td></tr>
+        <tr><td class="rk">2</td><td class="nm">Apparel</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:68.2%"></div></div></td><td class="val">$28,141</td></tr>
+        <tr><td class="rk">3</td><td class="nm">Accessories</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:40.2%"></div></div></td><td class="val">$16,602</td></tr>
+        <tr><td class="rk">4</td><td class="nm">Home</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:36.3%"></div></div></td><td class="val">$15,007</td></tr>
+        <tr><td class="rk">5</td><td class="nm">Beauty</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:33.5%"></div></div></td><td class="val">$13,845</td></tr>
+      </table>
+      <p class="takeaway">Footwear is middle-of-the-pack on order count but <b>#1 on revenue</b> — higher price points doing the work.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 2: RETURNS -->
+  <div class="sec-label">
+    <span class="n">02</span><h3>Where the leaks are</h3><div class="rule"></div>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="kicker"><span>Return rate · by channel</span></div>
+      <h4>Mobile App returns at 3× in-store</h4>
+      <table>
+        <tr><td class="rk">1</td><td class="nm">Mobile App</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:100%"></div></div></td><td class="val">23.9%<span class="sub">42 / 176</span></td></tr>
+        <tr><td class="rk">2</td><td class="nm">Online</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:40.6%"></div></div></td><td class="val">9.7%<span class="sub">42 / 431</span></td></tr>
+        <tr><td class="rk">3</td><td class="nm">In-Store</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:32.6%"></div></div></td><td class="val">7.8%<span class="sub">25 / 320</span></td></tr>
+      </table>
+      <p class="takeaway">The clear standout: <b>Mobile App</b> orders come back at nearly triple the in-store rate — worth a look at the mobile buying flow.</p>
+    </div>
+
+    <div class="card">
+      <div class="kicker"><span>Return rate · by category</span></div>
+      <h4>Footwear is top revenue and top returns</h4>
+      <table>
+        <tr><td class="rk">1</td><td class="nm">Footwear</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:100%"></div></div></td><td class="val">19.9%<span class="sub">38 / 191</span></td></tr>
+        <tr><td class="rk">2</td><td class="nm">Accessories</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:62.8%"></div></div></td><td class="val">12.5%<span class="sub">22 / 176</span></td></tr>
+        <tr><td class="rk">3</td><td class="nm">Apparel</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:50.3%"></div></div></td><td class="val">10.0%<span class="sub">21 / 209</span></td></tr>
+        <tr><td class="rk">4</td><td class="nm">Home</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:48.7%"></div></div></td><td class="val">9.7%<span class="sub">17 / 175</span></td></tr>
+        <tr><td class="rk">5</td><td class="nm">Beauty</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:31.2%"></div></div></td><td class="val">6.2%<span class="sub">11 / 176</span></td></tr>
+      </table>
+      <p class="takeaway">Footwear tops both charts — classic <b>sizing &amp; fit friction</b>. The revenue it wins, it partly gives back.</p>
+    </div>
+  </div>
+
+  <!-- SECTION 3: CUSTOMERS & DISCOUNTS -->
+  <div class="sec-label">
+    <span class="n">03</span><h3>Who buys, and what discounts do</h3><div class="rule"></div>
+  </div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="kicker"><span>Avg order value · by segment</span></div>
+      <h4>A VIP order is worth 3.4 new ones</h4>
+      <table>
+        <tr><td class="rk">1</td><td class="nm">VIP</td><td class="barcell"><div class="bar-track"><div class="bar neu" style="--w:100%"></div></div></td><td class="val">$298.83<span class="sub">n = 90</span></td></tr>
+        <tr><td class="rk">2</td><td class="nm">Returning</td><td class="barcell"><div class="bar-track"><div class="bar neu" style="--w:39.4%"></div></div></td><td class="val">$117.61<span class="sub">n = 425</span></td></tr>
+        <tr><td class="rk">3</td><td class="nm">New</td><td class="barcell"><div class="bar-track"><div class="bar neu" style="--w:29.5%"></div></div></td><td class="val">$88.15<span class="sub">n = 335</span></td></tr>
+      </table>
+      <p class="takeaway">VIPs spend ~<b>3.4×</b> a new customer per order. <span class="flag">67 orders</span> have no segment label and sit outside this table — flag, don't hide.</p>
+    </div>
+
+    <div class="card compare">
+      <div class="kicker"><span>Return rate · discount depth</span></div>
+      <h4>Deep discounts come back</h4>
+      <table>
+        <tr>
+          <td class="nm">Discount &gt; 30%</td>
+          <td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:100%"></div></div></td>
+          <td class="val big" style="color:var(--ret)">40.0%<span class="sub">16 / 40</span></td>
+        </tr>
+        <tr>
+          <td class="nm">Everything else</td>
+          <td class="barcell"><div class="bar-track"><div class="bar neu" style="--w:26.3%"></div></div></td>
+          <td class="val big">10.5%<span class="sub">93 / 887</span></td>
+        </tr>
+      </table>
+      <p class="takeaway">Steeply discounted orders return at <b>nearly 4×</b> the base rate. Holds up on a like-for-like check too: known discounts ≤30% return at 10.7% — the 95 blank-discount rows aren’t skewing it.</p>
+    </div>
+  </div>
+
+  <footer>
+    <b>Notes for facilitators.</b> Built on the cleaned analysis set (927 rows) after standardizing Region &amp; Category, normalizing Returned to Yes/No, converting Discount to decimals, and recomputing blank Revenue as UnitPrice × Quantity × (1 − Discount).<br>
+    <b>Honest gaps carried through:</b> 3 rows quarantined (one $999,999 sentinel, two quantity-999); 10 revenues left blank where discount was unknown; 67 orders missing a segment label; 95 orders missing a discount. Counts per table reflect only rows with the needed fields — hence some tables sum to fewer than 927.
+  </footer>
+
+</div>
+<script>
+  // trigger bar animation once layout settles
+  window.addEventListener('load', function(){
+    requestAnimationFrame(function(){
+      setTimeout(function(){ document.body.classList.add('loaded'); }, 120);
+    });
+  });
+</script>
+</body>
+</html>
