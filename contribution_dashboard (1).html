@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beyond Revenue — Profit, Refunds &amp; Customer Value</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#17242E; --paper:#F5F6F3; --card:#FFFFFF;
+    --line:#DCE2DF; --muted:#6B7A82; --neutral:#4C5A62;
+    --rev:#0F766E; --rev-soft:#E4EEEC;
+    --ret:#B4472E; --ret-soft:#F4E5DF;
+    --gold:#B08034; --gold-soft:#F1E7D4;
+    --neutral-soft:#E7EAE8;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px 72px;}
+  header{border-top:3px solid var(--rev);padding:40px 0 26px;}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted);margin:0 0 16px;}
+  h1{font-family:"Instrument Serif",serif;font-weight:400;font-size:clamp(38px,6vw,62px);
+    line-height:1.02;letter-spacing:-.01em;margin:0 0 18px;max-width:17ch;}
+  h1 em{font-style:italic;color:var(--rev);}
+  .meta{display:flex;flex-wrap:wrap;gap:10px 26px;font-family:"IBM Plex Mono",monospace;
+    font-size:12.5px;color:var(--neutral);padding-top:8px;border-top:1px solid var(--line);margin-top:8px;}
+  .meta b{color:var(--ink);font-weight:600;}
+
+  /* hero */
+  .hero{margin-top:30px;background:var(--ink);color:#EEF2F0;border-radius:6px;
+    padding:32px 36px;display:grid;grid-template-columns:1.15fr 1fr;gap:34px;align-items:center;}
+  .hero .tag{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.16em;
+    text-transform:uppercase;color:#D98C6A;margin:0 0 14px;}
+  .hero h2{font-family:"Instrument Serif",serif;font-weight:400;font-size:29px;line-height:1.14;margin:0 0 14px;}
+  .hero p{margin:0;color:#B9C4C1;font-size:14px;max-width:44ch;}
+  .flow{display:flex;align-items:center;gap:18px;}
+  .flow .box{flex:1;}
+  .flow .lbl{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;
+    text-transform:uppercase;color:#8492A0;margin-bottom:6px;}
+  .flow .big{font-family:"Instrument Serif",serif;line-height:1;}
+  .flow .rev{font-size:40px;color:#5FD0BF;}
+  .flow .net{font-size:40px;color:#E8836A;}
+  .flow .arrow{color:#6E7E86;font-size:26px;}
+  .flow small{display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:#8FB9B2;margin-top:8px;letter-spacing:.03em;}
+
+  .sec-label{display:flex;align-items:baseline;gap:14px;margin:54px 0 20px;}
+  .sec-label .n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--rev);letter-spacing:.1em;}
+  .sec-label h3{font-family:"Instrument Serif",serif;font-weight:400;font-size:25px;margin:0;letter-spacing:-.01em;}
+  .sec-label .rule{flex:1;height:1px;background:var(--line);}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px 26px 22px;}
+  .card h4{font-weight:600;font-size:16.5px;margin:0 0 4px;letter-spacing:-.01em;}
+  .card .lede{font-size:13.5px;color:var(--muted);margin:0 0 20px;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;}
+  th{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--muted);font-weight:500;text-align:right;padding:0 0 9px;border-bottom:1px solid var(--line);}
+  th.l{text-align:left;}
+  td{padding:9px 0;vertical-align:middle;}
+  td.nm{font-weight:500;white-space:nowrap;padding-right:12px;}
+  td.num{text-align:right;font-family:"IBM Plex Mono",monospace;font-size:13px;padding-left:14px;white-space:nowrap;}
+  tr.hl td{background:var(--ret-soft);}
+  tr.hl td.nm{color:var(--ret);font-weight:600;}
+  .barcell{width:40%;padding:0 4px 0 14px;}
+  .bar-track{background:var(--neutral-soft);border-radius:3px;height:8px;overflow:hidden;}
+  .bar{height:100%;border-radius:3px;width:0;transition:width 1.1s cubic-bezier(.22,.61,.36,1);}
+  .bar.rev{background:var(--rev);} .bar.ret{background:var(--ret);} .bar.gold{background:var(--gold);}
+  .loaded .bar{width:var(--w);}
+
+  .takeaway{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);
+    font-size:13.5px;color:var(--neutral);line-height:1.5;}
+  .takeaway b{color:var(--ink);font-weight:600;}
+  .flag{color:var(--ret);font-weight:600;}
+  .good{color:var(--rev);font-weight:600;}
+
+  .idxrow{display:flex;align-items:center;gap:12px;margin:11px 0;}
+  .idxrow .nm{width:98px;font-weight:500;font-size:14px;}
+  .idxbar-wrap{flex:1;position:relative;height:26px;background:linear-gradient(90deg,transparent,transparent);}
+  .idxbase{position:absolute;left:33.3%;top:-3px;bottom:-3px;width:1px;background:var(--muted);}
+  .idxbase span{position:absolute;top:-16px;left:-16px;font-family:"IBM Plex Mono",monospace;font-size:9px;color:var(--muted);white-space:nowrap;}
+  .idxbar{height:26px;border-radius:3px;width:0;transition:width 1.1s cubic-bezier(.22,.61,.36,1);
+    display:flex;align-items:center;justify-content:flex-end;padding-right:8px;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:#fff;font-weight:500;}
+  .loaded .idxbar{width:var(--w);}
+  .idxbar.over{background:var(--rev);} .idxbar.under{background:var(--ret);} .idxbar.mid{background:var(--neutral);}
+
+  /* actions */
+  .actions{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:4px;}
+  .act{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:20px 22px;display:flex;gap:16px;}
+  .act .pr{font-family:"Instrument Serif",serif;font-size:34px;line-height:.9;color:var(--rev);width:38px;flex:none;}
+  .act.risk .pr{color:var(--ret);}
+  .act h5{margin:2px 0 6px;font-size:15px;font-weight:600;letter-spacing:-.01em;}
+  .act p{margin:0;font-size:13px;color:var(--neutral);line-height:1.5;}
+  .act .metric{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);display:block;margin-top:8px;}
+
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);line-height:1.7;}
+  footer b{color:var(--neutral);font-weight:600;}
+
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr;gap:22px;padding:26px 22px;}
+    .grid2,.actions{grid-template-columns:1fr;}
+    .barcell{width:30%;}
+  }
+  @media (prefers-reduced-motion:reduce){ .bar,.idxbar{transition:none;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Women in Data™ · From Analyst to Agent · Joined-data deep dive</p>
+    <h1>The revenue leader that <em>barely</em> makes money</h1>
+    <div class="meta">
+      <span><b>4</b> tables joined</span>
+      <span><b>927</b> orders · <b>99</b> returns · <b>179</b> customers · <b>25</b> products</span>
+      <span>Net of margin &amp; refunds</span>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="tag">The profit mirage</p>
+      <h2>Footwear is #1 in revenue and dead last in profit.</h2>
+      <p>It drives 36% of sales, but thin supplier margins (Canvas Sneakers earn just 16%) collide with the highest refunds of any category. After netting both, almost nothing reaches the bottom line — a <b style="color:#EEF2F0">0.8%</b> true contribution margin.</p>
+    </div>
+    <div class="flow">
+      <div class="box">
+        <div class="lbl">Footwear revenue</div>
+        <div class="big rev">$40,168</div>
+        <small>#1 of 5 categories</small>
+      </div>
+      <div class="arrow">→</div>
+      <div class="box">
+        <div class="lbl">True net contribution</div>
+        <div class="big net">$330</div>
+        <small>last of 5 · 0.8% margin</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINDING 1 -->
+  <div class="sec-label"><span class="n">01</span><h3>Which categories actually make money</h3><div class="rule"></div></div>
+  <div class="card">
+    <h4>Booked profit is not kept profit</h4>
+    <p class="lede">Gross margin earned on sales, minus refunds paid out (restocked returns credited back). Bars show true net contribution.</p>
+    <table>
+      <thead><tr><th class="l">Category</th><th>Revenue</th><th>Booked GP</th><th>Refunds</th><th class="barcell" style="text-align:left;">True net contribution</th><th>Margin</th></tr></thead>
+      <tbody>
+        <tr><td class="nm">Apparel</td><td class="num">$28,074</td><td class="num">$10,714</td><td class="num">–$2,293</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:100%"></div></div></td><td class="num">$9,358 · 33%</td></tr>
+        <tr><td class="nm">Beauty</td><td class="num">$13,758</td><td class="num">$6,854</td><td class="num">–$456</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:69.4%"></div></div></td><td class="num good">$6,495 · 47%</td></tr>
+        <tr><td class="nm">Accessories</td><td class="num">$16,128</td><td class="num">$7,492</td><td class="num">–$2,115</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:60.9%"></div></div></td><td class="num">$5,695 · 35%</td></tr>
+        <tr><td class="nm">Home</td><td class="num">$14,625</td><td class="num">$5,603</td><td class="num">–$1,398</td><td class="barcell"><div class="bar-track"><div class="bar rev" style="--w:49.9%"></div></div></td><td class="num">$4,668 · 32%</td></tr>
+        <tr class="hl"><td class="nm">Footwear</td><td class="num">$40,168</td><td class="num">$4,065</td><td class="num">–$6,924</td><td class="barcell"><div class="bar-track"><div class="bar ret" style="--w:3.5%"></div></div></td><td class="num">$330 · 0.8%</td></tr>
+      </tbody>
+    </table>
+    <p class="takeaway"><b class="good">Makes money:</b> Beauty is the quiet hero — smallest refund bill, highest true margin (47%). Apparel contributes the most in absolute dollars ($9.4K). &nbsp; <b class="flag">Effectively loses:</b> Footwear — its $6,924 in refunds nearly erases its $4,065 of gross profit. It's a revenue headline that doesn't reach the bottom line.</p>
+  </div>
+
+  <!-- FINDING 2 + 3 -->
+  <div class="sec-label"><span class="n">02</span><h3>Why product comes back — and where VIPs come from</h3><div class="rule"></div></div>
+  <div class="grid2">
+
+    <div class="card">
+      <h4>One reason drives nearly half of all returns</h4>
+      <p class="lede">99 return records by reason — and where the top reason concentrates.</p>
+      <table>
+        <tbody>
+          <tr class="hl"><td class="nm">Wrong size / poor fit</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar ret" style="--w:100%"></div></div></td><td class="num">44 · $5,471</td></tr>
+          <tr><td class="nm">Not as described</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar rev" style="--w:29.5%"></div></div></td><td class="num">13 · $2,268</td></tr>
+          <tr><td class="nm">Damaged in transit</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar rev" style="--w:29.5%"></div></div></td><td class="num">13 · $1,816</td></tr>
+          <tr><td class="nm">Defective</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar rev" style="--w:27.3%"></div></div></td><td class="num">12 · $1,257</td></tr>
+          <tr><td class="nm">Changed mind</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar rev" style="--w:25%"></div></div></td><td class="num">11 · $1,475</td></tr>
+          <tr><td class="nm">Late delivery</td><td class="barcell" style="width:52%"><div class="bar-track"><div class="bar rev" style="--w:13.6%"></div></div></td><td class="num">6 · $597</td></tr>
+        </tbody>
+      </table>
+      <p class="takeaway"><b>“Wrong size / poor fit” = 44% of all returns</b>, and <b class="flag">59% of it hits the Mobile App</b> (26 of 44). This is the root cause under the earlier “mobile returns 3× higher” signal — it's a sizing problem, not a channel mystery.</p>
+    </div>
+
+    <div class="card">
+      <h4>VIPs are referred, not bought</h4>
+      <p class="lede">Share of VIP customers by acquisition channel vs the overall base (line = base share = parity).</p>
+      <div class="idxrow"><div class="nm">Referral</div><div class="idxbar-wrap"><div class="idxbase"><span>base 18%</span></div><div class="idxbar over" style="--w:88%">52% · 2.8×</div></div></div>
+      <div class="idxrow"><div class="nm">Email</div><div class="idxbar-wrap"><div class="idxbase"></div><div class="idxbar mid" style="--w:48%">29% · 1.1×</div></div></div>
+      <div class="idxrow"><div class="nm">Organic</div><div class="idxbar-wrap"><div class="idxbase"></div><div class="idxbar under" style="--w:24%">14% · 0.6×</div></div></div>
+      <div class="idxrow"><div class="nm">Paid Social</div><div class="idxbar-wrap"><div class="idxbase"></div><div class="idxbar under" style="--w:8%">5% · 0.2×</div></div></div>
+      <p class="takeaway"><b class="good">Referral</b> produces VIPs at <b>2.8× its base rate</b> (11 of 21 VIPs). <b class="flag">Paid Social</b> — your largest acquisition channel at 30% of the base — produced <b>just one VIP</b> (index 16). You're buying volume, not value.</p>
+    </div>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="sec-label"><span class="n">03</span><h3>Action items &amp; recommendations</h3><div class="rule"></div></div>
+  <div class="actions">
+    <div class="act risk">
+      <div class="pr">1</div>
+      <div>
+        <h5>Fix Footwear economics before chasing more Footwear revenue</h5>
+        <p>Renegotiate cost on low-margin SKUs (Canvas Sneakers at 16%), and treat its returns as a margin emergency, not a service metric. Growing this category as-is grows work, not profit.</p>
+        <span class="metric">$40,168 revenue → $330 kept · $6,924 refunds</span>
+      </div>
+    </div>
+    <div class="act risk">
+      <div class="pr">2</div>
+      <div>
+        <h5>Attack “wrong size / poor fit” in the Mobile App</h5>
+        <p>Add size guides, a fit finder, and true-to-size measurements to mobile PDPs, concentrated on Footwear. One reason + one channel = the highest-leverage return fix you have.</p>
+        <span class="metric">44% of returns · 59% on Mobile · $5,471</span>
+      </div>
+    </div>
+    <div class="act">
+      <div class="pr">3</div>
+      <div>
+        <h5>Rebalance acquisition toward Referral</h5>
+        <p>Fund and formalize the referral program; audit Paid Social on lifetime value, not signups, before scaling its spend. Pull your best customers from where your best customers already come from.</p>
+        <span class="metric">Referral VIP index 284 · Paid Social 16</span>
+      </div>
+    </div>
+    <div class="act">
+      <div class="pr">4</div>
+      <div>
+        <h5>Close the data gaps that hide the P&amp;L</h5>
+        <p>10 returned orders have no refund record and 18 orders have no product match — so true losses here are slightly understated. Tightening these makes the contribution numbers exact.</p>
+        <span class="metric">10 returns unrecorded · 18 orders unmapped</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <b>Method.</b> Orders (927, cleaned) joined to products on ProductName, customers on CustomerID, returns on OrderID. True net contribution = Revenue − (UnitCost × Qty), less refunds; restocked returns credit COGS back; non-restocked returns bear the full cost of goods. Reverse-logistics cost is not included, so returns are conservatively understated.<br>
+    <b>Coverage &amp; caveats.</b> Cost data present for 909 / 927 orders (18 blank product names excluded from contribution). 99 of 107 returned orders have a refund record; the 8 without are treated as un-refunded, understating loss. VIP index compares each channel's VIP share to its share of the ordering customer base; base n for VIP is 21 customers — directionally strong, worth confirming as the cohort grows.
+  </footer>
+
+</div>
+<script>
+  window.addEventListener('load',function(){
+    requestAnimationFrame(function(){ setTimeout(function(){ document.body.classList.add('loaded'); },120); });
+  });
+</script>
+</body>
+</html>
