@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retail Performance Dashboard</title>
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --c-apparel:#2a78d6; --c-beauty:#1baf7a; --c-accessories:#eda100; --c-home:#008300; --c-footwear:#e34948;
+  --c-vip:#2a78d6; --c-returning:#1baf7a; --c-new:#eda100;
+  --c-online:#2a78d6; --c-instore:#1baf7a; --c-mobile:#e34948;
+  --pos:#2a78d6; --neg:#e34948; --good:#006300;
+}
+@media (prefers-color-scheme:dark){:root{
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,.10);
+  --c-apparel:#3987e5; --c-beauty:#199e70; --c-accessories:#c98500; --c-home:#008300; --c-footwear:#e66767;
+  --c-vip:#3987e5; --c-returning:#199e70; --c-new:#c98500;
+  --c-online:#3987e5; --c-instore:#199e70; --c-mobile:#e66767;
+  --pos:#3987e5; --neg:#e66767; --good:#0ca30c;
+}}
+:root[data-theme=dark]{
+  --page:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,.10);
+  --c-apparel:#3987e5; --c-beauty:#199e70; --c-accessories:#c98500; --c-home:#008300; --c-footwear:#e66767;
+  --c-vip:#3987e5; --c-returning:#199e70; --c-new:#c98500;
+  --c-online:#3987e5; --c-instore:#199e70; --c-mobile:#e66767;
+  --pos:#3987e5; --neg:#e66767; --good:#0ca30c;
+}
+:root[data-theme=light]{
+  --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --c-apparel:#2a78d6; --c-beauty:#1baf7a; --c-accessories:#eda100; --c-home:#008300; --c-footwear:#e34948;
+  --c-vip:#2a78d6; --c-returning:#1baf7a; --c-new:#eda100;
+  --c-online:#2a78d6; --c-instore:#1baf7a; --c-mobile:#e34948;
+  --pos:#2a78d6; --neg:#e34948; --good:#006300;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:32px 24px 64px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+h1{font-size:24px;margin:0 0 4px} .sub{color:var(--ink2);font-size:14px;margin:0}
+.theme-btn{background:var(--surface);border:1px solid var(--ring);color:var(--ink2);border-radius:8px;
+  padding:7px 12px;font-size:13px;cursor:pointer;font-family:inherit}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0 30px}
+.tile{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:16px 18px}
+.tile .lab{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.tile .val{font-size:28px;font-weight:600;letter-spacing:-.01em}
+.tile .note{font-size:12px;color:var(--ink2);margin-top:4px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:20px 22px;margin-bottom:20px}
+.card h2{font-size:16px;margin:0 0 2px} .card .cap{font-size:13px;color:var(--ink2);margin:0 0 18px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+.axmark{font-size:12px;color:var(--muted);margin-bottom:12px}
+.row{display:grid;grid-template-columns:96px 1fr 92px;align-items:center;gap:10px;margin:9px 0;font-size:13px}
+.row .name{color:var(--ink2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .val{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.track{position:relative;height:22px}
+.bar{height:22px;border-radius:0 4px 4px 0;min-width:2px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-size:12px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+.zero{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--axis)}
+.footnote{font-size:12px;color:var(--muted);margin-top:26px;border-top:1px solid var(--grid);padding-top:16px}
+svg{display:block;width:100%;height:auto}
+.tt{position:fixed;pointer-events:none;background:var(--surface);border:1px solid var(--ring);border-radius:8px;
+  padding:8px 10px;font-size:12px;color:var(--ink);box-shadow:0 4px 14px rgba(0,0,0,.15);opacity:0;transition:opacity .1s;z-index:9}
+</style>
+</head>
+<body data-palette="#2a78d6,#1baf7a,#eda100,#008300,#e34948">
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Retail Performance Dashboard</h1>
+      <p class="sub">916 clean orders &middot; every figure traces to <code>output/model.csv</code> &middot; quarantined rows excluded</p>
+    </div>
+    <button class="theme-btn" onclick="toggleTheme()">Toggle theme</button>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="card">
+    <h2>Revenue is vanity: what sells most earns least</h2>
+    <p class="cap">Same five categories, ranked two ways. Color = category (consistent across both panels). Bars sorted by value.</p>
+    <div class="grid2">
+      <div>
+        <div class="axmark">Revenue &mdash; USD</div>
+        <div id="revChart"></div>
+      </div>
+      <div>
+        <div class="axmark">Net contribution &mdash; USD (Revenue &minus; COGS &minus; Refunds)</div>
+        <div id="ncChart"></div>
+      </div>
+    </div>
+    <div class="legend" id="catLegend"></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Mobile App returns run 3&times; the store rate</h2>
+      <p class="cap">Return rate = returned orders &divide; orders in channel. Top reason everywhere: &ldquo;Wrong size / poor fit.&rdquo;</p>
+      <div class="axmark">Return rate &mdash; % of channel orders</div>
+      <div id="chanChart"></div>
+    </div>
+    <div class="card">
+      <h2>VIPs: 11% of orders, 41% of profit</h2>
+      <p class="cap">Average order value by segment (USD). Net contribution labelled at right.</p>
+      <div class="axmark">AOV &mdash; USD per order</div>
+      <div id="segChart"></div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Where VIPs come from</h2>
+      <p class="cap">Acquisition channel mix of the VIP segment (share of VIP orders).</p>
+      <div class="axmark">Share of VIP orders &mdash; %</div>
+      <div id="acqChart"></div>
+    </div>
+    <div class="card">
+      <h2>Net contribution over time</h2>
+      <p class="cap">Monthly net contribution (USD). Hover for detail.</p>
+      <div class="axmark">Net contribution &mdash; USD per month</div>
+      <div id="trend"></div>
+    </div>
+  </div>
+
+  <p class="footnote" id="foot"></p>
+</div>
+<div class="tt" id="tt"></div>
+
+<script>
+const DATA = {"totals": {"orders": 916, "revenue": 114783.95, "net_contribution": 22161.84, "refunds": 12884.01, "returns": 99, "return_rate": 10.8}, "categories": [{"category": "Apparel", "revenue": 28349.83, "net_contribution": 8927.46, "cogs": 17410.64, "refunds": 1944.87, "orders": 207, "margin_pct": 31.5, "revenue_rank": 2, "contribution_rank": 1, "rank_disagrees": true}, {"category": "Beauty", "revenue": 13692.11, "net_contribution": 6289.37, "cogs": 6859.66, "refunds": 455.86, "orders": 173, "margin_pct": 45.9, "revenue_rank": 5, "contribution_rank": 2, "rank_disagrees": true}, {"category": "Accessories", "revenue": 16998.25, "net_contribution": 5587.98, "cogs": 8821.02, "refunds": 2114.77, "orders": 175, "margin_pct": 32.9, "revenue_rank": 3, "contribution_rank": 3, "rank_disagrees": false}, {"category": "Home", "revenue": 15051.38, "net_contribution": 4248.79, "cogs": 9022.44, "refunds": 1444.79, "orders": 172, "margin_pct": 28.2, "revenue_rank": 4, "contribution_rank": 4, "rank_disagrees": false}, {"category": "Footwear", "revenue": 40692.38, "net_contribution": -2891.76, "cogs": 35541.84, "refunds": 6923.72, "orders": 189, "margin_pct": -7.1, "revenue_rank": 1, "contribution_rank": 5, "rank_disagrees": true}], "channels": [{"channel": "Mobile App", "orders": 173, "returns": 40, "return_rate": 23.1, "top_reasons": [["Wrong size / poor fit", 26], ["Changed mind", 4], ["Defective", 4]]}, {"channel": "Online", "orders": 426, "returns": 37, "return_rate": 8.7, "top_reasons": [["Wrong size / poor fit", 11], ["Damaged in transit", 8], ["Not as described", 8]]}, {"channel": "In-Store", "orders": 317, "returns": 22, "return_rate": 6.9, "top_reasons": [["Wrong size / poor fit", 7], ["Changed mind", 5], ["Defective", 3]]}], "segments": [{"segment": "VIP", "orders": 99, "revenue": 29263.82, "net_contribution": 9066.14, "aov": 295.59}, {"segment": "Returning", "orders": 460, "revenue": 54022.85, "net_contribution": 8367.39, "aov": 117.44}, {"segment": "New", "orders": 357, "revenue": 31497.28, "net_contribution": 4728.31, "aov": 88.23}], "top_segment": "VIP", "acq_mix": [{"channel": "Referral", "orders": 52, "pct": 52.5}, {"channel": "Email", "orders": 26, "pct": 26.3}, {"channel": "Organic", "orders": 17, "pct": 17.2}, {"channel": "Paid Social", "orders": 4, "pct": 4.0}], "monthly": [{"month": "2025-01", "revenue": 8326.02, "net_contribution": 1309.14, "orders": 70}, {"month": "2025-02", "revenue": 9967.85, "net_contribution": 2805.42, "orders": 75}, {"month": "2025-03", "revenue": 10103.31, "net_contribution": 739.67, "orders": 78}, {"month": "2025-04", "revenue": 10314.82, "net_contribution": 1996.89, "orders": 79}, {"month": "2025-05", "revenue": 9465.36, "net_contribution": 2539.47, "orders": 79}, {"month": "2025-06", "revenue": 10822.89, "net_contribution": 1725.94, "orders": 93}, {"month": "2025-07", "revenue": 8344.65, "net_contribution": 2289.76, "orders": 64}, {"month": "2025-08", "revenue": 12038.08, "net_contribution": 1355.54, "orders": 94}, {"month": "2025-09", "revenue": 9645.6, "net_contribution": 2805.53, "orders": 69}, {"month": "2025-10", "revenue": 9409.3, "net_contribution": 2313.34, "orders": 77}, {"month": "2025-11", "revenue": 8506.3, "net_contribution": 2150.02, "orders": 70}, {"month": "2025-12", "revenue": 7839.77, "net_contribution": 131.12, "orders": 68}]};
+const CATCOLOR = {Apparel:'--c-apparel',Beauty:'--c-beauty',Accessories:'--c-accessories',Home:'--c-home',Footwear:'--c-footwear'};
+const cv = n => 'var('+n+')';
+const usd0 = v => (v<0?'-$':'$')+Math.abs(Math.round(v)).toLocaleString();
+const tt = document.getElementById('tt');
+function showTT(html,e){tt.innerHTML=html;tt.style.opacity=1;moveTT(e);}
+function moveTT(e){tt.style.left=(e.clientX+14)+'px';tt.style.top=(e.clientY+14)+'px';}
+function hideTT(){tt.style.opacity=0;}
+
+// KPI tiles
+const t=DATA.totals;
+document.getElementById('tiles').innerHTML=[
+ ['Revenue',usd0(t.revenue),t.orders.toLocaleString()+' orders'],
+ ['Net contribution',usd0(t.net_contribution),(100*t.net_contribution/t.revenue).toFixed(1)+'% blended margin'],
+ ['Return rate',t.return_rate+'%',t.returns+' of '+t.orders+' orders'],
+ ['Refunds paid',usd0(t.refunds),'erodes contribution'],
+].map(([l,v,n])=>`<div class="tile"><div class="lab">${l}</div><div class="val">${v}</div><div class="note">${n}</div></div>`).join('');
+
+// horizontal bar chart helper: rows [{name,value,color,label,tip}], scale by max abs, optional zero line
+function hbars(el,rows,fmt,opt={}){
+  const vals=rows.map(r=>r.value);
+  const max=Math.max(...vals,0), min=Math.min(...vals,0), span=(max-min)||1;
+  const zeroPct = (0-min)/span*100;
+  const html=rows.map(r=>{
+    const wPos = r.value>=0 ? (r.value/span*100) : 0;
+    const wNeg = r.value<0 ? (-r.value/span*100) : 0;
+    const left = r.value>=0 ? zeroPct : zeroPct - wNeg;
+    const w = r.value>=0 ? wPos : wNeg;
+    const rad = r.value>=0 ? '0 4px 4px 0' : '4px 0 0 4px';
+    return `<div class="row"><div class="name">${r.name}</div>
+      <div class="track">${opt.zero?`<div class="zero" style="left:${zeroPct}%"></div>`:''}
+        <div class="bar" data-tip="${r.tip||''}" style="position:absolute;left:${left}%;width:${w}%;background:${r.color};border-radius:${rad}"></div>
+      </div><div class="val">${r.label}</div></div>`;
+  }).join('');
+  el.innerHTML=html;
+  el.querySelectorAll('.bar').forEach(b=>{
+    b.onmousemove=e=>showTT(b.dataset.tip,e); b.onmouseleave=hideTT;
+  });
+}
+
+// Category: revenue & net contribution (same entity colors)
+const cats=DATA.categories.slice();
+const byRev=cats.slice().sort((a,b)=>b.revenue-a.revenue);
+const byNC =cats.slice().sort((a,b)=>b.net_contribution-a.net_contribution);
+hbars(document.getElementById('revChart'),
+  byRev.map(c=>({name:c.category,value:c.revenue,color:cv(CATCOLOR[c.category]),label:usd0(c.revenue),
+    tip:`<b>${c.category}</b><br>Revenue ${usd0(c.revenue)} (rank #${c.revenue_rank})<br>${c.orders} orders`})),null,{});
+hbars(document.getElementById('ncChart'),
+  byNC.map(c=>({name:c.category,value:c.net_contribution,color:cv(CATCOLOR[c.category]),label:usd0(c.net_contribution),
+    tip:`<b>${c.category}</b><br>Net contribution ${usd0(c.net_contribution)} (rank #${c.contribution_rank})<br>Margin ${c.margin_pct}%`})),null,{zero:true});
+document.getElementById('catLegend').innerHTML=['Apparel','Beauty','Accessories','Home','Footwear']
+  .map(c=>`<span><i class="dot" style="background:${cv(CATCOLOR[c])}"></i>${c}</span>`).join('');
+
+// Channel return rate
+const chColor={'Mobile App':'--c-mobile','Online':'--c-online','In-Store':'--c-instore'};
+hbars(document.getElementById('chanChart'),
+  DATA.channels.map(c=>({name:c.channel,value:c.return_rate,color:cv(chColor[c.channel]||'--pos'),label:c.return_rate+'%',
+    tip:`<b>${c.channel}</b><br>${c.returns} returns / ${c.orders} orders<br>Top: ${c.top_reasons[0]?c.top_reasons[0][0]:'-'}`})),null,{});
+
+// Segment AOV
+const segColor={VIP:'--c-vip',Returning:'--c-returning',New:'--c-new'};
+hbars(document.getElementById('segChart'),
+  DATA.segments.slice().sort((a,b)=>b.aov-a.aov).map(s=>({name:s.segment,value:s.aov,color:cv(segColor[s.segment]||'--pos'),
+    label:'$'+s.aov.toFixed(0),
+    tip:`<b>${s.segment}</b><br>AOV $${s.aov.toFixed(2)}<br>Net contribution ${usd0(s.net_contribution)}<br>${s.orders} orders`})),null,{});
+
+// VIP acquisition mix (single-hue sequential by share)
+const acq=DATA.acq_mix.slice().sort((a,b)=>b.pct-a.pct);
+const seq=['#256abf','#3987e5','#6da7ec','#9ec5f4'];
+hbars(document.getElementById('acqChart'),
+  acq.map((a,i)=>({name:a.channel,value:a.pct,color:seq[i]||seq[seq.length-1],label:a.pct+'%',
+    tip:`<b>${a.channel}</b><br>${a.orders} of VIP orders (${a.pct}%)`})),null,{});
+
+// Monthly trend line (SVG)
+(function(){
+  const m=DATA.monthly; if(!m.length){return;}
+  const W=460,H=210,P={l:52,r:14,t:14,b:34};
+  const xs=(i)=>P.l+(m.length<=1?0:i*(W-P.l-P.r)/(m.length-1));
+  const vals=m.map(d=>d.net_contribution);
+  const lo=Math.min(...vals,0),hi=Math.max(...vals);
+  const ys=v=>P.t+(hi-v)/((hi-lo)||1)*(H-P.t-P.b);
+  const grid=[0,.25,.5,.75,1].map(f=>{const v=lo+(hi-lo)*f;const y=ys(v);
+    return `<line x1="${P.l}" y1="${y}" x2="${W-P.r}" y2="${y}" stroke="var(--grid)"/>
+      <text x="${P.l-8}" y="${y+4}" text-anchor="end" fill="var(--muted)" font-size="11">${usd0(v)}</text>`;}).join('');
+  const path=m.map((d,i)=>(i?'L':'M')+xs(i)+' '+ys(d.net_contribution)).join(' ');
+  const dots=m.map((d,i)=>`<circle cx="${xs(i)}" cy="${ys(d.net_contribution)}" r="4" fill="var(--pos)"
+     data-tip="<b>${d.month}</b><br>Net contribution ${usd0(d.net_contribution)}<br>${d.orders} orders"
+     style="cursor:pointer"/>`).join('');
+  const xlab=m.map((d,i)=> (i%Math.ceil(m.length/6)===0)?
+     `<text x="${xs(i)}" y="${H-12}" text-anchor="middle" fill="var(--muted)" font-size="11">${d.month.slice(2)}</text>`:'').join('');
+  document.getElementById('trend').innerHTML=
+    `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Monthly net contribution">
+       ${grid}<path d="${path}" fill="none" stroke="var(--pos)" stroke-width="2"/>${dots}${xlab}</svg>`;
+  document.querySelectorAll('#trend circle').forEach(c=>{
+    c.onmousemove=e=>showTT(c.dataset.tip,e); c.onmouseleave=hideTT;});
+})();
+
+document.getElementById('foot').innerHTML=
+  'Cleaning: 930&rarr;916 rows (10 duplicates removed, 4 impossible values quarantined). '+
+  'Join coverage: products 98.0%, customers 100%, returns 10.8% (expected). '+
+  'The Discount column is unreliable on 62 rows and is not charted. Reviewer verdict: APPROVED. '+
+  'Source of every number: output/model.csv.';
+
+function toggleTheme(){
+  const r=document.documentElement;
+  const cur=r.getAttribute('data-theme')|| (matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+  r.setAttribute('data-theme',cur==='dark'?'light':'dark');
+}
+</script>
+</body>
+</html>

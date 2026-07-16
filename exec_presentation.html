@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retail Performance Review — Board Deck</title>
+<style>
+:root{
+  --page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;
+  --grid:#e1e0d9;--axis:#c3c2b7;--ring:rgba(11,11,11,.10);
+  --apparel:#2a78d6;--beauty:#1baf7a;--accessories:#eda100;--home:#008300;--footwear:#e34948;
+  --pos:#2a78d6;--neg:#e34948;--good:#006300;--accent:#2a78d6;
+}
+:root[data-theme=dark],:root:not([data-theme]) [data-dm]{}
+@media (prefers-color-scheme:dark){:root{
+  --page:#0d0d0d;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#898781;
+  --grid:#2c2c2a;--axis:#383835;--ring:rgba(255,255,255,.10);
+  --apparel:#3987e5;--beauty:#199e70;--accessories:#c98500;--home:#008300;--footwear:#e66767;
+  --pos:#3987e5;--neg:#e66767;--good:#0ca30c;--accent:#3987e5;
+}}
+:root[data-theme=dark]{
+  --page:#0d0d0d;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#898781;
+  --grid:#2c2c2a;--axis:#383835;--ring:rgba(255,255,255,.10);
+  --apparel:#3987e5;--beauty:#199e70;--accessories:#c98500;--home:#008300;--footwear:#e66767;
+  --pos:#3987e5;--neg:#e66767;--good:#0ca30c;--accent:#3987e5;
+}
+:root[data-theme=light]{
+  --page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;
+  --grid:#e1e0d9;--axis:#c3c2b7;--ring:rgba(11,11,11,.10);
+  --apparel:#2a78d6;--beauty:#1baf7a;--accessories:#eda100;--home:#008300;--footwear:#e34948;
+  --pos:#2a78d6;--neg:#e34948;--good:#006300;--accent:#2a78d6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden}
+.stage{height:100vh;display:flex;align-items:center;justify-content:center;padding:5vh 6vw}
+.slide{display:none;width:100%;max-width:1000px;animation:fade .35s ease}
+.slide.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kicker{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:18px}
+h1{font-size:clamp(30px,5vw,54px);line-height:1.08;margin:0 0 18px;letter-spacing:-.02em}
+h2{font-size:clamp(24px,3.4vw,38px);line-height:1.12;margin:0 0 22px;letter-spacing:-.01em}
+.lead{font-size:clamp(17px,2vw,21px);color:var(--ink2);max-width:44ch;line-height:1.5}
+.hero{font-size:clamp(64px,12vw,140px);font-weight:700;letter-spacing:-.03em;line-height:1;margin:8px 0 12px}
+.hero.neg{color:var(--neg)} .hero.pos{color:var(--accent)}
+.sub{font-size:clamp(16px,2vw,20px);color:var(--ink2);max-width:50ch}
+.big{font-size:clamp(40px,7vw,84px);font-weight:700;letter-spacing:-.02em;line-height:1}
+.big.neg{color:var(--neg)}
+.why{font-size:clamp(16px,2vw,20px);color:var(--ink2);margin:16px 0 24px;max-width:46ch;line-height:1.5}
+.ask{display:inline-flex;align-items:baseline;gap:10px;background:var(--surface);border:1px solid var(--ring);
+  border-radius:12px;padding:14px 18px;font-size:clamp(15px,1.8vw,19px)}
+.ask b{color:var(--accent)}
+.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+@media(max-width:760px){.grid{grid-template-columns:1fr;gap:24px}}
+.row{display:grid;grid-template-columns:110px 1fr 96px;align-items:center;gap:10px;margin:11px 0;font-size:14px}
+.row .nm{color:var(--ink2);text-align:right;white-space:nowrap} .row .vl{text-align:right;font-variant-numeric:tabular-nums}
+.track{position:relative;height:24px}.bar{position:absolute;height:24px;min-width:2px}
+.zero{position:absolute;top:-5px;bottom:-5px;width:2px;background:var(--axis)}
+.axm{font-size:13px;color:var(--muted);margin-bottom:8px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:16px;font-size:13px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}.dot{width:11px;height:11px;border-radius:3px}
+ul.clean{list-style:none;padding:0;margin:18px 0 0}ul.clean li{padding:11px 0;border-top:1px solid var(--grid);font-size:clamp(15px,1.9vw,19px)}
+ul.clean li b{color:var(--accent)}
+.appx{font-size:15px;color:var(--ink2);line-height:1.7}.appx b{color:var(--ink)}
+.tag{display:inline-block;background:var(--good);color:#fff;border-radius:6px;padding:3px 9px;font-size:13px;font-weight:600}
+footer{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:center;
+  padding:14px 24px;font-size:12px;color:var(--muted)}
+.nav{display:flex;gap:8px}
+.nav button,.tbtn{background:var(--surface);border:1px solid var(--ring);color:var(--ink2);border-radius:8px;
+  padding:6px 12px;font-size:13px;cursor:pointer;font-family:inherit}
+.prog{position:fixed;top:0;left:0;height:3px;background:var(--accent);transition:width .3s}
+.trace{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body data-palette="#2a78d6,#1baf7a,#eda100,#008300,#e34948">
+<div class="prog" id="prog"></div>
+<div class="stage" id="stage"></div>
+<div class="trace">Every figure traces to output/model.csv</div>
+<footer>
+  <div id="deckttl">Retail Performance Review</div>
+  <div class="nav">
+    <button class="tbtn" onclick="toggleTheme()">Theme</button>
+    <button onclick="go(-1)">&larr;</button>
+    <span id="pageno" style="align-self:center;min-width:52px;text-align:center"></span>
+    <button onclick="go(1)">&rarr;</button>
+  </div>
+</footer>
+<script>
+const DATA={"totals": {"orders": 916, "revenue": 114783.95, "net_contribution": 22161.84, "refunds": 12884.01, "returns": 99, "return_rate": 10.8}, "categories": [{"category": "Apparel", "revenue": 28349.83, "net_contribution": 8927.46, "cogs": 17410.64, "refunds": 1944.87, "orders": 207, "margin_pct": 31.5, "revenue_rank": 2, "contribution_rank": 1, "rank_disagrees": true}, {"category": "Beauty", "revenue": 13692.11, "net_contribution": 6289.37, "cogs": 6859.66, "refunds": 455.86, "orders": 173, "margin_pct": 45.9, "revenue_rank": 5, "contribution_rank": 2, "rank_disagrees": true}, {"category": "Accessories", "revenue": 16998.25, "net_contribution": 5587.98, "cogs": 8821.02, "refunds": 2114.77, "orders": 175, "margin_pct": 32.9, "revenue_rank": 3, "contribution_rank": 3, "rank_disagrees": false}, {"category": "Home", "revenue": 15051.38, "net_contribution": 4248.79, "cogs": 9022.44, "refunds": 1444.79, "orders": 172, "margin_pct": 28.2, "revenue_rank": 4, "contribution_rank": 4, "rank_disagrees": false}, {"category": "Footwear", "revenue": 40692.38, "net_contribution": -2891.76, "cogs": 35541.84, "refunds": 6923.72, "orders": 189, "margin_pct": -7.1, "revenue_rank": 1, "contribution_rank": 5, "rank_disagrees": true}], "channels": [{"channel": "Mobile App", "orders": 173, "returns": 40, "return_rate": 23.1, "top_reasons": [["Wrong size / poor fit", 26], ["Changed mind", 4], ["Defective", 4]]}, {"channel": "Online", "orders": 426, "returns": 37, "return_rate": 8.7, "top_reasons": [["Wrong size / poor fit", 11], ["Damaged in transit", 8], ["Not as described", 8]]}, {"channel": "In-Store", "orders": 317, "returns": 22, "return_rate": 6.9, "top_reasons": [["Wrong size / poor fit", 7], ["Changed mind", 5], ["Defective", 3]]}], "segments": [{"segment": "VIP", "orders": 99, "revenue": 29263.82, "net_contribution": 9066.14, "aov": 295.59}, {"segment": "Returning", "orders": 460, "revenue": 54022.85, "net_contribution": 8367.39, "aov": 117.44}, {"segment": "New", "orders": 357, "revenue": 31497.28, "net_contribution": 4728.31, "aov": 88.23}], "top_segment": "VIP", "acq_mix": [{"channel": "Referral", "orders": 52, "pct": 52.5}, {"channel": "Email", "orders": 26, "pct": 26.3}, {"channel": "Organic", "orders": 17, "pct": 17.2}, {"channel": "Paid Social", "orders": 4, "pct": 4.0}], "monthly": [{"month": "2025-01", "revenue": 8326.02, "net_contribution": 1309.14, "orders": 70}, {"month": "2025-02", "revenue": 9967.85, "net_contribution": 2805.42, "orders": 75}, {"month": "2025-03", "revenue": 10103.31, "net_contribution": 739.67, "orders": 78}, {"month": "2025-04", "revenue": 10314.82, "net_contribution": 1996.89, "orders": 79}, {"month": "2025-05", "revenue": 9465.36, "net_contribution": 2539.47, "orders": 79}, {"month": "2025-06", "revenue": 10822.89, "net_contribution": 1725.94, "orders": 93}, {"month": "2025-07", "revenue": 8344.65, "net_contribution": 2289.76, "orders": 64}, {"month": "2025-08", "revenue": 12038.08, "net_contribution": 1355.54, "orders": 94}, {"month": "2025-09", "revenue": 9645.6, "net_contribution": 2805.53, "orders": 69}, {"month": "2025-10", "revenue": 9409.3, "net_contribution": 2313.34, "orders": 77}, {"month": "2025-11", "revenue": 8506.3, "net_contribution": 2150.02, "orders": 70}, {"month": "2025-12", "revenue": 7839.77, "net_contribution": 131.12, "orders": 68}]};
+const t=DATA.totals;
+const usd0=v=>(v<0?'-$':'$')+Math.abs(Math.round(v)).toLocaleString();
+const CAT={Apparel:'--apparel',Beauty:'--beauty',Accessories:'--accessories',Home:'--home',Footwear:'--footwear'};
+const cv=n=>'var('+n+')';
+const cats=DATA.categories;
+const foot=cats.find(c=>c.category==='Footwear');
+const vip=DATA.segments.find(s=>s.segment==='VIP')||DATA.segments[0];
+const mobile=DATA.channels.find(c=>c.channel==='Mobile App')||DATA.channels[0];
+const instore=DATA.channels.find(c=>c.channel==='In-Store');
+const beauty=cats.find(c=>c.category==='Beauty');
+const blended=(100*t.net_contribution/t.revenue).toFixed(1);
+const footFix=Math.round(0.193*foot.revenue - foot.net_contribution);
+const vipShare=Math.round(100*vip.net_contribution/t.net_contribution);
+const refRate=(DATA.acq_mix.find(a=>a.channel==='Referral')||{}).pct;
+
+// diverging/entity horizontal bars
+function bars(rows,opt={}){
+  const vals=rows.map(r=>r.value),max=Math.max(...vals,0),min=Math.min(...vals,0),span=(max-min)||1;
+  const zp=(0-min)/span*100;
+  return rows.map(r=>{
+    const w=Math.abs(r.value)/span*100, left=r.value>=0?zp:zp-w, rad=r.value>=0?'0 4px 4px 0':'4px 0 0 4px';
+    return `<div class="row"><div class="nm">${r.name}</div><div class="track">
+      ${opt.zero?`<div class="zero" style="left:${zp}%"></div>`:''}
+      <div class="bar" style="left:${left}%;width:${w}%;background:${r.color};border-radius:${rad}"></div>
+      </div><div class="vl">${r.label}</div></div>`;
+  }).join('');
+}
+const byRev=cats.slice().sort((a,b)=>b.revenue-a.revenue);
+const byNC=cats.slice().sort((a,b)=>b.net_contribution-a.net_contribution);
+const catLegend=['Apparel','Beauty','Accessories','Home','Footwear']
+  .map(c=>`<span><i class="dot" style="background:${cv(CAT[c])}"></i>${c}</span>`).join('');
+
+const SLIDES=[
+`<div class="kicker">Board Review &middot; FY2025</div>
+ <h1>Retail Performance Review</h1>
+ <p class="lead">Where our profit actually comes from &mdash; and the one category quietly destroying it.
+ Built on ${t.orders.toLocaleString()} cleaned orders. Every number traces to the model.</p>`,
+
+`<div class="kicker">The number that matters</div>
+ <div class="hero pos">${usd0(t.net_contribution)}</div>
+ <p class="sub">Total net contribution on ${usd0(t.revenue)} of revenue &mdash; a ${blended}% blended margin across ${t.orders.toLocaleString()} orders.
+ We rank everything that follows by this, not by revenue.</p>`,
+
+`<div class="kicker">The trap</div>
+ <h2>What sells the most earns the least</h2>
+ <div class="grid">
+   <div><div class="axm">Revenue &mdash; USD</div>${bars(byRev.map(c=>({name:c.category,value:c.revenue,color:cv(CAT[c.category]),label:usd0(c.revenue)})))}</div>
+   <div><div class="axm">Net contribution &mdash; USD</div>${bars(byNC.map(c=>({name:c.category,value:c.net_contribution,color:cv(CAT[c.category]),label:usd0(c.net_contribution)})),{zero:true})}</div>
+ </div>
+ <div class="legend">${catLegend}</div>
+ <p class="sub" style="margin-top:18px">Footwear is <b>#1 in revenue</b> and <b>last in profit</b> &mdash; the only category in the red.</p>`,
+
+`<div class="kicker">Finding 1 &middot; largest impact</div>
+ <h2>Fix Footwear or stop scaling it</h2>
+ <div class="big neg">${usd0(foot.net_contribution)}</div>
+ <p class="why">Footwear is ${Math.round(100*foot.revenue/t.revenue)}% of revenue (${usd0(foot.revenue)}) but the only loss-making category.
+ Its ${usd0(foot.refunds)} of refunds exceed its gross profit &mdash; thin margins meet a ${17.5}% return rate.</p>
+ <div class="ask">The ask: <b>renegotiate supplier cost, curb discounting, cut returns.</b> Reaching our ${blended}% average margin is a <b>${usd0(footFix)} swing</b> (+${Math.round(100*footFix/t.net_contribution)}% of total profit).</div>`,
+
+`<div class="kicker">Finding 2</div>
+ <h2>VIPs are the profit engine &mdash; and they refer</h2>
+ <div class="big">${usd0(vip.net_contribution)}</div>
+ <p class="why">The VIP segment is ${Math.round(100*vip.orders/t.orders)}% of orders but <b>${vipShare}% of net contribution</b>,
+ at $${vip.aov.toFixed(0)} AOV &mdash; ${(vip.aov/DATA.segments.find(s=>s.segment==='New').aov).toFixed(1)}&times; a New customer. ${refRate}% of VIP orders come via Referral.</p>
+ <div class="ask">The ask: <b>fund the referral program.</b> It is the cheapest path to our most valuable customers.</div>`,
+
+`<div class="kicker">Finding 3</div>
+ <h2>Mobile returns are bleeding margin</h2>
+ <div class="big neg">${mobile.return_rate}%</div>
+ <p class="why">Mobile App return rate is ${mobile.return_rate}% vs ${instore?instore.return_rate:''}% in store &mdash;
+ roughly ${instore?(mobile.return_rate/instore.return_rate).toFixed(1):''}&times; higher. Top reason everywhere: &ldquo;wrong size / poor fit.&rdquo;</p>
+ <div class="ask">The ask: <b>add fit &amp; sizing guidance at mobile checkout</b>, piloted on Footwear first &mdash; where returns hurt most.</div>`,
+
+`<div class="kicker">The ask, consolidated</div>
+ <h2>Three moves, one agenda</h2>
+ <ul class="clean">
+   <li><b>1. Footwear economics</b> &mdash; supplier terms + pricing + returns &rarr; up to <b>${usd0(footFix)}</b> recovered.</li>
+   <li><b>2. Referral-led VIP growth</b> &mdash; protect the ${vipShare}% of profit from ${Math.round(100*vip.orders/t.orders)}% of orders.</li>
+   <li><b>3. Mobile fit tools</b> &mdash; attack a ${mobile.return_rate}% return rate on our fastest-growing channel.</li>
+ </ul>
+ <p class="sub" style="margin-top:22px">Total profit at stake exceeds <b>${usd0(footFix)}</b> against today's ${usd0(t.net_contribution)} base &mdash; a step-change, not a trim.</p>`,
+
+`<div class="kicker">Trust the numbers</div>
+ <h2>How this was built <span class="tag">Reviewed &amp; approved</span></h2>
+ <p class="appx">
+ <b>Cleaning:</b> 930 &rarr; ${t.orders} orders. 10 exact duplicates removed; 4 impossible rows
+ (sentinel revenue, negative price, quantity 999) <b>quarantined, never dropped</b>.<br>
+ <b>Join coverage:</b> products 98.0%, customers 100%, returns 10.8% (expected &mdash; only returned orders have a record).<br>
+ <b>Independent review:</b> a separate data-quality reviewer recomputed every headline figure and confirmed the Footwear inversion is real &mdash; verdict <b>APPROVED</b>.<br>
+ <b>Known limit:</b> the discount field is unreliable on 62 rows and is excluded; profit math reconciles to revenue with zero mismatches.<br>
+ <b>Source of every number:</b> output/model.csv.</p>`
+];
+
+let i=0;
+function render(){
+  document.getElementById('stage').innerHTML=`<div class="slide active">${SLIDES[i]}</div>`;
+  document.getElementById('pageno').textContent=(i+1)+' / '+SLIDES.length;
+  document.getElementById('prog').style.width=((i+1)/SLIDES.length*100)+'%';
+}
+function go(d){i=Math.max(0,Math.min(SLIDES.length-1,i+d));render();}
+function toggleTheme(){const r=document.documentElement;
+  const cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+  r.setAttribute('data-theme',cur==='dark'?'light':'dark');}
+addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown')go(1);
+  else if(e.key==='ArrowLeft'||e.key==='PageUp')go(-1);
+  else if(e.key==='Home')(i=0,render());else if(e.key==='End')(i=SLIDES.length-1,render());});
+render();
+</script>
+</body>
+</html>

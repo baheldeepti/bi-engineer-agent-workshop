@@ -1,0 +1,26 @@
+ProductName,ProductCategory,ListPrice,UnitCost,GrossMarginPct,Supplier
+Baseball Cap,Accessories,52.9,26.45,0.5,Meridian
+Bath Set,Beauty,43.71,19.67,0.55,Umbra
+Canvas Sneakers,Footwear,111.96,93.6,0.164,Northwind
+Ceramic Mug,Home,47.34,27.46,0.42,Meridian
+Chino Pants,Apparel,79.17,45.05,0.431,Meridian
+Classic Tee,Apparel,70.32,40.01,0.431,Acme
+Cotton Throw,Home,46.91,27.21,0.42,Acme
+Denim Jacket,Apparel,79.95,45.49,0.431,Meridian
+Face Serum,Beauty,37.93,17.07,0.55,Northwind
+Hand Cream,Beauty,39.49,17.77,0.55,Northwind
+Leather Belt,Accessories,52.82,26.41,0.5,Umbra
+Leather Boots,Footwear,113.39,94.79,0.164,Meridian
+Lip Balm,Beauty,35.98,16.19,0.55,Globex
+Loafers,Footwear,101.23,84.63,0.164,Meridian
+Perfume,Beauty,35.21,15.84,0.55,Acme
+Running Shoes,Footwear,113.18,94.62,0.164,Meridian
+Sandals,Footwear,123.51,103.25,0.164,Acme
+Summer Dress,Apparel,71.29,40.56,0.431,Globex
+Sunglasses,Accessories,52.33,26.16,0.5,Northwind
+Table Lamp,Home,45.15,26.19,0.42,Acme
+Throw Pillow,Home,45.27,26.26,0.42,Acme
+Tote Bag,Accessories,50.23,25.12,0.5,Globex
+Wall Art,Home,49.47,28.69,0.42,Globex
+Wool Scarf,Accessories,57.99,29.0,0.5,Northwind
+Wool Sweater,Apparel,62.66,35.65,0.431,Acme

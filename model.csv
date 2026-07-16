@@ -1,0 +1,917 @@
+OrderID,OrderDate,CustomerID,Region,ProductCategory,ProductName,Channel,UnitPrice,Quantity,Discount,ShippingCost,Revenue,Returned,UnitCost,ListPrice,GrossMarginPct,Supplier,Segment,AcquisitionChannel,SignupYear,LoyaltyTier,ReturnReason,RefundAmount,RestockedFlag,COGS,GrossProfit,NetContribution
+ORD50864,2025-01-19,C1015,West,Apparel,Chino Pants,Mobile App,113.59,1,0.15,8.38,96.55,true,45.05,79.17,0.431,Meridian,New,Email,2025,Silver,Changed mind,91.12,N,45.05,51.50,-39.62
+ORD50503,2025-03-18,C1030,South,Home,Wall Art,Online,72.95,1,0.1,5.41,65.66,false,28.69,49.47,0.42,Globex,Returning,Referral,2023,Bronze,,0,,28.69,36.97,36.97
+ORD50227,2025-05-17,C1090,West,Apparel,Chino Pants,Online,78.75,1,0,11.74,63.00,false,45.05,79.17,0.431,Meridian,New,Paid Social,2024,Bronze,,0,,45.05,17.95,17.95
+ORD50662,2025-06-02,C1178,East,Footwear,Sandals,In-Store,262.84,4,0.2,0.00,841.09,false,103.25,123.51,0.164,Acme,VIP,Referral,2024,Gold,,0,,413.00,428.09,428.09
+ORD50440,2025-02-22,C1003,East,Footwear,Leather Boots,In-Store,168.04,3,0.05,0.00,478.91,false,94.79,113.39,0.164,Meridian,Returning,Organic,2023,Bronze,,0,,284.37,194.54,194.54
+ORD50534,2025-08-16,C1058,West,Footwear,Sandals,Online,47.42,2,0.15,5.38,80.61,true,103.25,123.51,0.164,Acme,New,Organic,2025,Bronze,,0,,206.50,-125.89,-125.89
+ORD50889,2025-06-04,C1030,South,Footwear,Sandals,Online,150.66,2,0,11.55,301.32,true,103.25,123.51,0.164,Acme,Returning,Referral,2023,Bronze,Wrong size / poor fit,277.97,N,206.50,94.82,-183.15
+ORD50755,2025-07-09,C1096,East,Apparel,Classic Tee,Mobile App,44.27,1,0.15,7.99,37.63,false,40.01,70.32,0.431,Acme,New,Paid Social,2024,Bronze,,0,,40.01,-2.38,-2.38
+ORD50909,2025-01-12,C1084,Midwest,Footwear,Running Shoes,Mobile App,84.40,2,0,3.85,168.80,false,94.62,113.18,0.164,Meridian,New,Referral,2024,Silver,,0,,189.24,-20.44,-20.44
+ORD50259,2025-08-19,C1158,West,Footwear,Canvas Sneakers,In-Store,137.62,1,0.1,0.00,123.86,false,93.6,111.96,0.164,Northwind,Returning,Paid Social,2023,Silver,,0,,93.60,30.26,30.26
+ORD50715,2025-02-18,C1109,West,Beauty,Bath Set,In-Store,20.68,3,0,0.00,62.04,false,19.67,43.71,0.55,Umbra,VIP,Referral,2023,Silver,,0,,59.01,3.03,3.03
+ORD50118,2025-10-03,C1018,West,Apparel,Chino Pants,Mobile App,114.82,3,0.1,3.83,310.01,true,45.05,79.17,0.431,Meridian,Returning,Referral,2023,Gold,Not as described,263.75,N,135.15,174.86,-88.89
+ORD50168,2025-01-26,C1177,South,Apparel,Wool Sweater,In-Store,148.25,3,0.05,0.00,422.51,false,35.65,62.66,0.431,Acme,VIP,Organic,2025,Silver,,0,,106.95,315.56,315.56
+ORD50664,2025-03-02,C1151,West,Footwear,Loafers,Online,99.63,5,0,10.04,498.15,false,84.63,101.23,0.164,Meridian,VIP,Email,2024,Silver,,0,,423.15,75.00,75.00
+ORD50078,2025-12-27,C1025,West,Home,Cotton Throw,Mobile App,43.88,2,0.05,10.25,83.37,false,27.21,46.91,0.42,Acme,New,Organic,2025,Bronze,,0,,54.42,28.95,28.95
+ORD50512,2025-11-17,C1088,West,Accessories,Wool Scarf,Mobile App,16.52,1,0.2,0.00,13.22,false,29.0,57.99,0.5,Northwind,New,Paid Social,2025,Silver,,0,,29.00,-15.78,-15.78
+ORD50013,2025-12-12,C1097,East,Accessories,Sunglasses,Mobile App,67.48,1,0.1,7.53,60.73,false,26.16,52.33,0.5,Northwind,New,Email,2023,Bronze,,0,,26.16,34.57,34.57
+ORD50132,2025-06-09,C1126,East,Accessories,Wool Scarf,Online,43.98,1,0.05,4.16,41.78,false,29.0,57.99,0.5,Northwind,New,Paid Social,2024,Silver,,0,,29.00,12.78,12.78
+ORD50612,2025-06-05,C1157,South,Footwear,Loafers,Mobile App,46.96,3,0.3,11.63,98.62,false,84.63,101.23,0.164,Meridian,Returning,Organic,2024,Silver,,0,,253.89,-155.27,-155.27
+ORD50251,2025-11-20,C1148,South,Footwear,Canvas Sneakers,Online,113.00,1,0,4.77,113.00,false,93.6,111.96,0.164,Northwind,Returning,Paid Social,2024,Silver,,0,,93.60,19.40,19.40
+ORD50443,2025-10-04,C1126,East,Accessories,Leather Belt,Mobile App,65.14,1,0,10.47,52.11,false,26.41,52.82,0.5,Umbra,New,Paid Social,2024,Silver,,0,,26.41,25.70,25.70
+ORD50194,2025-11-06,C1068,East,Beauty,Face Serum,Online,59.12,1,0.4,5.22,35.47,true,17.07,37.93,0.55,Northwind,New,Email,2025,Bronze,Damaged in transit,32.64,Y,17.07,18.40,-14.24
+ORD50767,2025-10-12,C1032,West,Home,Ceramic Mug,In-Store,43.92,1,0.1,0.00,39.53,false,27.46,47.34,0.42,Meridian,New,Paid Social,2024,Silver,,0,,27.46,12.07,12.07
+ORD50240,2025-02-26,C1154,West,Home,Table Lamp,Online,24.79,1,0.15,4.30,21.07,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Gold,,0,,26.19,-5.12,-5.12
+ORD50135,2025-02-24,C1035,South,Accessories,Sunglasses,In-Store,55.29,2,0,0.00,110.58,false,26.16,52.33,0.5,Northwind,New,Paid Social,2024,Silver,,0,,52.32,58.26,58.26
+ORD50769,2025-04-09,C1004,South,Accessories,Sunglasses,Mobile App,35.56,1,0.15,7.31,30.23,true,26.16,52.33,0.5,Northwind,New,Email,2024,Bronze,Wrong size / poor fit,26.85,N,26.16,4.07,-22.78
+ORD50280,2025-12-08,C1169,West,Beauty,Hand Cream,In-Store,68.85,4,0,0.00,275.40,false,17.77,39.49,0.55,Northwind,VIP,Referral,2024,Gold,,0,,71.08,204.32,204.32
+ORD50304,2025-06-15,C1069,East,Beauty,Bath Set,Mobile App,50.69,1,0.2,8.83,40.55,false,19.67,43.71,0.55,Umbra,Returning,Email,2024,Bronze,,0,,19.67,20.88,20.88
+ORD50173,2025-03-26,C1066,South,Accessories,Baseball Cap,In-Store,50.71,1,0,0.00,50.71,false,26.45,52.9,0.5,Meridian,Returning,Email,2025,Bronze,,0,,26.45,24.26,24.26
+ORD50623,2025-08-29,C1112,Midwest,Beauty,Bath Set,Online,61.06,3,0.05,0.00,174.02,false,19.67,43.71,0.55,Umbra,New,Referral,2023,Bronze,,0,,59.01,115.01,115.01
+ORD50021,2025-12-30,C1080,West,Footwear,Sandals,Online,136.27,1,0.1,7.96,122.64,false,103.25,123.51,0.164,Acme,Returning,Email,2024,Silver,,0,,103.25,19.39,19.39
+ORD50046,2025-04-18,C1007,West,Footwear,Canvas Sneakers,In-Store,103.72,1,0,0.00,103.72,true,93.6,111.96,0.164,Northwind,Returning,Organic,2024,Bronze,Defective,99.09,N,93.60,10.12,-88.97
+ORD50042,2025-11-22,C1163,South,Accessories,Tote Bag,In-Store,59.31,2,0,0.00,118.62,false,25.12,50.23,0.5,Globex,New,Paid Social,2025,Bronze,,0,,50.24,68.38,68.38
+ORD50774,2025-02-13,C1137,South,Accessories,Wool Scarf,In-Store,82.38,1,0,0.00,74.14,false,29.0,57.99,0.5,Northwind,Returning,Email,2024,Gold,,0,,29.00,45.14,45.14
+ORD50876,2025-12-16,C1076,Midwest,Footwear,Canvas Sneakers,Mobile App,89.88,2,0,8.17,179.76,false,93.6,111.96,0.164,Northwind,New,Paid Social,2023,Silver,,0,,187.20,-7.44,-7.44
+ORD50874,2025-08-28,C1064,South,Apparel,Summer Dress,In-Store,33.69,3,0.3,0.00,70.75,false,40.56,71.29,0.431,Globex,Returning,Email,2024,Silver,,0,,121.68,-50.93,-50.93
+ORD50912,2025-08-21,C1092,West,Beauty,Lip Balm,Online,61.44,1,0.05,11.69,58.37,false,16.19,35.98,0.55,Globex,Returning,Referral,2025,Bronze,,0,,16.19,42.18,42.18
+ORD50759,2025-11-02,C1091,West,Home,Table Lamp,Online,63.72,1,0.05,9.85,60.53,false,26.19,45.15,0.42,Acme,Returning,Paid Social,2023,Silver,,0,,26.19,34.34,34.34
+ORD50602,2025-01-02,C1099,Midwest,Apparel,Denim Jacket,Online,109.72,2,0.1,8.37,197.50,false,45.49,79.95,0.431,Meridian,VIP,Email,2023,Silver,,0,,90.98,106.52,106.52
+ORD50763,2025-02-05,C1083,West,Beauty,Bath Set,Mobile App,63.57,2,0,3.67,127.14,false,19.67,43.71,0.55,Umbra,New,Paid Social,2025,Gold,,0,,39.34,87.80,87.80
+ORD50646,2025-09-29,C1000,Midwest,Beauty,Bath Set,In-Store,42.91,2,0.1,0.00,77.24,false,19.67,43.71,0.55,Umbra,Returning,Paid Social,2025,Gold,,0,,39.34,37.90,37.90
+ORD50019,2025-01-21,C1012,West,Beauty,Perfume,Online,25.43,1,0,9.81,25.43,false,15.84,35.21,0.55,Acme,Returning,Organic,2025,Bronze,,0,,15.84,9.59,9.59
+ORD50801,2025-07-31,C1111,West,Apparel,Wool Sweater,In-Store,72.97,2,0.15,0.00,124.05,false,35.65,62.66,0.431,Acme,New,Paid Social,2023,Silver,,0,,71.30,52.75,52.75
+ORD50342,2025-05-23,C1173,East,Accessories,Tote Bag,Online,30.50,2,0,5.16,61.00,false,25.12,50.23,0.5,Globex,VIP,Email,2023,Silver,,0,,50.24,10.76,10.76
+ORD50454,2025-12-28,C1158,West,Footwear,Loafers,Online,51.30,3,0,6.39,153.90,false,84.63,101.23,0.164,Meridian,Returning,Paid Social,2023,Silver,,0,,253.89,-99.99,-99.99
+ORD50031,2025-09-21,C1091,West,Accessories,Baseball Cap,Mobile App,56.48,3,0.4,9.74,101.66,true,26.45,52.9,0.5,Meridian,Returning,Paid Social,2023,Silver,Defective,95.9,Y,79.35,22.31,-73.59
+ORD50515,2025-01-28,C1007,West,Accessories,Leather Belt,Online,55.22,2,0.2,7.40,88.35,false,26.41,52.82,0.5,Umbra,Returning,Organic,2024,Bronze,,0,,52.82,35.53,35.53
+ORD50580,2025-08-22,C1029,East,Apparel,Chino Pants,In-Store,98.53,2,0.15,0.00,167.50,false,45.05,79.17,0.431,Meridian,Returning,Organic,2024,Bronze,,0,,90.10,77.40,77.40
+ORD50835,2025-02-26,C1068,East,Footwear,Canvas Sneakers,Mobile App,80.84,2,0,7.15,161.68,false,93.6,111.96,0.164,Northwind,New,Email,2025,Bronze,,0,,187.20,-25.52,-25.52
+ORD50916,2025-04-26,C1007,West,Accessories,Wool Scarf,In-Store,63.17,1,0,0.00,63.17,false,29.0,57.99,0.5,Northwind,Returning,Organic,2024,Bronze,,0,,29.00,34.17,34.17
+ORD50502,2025-10-12,C1105,East,Apparel,Chino Pants,Online,51.98,2,0.05,8.52,98.76,false,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Gold,,0,,90.10,8.66,8.66
+ORD50121,2025-05-17,C1078,West,Accessories,Baseball Cap,Mobile App,55.24,1,0.2,8.55,44.19,true,26.45,52.9,0.5,Meridian,Returning,Organic,2025,Bronze,Wrong size / poor fit,38.62,Y,26.45,17.74,-20.88
+ORD50211,2025-08-08,C1090,West,Beauty,Bath Set,Online,63.96,2,0.1,6.36,115.13,false,19.67,43.71,0.55,Umbra,New,Paid Social,2024,Bronze,,0,,39.34,75.79,75.79
+ORD50865,2025-11-12,C1033,Midwest,Footwear,Leather Boots,Online,156.05,1,0.25,4.17,117.04,false,94.79,113.39,0.164,Meridian,New,Organic,2023,Bronze,,0,,94.79,22.25,22.25
+ORD50671,2025-03-03,C1068,East,Home,Throw Pillow,Mobile App,65.57,2,0.15,5.06,111.47,true,26.26,45.27,0.42,Acme,New,Email,2025,Bronze,Wrong size / poor fit,95.35,Y,52.52,58.95,-36.40
+ORD50783,2025-04-30,C1142,East,Footwear,Sandals,Online,204.58,2,0.1,4.11,368.24,true,103.25,123.51,0.164,Acme,VIP,Email,2023,Silver,Not as described,365.19,N,206.50,161.74,-203.45
+ORD50915,2025-05-17,C1171,West,Footwear,Leather Boots,Mobile App,121.78,1,0,4.86,121.78,false,94.79,113.39,0.164,Meridian,Returning,Referral,2023,Silver,,0,,94.79,26.99,26.99
+ORD50332,2025-06-28,C1137,South,Home,Table Lamp,Mobile App,60.21,1,0,5.49,60.21,false,26.19,45.15,0.42,Acme,Returning,Email,2024,Gold,,0,,26.19,34.02,34.02
+ORD50401,2025-07-03,C1141,East,Accessories,Tote Bag,In-Store,77.79,1,0,0.00,77.79,false,25.12,50.23,0.5,Globex,Returning,Referral,2024,Bronze,,0,,25.12,52.67,52.67
+ORD50115,2025-02-07,C1079,South,Home,Table Lamp,Online,75.02,3,0,8.33,225.06,false,26.19,45.15,0.42,Acme,Returning,Paid Social,2025,Silver,,0,,78.57,146.49,146.49
+ORD50116,2025-12-07,C1069,East,Home,Table Lamp,Online,49.70,2,0.05,9.65,94.43,false,26.19,45.15,0.42,Acme,Returning,Email,2024,Bronze,,0,,52.38,42.05,42.05
+ORD50060,2025-10-02,C1121,West,Home,Wall Art,Mobile App,63.57,2,0,3.61,120.78,false,28.69,49.47,0.42,Globex,Returning,Email,2023,Bronze,,0,,57.38,63.40,63.40
+ORD50029,2025-03-11,C1025,West,Apparel,Wool Sweater,In-Store,51.41,1,0.4,0.00,30.85,false,35.65,62.66,0.431,Acme,New,Organic,2025,Bronze,,0,,35.65,-4.80,-4.80
+ORD50326,2025-02-06,C1060,Midwest,Footwear,Leather Boots,In-Store,120.34,3,0.1,0.00,324.92,true,94.79,113.39,0.164,Meridian,Returning,Referral,2024,Silver,,0,,284.37,40.55,40.55
+ORD50036,2025-01-18,C1171,West,Home,Table Lamp,Mobile App,14.01,3,0,10.75,37.83,false,26.19,45.15,0.42,Acme,Returning,Referral,2023,Silver,,0,,78.57,-40.74,-40.74
+ORD50450,2025-12-28,C1120,South,Footwear,Running Shoes,In-Store,84.18,2,0,0.00,168.36,true,94.62,113.18,0.164,Meridian,Returning,Email,2023,Bronze,Wrong size / poor fit,159.89,Y,189.24,-20.88,-180.77
+ORD50587,2025-12-24,C1108,East,Apparel,Wool Sweater,Online,40.31,1,0,8.80,34.26,false,35.65,62.66,0.431,Acme,New,Paid Social,2023,Bronze,,0,,35.65,-1.39,-1.39
+ORD50106,2025-08-15,C1046,West,Footwear,Leather Boots,In-Store,155.73,2,0.05,0.00,295.89,false,94.79,113.39,0.164,Meridian,New,Organic,2024,Bronze,,0,,189.58,106.31,106.31
+ORD50806,2025-01-10,C1174,East,Home,Cotton Throw,Online,45.31,2,0.1,3.63,81.56,false,27.21,46.91,0.42,Acme,New,Organic,2024,Bronze,,0,,54.42,27.14,27.14
+ORD50302,2025-03-22,C1135,East,Footwear,Sandals,Online,111.97,2,0,4.38,223.94,true,103.25,123.51,0.164,Acme,New,Paid Social,2024,Bronze,Changed mind,205.85,Y,206.50,17.44,-188.41
+ORD50648,2025-11-14,C1054,Midwest,Footwear,Leather Boots,Mobile App,60.90,3,0.05,11.43,173.56,true,94.79,113.39,0.164,Meridian,Returning,Referral,2025,Bronze,Wrong size / poor fit,162.62,N,284.37,-110.81,-273.43
+ORD50895,2025-03-26,C1162,Midwest,Apparel,Classic Tee,Online,33.28,1,0,0.00,33.28,false,40.01,70.32,0.431,Acme,New,Paid Social,2025,Bronze,,0,,40.01,-6.73,-6.73
+ORD50045,2025-04-27,C1018,West,Home,Ceramic Mug,Online,46.87,3,0,4.38,140.61,false,27.46,47.34,0.42,Meridian,Returning,Referral,2023,Gold,,0,,82.38,58.23,58.23
+ORD50084,2025-02-24,C1129,West,Accessories,Baseball Cap,In-Store,46.45,3,0.05,0.00,132.38,false,26.45,52.9,0.5,Meridian,Returning,Organic,2024,Bronze,,0,,79.35,53.03,53.03
+ORD50800,2025-01-20,C1092,West,Footwear,Loafers,Online,116.71,2,0.15,6.77,198.41,false,84.63,101.23,0.164,Meridian,Returning,Referral,2025,Bronze,,0,,169.26,29.15,29.15
+ORD50754,2025-08-21,C1173,East,Apparel,Wool Sweater,In-Store,54.63,4,0.05,0.00,207.59,false,35.65,62.66,0.431,Acme,VIP,Email,2023,Silver,,0,,142.60,64.99,64.99
+ORD50616,2025-08-11,C1169,West,Accessories,Baseball Cap,Online,120.16,3,0.1,9.67,324.43,false,26.45,52.9,0.5,Meridian,VIP,Referral,2024,Gold,,0,,79.35,245.08,245.08
+ORD50781,2025-11-07,C1044,West,Footwear,Running Shoes,In-Store,41.75,1,0.1,0.00,37.58,false,94.62,113.18,0.164,Meridian,Returning,Organic,2025,Bronze,,0,,94.62,-57.04,-57.04
+ORD50004,2025-12-14,C1086,West,Home,Table Lamp,Mobile App,12.84,1,0.1,6.07,11.56,false,26.19,45.15,0.42,Acme,Returning,Organic,2024,Bronze,,0,,26.19,-14.63,-14.63
+ORD50914,2025-09-02,C1125,East,Accessories,Tote Bag,Online,65.49,2,0,6.97,130.98,false,25.12,50.23,0.5,Globex,Returning,Email,2024,Bronze,,0,,50.24,80.74,80.74
+ORD50499,2025-10-24,C1096,East,Beauty,Bath Set,In-Store,52.13,2,0.2,0.00,83.41,false,19.67,43.71,0.55,Umbra,New,Paid Social,2024,Bronze,,0,,39.34,44.07,44.07
+ORD50362,2025-02-02,C1018,West,Footwear,Leather Boots,Online,46.02,2,0.15,7.56,78.23,true,94.79,113.39,0.164,Meridian,Returning,Referral,2023,Gold,Wrong size / poor fit,71.62,N,189.58,-111.35,-182.97
+ORD50900,2025-01-14,C1020,South,Beauty,Bath Set,Online,14.16,1,0.4,3.74,8.50,false,19.67,43.71,0.55,Umbra,Returning,Email,2024,Bronze,,0,,19.67,-11.17,-11.17
+ORD50369,2025-01-23,C1145,South,Accessories,Tote Bag,Online,61.25,1,0.15,4.23,52.06,false,25.12,50.23,0.5,Globex,New,Paid Social,2023,Bronze,,0,,25.12,26.94,26.94
+ORD50824,2025-04-16,C1052,Midwest,Apparel,Denim Jacket,Online,79.76,2,0.1,4.97,143.57,false,45.49,79.95,0.431,Meridian,Returning,Email,2025,Bronze,,0,,90.98,52.59,52.59
+ORD50235,2025-02-04,C1153,Midwest,Footwear,Leather Boots,Online,115.20,2,0.05,6.78,218.88,false,94.79,113.39,0.164,Meridian,Returning,Email,2025,Bronze,,0,,189.58,29.30,29.30
+ORD50627,2025-04-10,C1042,South,Home,Wall Art,In-Store,24.97,1,0.3,0.00,17.48,false,28.69,49.47,0.42,Globex,Returning,Organic,2025,Silver,,0,,28.69,-11.21,-11.21
+ORD50397,2025-01-18,C1053,South,Apparel,Chino Pants,Online,81.26,3,0.2,11.03,195.02,false,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Bronze,,0,,135.15,59.87,59.87
+ORD50688,2025-06-24,C1176,South,Footwear,Leather Boots,Mobile App,71.29,2,0.05,5.71,135.45,true,94.79,113.39,0.164,Meridian,Returning,Email,2023,Bronze,Changed mind,128.81,N,189.58,-54.13,-182.94
+ORD50487,2025-06-23,C1082,East,Apparel,Summer Dress,Online,43.60,2,0,8.01,87.20,false,40.56,71.29,0.431,Globex,Returning,Paid Social,2023,Bronze,,0,,81.12,6.08,6.08
+ORD50146,2025-06-24,C1127,South,Home,Table Lamp,In-Store,16.76,1,0.15,0.00,14.25,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,26.19,-11.94,-11.94
+ORD50772,2025-01-13,C1064,South,Beauty,Lip Balm,Online,14.32,3,0.2,10.94,34.37,false,16.19,35.98,0.55,Globex,Returning,Email,2024,Silver,,0,,48.57,-14.20,-14.20
+ORD50220,2025-08-09,C1047,East,Apparel,Summer Dress,Online,47.82,1,0,5.14,47.82,false,40.56,71.29,0.431,Globex,New,Paid Social,2023,Bronze,,0,,40.56,7.26,7.26
+ORD50640,2025-11-19,C1090,West,Home,Ceramic Mug,Mobile App,28.13,2,0.15,3.70,47.82,false,27.46,47.34,0.42,Meridian,New,Paid Social,2024,Bronze,,0,,54.92,-7.10,-7.10
+ORD50832,2025-08-06,C1018,West,Accessories,Sunglasses,In-Store,33.83,2,0.2,0.00,54.13,true,26.16,52.33,0.5,Northwind,Returning,Referral,2023,Gold,Wrong size / poor fit,52.03,N,52.32,1.81,-50.22
+ORD50892,2025-09-25,C1121,West,Home,Cotton Throw,In-Store,51.69,1,0,0.00,51.69,false,27.21,46.91,0.42,Acme,Returning,Email,2023,Bronze,,0,,27.21,24.48,24.48
+ORD50529,2025-01-13,C1036,West,Apparel,Classic Tee,Online,66.29,2,0,8.80,132.58,false,40.01,70.32,0.431,Acme,New,Organic,2024,Silver,,0,,80.02,52.56,52.56
+ORD50150,2025-08-23,C1149,West,Home,Cotton Throw,Online,43.34,2,0.05,6.96,82.35,false,27.21,46.91,0.42,Acme,New,Paid Social,2023,Bronze,,0,,54.42,27.93,27.93
+ORD50309,2025-10-31,C1146,Midwest,Home,Throw Pillow,In-Store,42.68,1,0.2,0.00,34.14,false,26.26,45.27,0.42,Acme,New,Email,2023,Bronze,,0,,26.26,7.88,7.88
+ORD50620,2025-10-08,C1078,West,Footwear,Canvas Sneakers,Online,143.96,3,0,10.09,431.88,false,93.6,111.96,0.164,Northwind,Returning,Organic,2025,Bronze,,0,,280.80,151.08,151.08
+ORD50391,2025-11-02,C1039,East,Home,Wall Art,In-Store,26.19,2,0.15,0.00,44.52,false,28.69,49.47,0.42,Globex,Returning,Organic,2024,Silver,,0,,57.38,-12.86,-12.86
+ORD50398,2025-02-26,C1080,West,Footwear,,Mobile App,105.93,2,0,10.84,211.86,false,,,,,Returning,Email,2024,Silver,,0,,,,
+ORD50788,2025-02-21,C1159,Midwest,Accessories,Leather Belt,Online,31.70,3,0.3,8.24,66.57,false,26.41,52.82,0.5,Umbra,Returning,Organic,2025,Silver,,0,,79.23,-12.66,-12.66
+ORD50162,2025-08-19,C1071,Midwest,Apparel,Classic Tee,In-Store,85.73,1,0,0.00,85.73,false,40.01,70.32,0.431,Acme,New,Paid Social,2023,Bronze,,0,,40.01,45.72,45.72
+ORD50128,2025-07-10,C1162,Midwest,Apparel,Denim Jacket,Online,104.56,2,0,4.82,209.12,false,45.49,79.95,0.431,Meridian,New,Paid Social,2025,Bronze,,0,,90.98,118.14,118.14
+ORD50049,2025-06-28,C1095,East,Footwear,Leather Boots,In-Store,73.95,3,0,0.00,221.85,false,94.79,113.39,0.164,Meridian,Returning,Email,2023,Gold,,0,,284.37,-62.52,-62.52
+ORD50105,2025-01-03,C1101,West,Accessories,Sunglasses,Online,68.29,3,0,7.63,204.87,false,26.16,52.33,0.5,Northwind,Returning,Email,2024,Bronze,,0,,78.48,126.39,126.39
+ORD50846,2025-10-21,C1028,West,Footwear,Leather Boots,Online,147.17,2,0.2,0.00,235.47,false,94.79,113.39,0.164,Meridian,New,Paid Social,2025,Bronze,,0,,189.58,45.89,45.89
+ORD50313,2025-01-03,C1082,East,Footwear,Sandals,Online,84.48,2,0,6.99,160.51,true,103.25,123.51,0.164,Acme,Returning,Paid Social,2023,Bronze,Late delivery,152.61,Y,206.50,-45.99,-198.60
+ORD50437,2025-04-14,C1079,South,Apparel,Chino Pants,In-Store,101.41,1,0,0.00,101.41,false,45.05,79.17,0.431,Meridian,Returning,Paid Social,2025,Silver,,0,,45.05,56.36,56.36
+ORD50856,2025-11-29,C1124,Midwest,Home,Cotton Throw,Online,25.30,1,0.1,9.10,22.77,false,27.21,46.91,0.42,Acme,New,Organic,2025,Bronze,,0,,27.21,-4.44,-4.44
+ORD50471,2025-06-26,C1076,Midwest,Apparel,Summer Dress,In-Store,74.28,2,0.3,0.00,103.99,false,40.56,71.29,0.431,Globex,New,Paid Social,2023,Silver,,0,,81.12,22.87,22.87
+ORD50425,2025-04-06,C1085,West,Apparel,Denim Jacket,In-Store,48.63,2,0.05,0.00,92.40,false,45.49,79.95,0.431,Meridian,New,Organic,2024,Gold,,0,,90.98,1.42,1.42
+ORD50261,2025-05-28,C1153,Midwest,Accessories,Wool Scarf,In-Store,64.30,2,0.15,0.00,109.31,false,29.0,57.99,0.5,Northwind,Returning,Email,2025,Bronze,,0,,58.00,51.31,51.31
+ORD50242,2025-08-10,C1053,South,Apparel,Classic Tee,Online,29.10,3,0.15,7.51,74.21,false,40.01,70.32,0.431,Acme,Returning,Organic,2023,Bronze,,0,,120.03,-45.82,-45.82
+ORD50140,2025-06-03,C1110,Midwest,Beauty,Face Serum,In-Store,35.80,2,0,0.00,71.60,false,17.07,37.93,0.55,Northwind,Returning,Email,2023,Bronze,,0,,34.14,37.46,37.46
+ORD50265,2025-03-12,C1165,South,Accessories,Tote Bag,Online,32.61,2,0,10.07,52.18,false,25.12,50.23,0.5,Globex,New,Paid Social,2023,Silver,,0,,50.24,1.94,1.94
+ORD50180,2025-04-18,C1051,East,Accessories,Baseball Cap,In-Store,61.77,2,0.1,0.00,111.19,false,26.45,52.9,0.5,Meridian,New,Email,2024,Silver,,0,,52.90,58.29,58.29
+ORD50808,2025-05-27,C1164,South,Apparel,Classic Tee,Mobile App,85.44,2,0.15,9.64,145.25,false,40.01,70.32,0.431,Acme,Returning,Organic,2024,Bronze,,0,,80.02,65.23,65.23
+ORD50161,2025-08-21,C1047,East,Footwear,Running Shoes,Mobile App,58.91,1,0,10.70,55.96,true,94.62,113.18,0.164,Meridian,New,Paid Social,2023,Bronze,Wrong size / poor fit,53.71,Y,94.62,-38.66,-92.37
+ORD50361,2025-08-12,C1158,West,Accessories,Leather Belt,Online,56.48,3,0.05,10.33,160.97,true,26.41,52.82,0.5,Umbra,Returning,Paid Social,2023,Silver,Damaged in transit,144.62,N,79.23,81.74,-62.88
+ORD50600,2025-02-15,C1053,South,Apparel,Chino Pants,In-Store,56.52,2,0.2,0.00,90.43,true,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Bronze,Defective,82.01,N,90.10,0.33,-81.68
+ORD50268,2025-10-27,C1089,West,Footwear,Loafers,Mobile App,47.47,2,0.1,7.43,85.45,false,84.63,101.23,0.164,Meridian,Returning,Email,2023,Bronze,,0,,169.26,-83.81,-83.81
+ORD50637,2025-04-18,C1009,West,Beauty,Face Serum,In-Store,17.78,3,0,0.00,53.34,false,17.07,37.93,0.55,Northwind,Returning,Email,2023,Gold,,0,,51.21,2.13,2.13
+ORD50563,2025-12-08,C1139,Midwest,Home,Cotton Throw,Online,31.95,1,0,5.58,27.16,false,27.21,46.91,0.42,Acme,New,Paid Social,2025,Bronze,,0,,27.21,-0.05,-0.05
+ORD50250,2025-06-28,C1102,West,Apparel,Summer Dress,In-Store,70.38,1,0.15,0.00,59.82,false,40.56,71.29,0.431,Globex,New,Email,2023,Silver,,0,,40.56,19.26,19.26
+ORD50252,2025-10-22,C1156,West,Accessories,Wool Scarf,Mobile App,67.04,1,0,3.57,67.04,true,29.0,57.99,0.5,Northwind,New,Paid Social,2024,Bronze,Wrong size / poor fit,63.07,N,29.00,38.04,-25.03
+ORD50296,2025-05-10,C1055,Midwest,Footwear,Running Shoes,Online,165.01,3,0.1,5.81,445.53,false,94.62,113.18,0.164,Meridian,Returning,Referral,2024,Bronze,,0,,283.86,161.67,161.67
+ORD50378,2025-02-20,C1155,South,Beauty,Bath Set,In-Store,21.15,2,0.1,0.00,38.07,false,19.67,43.71,0.55,Umbra,Returning,Email,2025,Silver,,0,,39.34,-1.27,-1.27
+ORD50324,2025-04-29,C1016,South,Apparel,Chino Pants,Online,111.77,3,0,5.61,335.31,true,45.05,79.17,0.431,Meridian,Returning,Referral,2025,Silver,Damaged in transit,292.6,Y,135.15,200.16,-92.44
+ORD50629,2025-02-05,C1007,West,Home,Ceramic Mug,Online,38.13,1,0.1,0.00,34.32,false,27.46,47.34,0.42,Meridian,Returning,Organic,2024,Bronze,,0,,27.46,6.86,6.86
+ORD50446,2025-04-01,C1096,East,Beauty,Face Serum,In-Store,60.05,1,0.1,0.00,54.05,false,17.07,37.93,0.55,Northwind,New,Paid Social,2024,Bronze,,0,,17.07,36.98,36.98
+ORD50863,2025-11-25,C1043,Midwest,Home,Ceramic Mug,In-Store,38.68,2,0.2,0.00,61.89,false,27.46,47.34,0.42,Meridian,New,Paid Social,2024,Bronze,,0,,54.92,6.97,6.97
+ORD50747,2025-08-21,C1164,South,Beauty,Bath Set,Online,51.98,2,0.05,0.00,98.76,false,19.67,43.71,0.55,Umbra,Returning,Organic,2024,Bronze,,0,,39.34,59.42,59.42
+ORD50299,2025-10-13,C1170,South,Home,Ceramic Mug,Mobile App,68.94,1,0.15,9.44,58.60,false,27.46,47.34,0.42,Meridian,New,Paid Social,2023,Silver,,0,,27.46,31.14,31.14
+ORD50468,2025-08-04,C1079,South,Home,Ceramic Mug,Mobile App,50.06,2,0,9.69,100.12,false,27.46,47.34,0.42,Meridian,Returning,Paid Social,2025,Silver,,0,,54.92,45.20,45.20
+ORD50528,2025-07-17,C1138,West,Accessories,Wool Scarf,Mobile App,63.28,3,0,0.00,189.84,false,29.0,57.99,0.5,Northwind,Returning,Referral,2023,Silver,,0,,87.00,102.84,102.84
+ORD50589,2025-08-12,C1040,East,Accessories,Wool Scarf,In-Store,41.25,1,0,0.00,41.25,false,29.0,57.99,0.5,Northwind,Returning,Organic,2024,Silver,,0,,29.00,12.25,12.25
+ORD50578,2025-04-24,C1099,Midwest,Beauty,Face Serum,In-Store,18.87,3,0.05,0.00,53.78,false,17.07,37.93,0.55,Northwind,VIP,Email,2023,Silver,,0,,51.21,2.57,2.57
+ORD50918,2025-06-05,C1040,East,Home,Cotton Throw,Mobile App,41.77,2,0,10.78,83.54,false,27.21,46.91,0.42,Acme,Returning,Organic,2024,Silver,,0,,54.42,29.12,29.12
+ORD50237,2025-05-22,C1052,Midwest,Beauty,Hand Cream,In-Store,38.71,1,0,0.00,38.71,false,17.77,39.49,0.55,Northwind,Returning,Email,2025,Bronze,,0,,17.77,20.94,20.94
+ORD50633,2025-01-09,C1064,South,Accessories,Tote Bag,In-Store,47.02,2,0,0.00,94.04,false,25.12,50.23,0.5,Globex,Returning,Email,2024,Silver,,0,,50.24,43.80,43.80
+ORD50586,2025-10-22,C1040,East,Footwear,Canvas Sneakers,Mobile App,56.84,2,0,8.17,113.68,false,93.6,111.96,0.164,Northwind,Returning,Organic,2024,Silver,,0,,187.20,-73.52,-73.52
+ORD50156,2025-10-11,C1139,Midwest,Home,Table Lamp,Online,68.79,1,0,0.00,68.79,false,26.19,45.15,0.42,Acme,New,Paid Social,2025,Bronze,,0,,26.19,42.60,42.60
+ORD50899,2025-04-28,C1022,East,Footwear,Running Shoes,In-Store,140.87,5,0.3,0.00,493.04,false,94.62,113.18,0.164,Meridian,VIP,Email,2023,Gold,,0,,473.10,19.94,19.94
+ORD50868,2025-05-22,C1105,East,Beauty,Face Serum,Online,63.40,1,0,6.84,63.40,true,17.07,37.93,0.55,Northwind,Returning,Organic,2023,Gold,Wrong size / poor fit,57.72,N,17.07,46.33,-11.39
+ORD50811,2025-03-27,C1149,West,Apparel,Summer Dress,Online,55.85,1,0.05,9.01,53.06,true,40.56,71.29,0.431,Globex,New,Paid Social,2023,Bronze,Not as described,46.81,Y,40.56,12.50,-34.31
+ORD50099,2025-12-01,C1017,Midwest,Apparel,Denim Jacket,Online,31.41,2,0.1,0.00,56.54,false,45.49,79.95,0.431,Meridian,New,Organic,2024,Bronze,,0,,90.98,-34.44,-34.44
+ORD50075,2025-01-14,C1169,West,Beauty,Face Serum,In-Store,57.49,5,0.1,0.00,258.70,false,17.07,37.93,0.55,Northwind,VIP,Referral,2024,Gold,,0,,85.35,173.35,173.35
+ORD50064,2025-10-12,C1162,Midwest,Beauty,Perfume,Online,15.49,2,0.15,6.71,26.33,true,15.84,35.21,0.55,Acme,New,Paid Social,2025,Bronze,Changed mind,25.83,Y,31.68,-5.35,-31.18
+ORD50773,2025-02-28,C1119,South,Accessories,Sunglasses,Mobile App,41.46,1,0.05,0.00,39.39,false,26.16,52.33,0.5,Northwind,Returning,Organic,2024,Gold,,0,,26.16,13.23,13.23
+ORD50395,2025-11-06,C1030,South,Accessories,Tote Bag,Mobile App,54.06,4,0,4.42,216.24,false,25.12,50.23,0.5,Globex,Returning,Referral,2023,Bronze,,0,,100.48,115.76,115.76
+ORD50642,2025-08-17,C1156,West,Accessories,Baseball Cap,In-Store,22.59,2,0,0.00,45.18,false,26.45,52.9,0.5,Meridian,New,Paid Social,2024,Bronze,,0,,52.90,-7.72,-7.72
+ORD50371,2025-10-20,C1016,South,Accessories,Tote Bag,Online,31.73,2,0,6.62,63.46,false,25.12,50.23,0.5,Globex,Returning,Referral,2025,Silver,,0,,50.24,13.22,13.22
+ORD50399,2025-06-25,C1116,Midwest,Footwear,Canvas Sneakers,In-Store,112.69,1,0.05,0.00,107.06,false,93.6,111.96,0.164,Northwind,Returning,Paid Social,2025,Bronze,,0,,93.60,13.46,13.46
+ORD50493,2025-01-28,C1031,South,Accessories,Wool Scarf,Mobile App,98.77,3,0.05,4.57,281.49,true,29.0,57.99,0.5,Northwind,VIP,Referral,2024,Gold,Defective,274.95,N,87.00,194.49,-80.46
+ORD50525,2025-05-25,C1004,South,Home,Wall Art,Online,28.50,2,0.2,0.00,45.60,false,28.69,49.47,0.42,Globex,New,Email,2024,Bronze,,0,,57.38,-11.78,-11.78
+ORD50532,2025-08-01,C1024,West,Accessories,Wool Scarf,Online,53.41,2,0.3,11.15,74.77,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2024,Bronze,,0,,58.00,16.77,16.77
+ORD50885,2025-03-29,C1048,South,Accessories,Wool Scarf,In-Store,86.69,1,0.2,0.00,69.35,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2024,Bronze,,0,,29.00,40.35,40.35
+ORD50412,2025-10-06,C1057,South,Apparel,Wool Sweater,Mobile App,64.62,2,0,11.07,129.24,false,35.65,62.66,0.431,Acme,Returning,Referral,2025,Bronze,,0,,71.30,57.94,57.94
+ORD50071,2025-09-29,C1111,West,Accessories,Wool Scarf,Online,33.99,1,0.2,9.75,27.19,false,29.0,57.99,0.5,Northwind,New,Paid Social,2023,Silver,,0,,29.00,-1.81,-1.81
+ORD50626,2025-04-19,C1046,West,Home,Throw Pillow,Online,68.37,1,0.15,5.11,58.11,false,26.26,45.27,0.42,Acme,New,Organic,2024,Bronze,,0,,26.26,31.85,31.85
+ORD50676,2025-09-16,C1068,East,Beauty,,Online,35.57,2,0.15,10.42,60.47,false,,,,,New,Email,2025,Bronze,,0,,,,
+ORD50820,2025-04-06,C1074,West,Accessories,Baseball Cap,In-Store,67.27,2,0.3,0.00,94.18,false,26.45,52.9,0.5,Meridian,New,Paid Social,2023,Bronze,,0,,52.90,41.28,41.28
+ORD50262,2025-09-20,C1170,South,Accessories,,In-Store,22.59,1,0.2,0.00,18.07,false,,,,,New,Paid Social,2023,Silver,,0,,,,
+ORD50175,2025-02-21,C1149,West,Apparel,Classic Tee,Online,33.55,1,0.4,4.63,20.13,true,40.01,70.32,0.431,Acme,New,Paid Social,2023,Bronze,Wrong size / poor fit,18.83,Y,40.01,-19.88,-38.71
+ORD50269,2025-12-10,C1122,East,Apparel,Wool Sweater,Mobile App,34.19,2,0,5.33,68.38,false,35.65,62.66,0.431,Acme,New,Referral,2024,Silver,,0,,71.30,-2.92,-2.92
+ORD50459,2025-12-12,C1116,Midwest,Accessories,Tote Bag,In-Store,41.63,3,0,0.00,124.89,false,25.12,50.23,0.5,Globex,Returning,Paid Social,2025,Bronze,,0,,75.36,49.53,49.53
+ORD50271,2025-08-17,C1170,South,Home,Cotton Throw,In-Store,54.17,3,0,0.00,162.51,false,27.21,46.91,0.42,Acme,New,Paid Social,2023,Silver,,0,,81.63,80.88,80.88
+ORD50761,2025-09-18,C1007,West,Beauty,Hand Cream,Mobile App,23.72,4,0.2,8.66,75.90,false,17.77,39.49,0.55,Northwind,Returning,Organic,2024,Bronze,,0,,71.08,4.82,4.82
+ORD50418,2025-11-19,C1014,West,Footwear,Running Shoes,In-Store,133.81,3,0.35,0.00,260.93,false,94.62,113.18,0.164,Meridian,Returning,Email,2024,Silver,,0,,283.86,-22.93,-22.93
+ORD50866,2025-08-14,C1163,South,Home,Ceramic Mug,Mobile App,56.86,2,0.05,4.12,108.03,false,27.46,47.34,0.42,Meridian,New,Paid Social,2025,Bronze,,0,,54.92,53.11,53.11
+ORD50667,2025-10-28,C1016,South,Beauty,Hand Cream,In-Store,56.16,3,0.15,0.00,143.21,false,17.77,39.49,0.55,Northwind,Returning,Referral,2025,Silver,,0,,53.31,89.90,89.90
+ORD50204,2025-02-15,C1046,West,Home,Wall Art,Online,22.24,2,0.1,4.11,40.03,false,28.69,49.47,0.42,Globex,New,Organic,2024,Bronze,,0,,57.38,-17.35,-17.35
+ORD50799,2025-05-12,C1085,West,Beauty,Lip Balm,In-Store,29.17,1,0.05,0.00,27.71,false,16.19,35.98,0.55,Globex,New,Organic,2024,Gold,,0,,16.19,11.52,11.52
+ORD50206,2025-10-20,C1171,West,Home,Throw Pillow,In-Store,72.19,1,0,0.00,72.19,false,26.26,45.27,0.42,Acme,Returning,Referral,2023,Silver,,0,,26.26,45.93,45.93
+ORD50088,2025-08-01,C1109,West,Footwear,Leather Boots,Online,151.55,4,0.15,6.90,515.27,true,94.79,113.39,0.164,Meridian,VIP,Referral,2023,Silver,Not as described,511.56,Y,379.16,136.11,-375.45
+ORD50510,2025-10-21,C1162,Midwest,Beauty,Face Serum,In-Store,41.67,1,0.2,0.00,33.34,false,17.07,37.93,0.55,Northwind,New,Paid Social,2025,Bronze,,0,,17.07,16.27,16.27
+ORD50107,2025-02-18,C1093,South,Footwear,Canvas Sneakers,Online,134.73,2,0,0.00,269.46,false,93.6,111.96,0.164,Northwind,New,Paid Social,2025,Bronze,,0,,187.20,82.26,82.26
+ORD50123,2025-06-25,C1168,South,Footwear,Leather Boots,Mobile App,56.58,2,0,10.93,113.16,true,94.79,113.39,0.164,Meridian,New,Paid Social,2025,Bronze,Wrong size / poor fit,111.85,N,189.58,-76.42,-188.27
+ORD50085,2025-06-19,C1079,South,Apparel,Summer Dress,In-Store,88.41,1,0.1,0.00,79.57,true,40.56,71.29,0.431,Globex,Returning,Paid Social,2025,Silver,Wrong size / poor fit,72.13,Y,40.56,39.01,-33.12
+ORD50479,2025-02-16,C1174,East,Apparel,Summer Dress,In-Store,37.72,1,0,0.00,37.72,false,40.56,71.29,0.431,Globex,New,Organic,2024,Bronze,,0,,40.56,-2.84,-2.84
+ORD50813,2025-06-09,C1161,Midwest,Home,Ceramic Mug,Online,24.00,5,0.2,11.63,96.00,false,27.46,47.34,0.42,Meridian,VIP,Referral,2025,Gold,,0,,137.30,-41.30,-41.30
+ORD50167,2025-05-03,C1143,East,Beauty,Face Serum,Mobile App,60.48,3,0,7.53,172.37,false,17.07,37.93,0.55,Northwind,Returning,Email,2023,Bronze,,0,,51.21,121.16,121.16
+ORD50385,2025-04-01,C1079,South,Accessories,,Online,34.80,3,0.05,6.36,99.18,false,,,,,Returning,Paid Social,2025,Silver,,0,,,,
+ORD50641,2025-04-29,C1099,Midwest,Apparel,Denim Jacket,Mobile App,92.73,3,0.05,6.90,264.28,true,45.49,79.95,0.431,Meridian,VIP,Email,2023,Silver,Changed mind,226.15,Y,136.47,127.81,-98.34
+ORD50483,2025-09-13,C1015,West,Home,Throw Pillow,In-Store,16.84,1,0,0.00,16.84,true,26.26,45.27,0.42,Acme,New,Email,2025,Silver,Damaged in transit,15.7,N,26.26,-9.42,-25.12
+ORD50870,2025-12-20,C1014,West,Footwear,Loafers,Mobile App,132.12,2,0.2,11.17,211.39,true,84.63,101.23,0.164,Meridian,Returning,Email,2024,Silver,Wrong size / poor fit,190.78,Y,169.26,42.13,-148.65
+ORD50691,2025-01-10,C1126,East,Home,Throw Pillow,In-Store,43.61,1,0.1,0.00,39.25,false,26.26,45.27,0.42,Acme,New,Paid Social,2024,Silver,,0,,26.26,12.99,12.99
+ORD50260,2025-12-16,C1120,South,Beauty,Bath Set,In-Store,18.82,1,0.15,0.00,16.00,true,19.67,43.71,0.55,Umbra,Returning,Email,2023,Bronze,Defective,13.89,N,19.67,-3.67,-17.56
+ORD50716,2025-09-30,C1035,South,Beauty,Lip Balm,Mobile App,33.63,2,0.4,0.00,40.36,true,16.19,35.98,0.55,Globex,New,Paid Social,2024,Silver,Wrong size / poor fit,36.9,N,32.38,7.98,-28.92
+ORD50752,2025-07-20,C1112,Midwest,Footwear,Running Shoes,In-Store,124.16,1,0.15,0.00,105.54,false,94.62,113.18,0.164,Meridian,New,Referral,2023,Bronze,,0,,94.62,10.92,10.92
+ORD50028,2025-05-26,C1113,West,Apparel,Chino Pants,Online,57.19,1,0.3,6.11,40.03,false,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Bronze,,0,,45.05,-5.02,-5.02
+ORD50740,2025-11-25,C1167,West,Beauty,Perfume,In-Store,17.24,3,0.3,0.00,36.20,false,15.84,35.21,0.55,Acme,Returning,Email,2023,Bronze,,0,,47.52,-11.32,-11.32
+ORD50102,2025-09-18,C1083,West,Footwear,Canvas Sneakers,In-Store,69.17,1,0,0.00,69.17,true,93.6,111.96,0.164,Northwind,New,Paid Social,2025,Gold,Not as described,64.63,N,93.60,-24.43,-89.06
+ORD50051,2025-09-17,C1016,South,Apparel,Classic Tee,In-Store,27.97,1,0,0.00,27.97,false,40.01,70.32,0.431,Acme,Returning,Referral,2025,Silver,,0,,40.01,-12.04,-12.04
+ORD50613,2025-04-30,C1118,South,Beauty,Perfume,In-Store,57.28,2,0.1,0.00,103.10,false,15.84,35.21,0.55,Acme,Returning,Email,2023,Silver,,0,,31.68,71.42,71.42
+ORD50706,2025-06-19,C1176,South,Beauty,Bath Set,Mobile App,58.31,1,0.2,4.49,46.65,true,19.67,43.71,0.55,Umbra,Returning,Email,2023,Bronze,Wrong size / poor fit,42.14,N,19.67,26.98,-15.16
+ORD50007,2025-10-23,C1035,South,Beauty,Lip Balm,Online,11.99,4,0,0.00,47.96,false,16.19,35.98,0.55,Globex,New,Paid Social,2024,Silver,,0,,64.76,-16.80,-16.80
+ORD50104,2025-03-09,C1157,South,Beauty,Perfume,Online,20.58,3,0.1,9.75,55.57,false,15.84,35.21,0.55,Acme,Returning,Organic,2024,Silver,,0,,47.52,8.05,8.05
+ORD50230,2025-05-03,C1107,East,Beauty,Face Serum,Online,38.17,1,0.1,11.46,34.35,false,17.07,37.93,0.55,Northwind,New,Paid Social,2024,Silver,,0,,17.07,17.28,17.28
+ORD50376,2025-08-03,C1124,Midwest,Home,Ceramic Mug,Mobile App,41.99,1,0,4.89,41.99,false,27.46,47.34,0.42,Meridian,New,Organic,2025,Bronze,,0,,27.46,14.53,14.53
+ORD50111,2025-08-11,C1144,Midwest,Beauty,Perfume,Online,15.49,3,0.1,0.00,41.82,false,15.84,35.21,0.55,Acme,Returning,Organic,2024,Bronze,,0,,47.52,-5.70,-5.70
+ORD50091,2025-12-04,C1041,East,Accessories,Baseball Cap,In-Store,49.23,3,0,0.00,147.69,false,26.45,52.9,0.5,Meridian,Returning,Organic,2024,Silver,,0,,79.35,68.34,68.34
+ORD50372,2025-03-10,C1063,East,Accessories,Wool Scarf,In-Store,36.93,3,0.05,0.00,105.25,false,29.0,57.99,0.5,Northwind,Returning,Email,2024,Bronze,,0,,87.00,18.25,18.25
+ORD50160,2025-06-01,C1084,Midwest,Apparel,Classic Tee,Online,69.06,1,0.15,10.32,58.70,false,40.01,70.32,0.431,Acme,New,Referral,2024,Silver,,0,,40.01,18.69,18.69
+ORD50256,2025-11-15,C1059,West,Beauty,Hand Cream,Online,63.60,2,0,7.98,101.76,false,17.77,39.49,0.55,Northwind,New,Paid Social,2024,Bronze,,0,,35.54,66.22,66.22
+ORD50784,2025-04-20,C1004,South,Beauty,Face Serum,Mobile App,46.34,1,0,0.00,41.71,false,17.07,37.93,0.55,Northwind,New,Email,2024,Bronze,,0,,17.07,24.64,24.64
+ORD50417,2025-07-18,C1106,West,Apparel,Classic Tee,Online,65.85,3,0.1,4.02,177.79,false,40.01,70.32,0.431,Acme,Returning,Referral,2023,Silver,,0,,120.03,57.76,57.76
+ORD50884,2025-09-25,C1027,South,Apparel,Chino Pants,Online,86.01,3,0.05,6.17,245.13,false,45.05,79.17,0.431,Meridian,New,Email,2023,Silver,,0,,135.15,109.98,109.98
+ORD50312,2025-04-12,C1077,West,Beauty,Hand Cream,Mobile App,51.69,1,0.1,9.86,46.52,false,17.77,39.49,0.55,Northwind,Returning,Email,2024,Bronze,,0,,17.77,28.75,28.75
+ORD50828,2025-10-06,C1163,South,Accessories,,In-Store,77.87,3,0.05,0.00,221.93,false,,,,,New,Paid Social,2025,Bronze,,0,,,,
+ORD50827,2025-09-15,C1179,South,Home,Ceramic Mug,Online,52.65,3,0,0.00,157.95,false,27.46,47.34,0.42,Meridian,Returning,Paid Social,2023,Bronze,,0,,82.38,75.57,75.57
+ORD50117,2025-04-28,C1174,East,Apparel,Denim Jacket,Online,78.45,2,0.2,8.58,125.52,false,45.49,79.95,0.431,Meridian,New,Organic,2024,Bronze,,0,,90.98,34.54,34.54
+ORD50188,2025-08-22,C1104,East,Beauty,Face Serum,In-Store,38.97,3,0.2,0.00,93.53,false,17.07,37.93,0.55,Northwind,Returning,Organic,2024,Silver,,0,,51.21,42.32,42.32
+ORD50110,2025-07-10,C1031,South,Apparel,Chino Pants,Online,78.53,6,0.05,5.25,447.62,false,45.05,79.17,0.431,Meridian,VIP,Referral,2024,Gold,,0,,270.30,177.32,177.32
+ORD50833,2025-08-08,C1041,East,Apparel,Wool Sweater,In-Store,40.78,1,0,0.00,40.78,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Silver,,0,,35.65,5.13,5.13
+ORD50079,2025-02-25,C1118,South,Home,,Mobile App,65.97,3,0.05,3.52,188.01,false,,,,,Returning,Email,2023,Silver,,0,,,,
+ORD50527,2025-11-04,C1034,South,Beauty,Perfume,Online,36.91,3,0,0.00,83.05,false,15.84,35.21,0.55,Acme,Returning,Email,2023,Silver,,0,,47.52,35.53,35.53
+ORD50281,2025-03-26,C1141,East,Footwear,Sandals,In-Store,164.13,3,0.15,0.00,418.53,false,103.25,123.51,0.164,Acme,Returning,Referral,2024,Bronze,,0,,309.75,108.78,108.78
+ORD50732,2025-02-26,C1056,East,Accessories,Wool Scarf,In-Store,83.09,2,0.2,0.00,132.94,false,29.0,57.99,0.5,Northwind,Returning,Organic,2023,Bronze,,0,,58.00,74.94,74.94
+ORD50125,2025-03-01,C1024,West,Accessories,Leather Belt,Online,54.17,3,0,4.32,162.51,false,26.41,52.82,0.5,Umbra,Returning,Paid Social,2024,Bronze,,0,,79.23,83.28,83.28
+ORD50750,2025-05-13,C1053,South,Beauty,Lip Balm,In-Store,35.46,1,0.2,0.00,28.37,false,16.19,35.98,0.55,Globex,Returning,Organic,2023,Bronze,,0,,16.19,12.18,12.18
+ORD50016,2025-04-26,C1017,Midwest,Accessories,,In-Store,67.65,2,0,0.00,135.30,false,,,,,New,Organic,2024,Bronze,,0,,,,
+ORD50883,2025-11-18,C1001,Midwest,Footwear,Loafers,Online,90.09,1,0.45,9.57,49.55,false,84.63,101.23,0.164,Meridian,Returning,Email,2024,Bronze,,0,,84.63,-35.08,-35.08
+ORD50882,2025-09-10,C1178,East,Apparel,Denim Jacket,In-Store,192.47,4,0.15,0.00,654.40,false,45.49,79.95,0.431,Meridian,VIP,Referral,2024,Gold,,0,,181.96,472.44,472.44
+ORD50278,2025-04-15,C1150,South,Apparel,Chino Pants,Online,25.37,1,0,7.33,25.37,false,45.05,79.17,0.431,Meridian,Returning,Organic,2025,Bronze,,0,,45.05,-19.68,-19.68
+ORD50497,2025-09-28,C1041,East,Apparel,Summer Dress,In-Store,114.27,1,0.2,0.00,91.42,false,40.56,71.29,0.431,Globex,Returning,Organic,2024,Silver,,0,,40.56,50.86,50.86
+ORD50709,2025-10-27,C1179,South,Accessories,Wool Scarf,Online,44.46,3,0,8.13,133.38,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2023,Bronze,,0,,87.00,46.38,46.38
+ORD50905,2025-05-20,C1074,West,Footwear,,In-Store,81.13,2,0.15,0.00,137.92,false,,,,,New,Paid Social,2023,Bronze,,0,,,,
+ORD50873,2025-02-27,C1148,South,Apparel,Chino Pants,In-Store,51.23,1,0.15,0.00,43.55,false,45.05,79.17,0.431,Meridian,Returning,Paid Social,2024,Silver,,0,,45.05,-1.50,-1.50
+ORD50877,2025-05-19,C1139,Midwest,Apparel,Classic Tee,Online,46.30,2,0,10.77,92.60,false,40.01,70.32,0.431,Acme,New,Paid Social,2025,Bronze,,0,,80.02,12.58,12.58
+ORD50516,2025-11-19,C1114,Midwest,Home,Wall Art,Online,70.78,1,0.15,0.00,60.16,false,28.69,49.47,0.42,Globex,New,Email,2024,Silver,,0,,28.69,31.47,31.47
+ORD50066,2025-07-30,C1168,South,Accessories,Leather Belt,Online,43.29,1,0,6.39,43.29,false,26.41,52.82,0.5,Umbra,New,Paid Social,2025,Bronze,,0,,26.41,16.88,16.88
+ORD50346,2025-09-07,C1034,South,Accessories,Sunglasses,Mobile App,66.67,2,0.05,3.87,126.67,false,26.16,52.33,0.5,Northwind,Returning,Email,2023,Silver,,0,,52.32,74.35,74.35
+ORD50653,2025-11-30,C1102,West,Home,,In-Store,40.13,2,0.15,0.00,68.22,false,,,,,New,Email,2023,Silver,,0,,,,
+ORD50169,2025-06-25,C1159,Midwest,Footwear,Leather Boots,In-Store,87.16,3,0.1,0.00,235.33,false,94.79,113.39,0.164,Meridian,Returning,Organic,2025,Silver,,0,,284.37,-49.04,-49.04
+ORD50601,2025-09-19,C1133,East,Apparel,Classic Tee,In-Store,43.25,2,0.1,0.00,77.85,false,40.01,70.32,0.431,Acme,New,Paid Social,2024,Bronze,,0,,80.02,-2.17,-2.17
+ORD50469,2025-08-04,C1164,South,Accessories,Sunglasses,In-Store,77.08,1,0,0.00,73.23,false,26.16,52.33,0.5,Northwind,Returning,Organic,2024,Bronze,,0,,26.16,47.07,47.07
+ORD50358,2025-01-13,C1136,East,Home,Throw Pillow,Online,107.51,2,0.1,7.23,193.52,false,26.26,45.27,0.42,Acme,VIP,Referral,2024,Silver,,0,,52.52,141.00,141.00
+ORD50845,2025-12-22,C1081,Midwest,Home,Cotton Throw,Online,40.72,1,0.1,0.00,36.65,false,27.21,46.91,0.42,Acme,New,Email,2023,Gold,,0,,27.21,9.44,9.44
+ORD50076,2025-05-12,C1023,West,Apparel,Classic Tee,Online,125.43,5,0.1,5.65,564.44,false,40.01,70.32,0.431,Acme,VIP,Organic,2024,Gold,,0,,200.05,364.39,364.39
+ORD50605,2025-03-04,C1177,South,Beauty,Face Serum,Online,17.43,5,0,6.94,52.29,false,17.07,37.93,0.55,Northwind,VIP,Organic,2025,Silver,,0,,85.35,-33.06,-33.06
+ORD50300,2025-07-11,C1121,West,Accessories,Wool Scarf,Online,83.93,2,0,11.53,167.86,true,29.0,57.99,0.5,Northwind,Returning,Email,2023,Bronze,Damaged in transit,165.57,N,58.00,109.86,-55.71
+ORD50320,2025-07-14,C1148,South,Beauty,Lip Balm,Mobile App,11.90,2,0,9.23,23.80,true,16.19,35.98,0.55,Globex,Returning,Paid Social,2024,Silver,Damaged in transit,20.25,N,32.38,-8.58,-28.83
+ORD50574,2025-09-28,C1077,West,Footwear,Loafers,Online,90.53,3,0,5.57,271.59,false,84.63,101.23,0.164,Meridian,Returning,Email,2024,Bronze,,0,,253.89,17.70,17.70
+ORD50906,2025-07-20,C1057,South,Home,Table Lamp,Online,21.39,2,0,3.92,42.78,false,26.19,45.15,0.42,Acme,Returning,Referral,2025,Bronze,,0,,52.38,-9.60,-9.60
+ORD50133,2025-07-27,C1140,Midwest,Accessories,Leather Belt,Online,60.92,3,0,11.79,182.76,false,26.41,52.82,0.5,Umbra,Returning,Paid Social,2023,Bronze,,0,,79.23,103.53,103.53
+ORD50858,2025-08-24,C1067,East,Accessories,Wool Scarf,In-Store,42.34,2,0.05,0.00,80.45,false,29.0,57.99,0.5,Northwind,New,Referral,2024,Silver,,0,,58.00,22.45,22.45
+ORD50193,2025-04-26,C1001,Midwest,Accessories,Leather Belt,Online,16.63,1,0.1,7.26,14.97,false,26.41,52.82,0.5,Umbra,Returning,Email,2024,Bronze,,0,,26.41,-11.44,-11.44
+ORD50505,2025-02-14,C1136,East,Accessories,Sunglasses,Online,61.39,4,0.15,10.12,208.73,false,26.16,52.33,0.5,Northwind,VIP,Referral,2024,Silver,,0,,104.64,104.09,104.09
+ORD50350,2025-08-07,C1008,South,Apparel,Classic Tee,Mobile App,112.02,1,0.4,9.58,67.21,true,40.01,70.32,0.431,Acme,New,Email,2025,Bronze,Wrong size / poor fit,58.51,N,40.01,27.20,-31.31
+ORD50621,2025-05-02,C1125,East,Home,Ceramic Mug,Online,30.84,3,0,8.45,92.52,false,27.46,47.34,0.42,Meridian,Returning,Email,2024,Bronze,,0,,82.38,10.14,10.14
+ORD50760,2025-04-18,C1132,West,Home,Table Lamp,Online,46.71,1,0.15,5.77,39.70,false,26.19,45.15,0.42,Acme,Returning,Email,2025,Gold,,0,,26.19,13.51,13.51
+ORD50536,2025-10-02,C1055,Midwest,Accessories,Sunglasses,Online,75.20,3,0,10.90,225.60,false,26.16,52.33,0.5,Northwind,Returning,Referral,2024,Bronze,,0,,78.48,147.12,147.12
+ORD50176,2025-02-13,C1095,East,Accessories,Tote Bag,Mobile App,73.08,1,0.1,0.00,65.77,false,25.12,50.23,0.5,Globex,Returning,Email,2023,Gold,,0,,25.12,40.65,40.65
+ORD50696,2025-08-17,C1106,West,Apparel,Denim Jacket,Online,28.54,3,0,6.63,85.62,false,45.49,79.95,0.431,Meridian,Returning,Referral,2023,Silver,,0,,136.47,-50.85,-50.85
+ORD50327,2025-03-08,C1047,East,Accessories,Tote Bag,In-Store,76.46,1,0.15,0.00,64.99,false,25.12,50.23,0.5,Globex,New,Paid Social,2023,Bronze,,0,,25.12,39.87,39.87
+ORD50388,2025-10-16,C1069,East,Home,Ceramic Mug,Online,65.93,1,0,7.23,65.93,false,27.46,47.34,0.42,Meridian,Returning,Email,2024,Bronze,,0,,27.46,38.47,38.47
+ORD50624,2025-01-12,C1013,Midwest,Apparel,Chino Pants,Mobile App,109.03,3,0.05,10.54,310.74,false,45.05,79.17,0.431,Meridian,Returning,Email,2024,Bronze,,0,,135.15,175.59,175.59
+ORD50139,2025-07-01,C1049,West,Accessories,Tote Bag,Online,50.85,2,0.1,8.92,91.53,false,25.12,50.23,0.5,Globex,New,Paid Social,2024,Gold,,0,,50.24,41.29,41.29
+ORD50294,2025-03-25,C1054,Midwest,Apparel,Denim Jacket,In-Store,106.75,3,0.4,0.00,192.15,true,45.49,79.95,0.431,Meridian,Returning,Referral,2025,Bronze,Not as described,163.74,N,136.47,55.68,-108.06
+ORD50033,2025-01-15,C1154,West,Beauty,Hand Cream,Online,32.64,1,0.1,11.36,29.38,false,17.77,39.49,0.55,Northwind,New,Paid Social,2024,Gold,,0,,17.77,11.61,11.61
+ORD50826,2025-05-12,C1126,East,Apparel,Summer Dress,Mobile App,99.67,1,0.4,10.01,59.80,true,40.56,71.29,0.431,Globex,New,Paid Social,2024,Silver,Damaged in transit,55.43,Y,40.56,19.24,-36.19
+ORD50564,2025-07-10,C1125,East,Accessories,Baseball Cap,Online,56.58,2,0.15,6.59,96.19,false,26.45,52.9,0.5,Meridian,Returning,Email,2024,Bronze,,0,,52.90,43.29,43.29
+ORD50723,2025-07-06,C1007,West,Apparel,Denim Jacket,In-Store,90.49,3,0.05,0.00,257.90,false,45.49,79.95,0.431,Meridian,Returning,Organic,2024,Bronze,,0,,136.47,121.43,121.43
+ORD50199,2025-08-11,C1167,West,Apparel,Denim Jacket,Online,115.43,3,0,11.20,294.35,false,45.49,79.95,0.431,Meridian,Returning,Email,2023,Bronze,,0,,136.47,157.88,157.88
+ORD50375,2025-12-08,C1086,West,Home,Throw Pillow,Online,33.63,3,0.2,6.31,80.71,false,26.26,45.27,0.42,Acme,Returning,Organic,2024,Bronze,,0,,78.78,1.93,1.93
+ORD50789,2025-06-17,C1085,West,Accessories,Baseball Cap,Mobile App,81.93,1,0.05,6.41,77.83,false,26.45,52.9,0.5,Meridian,New,Organic,2024,Gold,,0,,26.45,51.38,51.38
+ORD50407,2025-01-06,C1160,West,Accessories,Wool Scarf,Online,42.41,2,0,8.79,84.82,false,29.0,57.99,0.5,Northwind,New,Referral,2023,Bronze,,0,,58.00,26.82,26.82
+ORD50213,2025-01-07,C1023,West,Apparel,Chino Pants,Online,75.50,5,0.05,7.77,358.62,false,45.05,79.17,0.431,Meridian,VIP,Organic,2024,Gold,,0,,225.25,133.37,133.37
+ORD50347,2025-02-05,C1049,West,Home,Wall Art,In-Store,69.33,2,0.05,0.00,131.73,false,28.69,49.47,0.42,Globex,New,Paid Social,2024,Gold,,0,,57.38,74.35,74.35
+ORD50112,2025-12-18,C1135,East,Beauty,Bath Set,Online,64.82,2,0.05,10.35,123.16,false,19.67,43.71,0.55,Umbra,New,Paid Social,2024,Bronze,,0,,39.34,83.82,83.82
+ORD50181,2025-02-19,C1109,West,Accessories,Leather Belt,Online,57.19,5,0.15,0.00,243.06,false,26.41,52.82,0.5,Umbra,VIP,Referral,2023,Silver,,0,,132.05,111.01,111.01
+ORD50501,2025-08-17,C1133,East,Footwear,Sandals,Mobile App,132.33,2,0.15,7.54,224.96,true,103.25,123.51,0.164,Acme,New,Paid Social,2024,Bronze,Wrong size / poor fit,206.93,Y,206.50,18.46,-188.47
+ORD50610,2025-04-06,C1075,South,Apparel,Denim Jacket,Online,103.08,1,0,9.89,103.08,false,45.49,79.95,0.431,Meridian,New,Paid Social,2023,Bronze,,0,,45.49,57.59,57.59
+ORD50603,2025-11-13,C1134,East,Home,Wall Art,Mobile App,20.32,1,0.5,9.90,10.16,true,28.69,49.47,0.42,Globex,Returning,Organic,2025,Bronze,Defective,9.16,N,28.69,-18.53,-27.69
+ORD50770,2025-07-05,C1030,South,Apparel,Summer Dress,In-Store,73.04,2,0.2,0.00,116.86,false,40.56,71.29,0.431,Globex,Returning,Referral,2023,Bronze,,0,,81.12,35.74,35.74
+ORD50215,2025-11-29,C1175,East,Apparel,Chino Pants,Online,27.95,1,0.1,9.24,25.16,false,45.05,79.17,0.431,Meridian,New,Organic,2023,Gold,,0,,45.05,-19.89,-19.89
+ORD50348,2025-01-21,C1107,East,Beauty,Face Serum,In-Store,13.50,1,0.15,0.00,11.47,false,17.07,37.93,0.55,Northwind,New,Paid Social,2024,Silver,,0,,17.07,-5.60,-5.60
+ORD50010,2025-06-13,C1027,South,Home,Throw Pillow,In-Store,30.41,1,0.4,0.00,18.25,false,26.26,45.27,0.42,Acme,New,Email,2023,Silver,,0,,26.26,-8.01,-8.01
+ORD50635,2025-06-23,C1048,South,Beauty,Hand Cream,Online,39.56,2,0,9.85,79.12,false,17.77,39.49,0.55,Northwind,Returning,Paid Social,2024,Bronze,,0,,35.54,43.58,43.58
+ORD50496,2025-08-04,C1148,South,Accessories,Leather Belt,Online,19.42,2,0.1,10.64,34.96,true,26.41,52.82,0.5,Umbra,Returning,Paid Social,2024,Silver,Damaged in transit,31.5,N,52.82,-17.86,-49.36
+ORD50630,2025-02-28,C1029,East,Apparel,Wool Sweater,In-Store,50.43,3,0,0.00,151.29,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Bronze,,0,,106.95,44.34,44.34
+ORD50702,2025-05-28,C1068,East,Beauty,Perfume,In-Store,15.95,1,0.4,0.00,9.57,false,15.84,35.21,0.55,Acme,New,Email,2025,Bronze,,0,,15.84,-6.27,-6.27
+ORD50492,2025-11-24,C1162,Midwest,Apparel,Chino Pants,In-Store,31.20,1,0.3,0.00,21.84,false,45.05,79.17,0.431,Meridian,New,Paid Social,2025,Bronze,,0,,45.05,-23.21,-23.21
+ORD50841,2025-08-14,C1086,West,Footwear,Running Shoes,Online,41.43,1,0,4.03,41.43,false,94.62,113.18,0.164,Meridian,Returning,Organic,2024,Bronze,,0,,94.62,-53.19,-53.19
+ORD50081,2025-02-17,C1116,Midwest,Home,Ceramic Mug,In-Store,43.35,1,0.05,0.00,41.18,false,27.46,47.34,0.42,Meridian,Returning,Paid Social,2025,Bronze,,0,,27.46,13.72,13.72
+ORD50730,2025-06-28,C1134,East,Footwear,Sandals,Online,74.67,2,0.1,5.16,134.41,false,103.25,123.51,0.164,Acme,Returning,Organic,2025,Bronze,,0,,206.50,-72.09,-72.09
+ORD50594,2025-10-02,C1146,Midwest,Apparel,Chino Pants,Online,73.08,2,0.05,8.20,138.85,false,45.05,79.17,0.431,Meridian,New,Email,2023,Bronze,,0,,90.10,48.75,48.75
+ORD50682,2025-05-06,C1094,South,Home,Ceramic Mug,Online,32.29,2,0.1,4.32,58.12,false,27.46,47.34,0.42,Meridian,New,Paid Social,2025,Silver,,0,,54.92,3.20,3.20
+ORD50122,2025-12-19,C1173,East,Footwear,Loafers,In-Store,91.33,4,0.5,0.00,182.66,false,84.63,101.23,0.164,Meridian,VIP,Email,2023,Silver,,0,,338.52,-155.86,-155.86
+ORD50785,2025-12-02,C1067,East,Accessories,Baseball Cap,Online,74.10,2,0.15,10.72,125.97,false,26.45,52.9,0.5,Meridian,New,Referral,2024,Silver,,0,,52.90,73.07,73.07
+ORD50120,2025-09-29,C1102,West,Footwear,Sandals,In-Store,163.03,2,0,0.00,326.06,false,103.25,123.51,0.164,Acme,New,Email,2023,Silver,,0,,206.50,119.56,119.56
+ORD50821,2025-08-24,C1116,Midwest,Footwear,Running Shoes,In-Store,139.15,3,0,0.00,375.71,false,94.62,113.18,0.164,Meridian,Returning,Paid Social,2025,Bronze,,0,,283.86,91.85,91.85
+ORD50201,2025-08-21,C1102,West,Apparel,Chino Pants,In-Store,32.13,2,0.2,0.00,51.41,false,45.05,79.17,0.431,Meridian,New,Email,2023,Silver,,0,,90.10,-38.69,-38.69
+ORD50695,2025-08-07,C1044,West,Footwear,Leather Boots,Online,73.57,2,0.1,9.39,132.43,false,94.79,113.39,0.164,Meridian,Returning,Organic,2025,Bronze,,0,,189.58,-57.15,-57.15
+ORD50521,2025-07-23,C1174,East,Apparel,Chino Pants,Online,77.32,2,0,7.78,154.64,false,45.05,79.17,0.431,Meridian,New,Organic,2024,Bronze,,0,,90.10,64.54,64.54
+ORD50394,2025-06-19,C1050,West,Beauty,Bath Set,Mobile App,64.34,2,0.3,8.68,90.08,false,19.67,43.71,0.55,Umbra,New,Email,2024,Bronze,,0,,39.34,50.74,50.74
+ORD50453,2025-08-06,C1079,South,Accessories,Sunglasses,Online,42.91,1,0,11.97,42.91,false,26.16,52.33,0.5,Northwind,Returning,Paid Social,2025,Silver,,0,,26.16,16.75,16.75
+ORD50606,2025-06-14,C1103,West,Footwear,Canvas Sneakers,Online,62.32,2,0.1,4.37,112.18,true,93.6,111.96,0.164,Northwind,VIP,Organic,2024,Gold,Defective,105.95,N,187.20,-75.02,-180.97
+ORD50712,2025-05-27,C1004,South,Apparel,Denim Jacket,Online,112.27,1,0,7.95,112.27,false,45.49,79.95,0.431,Meridian,New,Email,2024,Bronze,,0,,45.49,66.78,66.78
+ORD50663,2025-10-31,C1113,West,Accessories,Wool Scarf,In-Store,82.78,2,0.15,0.00,140.73,false,29.0,57.99,0.5,Northwind,Returning,Organic,2023,Bronze,,0,,58.00,82.73,82.73
+ORD50145,2025-03-14,C1030,South,Apparel,Chino Pants,Online,58.98,3,0,4.58,176.94,false,45.05,79.17,0.431,Meridian,Returning,Referral,2023,Bronze,,0,,135.15,41.79,41.79
+ORD50746,2025-05-03,C1016,South,Accessories,Tote Bag,Mobile App,36.30,3,0.15,9.35,92.56,false,25.12,50.23,0.5,Globex,Returning,Referral,2025,Silver,,0,,75.36,17.20,17.20
+ORD50509,2025-03-29,C1041,East,Accessories,Sunglasses,Online,29.01,2,0,0.00,58.02,true,26.16,52.33,0.5,Northwind,Returning,Organic,2024,Silver,Defective,53.85,N,52.32,5.70,-48.15
+ORD50588,2025-01-16,C1064,South,Footwear,Leather Boots,Online,81.21,2,0.05,0.00,154.30,false,94.79,113.39,0.164,Meridian,Returning,Email,2024,Silver,,0,,189.58,-35.28,-35.28
+ORD50329,2025-03-17,C1109,West,Home,Cotton Throw,In-Store,50.55,5,0.05,0.00,240.11,false,27.21,46.91,0.42,Acme,VIP,Referral,2023,Silver,,0,,136.05,104.06,104.06
+ORD50792,2025-01-15,C1112,Midwest,Beauty,Bath Set,In-Store,56.23,2,0.05,0.00,106.84,false,19.67,43.71,0.55,Umbra,New,Referral,2023,Bronze,,0,,39.34,67.50,67.50
+ORD50814,2025-08-27,C1159,Midwest,Footwear,Canvas Sneakers,In-Store,125.21,2,0,0.00,250.42,true,93.6,111.96,0.164,Northwind,Returning,Organic,2025,Silver,Damaged in transit,239.92,N,187.20,63.22,-176.70
+ORD50886,2025-07-16,C1063,East,Accessories,Baseball Cap,Mobile App,57.93,3,0.3,5.31,121.65,true,26.45,52.9,0.5,Meridian,Returning,Email,2024,Bronze,Late delivery,110.91,Y,79.35,42.30,-68.61
+ORD50368,2025-06-24,C1156,West,Home,Cotton Throw,Online,15.22,2,0.1,11.43,27.40,true,27.21,46.91,0.42,Acme,New,Paid Social,2024,Bronze,Not as described,25.06,N,54.42,-27.02,-52.08
+ORD50183,2025-07-02,C1172,East,Accessories,Wool Scarf,In-Store,70.31,1,0,0.00,66.79,false,29.0,57.99,0.5,Northwind,New,Paid Social,2024,Bronze,,0,,29.00,37.79,37.79
+ORD50231,2025-04-06,C1161,Midwest,Apparel,Denim Jacket,Online,131.82,3,0,12.00,395.46,false,45.49,79.95,0.431,Meridian,VIP,Referral,2025,Gold,,0,,136.47,258.99,258.99
+ORD50174,2025-06-14,C1150,South,Footwear,Loafers,Mobile App,121.01,1,0.3,6.32,84.71,false,84.63,101.23,0.164,Meridian,Returning,Organic,2025,Bronze,,0,,84.63,0.08,0.08
+ORD50675,2025-05-09,C1151,West,Accessories,Sunglasses,In-Store,38.83,4,0,0.00,132.02,false,26.16,52.33,0.5,Northwind,VIP,Email,2024,Silver,,0,,104.64,27.38,27.38
+ORD50571,2025-06-27,C1155,South,Home,Wall Art,Online,29.06,2,0.05,8.87,55.21,false,28.69,49.47,0.42,Globex,Returning,Email,2025,Silver,,0,,57.38,-2.17,-2.17
+ORD50179,2025-09-08,C1135,East,Home,Ceramic Mug,In-Store,73.87,1,0,0.00,73.87,false,27.46,47.34,0.42,Meridian,New,Paid Social,2024,Bronze,,0,,27.46,46.41,46.41
+ORD50351,2025-01-29,C1108,East,Home,Ceramic Mug,Online,24.82,1,0.1,9.21,22.34,false,27.46,47.34,0.42,Meridian,New,Paid Social,2023,Bronze,,0,,27.46,-5.12,-5.12
+ORD50432,2025-07-25,C1014,West,Home,Ceramic Mug,In-Store,69.18,2,0.1,0.00,124.52,true,27.46,47.34,0.42,Meridian,Returning,Email,2024,Silver,Late delivery,110.53,N,54.92,69.60,-40.93
+ORD50198,2025-03-07,C1007,West,Apparel,Wool Sweater,Online,64.32,2,0.2,0.00,102.91,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Bronze,,0,,71.30,31.61,31.61
+ORD50844,2025-04-17,C1171,West,Beauty,Lip Balm,Online,64.88,1,0.05,6.09,61.64,false,16.19,35.98,0.55,Globex,Returning,Referral,2023,Silver,,0,,16.19,45.45,45.45
+ORD50419,2025-06-10,C1104,East,Beauty,Bath Set,Mobile App,55.78,2,0,8.93,78.09,false,19.67,43.71,0.55,Umbra,Returning,Organic,2024,Silver,,0,,39.34,38.75,38.75
+ORD50825,2025-05-25,C1094,South,Accessories,Wool Scarf,Online,73.02,2,0.3,3.73,102.23,false,29.0,57.99,0.5,Northwind,New,Paid Social,2025,Silver,,0,,58.00,44.23,44.23
+ORD50044,2025-10-17,C1170,South,Home,Cotton Throw,In-Store,67.40,3,0,0.00,202.20,false,27.21,46.91,0.42,Acme,New,Paid Social,2023,Silver,,0,,81.63,120.57,120.57
+ORD50721,2025-03-11,C1140,Midwest,Home,Throw Pillow,In-Store,53.62,3,0,0.00,160.86,false,26.26,45.27,0.42,Acme,Returning,Paid Social,2023,Bronze,,0,,78.78,82.08,82.08
+ORD50298,2025-09-15,C1096,East,Home,Throw Pillow,Online,36.52,1,0,3.78,36.52,false,26.26,45.27,0.42,Acme,New,Paid Social,2024,Bronze,,0,,26.26,10.26,10.26
+ORD50396,2025-06-07,C1167,West,Beauty,Face Serum,Online,36.64,2,0.05,9.49,69.62,false,17.07,37.93,0.55,Northwind,Returning,Email,2023,Bronze,,0,,34.14,35.48,35.48
+ORD50279,2025-02-01,C1072,East,Home,Wall Art,Online,71.85,5,0.3,6.96,251.47,false,28.69,49.47,0.42,Globex,VIP,Referral,2023,Gold,,0,,143.45,108.02,108.02
+ORD50319,2025-05-19,C1070,South,Home,Table Lamp,In-Store,22.14,2,0.05,0.00,42.07,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,52.38,-10.31,-10.31
+ORD50070,2025-02-08,C1177,South,Beauty,Lip Balm,Online,17.89,5,0.1,10.69,80.51,false,16.19,35.98,0.55,Globex,VIP,Organic,2025,Silver,,0,,80.95,-0.44,-0.44
+ORD50822,2025-06-30,C1139,Midwest,Home,Wall Art,Mobile App,60.57,2,0.1,4.51,109.03,false,28.69,49.47,0.42,Globex,New,Paid Social,2025,Bronze,,0,,57.38,51.65,51.65
+ORD50847,2025-05-08,C1137,South,Home,Ceramic Mug,In-Store,49.98,2,0.4,0.00,59.98,false,27.46,47.34,0.42,Meridian,Returning,Email,2024,Gold,,0,,54.92,5.06,5.06
+ORD50673,2025-08-11,C1134,East,Apparel,Wool Sweater,Mobile App,30.05,3,0,7.49,76.63,false,35.65,62.66,0.431,Acme,Returning,Organic,2025,Bronze,,0,,106.95,-30.32,-30.32
+ORD50267,2025-12-17,C1116,Midwest,Accessories,Wool Scarf,In-Store,30.88,3,0.1,0.00,83.38,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2025,Bronze,,0,,87.00,-3.62,-3.62
+ORD50582,2025-06-28,C1108,East,Footwear,Canvas Sneakers,Mobile App,157.59,2,0.1,8.68,283.66,false,93.6,111.96,0.164,Northwind,New,Paid Social,2023,Bronze,,0,,187.20,96.46,96.46
+ORD50794,2025-01-27,C1104,East,Beauty,Hand Cream,In-Store,56.97,2,0,0.00,113.94,false,17.77,39.49,0.55,Northwind,Returning,Organic,2024,Silver,,0,,35.54,78.40,78.40
+ORD50477,2025-07-15,C1159,Midwest,Home,Cotton Throw,In-Store,79.71,1,0.1,0.00,71.74,false,27.21,46.91,0.42,Acme,Returning,Organic,2025,Silver,,0,,27.21,44.53,44.53
+ORD50595,2025-08-16,C1104,East,Footwear,Running Shoes,Mobile App,69.93,3,0,5.37,209.79,true,94.62,113.18,0.164,Meridian,Returning,Organic,2024,Silver,Wrong size / poor fit,203.85,N,283.86,-74.07,-277.92
+ORD50542,2025-05-20,C1120,South,Footwear,Running Shoes,In-Store,113.49,2,0.4,0.00,136.19,false,94.62,113.18,0.164,Meridian,Returning,Email,2023,Bronze,,0,,189.24,-53.05,-53.05
+ORD50807,2025-08-24,C1155,South,Accessories,Leather Belt,In-Store,52.04,3,0,0.00,156.12,false,26.41,52.82,0.5,Umbra,Returning,Email,2025,Silver,,0,,79.23,76.89,76.89
+ORD50722,2025-08-26,C1147,East,Beauty,Bath Set,Online,49.65,1,0.05,7.34,47.17,false,19.67,43.71,0.55,Umbra,Returning,Referral,2024,Silver,,0,,19.67,27.50,27.50
+ORD50356,2025-02-01,C1000,Midwest,Apparel,Denim Jacket,Online,34.06,1,0.15,8.52,28.95,false,45.49,79.95,0.431,Meridian,Returning,Paid Social,2025,Gold,,0,,45.49,-16.54,-16.54
+ORD50491,2025-05-28,C1175,East,Accessories,Sunglasses,Online,24.73,1,0.3,11.95,17.31,false,26.16,52.33,0.5,Northwind,New,Organic,2023,Gold,,0,,26.16,-8.85,-8.85
+ORD50880,2025-04-18,C1132,West,Apparel,Classic Tee,Mobile App,87.53,2,0,7.42,175.06,false,40.01,70.32,0.431,Acme,Returning,Email,2025,Gold,,0,,80.02,95.04,95.04
+ORD50149,2025-02-17,C1097,East,Beauty,Bath Set,Mobile App,37.39,2,0.4,11.06,44.87,false,19.67,43.71,0.55,Umbra,New,Email,2023,Bronze,,0,,39.34,5.53,5.53
+ORD50333,2025-05-26,C1070,South,Home,Table Lamp,Online,50.81,1,0,10.81,50.81,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,26.19,24.62,24.62
+ORD50423,2025-06-11,C1020,South,Footwear,Sandals,Online,162.70,3,0,7.33,488.10,false,103.25,123.51,0.164,Acme,Returning,Email,2024,Bronze,,0,,309.75,178.35,178.35
+ORD50572,2025-08-19,C1094,South,Beauty,Face Serum,Mobile App,12.93,2,0,10.16,25.86,false,17.07,37.93,0.55,Northwind,New,Paid Social,2025,Silver,,0,,34.14,-8.28,-8.28
+ORD50745,2025-04-02,C1152,South,Footwear,Sandals,Online,99.84,2,0.15,11.20,169.73,false,103.25,123.51,0.164,Acme,New,Paid Social,2025,Silver,,0,,206.50,-36.77,-36.77
+ORD50196,2025-05-12,C1133,East,Apparel,Denim Jacket,Online,58.46,1,0.05,8.69,55.54,false,45.49,79.95,0.431,Meridian,New,Paid Social,2024,Bronze,,0,,45.49,10.05,10.05
+ORD50325,2025-07-09,C1122,East,Home,Cotton Throw,In-Store,77.95,2,0,0.00,155.90,false,27.21,46.91,0.42,Acme,New,Referral,2024,Silver,,0,,54.42,101.48,101.48
+ORD50126,2025-03-20,C1092,West,Footwear,Loafers,Online,153.26,2,0.1,8.89,275.87,false,84.63,101.23,0.164,Meridian,Returning,Referral,2025,Bronze,,0,,169.26,106.61,106.61
+ORD50901,2025-05-12,C1128,West,Footwear,Running Shoes,Online,76.20,2,0,6.71,129.54,false,94.62,113.18,0.164,Meridian,New,Paid Social,2023,Bronze,,0,,189.24,-59.70,-59.70
+ORD50728,2025-06-22,C1141,East,Apparel,Summer Dress,In-Store,119.03,2,0.05,0.00,226.16,false,40.56,71.29,0.431,Globex,Returning,Referral,2024,Bronze,,0,,81.12,145.04,145.04
+ORD50725,2025-07-25,C1070,South,Footwear,Sandals,In-Store,178.69,2,0.05,0.00,339.51,false,103.25,123.51,0.164,Acme,New,Paid Social,2024,Silver,,0,,206.50,133.01,133.01
+ORD50037,2025-05-27,C1094,South,Beauty,Lip Balm,Online,26.44,2,0,5.09,52.88,false,16.19,35.98,0.55,Globex,New,Paid Social,2025,Silver,,0,,32.38,20.50,20.50
+ORD50862,2025-02-26,C1009,West,Footwear,Leather Boots,Online,167.81,2,0.2,3.68,268.50,false,94.79,113.39,0.164,Meridian,Returning,Email,2023,Gold,,0,,189.58,78.92,78.92
+ORD50364,2025-09-09,C1127,South,Home,Table Lamp,In-Store,44.88,3,0,0.00,134.64,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,78.57,56.07,56.07
+ORD50420,2025-09-24,C1101,West,Beauty,Hand Cream,In-Store,33.72,4,0.4,0.00,80.93,false,17.77,39.49,0.55,Northwind,Returning,Email,2024,Bronze,,0,,71.08,9.85,9.85
+ORD50205,2025-06-01,C1085,West,Home,Throw Pillow,Mobile App,34.78,1,0,7.29,31.30,false,26.26,45.27,0.42,Acme,New,Organic,2024,Gold,,0,,26.26,5.04,5.04
+ORD50006,2025-12-30,C1119,South,Home,Cotton Throw,Mobile App,56.21,2,0,0.00,112.42,true,27.21,46.91,0.42,Acme,Returning,Organic,2024,Gold,Wrong size / poor fit,101.17,Y,54.42,58.00,-43.17
+ORD50287,2025-12-29,C1163,South,Footwear,Loafers,Online,119.17,2,0,5.59,190.67,false,84.63,101.23,0.164,Meridian,New,Paid Social,2025,Bronze,,0,,169.26,21.41,21.41
+ORD50590,2025-06-08,C1075,South,Apparel,Summer Dress,In-Store,64.29,2,0.05,0.00,122.15,false,40.56,71.29,0.431,Globex,New,Paid Social,2023,Bronze,,0,,81.12,41.03,41.03
+ORD50550,2025-06-26,C1072,East,Beauty,Face Serum,In-Store,56.47,3,0.05,0.00,160.94,false,17.07,37.93,0.55,Northwind,VIP,Referral,2023,Gold,,0,,51.21,109.73,109.73
+ORD50851,2025-05-11,C1105,East,Footwear,Leather Boots,Online,101.10,2,0,5.72,202.20,false,94.79,113.39,0.164,Meridian,Returning,Organic,2023,Gold,,0,,189.58,12.62,12.62
+ORD50431,2025-01-08,C1046,West,Accessories,Baseball Cap,Online,25.32,2,0,7.14,48.11,false,26.45,52.9,0.5,Meridian,New,Organic,2024,Bronze,,0,,52.90,-4.79,-4.79
+ORD50452,2025-07-31,C1013,Midwest,Apparel,Summer Dress,In-Store,38.24,1,0.1,0.00,34.42,false,40.56,71.29,0.431,Globex,Returning,Email,2024,Bronze,,0,,40.56,-6.14,-6.14
+ORD50233,2025-12-12,C1058,West,Accessories,Sunglasses,Mobile App,46.21,1,0.1,3.83,41.59,true,26.16,52.33,0.5,Northwind,New,Organic,2025,Bronze,Wrong size / poor fit,35.67,N,26.16,15.43,-20.24
+ORD50025,2025-03-26,C1002,East,Footwear,Running Shoes,In-Store,250.20,4,0.15,0.00,850.68,true,94.62,113.18,0.164,Meridian,VIP,Referral,2023,Bronze,Wrong size / poor fit,837.08,N,378.48,472.20,-364.88
+ORD50073,2025-02-14,C1041,East,Apparel,Summer Dress,Online,50.13,1,0.05,5.58,47.62,false,40.56,71.29,0.431,Globex,Returning,Organic,2024,Silver,,0,,40.56,7.06,7.06
+ORD50009,2025-06-12,C1007,West,Apparel,Classic Tee,In-Store,72.93,1,0.1,0.00,65.64,false,40.01,70.32,0.431,Acme,Returning,Organic,2024,Bronze,,0,,40.01,25.63,25.63
+ORD50679,2025-05-04,C1130,East,Home,Wall Art,In-Store,16.25,2,0.05,0.00,30.88,false,28.69,49.47,0.42,Globex,New,Paid Social,2025,Gold,,0,,57.38,-26.50,-26.50
+ORD50069,2025-09-03,C1089,West,Apparel,Denim Jacket,In-Store,53.00,1,0.2,0.00,42.40,false,45.49,79.95,0.431,Meridian,Returning,Email,2023,Bronze,,0,,45.49,-3.09,-3.09
+ORD50274,2025-03-30,C1089,West,Home,Wall Art,In-Store,31.40,3,0,0.00,94.20,false,28.69,49.47,0.42,Globex,Returning,Email,2023,Bronze,,0,,86.07,8.13,8.13
+ORD50178,2025-03-03,C1135,East,Beauty,Lip Balm,Mobile App,28.16,2,0,6.12,56.32,false,16.19,35.98,0.55,Globex,New,Paid Social,2024,Bronze,,0,,32.38,23.94,23.94
+ORD50919,2025-03-13,C1171,West,Apparel,Denim Jacket,Online,50.27,3,0.1,6.34,135.73,false,45.49,79.95,0.431,Meridian,Returning,Referral,2023,Silver,,0,,136.47,-0.74,-0.74
+ORD50829,2025-09-28,C1071,Midwest,Beauty,Bath Set,Mobile App,42.93,2,0.05,3.96,81.57,false,19.67,43.71,0.55,Umbra,New,Paid Social,2023,Bronze,,0,,39.34,42.23,42.23
+ORD50144,2025-03-14,C1131,East,Apparel,Denim Jacket,Online,149.72,3,0,9.96,449.16,false,45.49,79.95,0.431,Meridian,VIP,Referral,2023,Silver,,0,,136.47,312.69,312.69
+ORD50485,2025-11-15,C1134,East,Apparel,Summer Dress,Online,94.57,2,0,8.06,189.14,false,40.56,71.29,0.431,Globex,Returning,Organic,2025,Bronze,,0,,81.12,108.02,108.02
+ORD50291,2025-05-12,C1042,South,Home,Throw Pillow,Mobile App,46.76,1,0.05,0.00,44.42,false,26.26,45.27,0.42,Acme,Returning,Organic,2025,Silver,,0,,26.26,18.16,18.16
+ORD50815,2025-08-18,C1136,East,Apparel,Denim Jacket,In-Store,64.56,4,0.3,0.00,180.77,false,45.49,79.95,0.431,Meridian,VIP,Referral,2024,Silver,,0,,181.96,-1.19,-1.19
+ORD50737,2025-02-27,C1144,Midwest,Apparel,Classic Tee,Online,68.82,1,0.1,3.80,61.94,true,40.01,70.32,0.431,Acme,Returning,Organic,2024,Bronze,Not as described,57.1,N,40.01,21.93,-35.17
+ORD50335,2025-09-19,C1111,West,Apparel,Denim Jacket,Online,85.38,1,0.3,7.30,59.77,false,45.49,79.95,0.431,Meridian,New,Paid Social,2023,Silver,,0,,45.49,14.28,14.28
+ORD50619,2025-06-30,C1015,West,Home,Cotton Throw,Online,14.80,2,0,11.33,29.60,false,27.21,46.91,0.42,Acme,New,Email,2025,Silver,,0,,54.42,-24.82,-24.82
+ORD50187,2025-08-23,C1170,South,Home,Table Lamp,Online,69.78,2,0,5.73,139.56,false,26.19,45.15,0.42,Acme,New,Paid Social,2023,Silver,,0,,52.38,87.18,87.18
+ORD50067,2025-09-07,C1004,South,Footwear,Loafers,Mobile App,53.85,2,0,5.08,107.70,true,84.63,101.23,0.164,Meridian,New,Email,2024,Bronze,Defective,100.23,Y,169.26,-61.56,-161.79
+ORD50254,2025-05-06,C1136,East,Footwear,Canvas Sneakers,Online,221.35,2,0,8.22,442.70,true,93.6,111.96,0.164,Northwind,VIP,Referral,2024,Silver,Not as described,426.24,Y,187.20,255.50,-170.74
+ORD50270,2025-03-26,C1063,East,Accessories,Leather Belt,Mobile App,42.61,3,0,11.17,127.83,false,26.41,52.82,0.5,Umbra,Returning,Email,2024,Bronze,,0,,79.23,48.60,48.60
+ORD50476,2025-08-21,C1050,West,Beauty,Lip Balm,Online,45.13,1,0,7.41,45.13,false,16.19,35.98,0.55,Globex,New,Email,2024,Bronze,,0,,16.19,28.94,28.94
+ORD50165,2025-02-28,C1134,East,Footwear,Canvas Sneakers,In-Store,73.37,1,0.05,0.00,69.70,false,93.6,111.96,0.164,Northwind,Returning,Organic,2025,Bronze,,0,,93.60,-23.90,-23.90
+ORD50608,2025-01-02,C1036,West,Footwear,Canvas Sneakers,Online,139.75,2,0,8.30,279.50,false,93.6,111.96,0.164,Northwind,New,Organic,2024,Silver,,0,,187.20,92.30,92.30
+ORD50896,2025-05-23,C1060,Midwest,Apparel,Summer Dress,Online,50.47,2,0.1,8.18,90.85,false,40.56,71.29,0.431,Globex,Returning,Referral,2024,Silver,,0,,81.12,9.73,9.73
+ORD50334,2025-01-02,C1108,East,Footwear,Canvas Sneakers,Online,49.02,2,0,9.50,98.04,false,93.6,111.96,0.164,Northwind,New,Paid Social,2023,Bronze,,0,,187.20,-89.16,-89.16
+ORD50651,2025-06-20,C1125,East,Footwear,Canvas Sneakers,In-Store,140.37,1,0.3,0.00,98.26,false,93.6,111.96,0.164,Northwind,Returning,Email,2024,Bronze,,0,,93.60,4.66,4.66
+ORD50439,2025-12-13,C1120,South,Footwear,Canvas Sneakers,Online,68.52,1,0.5,11.60,34.26,true,93.6,111.96,0.164,Northwind,Returning,Email,2023,Bronze,Wrong size / poor fit,31.05,N,93.60,-59.34,-90.39
+ORD50584,2025-04-23,C1110,Midwest,Apparel,Denim Jacket,Mobile App,43.06,3,0.15,4.78,109.80,false,45.49,79.95,0.431,Meridian,Returning,Email,2023,Bronze,,0,,136.47,-26.67,-26.67
+ORD50381,2025-11-01,C1074,West,Footwear,Canvas Sneakers,In-Store,110.84,2,0.1,0.00,199.51,true,93.6,111.96,0.164,Northwind,New,Paid Social,2023,Bronze,Changed mind,195.82,Y,187.20,12.31,-183.51
+ORD50441,2025-03-24,C1007,West,Beauty,Face Serum,Online,61.09,3,0,7.88,183.27,false,17.07,37.93,0.55,Northwind,Returning,Organic,2024,Bronze,,0,,51.21,132.06,132.06
+ORD50434,2025-04-30,C1141,East,Accessories,Wool Scarf,In-Store,36.77,1,0,0.00,36.77,false,29.0,57.99,0.5,Northwind,Returning,Referral,2024,Bronze,,0,,29.00,7.77,7.77
+ORD50731,2025-07-17,C1078,West,Accessories,Tote Bag,Online,57.38,1,0.05,7.63,54.51,false,25.12,50.23,0.5,Globex,Returning,Organic,2025,Bronze,,0,,25.12,29.39,29.39
+ORD50119,2025-05-24,C1168,South,Accessories,Baseball Cap,Mobile App,16.99,1,0.05,3.55,16.14,false,26.45,52.9,0.5,Meridian,New,Paid Social,2025,Bronze,,0,,26.45,-10.31,-10.31
+ORD50445,2025-05-22,C1118,South,Footwear,Canvas Sneakers,Online,161.36,1,0.3,0.00,112.95,false,93.6,111.96,0.164,Northwind,Returning,Email,2023,Silver,,0,,93.60,19.35,19.35
+ORD50202,2025-09-21,C1091,West,Footwear,Loafers,Online,142.64,3,0,7.44,427.92,false,84.63,101.23,0.164,Meridian,Returning,Paid Social,2023,Silver,,0,,253.89,174.03,174.03
+ORD50428,2025-10-04,C1064,South,Beauty,Hand Cream,Online,62.81,3,0.15,3.70,160.17,false,17.77,39.49,0.55,Northwind,Returning,Email,2024,Silver,,0,,53.31,106.86,106.86
+ORD50153,2025-05-27,C1179,South,Footwear,Canvas Sneakers,Online,63.77,1,0.3,10.59,44.64,false,93.6,111.96,0.164,Northwind,Returning,Paid Social,2023,Bronze,,0,,93.60,-48.96,-48.96
+ORD50843,2025-08-02,C1011,West,Beauty,Hand Cream,Online,84.78,4,0.1,3.56,305.21,false,17.77,39.49,0.55,Northwind,VIP,Email,2023,Gold,,0,,71.08,234.13,234.13
+ORD50321,2025-08-09,C1010,Midwest,Accessories,Sunglasses,Online,59.11,2,0.15,5.26,100.49,false,26.16,52.33,0.5,Northwind,New,Referral,2023,Gold,,0,,52.32,48.17,48.17
+ORD50537,2025-05-29,C1158,West,Apparel,Summer Dress,In-Store,39.79,2,0.3,0.00,55.71,false,40.56,71.29,0.431,Globex,Returning,Paid Social,2023,Silver,,0,,81.12,-25.41,-25.41
+ORD50617,2025-04-06,C1095,East,Apparel,Denim Jacket,Online,85.06,1,0,7.12,85.06,false,45.49,79.95,0.431,Meridian,Returning,Email,2023,Gold,,0,,45.49,39.57,39.57
+ORD50878,2025-04-06,C1172,East,Footwear,Loafers,In-Store,84.72,2,0.1,0.00,152.50,false,84.63,101.23,0.164,Meridian,New,Paid Social,2024,Bronze,,0,,169.26,-16.76,-16.76
+ORD50207,2025-03-10,C1123,East,Apparel,Wool Sweater,Online,38.28,1,0.05,5.88,36.37,false,35.65,62.66,0.431,Acme,New,Paid Social,2024,Silver,,0,,35.65,0.72,0.72
+ORD50236,2025-04-19,C1033,Midwest,Footwear,,Online,127.77,1,0.1,6.72,114.99,false,,,,,New,Organic,2023,Bronze,,0,,,,
+ORD50727,2025-08-30,C1127,South,Accessories,Baseball Cap,Online,77.98,1,0.05,7.03,74.08,true,26.45,52.9,0.5,Meridian,New,Paid Social,2024,Silver,Late delivery,73.12,N,26.45,47.63,-25.49
+ORD50285,2025-07-10,C1067,East,Home,Throw Pillow,Mobile App,63.68,2,0,9.70,127.36,false,26.26,45.27,0.42,Acme,New,Referral,2024,Silver,,0,,52.52,74.84,74.84
+ORD50875,2025-07-01,C1053,South,Beauty,Perfume,In-Store,55.25,3,0,0.00,165.75,false,15.84,35.21,0.55,Acme,Returning,Organic,2023,Bronze,,0,,47.52,118.23,118.23
+ORD50414,2025-03-19,C1133,East,Footwear,Leather Boots,Online,150.69,2,0.1,0.00,271.24,false,94.79,113.39,0.164,Meridian,New,Paid Social,2024,Bronze,,0,,189.58,81.66,81.66
+ORD50264,2025-09-23,C1080,West,Beauty,Face Serum,Online,38.59,3,0,6.67,115.77,false,17.07,37.93,0.55,Northwind,Returning,Email,2024,Silver,,0,,51.21,64.56,64.56
+ORD50607,2025-02-14,C1077,West,Accessories,Wool Scarf,Online,25.32,1,0,11.28,25.32,false,29.0,57.99,0.5,Northwind,Returning,Email,2024,Bronze,,0,,29.00,-3.68,-3.68
+ORD50447,2025-09-14,C1006,East,Accessories,Leather Belt,In-Store,40.70,1,0.05,0.00,38.66,false,26.41,52.82,0.5,Umbra,Returning,Organic,2023,Bronze,,0,,26.41,12.25,12.25
+ORD50052,2025-03-26,C1106,West,Beauty,Hand Cream,In-Store,56.94,1,0,0.00,56.94,false,17.77,39.49,0.55,Northwind,Returning,Referral,2023,Silver,,0,,17.77,39.17,39.17
+ORD50888,2025-03-06,C1080,West,Accessories,Wool Scarf,Mobile App,35.59,2,0.05,8.18,67.62,false,29.0,57.99,0.5,Northwind,Returning,Email,2024,Silver,,0,,58.00,9.62,9.62
+ORD50893,2025-08-09,C1086,West,Accessories,Baseball Cap,Online,80.28,2,0,6.49,160.56,true,26.45,52.9,0.5,Meridian,Returning,Organic,2024,Bronze,Defective,149.08,Y,52.90,107.66,-41.42
+ORD50460,2025-08-22,C1147,East,Footwear,Loafers,In-Store,155.02,3,0,0.00,465.06,false,84.63,101.23,0.164,Meridian,Returning,Referral,2024,Silver,,0,,253.89,211.17,211.17
+ORD50040,2025-02-07,C1065,Midwest,Apparel,Denim Jacket,In-Store,26.68,1,0,0.00,24.01,false,45.49,79.95,0.431,Meridian,Returning,Referral,2023,Bronze,,0,,45.49,-21.48,-21.48
+ORD50475,2025-09-19,C1104,East,Apparel,Wool Sweater,In-Store,31.75,3,0,0.00,95.25,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Silver,,0,,106.95,-11.70,-11.70
+ORD50917,2025-06-06,C1103,West,Home,Ceramic Mug,Online,69.32,4,0,8.09,277.28,true,27.46,47.34,0.42,Meridian,VIP,Organic,2024,Gold,Wrong size / poor fit,236.95,Y,109.84,167.44,-69.51
+ORD50089,2025-09-13,C1157,South,Accessories,Sunglasses,Mobile App,85.20,3,0,0.00,255.60,false,26.16,52.33,0.5,Northwind,Returning,Organic,2024,Silver,,0,,78.48,177.12,177.12
+ORD50246,2025-03-18,C1023,West,Accessories,Wool Scarf,Online,83.47,3,0,10.88,237.89,false,29.0,57.99,0.5,Northwind,VIP,Organic,2024,Gold,,0,,87.00,150.89,150.89
+ORD50838,2025-08-12,C1054,Midwest,Accessories,Sunglasses,Online,49.64,3,0.4,0.00,89.35,true,26.16,52.33,0.5,Northwind,Returning,Referral,2025,Bronze,Damaged in transit,79.28,N,78.48,10.87,-68.41
+ORD50687,2025-03-13,C1100,West,Apparel,Denim Jacket,In-Store,51.61,2,0,0.00,103.22,false,45.49,79.95,0.431,Meridian,VIP,Paid Social,2025,Gold,,0,,90.98,12.24,12.24
+ORD50341,2025-07-16,C1056,East,Apparel,Wool Sweater,Mobile App,76.95,2,0.2,10.73,123.12,false,35.65,62.66,0.431,Acme,Returning,Organic,2023,Bronze,,0,,71.30,51.82,51.82
+ORD50164,2025-10-05,C1021,Midwest,Beauty,Bath Set,Mobile App,50.06,2,0.1,10.47,90.11,false,19.67,43.71,0.55,Umbra,New,Referral,2024,Silver,,0,,39.34,50.77,50.77
+ORD50548,2025-01-19,C1081,Midwest,Footwear,Sandals,Online,50.02,1,0.1,4.44,45.02,false,103.25,123.51,0.164,Acme,New,Email,2023,Gold,,0,,103.25,-58.23,-58.23
+ORD50224,2025-01-14,C1016,South,Home,Throw Pillow,In-Store,64.37,1,0.1,0.00,57.93,false,26.26,45.27,0.42,Acme,Returning,Referral,2025,Silver,,0,,26.26,31.67,31.67
+ORD50490,2025-06-04,C1022,East,Beauty,Perfume,Mobile App,26.51,4,0,3.56,106.04,false,15.84,35.21,0.55,Acme,VIP,Email,2023,Gold,,0,,63.36,42.68,42.68
+ORD50500,2025-12-31,C1012,West,Home,Table Lamp,In-Store,72.69,1,0,0.00,50.88,false,26.19,45.15,0.42,Acme,Returning,Organic,2025,Bronze,,0,,26.19,24.69,24.69
+ORD50243,2025-10-04,C1043,Midwest,Footwear,,Online,85.45,2,0.1,11.96,153.81,false,,,,,New,Paid Social,2024,Bronze,,0,,,,
+ORD50569,2025-11-15,C1058,West,Beauty,Lip Balm,Mobile App,46.74,3,0.05,10.98,133.21,true,16.19,35.98,0.55,Globex,New,Organic,2025,Bronze,Wrong size / poor fit,114.01,Y,48.57,84.64,-29.37
+ORD50481,2025-07-09,C1122,East,Beauty,Lip Balm,In-Store,15.82,1,0.15,0.00,13.45,false,16.19,35.98,0.55,Globex,New,Referral,2024,Silver,,0,,16.19,-2.74,-2.74
+ORD50410,2025-04-06,C1144,Midwest,Accessories,Baseball Cap,Mobile App,17.27,1,0,9.92,17.27,true,26.45,52.9,0.5,Meridian,Returning,Organic,2024,Bronze,Wrong size / poor fit,16.44,Y,26.45,-9.18,-25.62
+ORD50643,2025-07-16,C1036,West,Apparel,Summer Dress,In-Store,43.31,1,0.05,0.00,41.14,false,40.56,71.29,0.431,Globex,New,Organic,2024,Silver,,0,,40.56,0.58,0.58
+ORD50272,2025-11-28,C1105,East,Home,Throw Pillow,In-Store,12.84,2,0.15,0.00,21.83,false,26.26,45.27,0.42,Acme,Returning,Organic,2023,Gold,,0,,52.52,-30.69,-30.69
+ORD50554,2025-06-29,C1135,East,Beauty,Lip Balm,Online,27.37,1,0.05,9.94,26.00,false,16.19,35.98,0.55,Globex,New,Paid Social,2024,Bronze,,0,,16.19,9.81,9.81
+ORD50380,2025-12-05,C1131,East,Home,Throw Pillow,In-Store,69.59,4,0.45,0.00,153.10,false,26.26,45.27,0.42,Acme,VIP,Referral,2023,Silver,,0,,105.04,48.06,48.06
+ORD50758,2025-08-07,C1044,West,Accessories,Wool Scarf,Mobile App,83.32,2,0,9.37,166.64,true,29.0,57.99,0.5,Northwind,Returning,Organic,2025,Bronze,Wrong size / poor fit,165.1,N,58.00,108.64,-56.46
+ORD50524,2025-06-23,C1122,East,Apparel,Wool Sweater,In-Store,48.79,2,0.15,0.00,82.94,false,35.65,62.66,0.431,Acme,New,Referral,2024,Silver,,0,,71.30,11.64,11.64
+ORD50257,2025-03-28,C1024,West,Beauty,Face Serum,In-Store,16.81,1,0,0.00,16.81,false,17.07,37.93,0.55,Northwind,Returning,Paid Social,2024,Bronze,,0,,17.07,-0.26,-0.26
+ORD50015,2025-06-06,C1027,South,Apparel,Wool Sweater,Online,80.89,2,0.05,5.42,153.69,false,35.65,62.66,0.431,Acme,New,Email,2023,Silver,,0,,71.30,82.39,82.39
+ORD50714,2025-11-09,C1169,West,Beauty,Face Serum,In-Store,49.82,5,0,0.00,249.10,false,17.07,37.93,0.55,Northwind,VIP,Referral,2024,Gold,,0,,85.35,163.75,163.75
+ORD50232,2025-10-06,C1081,Midwest,Beauty,Lip Balm,Online,60.73,2,0,6.18,121.46,false,16.19,35.98,0.55,Globex,New,Email,2023,Gold,,0,,32.38,89.08,89.08
+ORD50138,2025-09-03,C1128,West,Apparel,,In-Store,35.19,2,0.05,0.00,66.86,false,,,,,New,Paid Social,2023,Bronze,,0,,,,
+ORD50086,2025-11-20,C1058,West,Apparel,Classic Tee,Online,106.76,2,0.1,4.68,192.17,false,40.01,70.32,0.431,Acme,New,Organic,2025,Bronze,,0,,80.02,112.15,112.15
+ORD50197,2025-09-17,C1113,West,Beauty,Bath Set,In-Store,49.14,1,0,0.00,44.23,false,19.67,43.71,0.55,Umbra,Returning,Organic,2023,Bronze,,0,,19.67,24.56,24.56
+ORD50244,2025-07-10,C1148,South,Footwear,Running Shoes,Online,65.30,3,0,0.00,195.90,false,94.62,113.18,0.164,Meridian,Returning,Paid Social,2024,Silver,,0,,283.86,-87.96,-87.96
+ORD50713,2025-01-19,C1126,East,Footwear,Sandals,Online,49.61,1,0,4.21,49.61,false,103.25,123.51,0.164,Acme,New,Paid Social,2024,Silver,,0,,103.25,-53.64,-53.64
+ORD50090,2025-06-28,C1146,Midwest,Footwear,Leather Boots,Mobile App,167.77,2,0.4,10.00,201.32,false,94.79,113.39,0.164,Meridian,New,Email,2023,Bronze,,0,,189.58,11.74,11.74
+ORD50293,2025-07-14,C1131,East,Home,Cotton Throw,Online,76.10,3,0,5.60,205.47,false,27.21,46.91,0.42,Acme,VIP,Referral,2023,Silver,,0,,81.63,123.84,123.84
+ORD50869,2025-06-17,C1174,East,Home,Cotton Throw,Online,35.75,1,0,5.30,35.75,false,27.21,46.91,0.42,Acme,New,Organic,2024,Bronze,,0,,27.21,8.54,8.54
+ORD50779,2025-08-11,C1155,South,Apparel,Wool Sweater,In-Store,25.96,1,0,0.00,25.96,false,35.65,62.66,0.431,Acme,Returning,Email,2025,Silver,,0,,35.65,-9.69,-9.69
+ORD50762,2025-10-07,C1178,East,Accessories,Wool Scarf,Online,30.82,2,0,9.94,61.64,false,29.0,57.99,0.5,Northwind,VIP,Referral,2024,Gold,,0,,58.00,3.64,3.64
+ORD50275,2025-04-04,C1083,West,Apparel,Summer Dress,In-Store,89.44,2,0.05,0.00,169.94,false,40.56,71.29,0.431,Globex,New,Paid Social,2025,Gold,,0,,81.12,88.82,88.82
+ORD50163,2025-08-13,C1153,Midwest,Beauty,Face Serum,Mobile App,12.78,2,0,4.59,25.56,false,17.07,37.93,0.55,Northwind,Returning,Email,2025,Bronze,,0,,34.14,-8.58,-8.58
+ORD50228,2025-01-03,C1141,East,Beauty,Hand Cream,In-Store,17.82,3,0,0.00,53.46,false,17.77,39.49,0.55,Northwind,Returning,Referral,2024,Bronze,,0,,53.31,0.15,0.15
+ORD50654,2025-04-16,C1161,Midwest,Beauty,Hand Cream,In-Store,50.13,4,0.05,0.00,190.49,false,17.77,39.49,0.55,Northwind,VIP,Referral,2025,Gold,,0,,71.08,119.41,119.41
+ORD50292,2025-07-01,C1157,South,Apparel,Summer Dress,Online,28.05,4,0.2,0.00,89.76,false,40.56,71.29,0.431,Globex,Returning,Organic,2024,Silver,,0,,162.24,-72.48,-72.48
+ORD50809,2025-12-25,C1025,West,Accessories,Sunglasses,Online,20.98,2,0.15,6.65,35.67,false,26.16,52.33,0.5,Northwind,New,Organic,2025,Bronze,,0,,52.32,-16.65,-16.65
+ORD50540,2025-10-15,C1157,South,Beauty,Perfume,In-Store,51.80,1,0.4,0.00,31.08,false,15.84,35.21,0.55,Acme,Returning,Organic,2024,Silver,,0,,15.84,15.24,15.24
+ORD50365,2025-08-31,C1085,West,Footwear,Running Shoes,In-Store,53.19,1,0.1,0.00,47.87,false,94.62,113.18,0.164,Meridian,New,Organic,2024,Gold,,0,,94.62,-46.75,-46.75
+ORD50023,2025-12-28,C1117,Midwest,Accessories,Leather Belt,In-Store,44.44,1,0,0.00,37.77,false,26.41,52.82,0.5,Umbra,Returning,Organic,2024,Silver,,0,,26.41,11.36,11.36
+ORD50544,2025-05-07,C1083,West,Accessories,Sunglasses,Online,82.59,1,0.05,7.81,78.46,false,26.16,52.33,0.5,Northwind,New,Paid Social,2025,Gold,,0,,26.16,52.30,52.30
+ORD50757,2025-02-19,C1106,West,Apparel,Wool Sweater,Online,112.08,2,0.05,10.76,212.95,false,35.65,62.66,0.431,Acme,Returning,Referral,2023,Silver,,0,,71.30,141.65,141.65
+ORD50322,2025-11-30,C1101,West,Beauty,Perfume,Online,35.95,3,0,5.39,107.85,true,15.84,35.21,0.55,Acme,Returning,Email,2024,Bronze,,0,,47.52,60.33,60.33
+ORD50798,2025-11-24,C1043,Midwest,Apparel,Denim Jacket,In-Store,111.44,2,0.1,0.00,200.59,false,45.49,79.95,0.431,Meridian,New,Paid Social,2024,Bronze,,0,,90.98,109.61,109.61
+ORD50093,2025-11-11,C1024,West,Apparel,Summer Dress,Online,98.56,2,0.4,7.09,118.27,true,40.56,71.29,0.431,Globex,Returning,Paid Social,2024,Bronze,Not as described,112.2,Y,81.12,37.15,-75.05
+ORD50103,2025-05-04,C1031,South,Apparel,Classic Tee,Online,112.79,5,0.1,0.00,507.56,false,40.01,70.32,0.431,Acme,VIP,Referral,2024,Gold,,0,,200.05,307.51,307.51
+ORD50409,2025-11-30,C1115,Midwest,Apparel,Denim Jacket,Online,181.96,2,0.1,5.34,327.53,false,45.49,79.95,0.431,Meridian,VIP,Referral,2023,Gold,,0,,90.98,236.55,236.55
+ORD50027,2025-11-05,C1066,South,Beauty,Hand Cream,Online,42.29,2,0.15,11.30,71.89,false,17.77,39.49,0.55,Northwind,Returning,Email,2025,Bronze,,0,,35.54,36.35,36.35
+ORD50458,2025-02-02,C1074,West,Beauty,Lip Balm,In-Store,53.81,1,0.1,0.00,48.43,false,16.19,35.98,0.55,Globex,New,Paid Social,2023,Bronze,,0,,16.19,32.24,32.24
+ORD50234,2025-03-11,C1020,South,Footwear,Sandals,Mobile App,131.76,2,0.15,4.66,223.99,false,103.25,123.51,0.164,Acme,Returning,Email,2024,Bronze,,0,,206.50,17.49,17.49
+ORD50282,2025-10-27,C1024,West,Apparel,Wool Sweater,Mobile App,106.78,2,0.2,5.44,170.85,false,35.65,62.66,0.431,Acme,Returning,Paid Social,2024,Bronze,,0,,71.30,99.55,99.55
+ORD50217,2025-01-21,C1102,West,Apparel,Classic Tee,Online,57.55,2,0.05,5.53,109.34,false,40.01,70.32,0.431,Acme,New,Email,2023,Silver,,0,,80.02,29.32,29.32
+ORD50255,2025-08-12,C1107,East,Home,Wall Art,Mobile App,72.69,2,0,6.03,145.38,false,28.69,49.47,0.42,Globex,New,Paid Social,2024,Silver,,0,,57.38,88.00,88.00
+ORD50465,2025-06-03,C1078,West,Apparel,Wool Sweater,Online,67.82,1,0.15,8.09,57.65,false,35.65,62.66,0.431,Acme,Returning,Organic,2025,Bronze,,0,,35.65,22.00,22.00
+ORD50389,2025-08-15,C1090,West,Accessories,Wool Scarf,Online,45.71,1,0,11.42,36.57,false,29.0,57.99,0.5,Northwind,New,Paid Social,2024,Bronze,,0,,29.00,7.57,7.57
+ORD50543,2025-10-06,C1061,South,Footwear,Leather Boots,Online,81.57,1,0.05,0.00,77.49,true,94.79,113.39,0.164,Meridian,Returning,Email,2024,Bronze,Wrong size / poor fit,74.19,N,94.79,-17.30,-91.49
+ORD50650,2025-05-07,C1155,South,Footwear,Running Shoes,In-Store,177.51,1,0.2,0.00,142.01,false,94.62,113.18,0.164,Meridian,Returning,Email,2025,Silver,,0,,94.62,47.39,47.39
+ORD50768,2025-05-05,C1054,Midwest,Beauty,Lip Balm,Online,12.45,2,0.05,6.07,23.65,false,16.19,35.98,0.55,Globex,Returning,Referral,2025,Bronze,,0,,32.38,-8.73,-8.73
+ORD50907,2025-11-26,C1068,East,Accessories,Tote Bag,In-Store,67.65,2,0,0.00,135.30,false,25.12,50.23,0.5,Globex,New,Email,2025,Bronze,,0,,50.24,85.06,85.06
+ORD50705,2025-12-21,C1126,East,Apparel,Classic Tee,Online,36.45,2,0.15,0.00,61.97,false,40.01,70.32,0.431,Acme,New,Paid Social,2024,Silver,,0,,80.02,-18.05,-18.05
+ORD50834,2025-04-06,C1159,Midwest,Beauty,Face Serum,Online,20.86,2,0,11.68,41.72,false,17.07,37.93,0.55,Northwind,Returning,Organic,2025,Silver,,0,,34.14,7.58,7.58
+ORD50092,2025-03-29,C1065,Midwest,Apparel,Wool Sweater,Online,102.53,1,0,10.28,102.53,false,35.65,62.66,0.431,Acme,Returning,Referral,2023,Bronze,,0,,35.65,66.88,66.88
+ORD50390,2025-07-21,C1052,Midwest,Accessories,Wool Scarf,In-Store,67.89,1,0.15,0.00,57.71,false,29.0,57.99,0.5,Northwind,Returning,Email,2025,Bronze,,0,,29.00,28.71,28.71
+ORD50367,2025-09-20,C1001,Midwest,Home,Cotton Throw,Online,45.79,3,0.3,5.68,96.16,false,27.21,46.91,0.42,Acme,Returning,Email,2024,Bronze,,0,,81.63,14.53,14.53
+ORD50442,2025-09-17,C1094,South,Beauty,Perfume,Online,27.11,2,0,10.39,54.22,false,15.84,35.21,0.55,Acme,New,Paid Social,2025,Silver,,0,,31.68,22.54,22.54
+ORD50776,2025-08-11,C1134,East,Apparel,Denim Jacket,Online,49.44,2,0.4,7.87,59.33,false,45.49,79.95,0.431,Meridian,Returning,Organic,2025,Bronze,,0,,90.98,-31.65,-31.65
+ORD50665,2025-06-03,C1018,West,Accessories,Tote Bag,Mobile App,22.92,1,0.15,4.55,19.48,false,25.12,50.23,0.5,Globex,Returning,Referral,2023,Gold,,0,,25.12,-5.64,-5.64
+ORD50780,2025-02-10,C1032,West,Apparel,Summer Dress,Online,64.13,1,0,5.82,64.13,false,40.56,71.29,0.431,Globex,New,Paid Social,2024,Silver,,0,,40.56,23.57,23.57
+ORD50618,2025-12-31,C1179,South,Footwear,Leather Boots,Online,129.35,3,0.15,6.29,329.84,false,94.79,113.39,0.164,Meridian,Returning,Paid Social,2023,Bronze,,0,,284.37,45.47,45.47
+ORD50002,2025-12-17,C1026,West,Beauty,Hand Cream,In-Store,31.08,3,0.25,0.00,69.93,false,17.77,39.49,0.55,Northwind,Returning,Referral,2023,Bronze,,0,,53.31,16.62,16.62
+ORD50751,2025-06-07,C1135,East,Apparel,Classic Tee,Online,51.19,2,0.4,4.66,61.43,true,40.01,70.32,0.431,Acme,New,Paid Social,2024,Bronze,Late delivery,61.06,Y,80.02,-18.59,-79.65
+ORD50189,2025-03-16,C1068,East,Beauty,Hand Cream,Mobile App,26.68,2,0.4,10.29,32.02,false,17.77,39.49,0.55,Northwind,New,Email,2025,Bronze,,0,,35.54,-3.52,-3.52
+ORD50403,2025-10-27,C1112,Midwest,Footwear,Sandals,Mobile App,141.15,1,0.05,10.12,134.09,false,103.25,123.51,0.164,Acme,New,Referral,2023,Bronze,,0,,103.25,30.84,30.84
+ORD50012,2025-10-09,C1033,Midwest,Beauty,Hand Cream,In-Store,53.12,1,0.1,0.00,47.81,false,17.77,39.49,0.55,Northwind,New,Organic,2023,Bronze,,0,,17.77,30.04,30.04
+ORD50557,2025-09-06,C1005,South,Apparel,Classic Tee,In-Store,110.61,6,0,0.00,663.66,false,40.01,70.32,0.431,Acme,VIP,Referral,2024,Silver,,0,,240.06,423.60,423.60
+ORD50681,2025-07-04,C1125,East,Beauty,Hand Cream,Online,19.57,3,0,5.61,58.71,false,17.77,39.49,0.55,Northwind,Returning,Email,2024,Bronze,,0,,53.31,5.40,5.40
+ORD50337,2025-10-29,C1116,Midwest,Home,Wall Art,In-Store,45.70,2,0,0.00,91.40,false,28.69,49.47,0.42,Globex,Returning,Paid Social,2025,Bronze,,0,,57.38,34.02,34.02
+ORD50083,2025-04-12,C1178,East,Accessories,Baseball Cap,Online,66.66,4,0,8.28,266.64,false,26.45,52.9,0.5,Meridian,VIP,Referral,2024,Gold,,0,,105.80,160.84,160.84
+ORD50466,2025-05-15,C1158,West,Accessories,Tote Bag,Online,61.28,1,0,10.61,61.28,false,25.12,50.23,0.5,Globex,Returning,Paid Social,2023,Silver,,0,,25.12,36.16,36.16
+ORD50717,2025-08-14,C1015,West,Footwear,Canvas Sneakers,Online,173.29,1,0.15,0.00,147.30,false,93.6,111.96,0.164,Northwind,New,Email,2025,Silver,,0,,93.60,53.70,53.70
+ORD50699,2025-03-23,C1043,Midwest,Home,,In-Store,54.22,1,0.05,0.00,51.51,true,,,,,New,Paid Social,2024,Bronze,Damaged in transit,46.4,Y,,,
+ORD50152,2025-02-09,C1120,South,Beauty,Perfume,Online,27.29,1,0.1,6.43,24.56,false,15.84,35.21,0.55,Acme,Returning,Email,2023,Bronze,,0,,15.84,8.72,8.72
+ORD50277,2025-06-23,C1148,South,Accessories,Leather Belt,Mobile App,67.25,2,0,3.72,134.50,false,26.41,52.82,0.5,Umbra,Returning,Paid Social,2024,Silver,,0,,52.82,81.68,81.68
+ORD50065,2025-12-24,C1144,Midwest,Beauty,Bath Set,In-Store,31.70,2,0.2,0.00,50.72,false,19.67,43.71,0.55,Umbra,Returning,Organic,2024,Bronze,,0,,39.34,11.38,11.38
+ORD50424,2025-04-23,C1028,West,Accessories,Baseball Cap,Online,40.79,1,0.3,11.90,28.55,false,26.45,52.9,0.5,Meridian,New,Paid Social,2025,Bronze,,0,,26.45,2.10,2.10
+ORD50190,2025-06-10,C1172,East,Footwear,Leather Boots,In-Store,116.62,1,0.1,0.00,104.96,false,94.79,113.39,0.164,Meridian,New,Paid Social,2024,Bronze,,0,,94.79,10.17,10.17
+ORD50552,2025-09-16,C1170,South,Apparel,Classic Tee,Online,65.91,1,0.1,0.00,59.32,false,40.01,70.32,0.431,Acme,New,Paid Social,2023,Silver,,0,,40.01,19.31,19.31
+ORD50782,2025-11-29,C1119,South,Apparel,Chino Pants,In-Store,108.68,3,0,0.00,326.04,false,45.05,79.17,0.431,Meridian,Returning,Organic,2024,Gold,,0,,135.15,190.89,190.89
+ORD50448,2025-05-12,C1013,Midwest,Apparel,Summer Dress,Online,82.79,1,0,4.27,66.23,false,40.56,71.29,0.431,Globex,Returning,Email,2024,Bronze,,0,,40.56,25.67,25.67
+ORD50463,2025-11-07,C1087,West,Home,Cotton Throw,Online,22.99,2,0,11.24,39.08,false,27.21,46.91,0.42,Acme,Returning,Email,2024,Silver,,0,,54.42,-15.34,-15.34
+ORD50239,2025-08-07,C1113,West,Accessories,Wool Scarf,Mobile App,78.18,3,0,5.34,234.54,false,29.0,57.99,0.5,Northwind,Returning,Organic,2023,Bronze,,0,,87.00,147.54,147.54
+ORD50683,2025-11-28,C1157,South,Accessories,Tote Bag,Online,29.88,2,0,11.06,59.76,false,25.12,50.23,0.5,Globex,Returning,Organic,2024,Silver,,0,,50.24,9.52,9.52
+ORD50718,2025-07-14,C1155,South,Apparel,Denim Jacket,In-Store,59.62,1,0.05,0.00,56.64,false,45.49,79.95,0.431,Meridian,Returning,Email,2025,Silver,,0,,45.49,11.15,11.15
+ORD50823,2025-09-19,C1159,Midwest,Home,Wall Art,In-Store,44.45,1,0.05,0.00,42.23,false,28.69,49.47,0.42,Globex,Returning,Organic,2025,Silver,,0,,28.69,13.54,13.54
+ORD50520,2025-11-12,C1053,South,Home,Cotton Throw,Online,17.76,1,0.3,9.66,12.43,false,27.21,46.91,0.42,Acme,Returning,Organic,2023,Bronze,,0,,27.21,-14.78,-14.78
+ORD50317,2025-02-09,C1116,Midwest,Beauty,,Online,14.86,2,0.1,6.76,26.75,false,,,,,Returning,Paid Social,2025,Bronze,,0,,,,
+ORD50854,2025-09-15,C1158,West,Beauty,Face Serum,In-Store,43.36,3,0,0.00,130.08,false,17.07,37.93,0.55,Northwind,Returning,Paid Social,2023,Silver,,0,,51.21,78.87,78.87
+ORD50513,2025-11-04,C1122,East,Accessories,Leather Belt,Online,18.37,2,0.05,4.99,34.90,false,26.41,52.82,0.5,Umbra,New,Referral,2024,Silver,,0,,52.82,-17.92,-17.92
+ORD50636,2025-11-23,C1031,South,Beauty,Bath Set,Online,31.43,4,0.1,0.00,113.15,false,19.67,43.71,0.55,Umbra,VIP,Referral,2024,Gold,,0,,78.68,34.47,34.47
+ORD50229,2025-04-21,C1105,East,Footwear,Running Shoes,In-Store,56.13,3,0.15,0.00,143.13,true,94.62,113.18,0.164,Meridian,Returning,Organic,2023,Gold,Changed mind,137.79,Y,283.86,-140.73,-278.52
+ORD50402,2025-04-22,C1160,West,Footwear,Canvas Sneakers,Online,94.18,1,0.15,10.01,80.05,true,93.6,111.96,0.164,Northwind,New,Referral,2023,Bronze,,0,,93.60,-13.55,-13.55
+ORD50062,2025-05-12,C1173,East,Apparel,Chino Pants,Online,186.29,2,0,10.97,353.95,false,45.05,79.17,0.431,Meridian,VIP,Email,2023,Silver,,0,,90.10,263.85,263.85
+ORD50830,2025-04-03,C1000,Midwest,Accessories,Wool Scarf,Online,88.24,1,0.15,11.72,75.00,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2025,Gold,,0,,29.00,46.00,46.00
+ORD50816,2025-01-06,C1140,Midwest,Home,Table Lamp,Mobile App,33.57,1,0.15,11.89,28.53,false,26.19,45.15,0.42,Acme,Returning,Paid Social,2023,Bronze,,0,,26.19,2.34,2.34
+ORD50382,2025-02-06,C1085,West,Apparel,Denim Jacket,Online,83.90,1,0.2,6.41,67.12,false,45.49,79.95,0.431,Meridian,New,Organic,2024,Gold,,0,,45.49,21.63,21.63
+ORD50819,2025-08-06,C1083,West,Footwear,Canvas Sneakers,Mobile App,63.67,1,0,5.55,63.67,false,93.6,111.96,0.164,Northwind,New,Paid Social,2025,Gold,,0,,93.60,-29.93,-29.93
+ORD50891,2025-11-25,C1097,East,Apparel,Chino Pants,Online,72.65,2,0.15,11.70,123.51,false,45.05,79.17,0.431,Meridian,New,Email,2023,Bronze,,0,,90.10,33.41,33.41
+ORD50736,2025-12-13,C1086,West,Footwear,Running Shoes,Online,59.38,3,0.25,4.13,133.61,false,94.62,113.18,0.164,Meridian,Returning,Organic,2024,Bronze,,0,,283.86,-150.25,-150.25
+ORD50094,2025-02-12,C1072,East,Beauty,Bath Set,In-Store,79.41,5,0,0.00,397.05,false,19.67,43.71,0.55,Umbra,VIP,Referral,2023,Gold,,0,,98.35,298.70,298.70
+ORD50373,2025-05-17,C1028,West,Apparel,Chino Pants,In-Store,88.83,2,0.1,0.00,159.89,false,45.05,79.17,0.431,Meridian,New,Paid Social,2025,Bronze,,0,,90.10,69.79,69.79
+ORD50095,2025-02-20,C1040,East,Apparel,Chino Pants,Online,104.09,2,0.1,9.33,187.36,false,45.05,79.17,0.431,Meridian,Returning,Organic,2024,Silver,,0,,90.10,97.26,97.26
+ORD50248,2025-03-04,C1000,Midwest,Beauty,Face Serum,Online,55.95,1,0,5.49,55.95,false,17.07,37.93,0.55,Northwind,Returning,Paid Social,2025,Gold,,0,,17.07,38.88,38.88
+ORD50360,2025-09-19,C1057,South,Beauty,Perfume,Online,60.55,2,0,10.32,121.10,false,15.84,35.21,0.55,Acme,Returning,Referral,2025,Bronze,,0,,31.68,89.42,89.42
+ORD50903,2025-08-13,C1119,South,Home,Ceramic Mug,Mobile App,39.50,3,0.4,8.38,71.10,false,27.46,47.34,0.42,Meridian,Returning,Organic,2024,Gold,,0,,82.38,-11.28,-11.28
+ORD50026,2025-08-25,C1130,East,Accessories,Sunglasses,In-Store,40.38,2,0.15,0.00,68.65,false,26.16,52.33,0.5,Northwind,New,Paid Social,2025,Gold,,0,,52.32,16.33,16.33
+ORD50729,2025-06-29,C1033,Midwest,Apparel,Summer Dress,Online,62.60,2,0,3.77,125.20,false,40.56,71.29,0.431,Globex,New,Organic,2023,Bronze,,0,,81.12,44.08,44.08
+ORD50276,2025-04-28,C1071,Midwest,Apparel,Chino Pants,Mobile App,87.22,1,0,9.88,87.22,false,45.05,79.17,0.431,Meridian,New,Paid Social,2023,Bronze,,0,,45.05,42.17,42.17
+ORD50034,2025-10-17,C1080,West,Apparel,Summer Dress,Online,60.41,3,0.1,10.08,163.11,false,40.56,71.29,0.431,Globex,Returning,Email,2024,Silver,,0,,121.68,41.43,41.43
+ORD50494,2025-09-18,C1070,South,Footwear,Canvas Sneakers,In-Store,171.60,2,0.15,0.00,291.72,false,93.6,111.96,0.164,Northwind,New,Paid Social,2024,Silver,,0,,187.20,104.52,104.52
+ORD50555,2025-03-08,C1102,West,Apparel,Wool Sweater,Mobile App,29.38,1,0.15,8.55,24.97,false,35.65,62.66,0.431,Acme,New,Email,2023,Silver,,0,,35.65,-10.68,-10.68
+ORD50575,2025-09-18,C1038,Midwest,Apparel,Denim Jacket,Online,60.19,1,0.1,4.10,54.17,false,45.49,79.95,0.431,Meridian,New,Organic,2024,Bronze,,0,,45.49,8.68,8.68
+ORD50130,2025-04-24,C1092,West,Beauty,Lip Balm,In-Store,15.19,3,0.2,0.00,36.46,false,16.19,35.98,0.55,Globex,Returning,Referral,2025,Bronze,,0,,48.57,-12.11,-12.11
+ORD50861,2025-05-24,C1163,South,Home,Ceramic Mug,Mobile App,72.11,1,0.1,8.28,64.90,true,27.46,47.34,0.42,Meridian,New,Paid Social,2025,Bronze,Not as described,63.56,Y,27.46,37.44,-26.12
+ORD50100,2025-05-04,C1117,Midwest,Beauty,Lip Balm,Mobile App,18.08,1,0.2,10.46,14.46,false,16.19,35.98,0.55,Globex,Returning,Organic,2024,Silver,,0,,16.19,-1.73,-1.73
+ORD50666,2025-07-15,C1105,East,Beauty,Perfume,Online,12.95,2,0,8.06,25.90,false,15.84,35.21,0.55,Acme,Returning,Organic,2023,Gold,,0,,31.68,-5.78,-5.78
+ORD50850,2025-03-13,C1046,West,Home,Table Lamp,Online,56.16,2,0,11.34,112.32,false,26.19,45.15,0.42,Acme,New,Organic,2024,Bronze,,0,,52.38,59.94,59.94
+ORD50674,2025-01-30,C1123,East,Footwear,Canvas Sneakers,In-Store,126.28,2,0.2,0.00,202.05,false,93.6,111.96,0.164,Northwind,New,Paid Social,2024,Silver,,0,,187.20,14.85,14.85
+ORD50404,2025-12-01,C1069,East,Beauty,Lip Balm,Online,28.04,2,0.15,11.00,47.67,false,16.19,35.98,0.55,Globex,Returning,Email,2024,Bronze,,0,,32.38,15.29,15.29
+ORD50415,2025-11-17,C1011,West,Apparel,Chino Pants,Online,97.65,2,0.2,6.74,156.24,false,45.05,79.17,0.431,Meridian,VIP,Email,2023,Gold,,0,,90.10,66.14,66.14
+ORD50017,2025-08-25,C1061,South,Footwear,Canvas Sneakers,In-Store,127.64,2,0.15,0.00,216.99,false,93.6,111.96,0.164,Northwind,Returning,Email,2024,Bronze,,0,,187.20,29.79,29.79
+ORD50672,2025-12-08,C1171,West,Beauty,Face Serum,Online,12.02,3,0.3,4.71,25.24,false,17.07,37.93,0.55,Northwind,Returning,Referral,2023,Silver,,0,,51.21,-25.97,-25.97
+ORD50480,2025-01-26,C1179,South,Beauty,Hand Cream,Online,25.39,3,0.2,4.37,60.94,false,17.77,39.49,0.55,Northwind,Returning,Paid Social,2023,Bronze,,0,,53.31,7.63,7.63
+ORD50136,2025-11-12,C1111,West,Beauty,Bath Set,Online,29.13,3,0.1,10.05,78.65,false,19.67,43.71,0.55,Umbra,New,Paid Social,2023,Silver,,0,,59.01,19.64,19.64
+ORD50053,2025-12-30,C1153,Midwest,Footwear,Leather Boots,In-Store,103.62,3,0.4,0.00,186.52,false,94.79,113.39,0.164,Meridian,Returning,Email,2025,Bronze,,0,,284.37,-97.85,-97.85
+ORD50400,2025-04-17,C1092,West,Accessories,Baseball Cap,Mobile App,68.33,2,0,10.40,136.66,false,26.45,52.9,0.5,Meridian,Returning,Referral,2025,Bronze,,0,,52.90,83.76,83.76
+ORD50072,2025-09-28,C1053,South,Footwear,Loafers,In-Store,146.40,2,0,0.00,292.80,false,84.63,101.23,0.164,Meridian,Returning,Organic,2023,Bronze,,0,,169.26,123.54,123.54
+ORD50433,2025-10-08,C1098,Midwest,Accessories,Baseball Cap,Mobile App,35.31,1,0.1,8.78,31.78,false,26.45,52.9,0.5,Meridian,New,Paid Social,2024,Silver,,0,,26.45,5.33,5.33
+ORD50339,2025-05-30,C1025,West,Accessories,Baseball Cap,Mobile App,16.22,2,0.15,11.21,27.57,false,26.45,52.9,0.5,Meridian,New,Organic,2025,Bronze,,0,,52.90,-25.33,-25.33
+ORD50680,2025-08-24,C1122,East,Home,Table Lamp,Online,65.98,2,0,0.00,131.96,false,26.19,45.15,0.42,Acme,New,Referral,2024,Silver,,0,,52.38,79.58,79.58
+ORD50692,2025-11-18,C1138,West,Beauty,Face Serum,Online,15.76,3,0.1,10.11,42.55,false,17.07,37.93,0.55,Northwind,Returning,Referral,2023,Silver,,0,,51.21,-8.66,-8.66
+ORD50910,2025-09-13,C1085,West,Home,Ceramic Mug,Online,65.95,2,0.1,11.93,118.71,false,27.46,47.34,0.42,Meridian,New,Organic,2024,Gold,,0,,54.92,63.79,63.79
+ORD50538,2025-03-01,C1014,West,Accessories,Leather Belt,Online,75.82,2,0.2,4.84,121.31,false,26.41,52.82,0.5,Umbra,Returning,Email,2024,Silver,,0,,52.82,68.49,68.49
+ORD50306,2025-04-12,C1044,West,Footwear,Canvas Sneakers,Online,65.73,3,0,9.39,197.19,false,93.6,111.96,0.164,Northwind,Returning,Organic,2025,Bronze,,0,,280.80,-83.61,-83.61
+ORD50522,2025-10-09,C1020,South,Home,Throw Pillow,Online,70.87,3,0,11.91,212.61,true,26.26,45.27,0.42,Acme,Returning,Email,2024,Bronze,Defective,205.17,Y,78.78,133.83,-71.34
+ORD50902,2025-11-06,C1004,South,Beauty,Face Serum,Online,43.99,1,0.45,11.05,24.19,false,17.07,37.93,0.55,Northwind,New,Email,2024,Bronze,,0,,17.07,7.12,7.12
+ORD50200,2025-03-26,C1174,East,Accessories,Baseball Cap,In-Store,78.73,1,0.1,0.00,70.86,false,26.45,52.9,0.5,Meridian,New,Organic,2024,Bronze,,0,,26.45,44.41,44.41
+ORD50507,2025-06-23,C1067,East,Beauty,Bath Set,Online,30.42,1,0.15,0.00,25.86,false,19.67,43.71,0.55,Umbra,New,Referral,2024,Silver,,0,,19.67,6.19,6.19
+ORD50579,2025-11-09,C1057,South,Apparel,Denim Jacket,In-Store,69.76,3,0.1,0.00,188.35,false,45.49,79.95,0.431,Meridian,Returning,Referral,2025,Bronze,,0,,136.47,51.88,51.88
+ORD50649,2025-10-03,C1044,West,Home,Cotton Throw,Mobile App,25.20,1,0,7.76,25.20,true,27.21,46.91,0.42,Acme,Returning,Organic,2025,Bronze,Wrong size / poor fit,23.59,N,27.21,-2.01,-25.60
+ORD50615,2025-04-21,C1032,West,Accessories,Baseball Cap,Online,38.03,2,0.05,9.18,72.26,false,26.45,52.9,0.5,Meridian,New,Paid Social,2024,Silver,,0,,52.90,19.36,19.36
+ORD50697,2025-10-09,C1117,Midwest,Footwear,Leather Boots,Online,104.11,2,0.05,8.14,197.81,false,94.79,113.39,0.164,Meridian,Returning,Organic,2024,Silver,,0,,189.58,8.23,8.23
+ORD50839,2025-10-05,C1145,South,Beauty,Lip Balm,In-Store,21.45,2,0.15,0.00,36.46,false,16.19,35.98,0.55,Globex,New,Paid Social,2023,Bronze,,0,,32.38,4.08,4.08
+ORD50142,2025-08-21,C1167,West,Footwear,Loafers,In-Store,99.51,2,0.15,0.00,169.17,false,84.63,101.23,0.164,Meridian,Returning,Email,2023,Bronze,,0,,169.26,-0.09,-0.09
+ORD50553,2025-12-03,C1164,South,Accessories,Sunglasses,Online,80.10,3,0.15,3.64,204.25,false,26.16,52.33,0.5,Northwind,Returning,Organic,2024,Bronze,,0,,78.48,125.77,125.77
+ORD50472,2025-06-24,C1140,Midwest,Footwear,Sandals,Online,111.45,1,0.05,0.00,105.88,false,103.25,123.51,0.164,Acme,Returning,Paid Social,2023,Bronze,,0,,103.25,2.63,2.63
+ORD50020,2025-11-26,C1002,East,Beauty,Bath Set,In-Store,39.37,5,0,0.00,196.85,false,19.67,43.71,0.55,Umbra,VIP,Referral,2023,Bronze,,0,,98.35,98.50,98.50
+ORD50701,2025-09-01,C1163,South,Accessories,Wool Scarf,In-Store,77.05,2,0.05,0.00,146.39,true,29.0,57.99,0.5,Northwind,New,Paid Social,2025,Bronze,Changed mind,126.54,N,58.00,88.39,-38.15
+ORD50191,2025-07-24,C1122,East,Footwear,Sandals,Online,86.29,2,0.2,5.44,138.06,false,103.25,123.51,0.164,Acme,New,Referral,2024,Silver,,0,,206.50,-68.44,-68.44
+ORD50374,2025-05-01,C1070,South,Apparel,Wool Sweater,Online,28.68,1,0.05,8.27,27.25,false,35.65,62.66,0.431,Acme,New,Paid Social,2024,Silver,,0,,35.65,-8.40,-8.40
+ORD50831,2025-07-05,C1068,East,Apparel,Wool Sweater,Mobile App,77.57,1,0.4,0.00,46.54,true,35.65,62.66,0.431,Acme,New,Email,2025,Bronze,Not as described,45.31,Y,35.65,10.89,-34.42
+ORD50857,2025-09-15,C1018,West,Apparel,Denim Jacket,Mobile App,43.23,1,0,5.17,43.23,false,45.49,79.95,0.431,Meridian,Returning,Referral,2023,Gold,,0,,45.49,-2.26,-2.26
+ORD50039,2025-10-22,C1021,Midwest,Beauty,Hand Cream,Online,48.55,3,0.3,4.64,101.95,false,17.77,39.49,0.55,Northwind,New,Referral,2024,Silver,,0,,53.31,48.64,48.64
+ORD50797,2025-01-11,C1139,Midwest,Beauty,Hand Cream,In-Store,14.48,1,0.2,0.00,11.58,false,17.77,39.49,0.55,Northwind,New,Paid Social,2025,Bronze,,0,,17.77,-6.19,-6.19
+ORD50310,2025-05-09,C1115,Midwest,Home,Table Lamp,In-Store,45.76,3,0.05,0.00,130.42,false,26.19,45.15,0.42,Acme,VIP,Referral,2023,Gold,,0,,78.57,51.85,51.85
+ORD50008,2025-04-16,C1152,South,Apparel,Chino Pants,In-Store,113.14,2,0,0.00,192.34,false,45.05,79.17,0.431,Meridian,New,Paid Social,2025,Silver,,0,,90.10,102.24,102.24
+ORD50283,2025-10-28,C1105,East,Accessories,Tote Bag,Online,46.69,3,0,4.20,140.07,false,25.12,50.23,0.5,Globex,Returning,Organic,2023,Gold,,0,,75.36,64.71,64.71
+ORD50628,2025-06-09,C1069,East,Beauty,Face Serum,Online,33.86,2,0,9.35,67.72,false,17.07,37.93,0.55,Northwind,Returning,Email,2024,Bronze,,0,,34.14,33.58,33.58
+ORD50726,2025-06-07,C1004,South,Accessories,Leather Belt,Online,75.85,2,0.15,5.73,128.94,false,26.41,52.82,0.5,Umbra,New,Email,2024,Bronze,,0,,52.82,76.12,76.12
+ORD50517,2025-12-31,C1094,South,Beauty,Lip Balm,Online,15.90,3,0.15,10.05,40.55,false,16.19,35.98,0.55,Globex,New,Paid Social,2025,Silver,,0,,48.57,-8.02,-8.02
+ORD50599,2025-01-23,C1014,West,Beauty,Lip Balm,Online,61.67,2,0.1,6.61,111.01,false,16.19,35.98,0.55,Globex,Returning,Email,2024,Silver,,0,,32.38,78.63,78.63
+ORD50131,2025-11-13,C1111,West,Beauty,Perfume,In-Store,16.98,3,0,0.00,38.20,false,15.84,35.21,0.55,Acme,New,Paid Social,2023,Silver,,0,,47.52,-9.32,-9.32
+ORD50593,2025-03-02,C1103,West,Beauty,Hand Cream,Mobile App,30.48,5,0,8.61,152.40,false,17.77,39.49,0.55,Northwind,VIP,Organic,2024,Gold,,0,,88.85,63.55,63.55
+ORD50032,2025-08-27,C1174,East,Footwear,Sandals,In-Store,57.34,1,0,0.00,54.47,false,103.25,123.51,0.164,Acme,New,Organic,2024,Bronze,,0,,103.25,-48.78,-48.78
+ORD50124,2025-10-18,C1011,West,Accessories,Leather Belt,In-Store,80.35,4,0.05,0.00,305.33,false,26.41,52.82,0.5,Umbra,VIP,Email,2023,Gold,,0,,105.64,199.69,199.69
+ORD50056,2025-02-15,C1160,West,Accessories,Sunglasses,In-Store,25.78,1,0,0.00,25.78,false,26.16,52.33,0.5,Northwind,New,Referral,2023,Bronze,,0,,26.16,-0.38,-0.38
+ORD50290,2025-09-11,C1134,East,Footwear,Sandals,Online,159.51,3,0.1,9.78,430.68,false,103.25,123.51,0.164,Acme,Returning,Organic,2025,Bronze,,0,,309.75,120.93,120.93
+ORD50061,2025-01-13,C1143,East,Accessories,Wool Scarf,Mobile App,22.06,2,0.05,4.77,41.91,false,29.0,57.99,0.5,Northwind,Returning,Email,2023,Bronze,,0,,58.00,-16.09,-16.09
+ORD50849,2025-07-28,C1003,East,Footwear,Loafers,In-Store,140.51,2,0,0.00,281.02,false,84.63,101.23,0.164,Meridian,Returning,Organic,2023,Bronze,,0,,169.26,111.76,111.76
+ORD50127,2025-12-22,C1064,South,Footwear,Canvas Sneakers,Mobile App,45.03,2,0.3,6.07,63.04,false,93.6,111.96,0.164,Northwind,Returning,Email,2024,Silver,,0,,187.20,-124.16,-124.16
+ORD50559,2025-02-06,C1053,South,Home,Wall Art,Mobile App,34.59,3,0,4.55,103.77,true,28.69,49.47,0.42,Globex,Returning,Organic,2023,Bronze,,0,,86.07,17.70,17.70
+ORD50387,2025-10-27,C1005,South,Beauty,Face Serum,Online,93.47,3,0.15,3.56,238.35,false,17.07,37.93,0.55,Northwind,VIP,Referral,2024,Silver,,0,,51.21,187.14,187.14
+ORD50363,2025-11-03,C1060,Midwest,Apparel,Wool Sweater,Mobile App,97.52,1,0.15,8.95,82.89,false,35.65,62.66,0.431,Acme,Returning,Referral,2024,Silver,,0,,35.65,47.24,47.24
+ORD50638,2025-08-24,C1011,West,Beauty,Bath Set,Online,60.73,3,0,3.72,173.08,false,19.67,43.71,0.55,Umbra,VIP,Email,2023,Gold,,0,,59.01,114.07,114.07
+ORD50547,2025-05-30,C1159,Midwest,Home,Cotton Throw,Online,58.36,1,0.1,0.00,52.52,false,27.21,46.91,0.42,Acme,Returning,Organic,2025,Silver,,0,,27.21,25.31,25.31
+ORD50212,2025-02-03,C1177,South,Apparel,Classic Tee,In-Store,146.48,3,0.4,0.00,263.66,false,40.01,70.32,0.431,Acme,VIP,Organic,2025,Silver,,0,,120.03,143.63,143.63
+ORD50210,2025-06-03,C1017,Midwest,Beauty,Bath Set,In-Store,11.22,2,0,0.00,22.44,false,19.67,43.71,0.55,Umbra,New,Organic,2024,Bronze,,0,,39.34,-16.90,-16.90
+ORD50438,2025-06-09,C1145,South,Home,Throw Pillow,Online,35.37,1,0,8.77,35.37,false,26.26,45.27,0.42,Acme,New,Paid Social,2023,Bronze,,0,,26.26,9.11,9.11
+ORD50719,2025-04-27,C1091,West,Apparel,Denim Jacket,Online,75.81,1,0.1,5.74,68.23,false,45.49,79.95,0.431,Meridian,Returning,Paid Social,2023,Silver,,0,,45.49,22.74,22.74
+ORD50192,2025-02-16,C1018,West,Accessories,Baseball Cap,Online,16.59,3,0.1,4.05,44.79,false,26.45,52.9,0.5,Meridian,Returning,Referral,2023,Gold,,0,,79.35,-34.56,-34.56
+ORD50328,2025-08-27,C1031,South,Footwear,Sandals,Online,84.33,2,0,4.86,168.66,false,103.25,123.51,0.164,Acme,VIP,Referral,2024,Gold,,0,,206.50,-37.84,-37.84
+ORD50345,2025-10-06,C1121,West,Footwear,Loafers,Online,62.71,1,0,5.12,62.71,false,84.63,101.23,0.164,Meridian,Returning,Email,2023,Bronze,,0,,84.63,-21.92,-21.92
+ORD50764,2025-04-09,C1178,East,Footwear,Sandals,Mobile App,205.95,4,0,7.51,823.80,false,103.25,123.51,0.164,Acme,VIP,Referral,2024,Gold,,0,,413.00,410.80,410.80
+ORD50742,2025-03-01,C1012,West,Home,Ceramic Mug,Mobile App,22.66,1,0,7.80,22.66,false,27.46,47.34,0.42,Meridian,Returning,Organic,2025,Bronze,,0,,27.46,-4.80,-4.80
+ORD50644,2025-02-23,C1038,Midwest,Home,Table Lamp,Online,31.16,2,0,10.39,62.32,false,26.19,45.15,0.42,Acme,New,Organic,2024,Bronze,,0,,52.38,9.94,9.94
+ORD50247,2025-10-29,C1149,West,Accessories,Sunglasses,Online,20.19,1,0.15,9.65,17.16,false,26.16,52.33,0.5,Northwind,New,Paid Social,2023,Bronze,,0,,26.16,-9.00,-9.00
+ORD50314,2025-08-26,C1100,West,Beauty,Lip Balm,Online,65.15,3,0,5.83,195.45,false,16.19,35.98,0.55,Globex,VIP,Paid Social,2025,Gold,,0,,48.57,146.88,146.88
+ORD50741,2025-12-19,C1147,East,Accessories,Sunglasses,In-Store,54.11,2,0.1,0.00,97.40,false,26.16,52.33,0.5,Northwind,Returning,Referral,2024,Silver,,0,,52.32,45.08,45.08
+ORD50098,2025-12-08,C1074,West,Footwear,Leather Boots,In-Store,152.19,2,0.2,0.00,243.50,false,94.79,113.39,0.164,Meridian,New,Paid Social,2023,Bronze,,0,,189.58,53.92,53.92
+ORD50011,2025-07-05,C1009,West,Accessories,Leather Belt,In-Store,81.31,1,0,0.00,81.31,false,26.41,52.82,0.5,Umbra,Returning,Email,2023,Gold,,0,,26.41,54.90,54.90
+ORD50908,2025-11-20,C1141,East,Accessories,Tote Bag,Mobile App,42.97,1,0.1,5.66,38.67,false,25.12,50.23,0.5,Globex,Returning,Referral,2024,Bronze,,0,,25.12,13.55,13.55
+ORD50531,2025-02-08,C1175,East,Beauty,Hand Cream,In-Store,47.13,1,0,0.00,47.13,false,17.77,39.49,0.55,Northwind,New,Organic,2023,Gold,,0,,17.77,29.36,29.36
+ORD50660,2025-03-25,C1050,West,Beauty,Face Serum,Online,34.47,2,0,11.25,68.94,false,17.07,37.93,0.55,Northwind,New,Email,2024,Bronze,,0,,34.14,34.80,34.80
+ORD50647,2025-12-21,C1127,South,Home,Wall Art,Online,42.93,2,0.05,10.97,81.57,false,28.69,49.47,0.42,Globex,New,Paid Social,2024,Silver,,0,,57.38,24.19,24.19
+ORD50386,2025-03-10,C1003,East,Home,Wall Art,In-Store,34.31,3,0.1,0.00,92.64,true,28.69,49.47,0.42,Globex,Returning,Organic,2023,Bronze,Late delivery,88.78,N,86.07,6.57,-82.21
+ORD50592,2025-11-25,C1115,Midwest,Beauty,Perfume,Online,56.42,6,0.25,5.95,253.89,false,15.84,35.21,0.55,Acme,VIP,Referral,2023,Gold,,0,,95.04,158.85,158.85
+ORD50331,2025-01-26,C1015,West,Home,Wall Art,Online,19.53,2,0.15,11.06,33.20,false,28.69,49.47,0.42,Globex,New,Email,2025,Silver,,0,,57.38,-24.18,-24.18
+ORD50904,2025-06-08,C1161,Midwest,Beauty,Bath Set,Mobile App,18.94,5,0.15,0.00,80.50,false,19.67,43.71,0.55,Umbra,VIP,Referral,2025,Gold,,0,,98.35,-17.85,-17.85
+ORD50890,2025-04-07,C1080,West,Home,Cotton Throw,In-Store,19.35,1,0,0.00,19.35,false,27.21,46.91,0.42,Acme,Returning,Email,2024,Silver,,0,,27.21,-7.86,-7.86
+ORD50177,2025-08-19,C1074,West,Footwear,,In-Store,105.47,1,0,0.00,105.47,false,,,,,New,Paid Social,2023,Bronze,,0,,,,
+ORD50558,2025-05-18,C1126,East,Footwear,Leather Boots,Online,65.05,1,0.15,0.00,55.29,false,94.79,113.39,0.164,Meridian,New,Paid Social,2024,Silver,,0,,94.79,-39.50,-39.50
+ORD50720,2025-02-12,C1049,West,Footwear,Leather Boots,Online,173.96,2,0.05,4.83,330.52,false,94.79,113.39,0.164,Meridian,New,Paid Social,2024,Gold,,0,,189.58,140.94,140.94
+ORD50670,2025-02-19,C1122,East,Beauty,Bath Set,In-Store,62.38,1,0.1,0.00,56.14,false,19.67,43.71,0.55,Umbra,New,Referral,2024,Silver,,0,,19.67,36.47,36.47
+ORD50182,2025-03-23,C1083,West,Home,Table Lamp,In-Store,44.13,2,0.3,0.00,61.78,false,26.19,45.15,0.42,Acme,New,Paid Social,2025,Gold,,0,,52.38,9.40,9.40
+ORD50449,2025-11-13,C1157,South,Footwear,Running Shoes,Mobile App,174.26,2,0.15,11.55,296.24,false,94.62,113.18,0.164,Meridian,Returning,Organic,2024,Silver,,0,,189.24,107.00,107.00
+ORD50392,2025-07-01,C1066,South,Beauty,Face Serum,Online,49.44,4,0,0.00,197.76,false,17.07,37.93,0.55,Northwind,Returning,Email,2025,Bronze,,0,,68.28,129.48,129.48
+ORD50222,2025-05-09,C1167,West,Accessories,Baseball Cap,In-Store,38.59,2,0.15,0.00,65.60,false,26.45,52.9,0.5,Meridian,Returning,Email,2023,Bronze,,0,,52.90,12.70,12.70
+ORD50080,2025-03-19,C1099,Midwest,Footwear,Loafers,Online,71.82,5,0.1,11.34,323.19,false,84.63,101.23,0.164,Meridian,VIP,Email,2023,Silver,,0,,423.15,-99.96,-99.96
+ORD50694,2025-06-24,C1030,South,Beauty,Bath Set,Online,58.26,3,0.4,0.00,104.87,false,19.67,43.71,0.55,Umbra,Returning,Referral,2023,Bronze,,0,,59.01,45.86,45.86
+ORD50596,2025-12-01,C1059,West,Beauty,Hand Cream,Online,37.50,2,0.15,8.29,63.75,false,17.77,39.49,0.55,Northwind,New,Paid Social,2024,Bronze,,0,,35.54,28.21,28.21
+ORD50050,2025-06-25,C1044,West,Apparel,Summer Dress,Online,68.77,3,0,11.31,206.31,false,40.56,71.29,0.431,Globex,Returning,Organic,2025,Bronze,,0,,121.68,84.63,84.63
+ORD50421,2025-07-25,C1127,South,Home,Table Lamp,In-Store,73.67,3,0.1,0.00,198.91,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,78.57,120.34,120.34
+ORD50486,2025-10-10,C1112,Midwest,Home,Wall Art,In-Store,68.31,1,0.15,0.00,58.06,false,28.69,49.47,0.42,Globex,New,Referral,2023,Bronze,,0,,28.69,29.37,29.37
+ORD50203,2025-08-05,C1169,West,Home,Throw Pillow,Mobile App,100.53,2,0,11.38,201.06,false,26.26,45.27,0.42,Acme,VIP,Referral,2024,Gold,,0,,52.52,148.54,148.54
+ORD50383,2025-10-15,C1049,West,Footwear,Sandals,Online,61.59,1,0.2,10.48,49.27,false,103.25,123.51,0.164,Acme,New,Paid Social,2024,Gold,,0,,103.25,-53.98,-53.98
+ORD50323,2025-12-27,C1023,West,Apparel,Summer Dress,In-Store,75.36,2,0,0.00,82.90,true,40.56,71.29,0.431,Globex,VIP,Organic,2024,Gold,Wrong size / poor fit,72.47,N,81.12,1.78,-70.69
+ORD50077,2025-11-16,C1005,South,Apparel,Classic Tee,In-Store,86.93,6,0.15,0.00,443.34,false,40.01,70.32,0.431,Acme,VIP,Referral,2024,Silver,,0,,240.06,203.28,203.28
+ORD50157,2025-11-19,C1006,East,Apparel,Summer Dress,Online,101.94,2,0.15,5.11,173.30,false,40.56,71.29,0.431,Globex,Returning,Organic,2023,Bronze,,0,,81.12,92.18,92.18
+ORD50208,2025-06-05,C1005,South,Accessories,Sunglasses,Online,80.78,3,0,6.85,242.34,false,26.16,52.33,0.5,Northwind,VIP,Referral,2024,Silver,,0,,78.48,163.86,163.86
+ORD50867,2025-06-15,C1146,Midwest,Apparel,Chino Pants,Online,62.48,1,0.05,6.15,59.36,false,45.05,79.17,0.431,Meridian,New,Email,2023,Bronze,,0,,45.05,14.31,14.31
+ORD50305,2025-11-07,C1063,East,Home,Wall Art,In-Store,79.88,3,0.1,0.00,215.68,false,28.69,49.47,0.42,Globex,Returning,Email,2024,Bronze,,0,,86.07,129.61,129.61
+ORD50565,2025-08-07,C1026,West,Accessories,Baseball Cap,Mobile App,40.52,2,0.2,9.41,64.83,true,26.45,52.9,0.5,Meridian,Returning,Referral,2023,Bronze,Wrong size / poor fit,57.19,N,52.90,11.93,-45.26
+ORD50284,2025-07-24,C1105,East,Beauty,Hand Cream,Online,44.66,3,0.05,10.49,127.28,false,17.77,39.49,0.55,Northwind,Returning,Organic,2023,Gold,,0,,53.31,73.97,73.97
+ORD50489,2025-12-16,C1091,West,Home,Cotton Throw,Mobile App,46.80,1,0.3,7.57,32.76,false,27.21,46.91,0.42,Acme,Returning,Paid Social,2023,Silver,,0,,27.21,5.55,5.55
+ORD50753,2025-01-08,C1100,West,Beauty,Perfume,In-Store,25.73,2,0,0.00,51.46,false,15.84,35.21,0.55,Acme,VIP,Paid Social,2025,Gold,,0,,31.68,19.78,19.78
+ORD50598,2025-04-12,C1026,West,Accessories,Leather Belt,Online,31.30,1,0,7.37,31.30,false,26.41,52.82,0.5,Umbra,Returning,Referral,2023,Bronze,,0,,26.41,4.89,4.89
+ORD50457,2025-04-07,C1045,Midwest,Footwear,Canvas Sneakers,In-Store,103.39,3,0,0.00,310.17,false,93.6,111.96,0.164,Northwind,Returning,Organic,2024,Silver,,0,,280.80,29.37,29.37
+ORD50000,2025-02-20,C1167,West,Apparel,Chino Pants,In-Store,33.33,1,0.05,0.00,31.66,false,45.05,79.17,0.431,Meridian,Returning,Email,2023,Bronze,,0,,45.05,-13.39,-13.39
+ORD50405,2025-04-24,C1171,West,Footwear,Sandals,In-Store,58.20,1,0,0.00,58.20,false,103.25,123.51,0.164,Acme,Returning,Referral,2023,Silver,,0,,103.25,-45.05,-45.05
+ORD50573,2025-08-06,C1144,Midwest,Home,Wall Art,Online,27.49,1,0.4,0.00,16.49,false,28.69,49.47,0.42,Globex,Returning,Organic,2024,Bronze,,0,,28.69,-12.20,-12.20
+ORD50315,2025-03-21,C1025,West,Accessories,Wool Scarf,Online,15.07,1,0,8.16,13.56,false,29.0,57.99,0.5,Northwind,New,Organic,2025,Bronze,,0,,29.00,-15.44,-15.44
+ORD50216,2025-05-17,C1047,East,Footwear,,In-Store,140.35,1,0.05,0.00,133.33,false,,,,,New,Paid Social,2023,Bronze,,0,,,,
+ORD50661,2025-08-04,C1143,East,Apparel,Chino Pants,Online,95.94,3,0.1,5.28,259.04,false,45.05,79.17,0.431,Meridian,Returning,Email,2023,Bronze,,0,,135.15,123.89,123.89
+ORD50724,2025-04-12,C1160,West,Home,Wall Art,Online,43.29,2,0.15,7.11,73.59,false,28.69,49.47,0.42,Globex,New,Referral,2023,Bronze,,0,,57.38,16.21,16.21
+ORD50506,2025-09-06,C1143,East,Home,Table Lamp,In-Store,30.57,1,0,0.00,27.51,false,26.19,45.15,0.42,Acme,Returning,Email,2023,Bronze,,0,,26.19,1.32,1.32
+ORD50488,2025-10-20,C1002,East,Apparel,Summer Dress,Online,41.27,4,0.3,5.91,115.56,false,40.56,71.29,0.431,Globex,VIP,Referral,2023,Bronze,,0,,162.24,-46.68,-46.68
+ORD50733,2025-06-10,C1063,East,Apparel,Chino Pants,Mobile App,88.53,2,0.1,0.00,159.35,false,45.05,79.17,0.431,Meridian,Returning,Email,2024,Bronze,,0,,90.10,69.25,69.25
+ORD50533,2025-07-04,C1019,East,Home,Ceramic Mug,Online,34.50,3,0,7.30,103.50,false,27.46,47.34,0.42,Meridian,Returning,Organic,2024,Gold,,0,,82.38,21.12,21.12
+ORD50708,2025-06-18,C1164,South,Footwear,Sandals,In-Store,99.62,1,0,0.00,99.62,false,103.25,123.51,0.164,Acme,Returning,Organic,2024,Bronze,,0,,103.25,-3.63,-3.63
+ORD50632,2025-10-06,C1141,East,Apparel,Summer Dress,Mobile App,86.37,3,0.2,8.61,207.29,false,40.56,71.29,0.431,Globex,Returning,Referral,2024,Bronze,,0,,121.68,85.61,85.61
+ORD50566,2025-11-04,C1070,South,Beauty,Lip Balm,Online,25.43,1,0.1,7.80,22.89,false,16.19,35.98,0.55,Globex,New,Paid Social,2024,Silver,,0,,16.19,6.70,6.70
+ORD50576,2025-04-27,C1030,South,Beauty,Lip Balm,In-Store,42.02,2,0,0.00,84.04,false,16.19,35.98,0.55,Globex,Returning,Referral,2023,Bronze,,0,,32.38,51.66,51.66
+ORD50625,2025-01-09,C1056,East,Apparel,Wool Sweater,In-Store,27.87,3,0.1,0.00,75.25,false,35.65,62.66,0.431,Acme,Returning,Organic,2023,Bronze,,0,,106.95,-31.70,-31.70
+ORD50735,2025-03-05,C1149,West,Apparel,Wool Sweater,Mobile App,58.92,1,0.3,4.44,41.24,false,35.65,62.66,0.431,Acme,New,Paid Social,2023,Bronze,,0,,35.65,5.59,5.59
+ORD50470,2025-04-08,C1156,West,Beauty,Hand Cream,Mobile App,27.49,2,0.15,6.77,46.73,false,17.77,39.49,0.55,Northwind,New,Paid Social,2024,Bronze,,0,,35.54,11.19,11.19
+ORD50805,2025-01-29,C1060,Midwest,Apparel,Chino Pants,In-Store,43.26,2,0,0.00,86.52,false,45.05,79.17,0.431,Meridian,Returning,Referral,2024,Silver,,0,,90.10,-3.58,-3.58
+ORD50413,2025-11-28,C1044,West,Footwear,Sandals,Online,98.77,2,0.15,8.69,167.91,false,103.25,123.51,0.164,Acme,Returning,Organic,2025,Bronze,,0,,206.50,-38.59,-38.59
+ORD50871,2025-05-23,C1023,West,Footwear,Canvas Sneakers,In-Store,200.81,3,0,0.00,602.43,false,93.6,111.96,0.164,Northwind,VIP,Organic,2024,Gold,,0,,280.80,321.63,321.63
+ORD50508,2025-12-10,C1139,Midwest,Accessories,Tote Bag,In-Store,15.17,1,0,0.00,15.17,false,25.12,50.23,0.5,Globex,New,Paid Social,2025,Bronze,,0,,25.12,-9.95,-9.95
+ORD50678,2025-08-30,C1093,South,Beauty,Hand Cream,Online,31.79,4,0.1,7.82,114.44,false,17.77,39.49,0.55,Northwind,New,Paid Social,2025,Bronze,,0,,71.08,43.36,43.36
+ORD50384,2025-07-12,C1130,East,Accessories,Wool Scarf,Online,88.85,1,0.1,6.24,79.97,false,29.0,57.99,0.5,Northwind,New,Paid Social,2025,Gold,,0,,29.00,50.97,50.97
+ORD50241,2025-06-30,C1159,Midwest,Home,Throw Pillow,Mobile App,31.88,1,0.15,6.11,27.10,false,26.26,45.27,0.42,Acme,Returning,Organic,2025,Silver,,0,,26.26,0.84,0.84
+ORD50859,2025-12-14,C1102,West,Footwear,Canvas Sneakers,In-Store,154.81,2,0.5,0.00,154.81,true,93.6,111.96,0.164,Northwind,New,Email,2023,Silver,Wrong size / poor fit,145.2,Y,187.20,-32.39,-177.59
+ORD50482,2025-08-13,C1122,East,Accessories,Leather Belt,Online,30.19,2,0.05,8.32,57.36,false,26.41,52.82,0.5,Umbra,New,Referral,2024,Silver,,0,,52.82,4.54,4.54
+ORD50704,2025-07-22,C1028,West,Apparel,Classic Tee,Mobile App,87.26,1,0.15,9.96,74.17,false,40.01,70.32,0.431,Acme,New,Paid Social,2025,Bronze,,0,,40.01,34.16,34.16
+ORD50047,2025-11-07,C1020,South,Footwear,Sandals,Online,137.75,1,0,4.45,137.75,false,103.25,123.51,0.164,Acme,Returning,Email,2024,Bronze,,0,,103.25,34.50,34.50
+ORD50289,2025-07-26,C1080,West,Footwear,Canvas Sneakers,In-Store,121.48,2,0,0.00,230.81,false,93.6,111.96,0.164,Northwind,Returning,Email,2024,Silver,,0,,187.20,43.61,43.61
+ORD50791,2025-06-09,C1030,South,Accessories,Wool Scarf,Online,26.80,2,0.2,0.00,42.88,false,29.0,57.99,0.5,Northwind,Returning,Referral,2023,Bronze,,0,,58.00,-15.12,-15.12
+ORD50022,2025-09-15,C1084,Midwest,Apparel,Classic Tee,In-Store,104.45,2,0.2,0.00,167.12,false,40.01,70.32,0.431,Acme,New,Referral,2024,Silver,,0,,80.02,87.10,87.10
+ORD50860,2025-11-06,C1141,East,Accessories,Baseball Cap,Mobile App,53.55,2,0.2,7.31,85.68,true,26.45,52.9,0.5,Meridian,Returning,Referral,2024,Bronze,Wrong size / poor fit,81.27,Y,52.90,32.78,-48.49
+ORD50684,2025-06-18,C1126,East,Apparel,Summer Dress,Mobile App,34.51,2,0.2,5.64,55.22,true,40.56,71.29,0.431,Globex,New,Paid Social,2024,Silver,Wrong size / poor fit,48.04,N,81.12,-25.90,-73.94
+ORD50556,2025-06-18,C1082,East,Accessories,Wool Scarf,In-Store,53.81,1,0.3,0.00,37.67,false,29.0,57.99,0.5,Northwind,Returning,Paid Social,2023,Bronze,,0,,29.00,8.67,8.67
+ORD50301,2025-07-04,C1080,West,Home,Throw Pillow,Online,79.39,3,0.15,3.92,202.44,false,26.26,45.27,0.42,Acme,Returning,Email,2024,Silver,,0,,78.78,123.66,123.66
+ORD50159,2025-03-02,C1074,West,Footwear,Leather Boots,In-Store,74.42,2,0,0.00,126.51,true,94.79,113.39,0.164,Meridian,New,Paid Social,2023,Bronze,Wrong size / poor fit,118.63,N,189.58,-63.07,-181.70
+ORD50796,2025-05-11,C1017,Midwest,Accessories,Leather Belt,In-Store,49.16,2,0,0.00,98.32,false,26.41,52.82,0.5,Umbra,New,Organic,2024,Bronze,,0,,52.82,45.50,45.50
+ORD50541,2025-04-13,C1081,Midwest,Beauty,Bath Set,Online,35.94,2,0.15,6.90,61.10,false,19.67,43.71,0.55,Umbra,New,Email,2023,Gold,,0,,39.34,21.76,21.76
+ORD50530,2025-05-04,C1166,Midwest,Beauty,Lip Balm,Online,48.50,2,0.2,4.40,77.60,false,16.19,35.98,0.55,Globex,Returning,Organic,2024,Silver,,0,,32.38,45.22,45.22
+ORD50406,2025-10-09,C1000,Midwest,Apparel,Denim Jacket,Online,43.90,1,0.1,0.00,39.51,false,45.49,79.95,0.431,Meridian,Returning,Paid Social,2025,Gold,,0,,45.49,-5.98,-5.98
+ORD50263,2025-05-01,C1016,South,Accessories,Leather Belt,Mobile App,70.05,1,0,0.00,63.05,false,26.41,52.82,0.5,Umbra,Returning,Referral,2025,Silver,,0,,26.41,36.64,36.64
+ORD50435,2025-06-10,C1078,West,Home,Ceramic Mug,In-Store,55.71,2,0.3,0.00,77.99,false,27.46,47.34,0.42,Meridian,Returning,Organic,2025,Bronze,,0,,54.92,23.07,23.07
+ORD50043,2025-02-26,C1062,West,Footwear,Loafers,In-Store,118.61,1,0.05,0.00,112.68,false,84.63,101.23,0.164,Meridian,Returning,Organic,2023,Gold,,0,,84.63,28.05,28.05
+ORD50549,2025-01-14,C1165,South,Accessories,Leather Belt,Mobile App,42.31,1,0.1,11.91,38.08,false,26.41,52.82,0.5,Umbra,New,Paid Social,2023,Silver,,0,,26.41,11.67,11.67
+ORD50147,2025-06-25,C1037,West,Beauty,Hand Cream,Online,23.24,2,0.05,5.55,44.16,false,17.77,39.49,0.55,Northwind,Returning,Organic,2024,Silver,,0,,35.54,8.62,8.62
+ORD50096,2025-03-06,C1143,East,Beauty,Bath Set,Online,64.97,1,0.15,6.21,55.22,false,19.67,43.71,0.55,Umbra,Returning,Email,2023,Bronze,,0,,19.67,35.55,35.55
+ORD50377,2025-05-13,C1091,West,Footwear,Sandals,In-Store,168.16,1,0.3,0.00,117.71,false,103.25,123.51,0.164,Acme,Returning,Paid Social,2023,Silver,,0,,103.25,14.46,14.46
+ORD50872,2025-04-25,C1101,West,Apparel,Denim Jacket,Mobile App,28.50,2,0,6.77,51.30,false,45.49,79.95,0.431,Meridian,Returning,Email,2024,Bronze,,0,,90.98,-39.68,-39.68
+ORD50570,2025-04-11,C1118,South,Footwear,Canvas Sneakers,In-Store,70.26,2,0,0.00,140.52,false,93.6,111.96,0.164,Northwind,Returning,Email,2023,Silver,,0,,187.20,-46.68,-46.68
+ORD50771,2025-12-03,C1129,West,Footwear,Canvas Sneakers,In-Store,158.41,3,0.15,0.00,403.95,false,93.6,111.96,0.164,Northwind,Returning,Organic,2024,Bronze,,0,,280.80,123.15,123.15
+ORD50245,2025-08-13,C1165,South,Apparel,Summer Dress,Online,63.31,1,0,5.18,63.31,false,40.56,71.29,0.431,Globex,New,Paid Social,2023,Silver,,0,,40.56,22.75,22.75
+ORD50273,2025-10-31,C1044,West,Accessories,Tote Bag,Online,87.74,2,0,8.12,175.48,false,25.12,50.23,0.5,Globex,Returning,Organic,2025,Bronze,,0,,50.24,125.24,125.24
+ORD50645,2025-12-01,C1131,East,Beauty,Lip Balm,In-Store,54.25,4,0,0.00,195.30,false,16.19,35.98,0.55,Globex,VIP,Referral,2023,Silver,,0,,64.76,130.54,130.54
+ORD50297,2025-01-01,C1106,West,Apparel,Wool Sweater,In-Store,75.31,1,0,0.00,75.31,false,35.65,62.66,0.431,Acme,Returning,Referral,2023,Silver,,0,,35.65,39.66,39.66
+ORD50744,2025-03-26,C1152,South,Accessories,Tote Bag,Online,45.23,1,0.3,7.49,31.66,false,25.12,50.23,0.5,Globex,New,Paid Social,2025,Silver,,0,,25.12,6.54,6.54
+ORD50082,2025-08-29,C1094,South,Apparel,Denim Jacket,Online,89.42,3,0.05,9.87,254.85,false,45.49,79.95,0.431,Meridian,New,Paid Social,2025,Silver,,0,,136.47,118.38,118.38
+ORD50221,2025-11-30,C1068,East,Footwear,Loafers,Online,85.91,1,0,11.92,85.91,false,84.63,101.23,0.164,Meridian,New,Email,2025,Bronze,,0,,84.63,1.28,1.28
+ORD50349,2025-10-29,C1026,West,Apparel,Summer Dress,Online,25.08,1,0,6.32,25.08,false,40.56,71.29,0.431,Globex,Returning,Referral,2023,Bronze,,0,,40.56,-15.48,-15.48
+ORD50656,2025-11-02,C1174,East,Apparel,Chino Pants,In-Store,67.08,1,0.1,0.00,60.37,false,45.05,79.17,0.431,Meridian,New,Organic,2024,Bronze,,0,,45.05,15.32,15.32
+ORD50370,2025-04-17,C1142,East,Apparel,Denim Jacket,In-Store,107.60,2,0.2,0.00,172.16,false,45.49,79.95,0.431,Meridian,VIP,Email,2023,Silver,,0,,90.98,81.18,81.18
+ORD50511,2025-04-19,C1062,West,Apparel,Denim Jacket,Mobile App,54.90,1,0,6.74,54.90,false,45.49,79.95,0.431,Meridian,Returning,Organic,2023,Gold,,0,,45.49,9.41,9.41
+ORD50698,2025-02-01,C1013,Midwest,Home,Ceramic Mug,Online,12.98,1,0.05,9.40,12.33,false,27.46,47.34,0.42,Meridian,Returning,Email,2024,Bronze,,0,,27.46,-15.13,-15.13
+ORD50894,2025-09-03,C1006,East,Apparel,Wool Sweater,In-Store,42.99,1,0,0.00,36.54,false,35.65,62.66,0.431,Acme,Returning,Organic,2023,Bronze,,0,,35.65,0.89,0.89
+ORD50634,2025-06-24,C1036,West,Beauty,Bath Set,Mobile App,17.10,1,0.2,11.66,13.68,false,19.67,43.71,0.55,Umbra,New,Organic,2024,Silver,,0,,19.67,-5.99,-5.99
+ORD50514,2025-10-28,C1155,South,Apparel,Classic Tee,Online,87.56,4,0.3,9.01,245.17,false,40.01,70.32,0.431,Acme,Returning,Email,2025,Silver,,0,,160.04,85.13,85.13
+ORD50840,2025-02-12,C1032,West,Footwear,Leather Boots,Mobile App,120.33,1,0.15,5.74,102.28,false,94.79,113.39,0.164,Meridian,New,Paid Social,2024,Silver,,0,,94.79,7.49,7.49
+ORD50074,2025-11-05,C1158,West,Beauty,Bath Set,In-Store,58.10,3,0,0.00,174.30,false,19.67,43.71,0.55,Umbra,Returning,Paid Social,2023,Silver,,0,,59.01,115.29,115.29
+ORD50171,2025-01-12,C1151,West,Beauty,Lip Balm,Mobile App,21.12,4,0.15,5.34,71.81,false,16.19,35.98,0.55,Globex,VIP,Email,2024,Silver,,0,,64.76,7.05,7.05
+ORD50308,2025-10-02,C1051,East,Home,Wall Art,Mobile App,77.00,1,0.15,5.37,65.45,false,28.69,49.47,0.42,Globex,New,Email,2024,Silver,,0,,28.69,36.76,36.76
+ORD50461,2025-06-11,C1135,East,Footwear,Canvas Sneakers,Online,73.81,1,0.15,9.19,62.74,false,93.6,111.96,0.164,Northwind,New,Paid Social,2024,Bronze,,0,,93.60,-30.86,-30.86
+ORD50535,2025-07-19,C1036,West,Apparel,Classic Tee,Online,28.70,1,0.4,5.33,17.22,false,40.01,70.32,0.431,Acme,New,Organic,2024,Silver,,0,,40.01,-22.79,-22.79
+ORD50058,2025-03-02,C1111,West,Footwear,Sandals,Online,123.24,1,0.1,3.65,110.92,false,103.25,123.51,0.164,Acme,New,Paid Social,2023,Silver,,0,,103.25,7.67,7.67
+ORD50523,2025-09-07,C1088,West,Footwear,Canvas Sneakers,Online,177.20,1,0,4.10,150.62,false,93.6,111.96,0.164,Northwind,New,Paid Social,2025,Silver,,0,,93.60,57.02,57.02
+ORD50749,2025-05-21,C1099,Midwest,Home,Table Lamp,In-Store,27.67,5,0,0.00,138.35,false,26.19,45.15,0.42,Acme,VIP,Email,2023,Silver,,0,,130.95,7.40,7.40
+ORD50427,2025-12-17,C1063,East,Home,Table Lamp,Mobile App,17.32,3,0.15,5.42,44.17,false,26.19,45.15,0.42,Acme,Returning,Email,2024,Bronze,,0,,78.57,-34.40,-34.40
+ORD50426,2025-01-22,C1040,East,Home,Wall Art,In-Store,75.91,2,0.2,0.00,121.46,false,28.69,49.47,0.42,Globex,Returning,Organic,2024,Silver,,0,,57.38,64.08,64.08
+ORD50810,2025-03-22,C1103,West,Footwear,Sandals,Online,83.47,5,0,0.00,417.35,true,103.25,123.51,0.164,Acme,VIP,Organic,2024,Gold,Wrong size / poor fit,384.59,Y,516.25,-98.90,-483.49
+ORD50561,2025-02-20,C1077,West,Home,Throw Pillow,Mobile App,25.71,2,0,11.57,51.42,true,26.26,45.27,0.42,Acme,Returning,Email,2024,Bronze,Wrong size / poor fit,47.24,N,52.52,-1.10,-48.34
+ORD50295,2025-03-24,C1076,Midwest,Accessories,Wool Scarf,Online,75.56,1,0,10.17,75.56,false,29.0,57.99,0.5,Northwind,New,Paid Social,2023,Silver,,0,,29.00,46.56,46.56
+ORD50024,2025-01-30,C1055,Midwest,Beauty,Face Serum,Online,12.46,2,0.05,7.69,23.67,false,17.07,37.93,0.55,Northwind,Returning,Referral,2024,Bronze,,0,,34.14,-10.47,-10.47
+ORD50408,2025-03-31,C1049,West,Accessories,Leather Belt,In-Store,65.13,2,0.2,0.00,104.21,false,26.41,52.82,0.5,Umbra,New,Paid Social,2024,Gold,,0,,52.82,51.39,51.39
+ORD50837,2025-02-22,C1011,West,Footwear,Running Shoes,Online,248.92,5,0.15,5.34,1057.91,false,94.62,113.18,0.164,Meridian,VIP,Email,2023,Gold,,0,,473.10,584.81,584.81
+ORD50756,2025-09-11,C1120,South,Home,Ceramic Mug,Online,13.53,2,0.05,6.99,25.71,false,27.46,47.34,0.42,Meridian,Returning,Email,2023,Bronze,,0,,54.92,-29.21,-29.21
+ORD50444,2025-02-27,C1092,West,Accessories,Tote Bag,Online,43.98,3,0,8.13,131.94,false,25.12,50.23,0.5,Globex,Returning,Referral,2025,Bronze,,0,,75.36,56.58,56.58
+ORD50518,2025-06-12,C1003,East,Accessories,Baseball Cap,Online,49.53,2,0.05,5.10,94.11,false,26.45,52.9,0.5,Meridian,Returning,Organic,2023,Bronze,,0,,52.90,41.21,41.21
+ORD50456,2025-03-29,C1143,East,Apparel,Classic Tee,Online,83.16,1,0.3,8.30,58.21,true,40.01,70.32,0.431,Acme,Returning,Email,2023,Bronze,Wrong size / poor fit,54.53,Y,40.01,18.20,-36.33
+ORD50038,2025-08-04,C1122,East,Footwear,Running Shoes,Mobile App,140.47,1,0,4.66,140.47,false,94.62,113.18,0.164,Meridian,New,Referral,2024,Silver,,0,,94.62,45.85,45.85
+ORD50585,2025-03-05,C1056,East,Footwear,Canvas Sneakers,Online,179.84,1,0.2,11.83,143.87,true,93.6,111.96,0.164,Northwind,Returning,Organic,2023,Bronze,,0,,93.60,50.27,50.27
+ORD50898,2025-02-11,C1114,Midwest,Beauty,Bath Set,Mobile App,26.45,2,0.2,5.99,42.32,false,19.67,43.71,0.55,Umbra,New,Email,2024,Silver,,0,,39.34,2.98,2.98
+ORD50344,2025-04-13,C1054,Midwest,Footwear,Leather Boots,In-Store,131.90,3,0.1,0.00,356.13,false,94.79,113.39,0.164,Meridian,Returning,Referral,2025,Bronze,,0,,284.37,71.76,71.76
+ORD50703,2025-12-24,C1102,West,Footwear,Sandals,Mobile App,154.23,2,0.3,8.34,215.92,true,103.25,123.51,0.164,Acme,New,Email,2023,Silver,Wrong size / poor fit,210.81,Y,206.50,9.42,-201.39
+ORD50218,2025-09-05,C1134,East,Apparel,Denim Jacket,In-Store,114.01,3,0,0.00,290.73,false,45.49,79.95,0.431,Meridian,Returning,Organic,2025,Bronze,,0,,136.47,154.26,154.26
+ORD50495,2025-10-13,C1147,East,Apparel,Wool Sweater,In-Store,113.80,2,0.2,0.00,182.08,false,35.65,62.66,0.431,Acme,Returning,Referral,2024,Silver,,0,,71.30,110.78,110.78
+ORD50035,2025-01-18,C1001,Midwest,Home,Cotton Throw,Online,66.46,2,0.1,3.54,119.63,false,27.21,46.91,0.42,Acme,Returning,Email,2024,Bronze,,0,,54.42,65.21,65.21
+ORD50054,2025-02-24,C1057,South,Home,Throw Pillow,Online,26.71,2,0,3.75,53.42,true,26.26,45.27,0.42,Acme,Returning,Referral,2025,Bronze,Wrong size / poor fit,46.45,N,52.52,0.90,-45.55
+ORD50879,2025-12-31,C1030,South,Accessories,Sunglasses,Mobile App,55.66,3,0.2,10.00,133.58,false,26.16,52.33,0.5,Northwind,Returning,Referral,2023,Bronze,,0,,78.48,55.10,55.10
+ORD50881,2025-03-18,C1017,Midwest,Apparel,Wool Sweater,In-Store,51.86,1,0.15,0.00,44.08,false,35.65,62.66,0.431,Acme,New,Organic,2024,Bronze,,0,,35.65,8.43,8.43
+ORD50170,2025-12-13,C1004,South,Apparel,Summer Dress,In-Store,78.53,3,0,0.00,235.59,false,40.56,71.29,0.431,Globex,New,Email,2024,Bronze,,0,,121.68,113.91,113.91
+ORD50353,2025-08-17,C1168,South,Footwear,Loafers,Online,64.33,1,0,4.72,64.33,false,84.63,101.23,0.164,Meridian,New,Paid Social,2025,Bronze,,0,,84.63,-20.30,-20.30
+ORD50710,2025-06-07,C1009,West,Apparel,Summer Dress,Online,27.63,2,0.1,11.04,49.73,false,40.56,71.29,0.431,Globex,Returning,Email,2023,Gold,,0,,81.12,-31.39,-31.39
+ORD50195,2025-10-23,C1118,South,Home,Throw Pillow,In-Store,76.81,3,0,0.00,230.43,false,26.26,45.27,0.42,Acme,Returning,Email,2023,Silver,,0,,78.78,151.65,151.65
+ORD50101,2025-01-16,C1016,South,Footwear,Canvas Sneakers,In-Store,76.04,3,0.05,0.00,216.71,false,93.6,111.96,0.164,Northwind,Returning,Referral,2025,Silver,,0,,280.80,-64.09,-64.09
+ORD50546,2025-04-08,C1127,South,Footwear,Loafers,Online,124.72,2,0.3,5.51,174.61,false,84.63,101.23,0.164,Meridian,New,Paid Social,2024,Silver,,0,,169.26,5.35,5.35
+ORD50519,2025-05-21,C1136,East,Footwear,Sandals,Online,193.71,4,0,7.17,774.84,false,103.25,123.51,0.164,Acme,VIP,Referral,2024,Silver,,0,,413.00,361.84,361.84
+ORD50430,2025-08-25,C1023,West,Apparel,Classic Tee,Online,71.46,3,0.1,11.45,192.94,false,40.01,70.32,0.431,Acme,VIP,Organic,2024,Gold,,0,,120.03,72.91,72.91
+ORD50219,2025-09-08,C1178,East,Footwear,Canvas Sneakers,Online,171.27,2,0.1,11.39,308.29,true,93.6,111.96,0.164,Northwind,VIP,Referral,2024,Gold,Wrong size / poor fit,285.76,N,187.20,121.09,-164.67
+ORD50686,2025-07-28,C1005,South,Home,Wall Art,Mobile App,80.84,4,0.15,8.92,274.86,true,28.69,49.47,0.42,Globex,VIP,Referral,2024,Silver,Wrong size / poor fit,259.19,Y,114.76,160.10,-99.09
+ORD50812,2025-07-12,C1121,West,Home,Table Lamp,Online,50.57,1,0,3.72,50.57,false,26.19,45.15,0.42,Acme,Returning,Email,2023,Bronze,,0,,26.19,24.38,24.38
+ORD50352,2025-03-05,C1127,South,Beauty,Hand Cream,Mobile App,12.21,2,0.05,7.81,23.20,true,17.77,39.49,0.55,Northwind,New,Paid Social,2024,Silver,Wrong size / poor fit,22.8,N,35.54,-12.34,-35.14
+ORD50734,2025-06-05,C1006,East,Home,Throw Pillow,Mobile App,18.20,1,0,6.72,10.92,false,26.26,45.27,0.42,Acme,Returning,Organic,2023,Bronze,,0,,26.26,-15.34,-15.34
+ORD50113,2025-07-30,C1166,Midwest,Beauty,Face Serum,Mobile App,37.43,2,0.05,0.00,71.12,false,17.07,37.93,0.55,Northwind,Returning,Organic,2024,Silver,,0,,34.14,36.98,36.98
+ORD50700,2025-09-27,C1096,East,Beauty,Face Serum,In-Store,22.16,2,0.05,0.00,42.10,false,17.07,37.93,0.55,Northwind,New,Paid Social,2024,Bronze,,0,,34.14,7.96,7.96
+ORD50913,2025-04-07,C1037,West,Beauty,Perfume,In-Store,64.83,2,0.2,0.00,103.73,true,15.84,35.21,0.55,Acme,Returning,Organic,2024,Silver,Changed mind,89.68,N,31.68,72.05,-17.63
+ORD50804,2025-01-08,C1159,Midwest,Home,Wall Art,Online,76.60,2,0.15,5.93,130.22,false,28.69,49.47,0.42,Globex,Returning,Organic,2025,Silver,,0,,57.38,72.84,72.84
+ORD50355,2025-09-13,C1101,West,Beauty,Face Serum,Mobile App,51.88,2,0.1,7.04,93.38,false,17.07,37.93,0.55,Northwind,Returning,Email,2024,Bronze,,0,,34.14,59.24,59.24
+ORD50114,2025-06-30,C1084,Midwest,Footwear,Running Shoes,Mobile App,67.05,2,0.1,6.97,120.69,false,94.62,113.18,0.164,Meridian,New,Referral,2024,Silver,,0,,189.24,-68.55,-68.55
+ORD50318,2025-12-22,C1078,West,Apparel,Summer Dress,In-Store,119.72,2,0,0.00,143.66,false,40.56,71.29,0.431,Globex,Returning,Organic,2025,Bronze,,0,,81.12,62.54,62.54
+ORD50668,2025-12-25,C1173,East,Apparel,Chino Pants,Online,74.34,2,0.15,4.08,126.38,true,45.05,79.17,0.431,Meridian,VIP,Email,2023,Silver,Not as described,123.08,Y,90.10,36.28,-86.80
+ORD50109,2025-05-05,C1038,Midwest,Accessories,Wool Scarf,Online,65.96,1,0,7.09,65.96,false,29.0,57.99,0.5,Northwind,New,Organic,2024,Bronze,,0,,29.00,36.96,36.96
+ORD50336,2025-05-23,C1134,East,Beauty,Face Serum,Mobile App,45.34,2,0,0.00,90.68,false,17.07,37.93,0.55,Northwind,Returning,Organic,2025,Bronze,,0,,34.14,56.54,56.54
+ORD50609,2025-08-17,C1049,West,Footwear,Running Shoes,In-Store,82.83,2,0.1,0.00,149.09,false,94.62,113.18,0.164,Meridian,New,Paid Social,2024,Gold,,0,,189.24,-40.15,-40.15
+ORD50225,2025-05-08,C1017,Midwest,Footwear,Loafers,Online,45.94,1,0,7.11,45.94,false,84.63,101.23,0.164,Meridian,New,Organic,2024,Bronze,,0,,84.63,-38.69,-38.69
+ORD50848,2025-11-28,C1145,South,Home,Ceramic Mug,Online,76.91,2,0.1,10.28,138.44,false,27.46,47.34,0.42,Meridian,New,Paid Social,2023,Bronze,,0,,54.92,83.52,83.52
+ORD50659,2025-09-17,C1113,West,Footwear,Sandals,In-Store,127.18,3,0,0.00,381.54,false,103.25,123.51,0.164,Acme,Returning,Organic,2023,Bronze,,0,,309.75,71.79,71.79
+ORD50655,2025-08-09,C1008,South,Home,Wall Art,In-Store,56.32,1,0,0.00,56.32,false,28.69,49.47,0.42,Globex,New,Email,2025,Bronze,,0,,28.69,27.63,27.63
+ORD50393,2025-05-21,C1000,Midwest,Home,Cotton Throw,In-Store,50.56,3,0.2,0.00,121.34,false,27.21,46.91,0.42,Acme,Returning,Paid Social,2025,Gold,,0,,81.63,39.71,39.71
+ORD50836,2025-01-15,C1022,East,Footwear,Leather Boots,Online,92.48,5,0,5.82,462.40,true,94.79,113.39,0.164,Meridian,VIP,Email,2023,Gold,Damaged in transit,419.13,N,473.95,-11.55,-430.68
+ORD50148,2025-05-12,C1163,South,Footwear,Sandals,Online,78.19,1,0,5.51,78.19,false,103.25,123.51,0.164,Acme,New,Paid Social,2025,Bronze,,0,,103.25,-25.06,-25.06
+ORD50129,2025-09-21,C1096,East,Beauty,Perfume,Online,31.85,2,0,5.11,63.70,false,15.84,35.21,0.55,Acme,New,Paid Social,2024,Bronze,,0,,31.68,32.02,32.02
+ORD50778,2025-05-28,C1016,South,Footwear,Canvas Sneakers,Online,56.02,1,0,4.40,56.02,false,93.6,111.96,0.164,Northwind,Returning,Referral,2025,Silver,,0,,93.60,-37.58,-37.58
+ORD50766,2025-03-14,C1007,West,Beauty,Lip Balm,In-Store,42.38,1,0.15,0.00,36.02,false,16.19,35.98,0.55,Globex,Returning,Organic,2024,Bronze,,0,,16.19,19.83,19.83
+ORD50041,2025-06-14,C1075,South,Beauty,Perfume,Online,39.75,2,0.2,6.27,63.60,false,15.84,35.21,0.55,Acme,New,Paid Social,2023,Bronze,,0,,31.68,31.92,31.92
+ORD50855,2025-05-10,C1112,Midwest,Accessories,Tote Bag,In-Store,64.41,2,0.2,0.00,103.06,false,25.12,50.23,0.5,Globex,New,Referral,2023,Bronze,,0,,50.24,52.82,52.82
+ORD50581,2025-03-16,C1042,South,Accessories,Leather Belt,Online,69.47,1,0,7.64,69.47,false,26.41,52.82,0.5,Umbra,Returning,Organic,2025,Silver,,0,,26.41,43.06,43.06
+ORD50657,2025-04-24,C1061,South,Home,Wall Art,Online,16.01,2,0,4.10,32.02,false,28.69,49.47,0.42,Globex,Returning,Email,2024,Bronze,,0,,57.38,-25.36,-25.36
+ORD50451,2025-06-04,C1089,West,Apparel,Classic Tee,Mobile App,38.62,2,0,5.17,77.24,false,40.01,70.32,0.431,Acme,Returning,Email,2023,Bronze,,0,,80.02,-2.78,-2.78
+ORD50340,2025-12-18,C1118,South,Accessories,Sunglasses,Online,60.66,3,0.1,9.97,163.78,false,26.16,52.33,0.5,Northwind,Returning,Email,2023,Silver,,0,,78.48,85.30,85.30
+ORD50288,2025-03-08,C1088,West,Beauty,Lip Balm,In-Store,13.86,2,0.05,0.00,26.33,false,16.19,35.98,0.55,Globex,New,Paid Social,2025,Silver,,0,,32.38,-6.05,-6.05
+ORD50455,2025-04-29,C1023,West,Home,Throw Pillow,In-Store,62.08,3,0,0.00,186.24,false,26.26,45.27,0.42,Acme,VIP,Organic,2024,Gold,,0,,78.78,107.46,107.46
+ORD50286,2025-07-29,C1166,Midwest,Home,Wall Art,Online,69.55,1,0.2,7.35,55.64,false,28.69,49.47,0.42,Globex,Returning,Organic,2024,Silver,,0,,28.69,26.95,26.95
+ORD50172,2025-04-05,C1098,Midwest,Home,Table Lamp,Online,28.71,2,0.3,8.90,40.19,false,26.19,45.15,0.42,Acme,New,Paid Social,2024,Silver,,0,,52.38,-12.19,-12.19
+ORD50055,2025-09-26,C1062,West,Apparel,Chino Pants,In-Store,93.89,1,0.15,0.00,79.81,false,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Gold,,0,,45.05,34.76,34.76
+ORD50226,2025-01-18,C1158,West,Footwear,Loafers,Online,99.64,3,0.05,5.69,283.97,false,84.63,101.23,0.164,Meridian,Returning,Paid Social,2023,Silver,,0,,253.89,30.08,30.08
+ORD50693,2025-10-18,C1156,West,Footwear,Canvas Sneakers,In-Store,41.31,1,0,0.00,41.31,false,93.6,111.96,0.164,Northwind,New,Paid Social,2024,Bronze,,0,,93.60,-52.29,-52.29
+ORD50551,2025-12-03,C1096,East,Accessories,Baseball Cap,In-Store,31.08,2,0.05,0.00,59.05,false,26.45,52.9,0.5,Meridian,New,Paid Social,2024,Bronze,,0,,52.90,6.15,6.15
+ORD50567,2025-08-16,C1159,Midwest,Home,Wall Art,Online,31.62,2,0.2,8.36,50.59,false,28.69,49.47,0.42,Globex,Returning,Organic,2025,Silver,,0,,57.38,-6.79,-6.79
+ORD50464,2025-08-02,C1158,West,Footwear,,Online,130.60,2,0,0.00,261.20,false,,,,,Returning,Paid Social,2023,Silver,,0,,,,
+ORD50003,2025-06-24,C1025,West,Beauty,Lip Balm,Online,49.48,2,0,4.54,79.17,false,16.19,35.98,0.55,Globex,New,Organic,2025,Bronze,,0,,32.38,46.79,46.79
+ORD50611,2025-06-24,C1105,East,Accessories,Tote Bag,Online,46.72,3,0.1,4.82,126.14,false,25.12,50.23,0.5,Globex,Returning,Organic,2023,Gold,,0,,75.36,50.78,50.78
+ORD50137,2025-05-19,C1022,East,Apparel,Wool Sweater,Online,88.30,2,0,4.94,176.60,false,35.65,62.66,0.431,Acme,VIP,Email,2023,Gold,,0,,71.30,105.30,105.30
+ORD50059,2025-01-19,C1107,East,Apparel,Summer Dress,In-Store,49.10,2,0.1,0.00,88.38,false,40.56,71.29,0.431,Globex,New,Paid Social,2024,Silver,,0,,81.12,7.26,7.26
+ORD50422,2025-12-22,C1039,East,Home,Ceramic Mug,Online,66.11,3,0.15,4.27,168.58,false,27.46,47.34,0.42,Meridian,Returning,Organic,2024,Silver,,0,,82.38,86.20,86.20
+ORD50018,2025-02-16,C1165,South,Accessories,Baseball Cap,Online,74.99,2,0.2,4.48,119.98,false,26.45,52.9,0.5,Meridian,New,Paid Social,2023,Silver,,0,,52.90,67.08,67.08
+ORD50063,2025-08-24,C1068,East,Accessories,Leather Belt,In-Store,69.84,2,0.1,0.00,125.71,false,26.41,52.82,0.5,Umbra,New,Email,2025,Bronze,,0,,52.82,72.89,72.89
+ORD50775,2025-09-13,C1064,South,Home,Table Lamp,Mobile App,42.16,4,0.3,8.61,118.05,false,26.19,45.15,0.42,Acme,Returning,Email,2024,Silver,,0,,104.76,13.29,13.29
+ORD50711,2025-01-14,C1133,East,Footwear,Sandals,Online,61.63,2,0.2,5.42,98.61,false,103.25,123.51,0.164,Acme,New,Paid Social,2024,Bronze,,0,,206.50,-107.89,-107.89
+ORD50154,2025-03-13,C1000,Midwest,Apparel,Chino Pants,Online,41.67,1,0.3,9.26,29.17,false,45.05,79.17,0.431,Meridian,Returning,Paid Social,2025,Gold,,0,,45.05,-15.88,-15.88
+ORD50014,2025-08-25,C1023,West,Apparel,Classic Tee,In-Store,71.10,4,0.1,0.00,255.96,false,40.01,70.32,0.431,Acme,VIP,Organic,2024,Gold,,0,,160.04,95.92,95.92
+ORD50539,2025-06-13,C1055,Midwest,Apparel,Summer Dress,Online,87.71,1,0,4.16,87.71,false,40.56,71.29,0.431,Globex,Returning,Referral,2024,Bronze,,0,,40.56,47.15,47.15
+ORD50818,2025-09-01,C1166,Midwest,Home,Ceramic Mug,In-Store,31.06,3,0.15,0.00,79.20,false,27.46,47.34,0.42,Meridian,Returning,Organic,2024,Silver,,0,,82.38,-3.18,-3.18
+ORD50484,2025-12-23,C1134,East,Apparel,Denim Jacket,In-Store,45.75,2,0.1,0.00,82.35,false,45.49,79.95,0.431,Meridian,Returning,Organic,2025,Bronze,,0,,90.98,-8.63,-8.63
+ORD50057,2025-02-14,C1178,East,Apparel,Summer Dress,Online,185.07,2,0.2,8.06,296.11,false,40.56,71.29,0.431,Globex,VIP,Referral,2024,Gold,,0,,81.12,214.99,214.99
+ORD50184,2025-01-27,C1060,Midwest,Accessories,Wool Scarf,Online,87.16,2,0,3.50,174.32,false,29.0,57.99,0.5,Northwind,Returning,Referral,2024,Silver,,0,,58.00,116.32,116.32
+ORD50631,2025-09-13,C1130,East,Accessories,Sunglasses,Online,87.00,1,0.05,7.66,82.65,false,26.16,52.33,0.5,Northwind,New,Paid Social,2025,Gold,,0,,26.16,56.49,56.49
+ORD50474,2025-02-06,C1124,Midwest,Footwear,Running Shoes,In-Store,75.00,1,0.05,0.00,71.25,false,94.62,113.18,0.164,Meridian,New,Organic,2025,Bronze,,0,,94.62,-23.37,-23.37
+ORD50803,2025-07-05,C1139,Midwest,Apparel,Classic Tee,Online,40.02,2,0.1,6.73,72.04,false,40.01,70.32,0.431,Acme,New,Paid Social,2025,Bronze,,0,,80.02,-7.98,-7.98
+ORD50568,2025-05-05,C1158,West,Apparel,Denim Jacket,Online,45.59,3,0,11.50,129.93,false,45.49,79.95,0.431,Meridian,Returning,Paid Social,2023,Silver,,0,,136.47,-6.54,-6.54
+ORD50223,2025-06-24,C1161,Midwest,Footwear,Running Shoes,Mobile App,211.78,5,0,10.05,1058.90,false,94.62,113.18,0.164,Meridian,VIP,Referral,2025,Gold,,0,,473.10,585.80,585.80
+ORD50577,2025-05-31,C1054,Midwest,Beauty,Perfume,Online,22.32,2,0,8.88,44.64,false,15.84,35.21,0.55,Acme,Returning,Referral,2025,Bronze,,0,,31.68,12.96,12.96
+ORD50185,2025-06-14,C1116,Midwest,Home,Table Lamp,In-Store,61.88,3,0,0.00,185.64,false,26.19,45.15,0.42,Acme,Returning,Paid Social,2025,Bronze,,0,,78.57,107.07,107.07
+ORD50379,2025-07-10,C1079,South,Footwear,Loafers,Mobile App,137.81,2,0,4.14,275.62,false,84.63,101.23,0.164,Meridian,Returning,Paid Social,2025,Silver,,0,,169.26,106.36,106.36
+ORD50897,2025-12-12,C1162,Midwest,Accessories,Sunglasses,Online,19.10,1,0,5.38,13.37,false,26.16,52.33,0.5,Northwind,New,Paid Social,2025,Bronze,,0,,26.16,-12.79,-12.79
+ORD50685,2025-10-14,C1076,Midwest,Beauty,Face Serum,In-Store,41.98,3,0,0.00,125.94,false,17.07,37.93,0.55,Northwind,New,Paid Social,2023,Silver,,0,,51.21,74.73,74.73
+ORD50597,2025-07-24,C1057,South,Beauty,Lip Balm,Mobile App,55.92,2,0.05,9.10,106.25,false,16.19,35.98,0.55,Globex,Returning,Referral,2025,Bronze,,0,,32.38,73.87,73.87
+ORD50068,2025-06-24,C1093,South,Accessories,Wool Scarf,In-Store,18.39,1,0.3,0.00,12.87,false,29.0,57.99,0.5,Northwind,New,Paid Social,2025,Bronze,,0,,29.00,-16.13,-16.13
+ORD50030,2025-09-14,C1158,West,Home,Table Lamp,Mobile App,73.43,2,0.15,4.47,124.83,false,26.19,45.15,0.42,Acme,Returning,Paid Social,2023,Silver,,0,,52.38,72.45,72.45
+ORD50048,2025-01-01,C1074,West,Apparel,Summer Dress,Online,73.28,1,0,10.65,69.62,false,40.56,71.29,0.431,Globex,New,Paid Social,2023,Bronze,,0,,40.56,29.06,29.06
+ORD50591,2025-10-31,C1052,Midwest,Footwear,Running Shoes,Online,88.11,3,0.4,9.36,158.60,false,94.62,113.18,0.164,Meridian,Returning,Email,2025,Bronze,,0,,283.86,-125.26,-125.26
+ORD50526,2025-12-25,C1135,East,Apparel,Chino Pants,Online,79.71,2,0,10.71,127.54,false,45.05,79.17,0.431,Meridian,New,Paid Social,2024,Bronze,,0,,90.10,37.44,37.44
+ORD50436,2025-08-27,C1067,East,Home,Wall Art,Online,28.07,1,0,6.82,28.07,false,28.69,49.47,0.42,Globex,New,Referral,2024,Silver,,0,,28.69,-0.62,-0.62
+ORD50787,2025-06-25,C1078,West,Home,Throw Pillow,Mobile App,41.63,1,0,9.11,41.63,false,26.26,45.27,0.42,Acme,Returning,Organic,2025,Bronze,,0,,26.26,15.37,15.37
+ORD50473,2025-07-05,C1030,South,Footwear,Sandals,Online,114.06,3,0.05,3.77,325.07,false,103.25,123.51,0.164,Acme,Returning,Referral,2023,Bronze,,0,,309.75,15.32,15.32
+ORD50266,2025-02-08,C1144,Midwest,Apparel,Summer Dress,Online,82.82,3,0,11.01,248.46,false,40.56,71.29,0.431,Globex,Returning,Organic,2024,Bronze,,0,,121.68,126.78,126.78
+ORD50338,2025-07-04,C1048,South,Accessories,Tote Bag,Mobile App,33.34,3,0.05,5.05,95.02,false,25.12,50.23,0.5,Globex,Returning,Paid Social,2024,Bronze,,0,,75.36,19.66,19.66
+ORD50790,2025-06-25,C1022,East,Home,Table Lamp,Mobile App,43.94,4,0,7.70,175.76,false,26.19,45.15,0.42,Acme,VIP,Email,2023,Gold,,0,,104.76,71.00,71.00
+ORD50303,2025-02-03,C1114,Midwest,Footwear,Leather Boots,In-Store,136.86,1,0.1,0.00,123.17,false,94.79,113.39,0.164,Meridian,New,Email,2024,Silver,,0,,94.79,28.38,28.38
+ORD50478,2025-04-18,C1100,West,Home,Cotton Throw,In-Store,119.58,5,0.05,0.00,568.00,false,27.21,46.91,0.42,Acme,VIP,Paid Social,2025,Gold,,0,,136.05,431.95,431.95
+ORD50795,2025-02-21,C1002,East,Accessories,Sunglasses,Online,62.19,5,0,0.00,310.95,true,26.16,52.33,0.5,Northwind,VIP,Referral,2023,Bronze,Damaged in transit,273.21,N,130.80,180.15,-93.06
+ORD50429,2025-04-29,C1148,South,Accessories,Leather Belt,In-Store,63.98,2,0.05,0.00,121.56,false,26.41,52.82,0.5,Umbra,Returning,Paid Social,2024,Silver,,0,,52.82,68.74,68.74
+ORD50253,2025-02-11,C1008,South,Home,Throw Pillow,In-Store,15.05,2,0,0.00,30.10,false,26.26,45.27,0.42,Acme,New,Email,2025,Bronze,,0,,52.52,-22.42,-22.42
+ORD50911,2025-10-11,C1162,Midwest,Beauty,Bath Set,In-Store,17.99,2,0.05,0.00,34.18,false,19.67,43.71,0.55,Umbra,New,Paid Social,2025,Bronze,,0,,39.34,-5.16,-5.16
+ORD50793,2025-01-08,C1068,East,Footwear,Running Shoes,Online,99.35,1,0,9.89,99.35,false,94.62,113.18,0.164,Meridian,New,Email,2025,Bronze,,0,,94.62,4.73,4.73
+ORD50330,2025-02-18,C1037,West,Beauty,Bath Set,In-Store,55.61,1,0,0.00,55.61,false,19.67,43.71,0.55,Umbra,Returning,Organic,2024,Silver,,0,,19.67,35.94,35.94
+ORD50238,2025-11-29,C1178,East,Beauty,Bath Set,Online,44.21,4,0.25,10.89,132.63,false,19.67,43.71,0.55,Umbra,VIP,Referral,2024,Gold,,0,,78.68,53.95,53.95
+ORD50739,2025-06-17,C1015,West,Beauty,Face Serum,Mobile App,37.76,2,0,9.62,75.52,false,17.07,37.93,0.55,Northwind,New,Email,2025,Silver,,0,,34.14,41.38,41.38
+ORD50087,2025-04-13,C1051,East,Home,Cotton Throw,In-Store,25.77,2,0.15,0.00,43.81,false,27.21,46.91,0.42,Acme,New,Email,2024,Silver,,0,,54.42,-10.61,-10.61
+ORD50108,2025-10-10,C1116,Midwest,Apparel,Summer Dress,In-Store,69.65,3,0.3,0.00,146.27,false,40.56,71.29,0.431,Globex,Returning,Paid Social,2025,Bronze,,0,,121.68,24.59,24.59
+ORD50134,2025-10-26,C1039,East,Accessories,Baseball Cap,Online,88.29,3,0,4.04,264.87,false,26.45,52.9,0.5,Meridian,Returning,Organic,2024,Silver,,0,,79.35,185.52,185.52
+ORD50614,2025-05-20,C1133,East,Home,Throw Pillow,Mobile App,77.12,1,0,4.45,73.26,true,26.26,45.27,0.42,Acme,New,Paid Social,2024,Bronze,Changed mind,70.49,Y,26.26,47.00,-23.49
+ORD50214,2025-12-27,C1174,East,Footwear,Loafers,Online,160.33,2,0.15,8.01,272.56,false,84.63,101.23,0.164,Meridian,New,Organic,2024,Bronze,,0,,169.26,103.30,103.30
+ORD50560,2025-10-28,C1028,West,Beauty,Hand Cream,Online,25.12,2,0.05,9.08,47.73,false,17.77,39.49,0.55,Northwind,New,Paid Social,2025,Bronze,,0,,35.54,12.19,12.19
+ORD50562,2025-09-24,C1093,South,Home,Table Lamp,In-Store,13.58,2,0.2,0.00,21.73,false,26.19,45.15,0.42,Acme,New,Paid Social,2025,Bronze,,0,,52.38,-30.65,-30.65
+ORD50743,2025-11-05,C1011,West,Home,Table Lamp,Online,70.57,5,0.2,5.07,282.28,false,26.19,45.15,0.42,Acme,VIP,Email,2023,Gold,,0,,130.95,151.33,151.33
+ORD50707,2025-07-27,C1166,Midwest,Apparel,Wool Sweater,Online,68.32,2,0,10.95,136.64,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Silver,,0,,71.30,65.34,65.34
+ORD50786,2025-12-08,C1045,Midwest,Home,Wall Art,Online,44.44,3,0.2,7.84,106.66,false,28.69,49.47,0.42,Globex,Returning,Organic,2024,Silver,,0,,86.07,20.59,20.59
+ORD50765,2025-03-09,C1067,East,Accessories,Baseball Cap,In-Store,39.52,2,0.2,0.00,63.23,false,26.45,52.9,0.5,Meridian,New,Referral,2024,Silver,,0,,52.90,10.33,10.33
+ORD50462,2025-04-07,C1032,West,Accessories,Wool Scarf,Online,77.11,1,0.3,10.30,53.98,false,29.0,57.99,0.5,Northwind,New,Paid Social,2024,Silver,,0,,29.00,24.98,24.98
+ORD50658,2025-04-21,C1154,West,Home,Throw Pillow,Online,29.85,1,0.1,10.27,26.87,false,26.26,45.27,0.42,Acme,New,Paid Social,2024,Gold,,0,,26.26,0.61,0.61
+ORD50158,2025-03-05,C1035,South,Footwear,Canvas Sneakers,In-Store,160.65,1,0.15,0.00,136.55,false,93.6,111.96,0.164,Northwind,New,Paid Social,2024,Silver,,0,,93.60,42.95,42.95
+ORD50249,2025-02-02,C1084,Midwest,Footwear,Canvas Sneakers,In-Store,151.37,2,0.4,0.00,181.64,true,93.6,111.96,0.164,Northwind,New,Referral,2024,Silver,,0,,187.20,-5.56,-5.56
+ORD50545,2025-07-26,C1062,West,Accessories,Leather Belt,In-Store,55.73,3,0,0.00,167.19,false,26.41,52.82,0.5,Umbra,Returning,Organic,2023,Gold,,0,,79.23,87.96,87.96
+ORD50467,2025-01-27,C1078,West,Apparel,Classic Tee,In-Store,55.70,1,0.15,0.00,47.34,false,40.01,70.32,0.431,Acme,Returning,Organic,2025,Bronze,,0,,40.01,7.33,7.33
+ORD50155,2025-10-24,C1179,South,Apparel,Summer Dress,Online,51.24,3,0.05,5.65,146.03,false,40.56,71.29,0.431,Globex,Returning,Paid Social,2023,Bronze,,0,,121.68,24.35,24.35
+ORD50097,2025-07-08,C1053,South,Footwear,Canvas Sneakers,Online,47.20,3,0.15,10.48,120.36,false,93.6,111.96,0.164,Northwind,Returning,Organic,2023,Bronze,,0,,280.80,-160.44,-160.44
+ORD50689,2025-10-14,C1086,West,Beauty,Face Serum,In-Store,14.67,2,0.05,0.00,27.87,false,17.07,37.93,0.55,Northwind,Returning,Organic,2024,Bronze,,0,,34.14,-6.27,-6.27
+ORD50842,2025-10-19,C1048,South,Apparel,Summer Dress,Online,78.98,3,0,9.27,236.94,false,40.56,71.29,0.431,Globex,Returning,Paid Social,2024,Bronze,,0,,121.68,115.26,115.26
+ORD50677,2025-10-15,C1146,Midwest,Accessories,Baseball Cap,Online,66.80,2,0,8.82,133.60,false,26.45,52.9,0.5,Meridian,New,Email,2023,Bronze,,0,,52.90,80.70,80.70
+ORD50141,2025-11-24,C1129,West,Home,,Mobile App,41.12,2,0.1,9.21,74.02,false,,,,,Returning,Organic,2024,Bronze,,0,,,,
+ORD50622,2025-11-06,C1053,South,Apparel,Chino Pants,In-Store,96.13,4,0.15,0.00,326.84,false,45.05,79.17,0.431,Meridian,Returning,Organic,2023,Bronze,,0,,180.20,146.64,146.64
+ORD50343,2025-01-20,C1172,East,Home,Ceramic Mug,Online,57.97,2,0.1,11.47,104.35,false,27.46,47.34,0.42,Meridian,New,Paid Social,2024,Bronze,,0,,54.92,49.43,49.43
+ORD50143,2025-10-24,C1095,East,Home,Ceramic Mug,In-Store,20.92,2,0,0.00,35.56,false,27.46,47.34,0.42,Meridian,Returning,Email,2023,Gold,,0,,54.92,-19.36,-19.36
+ORD50354,2025-11-12,C1103,West,Apparel,Denim Jacket,In-Store,42.21,3,0.15,0.00,107.64,false,45.49,79.95,0.431,Meridian,VIP,Organic,2024,Gold,,0,,136.47,-28.83,-28.83
+ORD50669,2025-12-30,C1121,West,Beauty,Perfume,Online,58.49,4,0.3,11.03,163.77,false,15.84,35.21,0.55,Acme,Returning,Email,2023,Bronze,,0,,63.36,100.41,100.41
+ORD50690,2025-07-13,C1004,South,Home,Ceramic Mug,In-Store,69.17,2,0,0.00,138.34,false,27.46,47.34,0.42,Meridian,New,Email,2024,Bronze,,0,,54.92,83.42,83.42
+ORD50186,2025-01-12,C1174,East,Home,Throw Pillow,Online,34.18,1,0.15,11.20,29.05,false,26.26,45.27,0.42,Acme,New,Organic,2024,Bronze,,0,,26.26,2.79,2.79
+ORD50005,2025-06-15,C1092,West,Home,Cotton Throw,Mobile App,19.52,2,0,4.40,39.04,false,27.21,46.91,0.42,Acme,Returning,Referral,2025,Bronze,,0,,54.42,-15.38,-15.38
+ORD50852,2025-09-09,C1115,Midwest,Apparel,Denim Jacket,In-Store,132.78,3,0,0.00,378.42,false,45.49,79.95,0.431,Meridian,VIP,Referral,2023,Gold,,0,,136.47,241.95,241.95
+ORD50001,2025-03-18,C1120,South,Footwear,Sandals,Online,146.75,3,0.05,4.84,418.24,false,103.25,123.51,0.164,Acme,Returning,Email,2023,Bronze,,0,,309.75,108.49,108.49
+ORD50604,2025-09-04,C1037,West,Footwear,Canvas Sneakers,In-Store,64.10,3,0,0.00,192.30,true,93.6,111.96,0.164,Northwind,Returning,Organic,2024,Silver,Changed mind,176.61,N,280.80,-88.50,-265.11
+ORD50359,2025-03-28,C1020,South,Accessories,Sunglasses,Online,27.32,1,0.3,6.52,19.12,false,26.16,52.33,0.5,Northwind,Returning,Email,2024,Bronze,,0,,26.16,-7.04,-7.04
+ORD50853,2025-04-09,C1055,Midwest,Apparel,Summer Dress,In-Store,108.97,1,0.05,0.00,103.52,false,40.56,71.29,0.431,Globex,Returning,Referral,2024,Bronze,,0,,40.56,62.96,62.96
+ORD50738,2025-05-24,C1130,East,Apparel,Chino Pants,Online,96.24,2,0.15,6.81,163.61,false,45.05,79.17,0.431,Meridian,New,Paid Social,2025,Gold,,0,,90.10,73.51,73.51
+ORD50652,2025-01-26,C1053,South,Accessories,Tote Bag,In-Store,47.00,2,0.1,0.00,84.60,true,25.12,50.23,0.5,Globex,Returning,Organic,2023,Bronze,,0,,50.24,34.36,34.36
+ORD50802,2025-03-30,C1152,South,Footwear,Sandals,In-Store,140.01,1,0.1,0.00,126.01,false,103.25,123.51,0.164,Acme,New,Paid Social,2025,Silver,,0,,103.25,22.76,22.76
+ORD50366,2025-03-11,C1006,East,Footwear,Running Shoes,In-Store,89.38,2,0.05,0.00,169.82,false,94.62,113.18,0.164,Meridian,Returning,Organic,2023,Bronze,,0,,189.24,-19.42,-19.42
+ORD50498,2025-01-25,C1046,West,Apparel,Classic Tee,Online,73.57,2,0,5.49,147.14,false,40.01,70.32,0.431,Acme,New,Organic,2024,Bronze,,0,,80.02,67.12,67.12
+ORD50166,2025-11-10,C1071,Midwest,Home,Cotton Throw,In-Store,28.78,2,0.2,0.00,46.05,false,27.21,46.91,0.42,Acme,New,Paid Social,2023,Bronze,,0,,54.42,-8.37,-8.37
+ORD50411,2025-04-12,C1063,East,Footwear,Leather Boots,Online,160.28,1,0,0.00,160.28,false,94.79,113.39,0.164,Meridian,Returning,Email,2024,Bronze,,0,,94.79,65.49,65.49
+ORD50639,2025-12-31,C1015,West,Footwear,Running Shoes,Mobile App,91.26,1,0.2,9.84,73.01,false,94.62,113.18,0.164,Meridian,New,Email,2025,Silver,,0,,94.62,-21.61,-21.61
+ORD50307,2025-06-02,C1007,West,Apparel,Wool Sweater,In-Store,51.84,2,0.05,0.00,98.50,false,35.65,62.66,0.431,Acme,Returning,Organic,2024,Bronze,,0,,71.30,27.20,27.20
+ORD50504,2025-03-21,C1084,Midwest,Beauty,Hand Cream,Online,26.68,2,0.15,5.21,45.36,false,17.77,39.49,0.55,Northwind,New,Referral,2024,Silver,,0,,35.54,9.82,9.82
+ORD50151,2025-01-30,C1081,Midwest,Accessories,Wool Scarf,Online,77.75,2,0,11.96,132.17,false,29.0,57.99,0.5,Northwind,New,Email,2023,Gold,,0,,58.00,74.17,74.17
+ORD50209,2025-10-07,C1145,South,Footwear,Loafers,Online,123.09,3,0.05,4.35,350.81,false,84.63,101.23,0.164,Meridian,New,Paid Social,2023,Bronze,,0,,253.89,96.92,96.92
+ORD50583,2025-10-15,C1078,West,Footwear,Sandals,Online,43.57,2,0.2,7.96,69.71,true,103.25,123.51,0.164,Acme,Returning,Organic,2025,Bronze,Defective,67.76,N,206.50,-136.79,-204.55
+ORD50311,2025-10-04,C1044,West,Apparel,Denim Jacket,Online,47.09,2,0.15,6.73,80.05,false,45.49,79.95,0.431,Meridian,Returning,Organic,2025,Bronze,,0,,90.98,-10.93,-10.93
+ORD50416,2025-03-09,C1123,East,Accessories,Leather Belt,In-Store,21.92,2,0.05,0.00,41.65,false,26.41,52.82,0.5,Umbra,New,Paid Social,2024,Silver,,0,,52.82,-11.17,-11.17
+ORD50258,2025-03-14,C1167,West,Apparel,Chino Pants,In-Store,90.73,3,0.2,0.00,217.75,false,45.05,79.17,0.431,Meridian,Returning,Email,2023,Bronze,,0,,135.15,82.60,82.60
+ORD50887,2025-01-15,C1001,Midwest,Home,Throw Pillow,Mobile App,52.67,2,0.05,6.79,100.07,false,26.26,45.27,0.42,Acme,Returning,Email,2024,Bronze,,0,,52.52,47.55,47.55
+ORD50777,2025-09-04,C1045,Midwest,Home,Table Lamp,Mobile App,66.63,2,0.05,5.77,126.60,false,26.19,45.15,0.42,Acme,Returning,Organic,2024,Silver,,0,,52.38,74.22,74.22

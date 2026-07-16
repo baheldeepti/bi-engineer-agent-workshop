@@ -1,0 +1,5 @@
+OrderID,OrderDate,CustomerID,CustomerSegment,Region,ProductCategory,ProductName,Channel,UnitPrice,Quantity,Discount,ShippingCost,Revenue,Returned,_QuarantineReason,_SourceFile
+ORD50357,2025-09-03,C1026,Returning,W,Home,Ceramic Mug,Online,12.88,2,0.0,10.4,999999.0,no,sentinel Revenue (999999.0),retail_sales_messy.csv
+ORD50748,2025-12-11,C1150,Returning,South,Footwear,Canvas Sneakers,Online,-30.0,4,0.2,5.25,414.46,N,negative UnitPrice (-30.0),retail_sales_messy.csv
+ORD50316,03/01/2025,C1059,New,West,Apparel,Denim Jacket,Online,114.43,999,0.0,8.75,114.43,No,impossible Quantity (999),retail_sales_messy.csv
+ORD50817,2025-06-24,C1119,Returning,South,Home,Ceramic Mug,In-Store,52.99,999,,0.0,,No,impossible Quantity (999),retail_sales_messy.csv

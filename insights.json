@@ -1,0 +1,254 @@
+{
+  "totals": {
+    "orders": 916,
+    "revenue": 114783.95,
+    "net_contribution": 22161.84,
+    "refunds": 12884.01,
+    "returns": 99,
+    "return_rate": 10.8
+  },
+  "categories": [
+    {
+      "category": "Apparel",
+      "revenue": 28349.83,
+      "net_contribution": 8927.46,
+      "cogs": 17410.64,
+      "refunds": 1944.87,
+      "orders": 207,
+      "margin_pct": 31.5,
+      "revenue_rank": 2,
+      "contribution_rank": 1,
+      "rank_disagrees": true
+    },
+    {
+      "category": "Beauty",
+      "revenue": 13692.11,
+      "net_contribution": 6289.37,
+      "cogs": 6859.66,
+      "refunds": 455.86,
+      "orders": 173,
+      "margin_pct": 45.9,
+      "revenue_rank": 5,
+      "contribution_rank": 2,
+      "rank_disagrees": true
+    },
+    {
+      "category": "Accessories",
+      "revenue": 16998.25,
+      "net_contribution": 5587.98,
+      "cogs": 8821.02,
+      "refunds": 2114.77,
+      "orders": 175,
+      "margin_pct": 32.9,
+      "revenue_rank": 3,
+      "contribution_rank": 3,
+      "rank_disagrees": false
+    },
+    {
+      "category": "Home",
+      "revenue": 15051.38,
+      "net_contribution": 4248.79,
+      "cogs": 9022.44,
+      "refunds": 1444.79,
+      "orders": 172,
+      "margin_pct": 28.2,
+      "revenue_rank": 4,
+      "contribution_rank": 4,
+      "rank_disagrees": false
+    },
+    {
+      "category": "Footwear",
+      "revenue": 40692.38,
+      "net_contribution": -2891.76,
+      "cogs": 35541.84,
+      "refunds": 6923.72,
+      "orders": 189,
+      "margin_pct": -7.1,
+      "revenue_rank": 1,
+      "contribution_rank": 5,
+      "rank_disagrees": true
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Mobile App",
+      "orders": 173,
+      "returns": 40,
+      "return_rate": 23.1,
+      "top_reasons": [
+        [
+          "Wrong size / poor fit",
+          26
+        ],
+        [
+          "Changed mind",
+          4
+        ],
+        [
+          "Defective",
+          4
+        ]
+      ]
+    },
+    {
+      "channel": "Online",
+      "orders": 426,
+      "returns": 37,
+      "return_rate": 8.7,
+      "top_reasons": [
+        [
+          "Wrong size / poor fit",
+          11
+        ],
+        [
+          "Damaged in transit",
+          8
+        ],
+        [
+          "Not as described",
+          8
+        ]
+      ]
+    },
+    {
+      "channel": "In-Store",
+      "orders": 317,
+      "returns": 22,
+      "return_rate": 6.9,
+      "top_reasons": [
+        [
+          "Wrong size / poor fit",
+          7
+        ],
+        [
+          "Changed mind",
+          5
+        ],
+        [
+          "Defective",
+          3
+        ]
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "segment": "VIP",
+      "orders": 99,
+      "revenue": 29263.82,
+      "net_contribution": 9066.14,
+      "aov": 295.59
+    },
+    {
+      "segment": "Returning",
+      "orders": 460,
+      "revenue": 54022.85,
+      "net_contribution": 8367.39,
+      "aov": 117.44
+    },
+    {
+      "segment": "New",
+      "orders": 357,
+      "revenue": 31497.28,
+      "net_contribution": 4728.31,
+      "aov": 88.23
+    }
+  ],
+  "top_segment": "VIP",
+  "acq_mix": [
+    {
+      "channel": "Referral",
+      "orders": 52,
+      "pct": 52.5
+    },
+    {
+      "channel": "Email",
+      "orders": 26,
+      "pct": 26.3
+    },
+    {
+      "channel": "Organic",
+      "orders": 17,
+      "pct": 17.2
+    },
+    {
+      "channel": "Paid Social",
+      "orders": 4,
+      "pct": 4.0
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-01",
+      "revenue": 8326.02,
+      "net_contribution": 1309.14,
+      "orders": 70
+    },
+    {
+      "month": "2025-02",
+      "revenue": 9967.85,
+      "net_contribution": 2805.42,
+      "orders": 75
+    },
+    {
+      "month": "2025-03",
+      "revenue": 10103.31,
+      "net_contribution": 739.67,
+      "orders": 78
+    },
+    {
+      "month": "2025-04",
+      "revenue": 10314.82,
+      "net_contribution": 1996.89,
+      "orders": 79
+    },
+    {
+      "month": "2025-05",
+      "revenue": 9465.36,
+      "net_contribution": 2539.47,
+      "orders": 79
+    },
+    {
+      "month": "2025-06",
+      "revenue": 10822.89,
+      "net_contribution": 1725.94,
+      "orders": 93
+    },
+    {
+      "month": "2025-07",
+      "revenue": 8344.65,
+      "net_contribution": 2289.76,
+      "orders": 64
+    },
+    {
+      "month": "2025-08",
+      "revenue": 12038.08,
+      "net_contribution": 1355.54,
+      "orders": 94
+    },
+    {
+      "month": "2025-09",
+      "revenue": 9645.6,
+      "net_contribution": 2805.53,
+      "orders": 69
+    },
+    {
+      "month": "2025-10",
+      "revenue": 9409.3,
+      "net_contribution": 2313.34,
+      "orders": 77
+    },
+    {
+      "month": "2025-11",
+      "revenue": 8506.3,
+      "net_contribution": 2150.02,
+      "orders": 70
+    },
+    {
+      "month": "2025-12",
+      "revenue": 7839.77,
+      "net_contribution": 131.12,
+      "orders": 68
+    }
+  ]
+}
